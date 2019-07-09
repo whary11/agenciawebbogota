@@ -1896,6 +1896,13 @@ __webpack_require__.r(__webpack_exports__);
       axios.get('tickets/get').then(function (resp) {
         _this.tickets = resp.data;
       })["catch"](function (error) {});
+    },
+    url: function url(link) {
+      if (link) {
+        return "".concat(window.location.origin, "/").concat(link);
+      }
+
+      return "".concat(window.location.origin);
     }
   }
 });
@@ -37218,12 +37225,22 @@ var render = function() {
                     _c("td", [_vm._v(" " + _vm._s(item.email))]),
                     _vm._v(" "),
                     _c("td", [
-                      _c("a", { attrs: { href: "#" } }, [
-                        _vm._v(" Responder"),
-                        _c("span", { staticClass: "badge badge-primary" }, [
-                          _vm._v(_vm._s(item.conversaciones.length))
-                        ])
-                      ])
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: _vm.url(
+                              "tickets/" + item.num_ticket + "/view"
+                            )
+                          }
+                        },
+                        [
+                          _vm._v(" Responder"),
+                          _c("span", { staticClass: "badge badge-primary" }, [
+                            _vm._v(_vm._s(item.conversaciones.length))
+                          ])
+                        ]
+                      )
                     ])
                   ])
                 }),

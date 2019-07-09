@@ -23,6 +23,7 @@ Route::get('/marketing-automatizado', 'IndexController@marketingAutomatizado');/
 Route::get('/blog', 'IndexController@blog');//posicionamientoWeb
 Route::get('/contacto', 'IndexController@contacto');//posicionamientoWeb
 Route::get('/tickets/get', 'TicketController@getTickets')->middleware('auth');//posicionamientoWeb
+Route::get('/tickets/{num}/view', 'TicketController@updateTicket')->middleware('auth');//posicionamientoWeb
 
 
 Auth::routes();

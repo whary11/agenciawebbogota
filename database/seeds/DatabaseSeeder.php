@@ -12,7 +12,16 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         // $this->call(UsersTableSeeder::class);
-        factory(App\User::class, 50)->create();
+        factory(App\User::class, 2)->create();
+        App\User::create(
+            [
+                'name' => 'Dev Raga',
+                'email' => 'whary11@gmail.com',
+                'email_verified_at' => now(),
+                'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
+                'remember_token' => Str::random(10),
+            ]
+        );
         factory(App\Ticket::class, 50)->create();
         factory(App\Conversation::class, 300)->create();
     }

@@ -8,7 +8,7 @@ use Faker\Generator as Faker;
 $factory->define(Conversation::class, function (Faker $faker) {
     return [
         'ticket_id' => App\Ticket::all()->random()->id,
-        'user_id' => App\User::all()->random()->id,
+        
         'mensaje' => $faker->text($maxNbChars = 200),
         'rol' => App\Conversation::REMITENTE
     ];

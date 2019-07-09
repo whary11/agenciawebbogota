@@ -21,6 +21,8 @@ class CreateTicketsTable extends Migration
             $table->string('telefono');
             $table->string('email');
             $table->string('compania');
+            $table->integer('user_id')->unsigned();
+            $table->foreign('user_id')->references('id')->on('users');
         });
     }
 

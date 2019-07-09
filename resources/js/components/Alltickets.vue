@@ -27,7 +27,7 @@
                                     <td> {{item.compania}}</td>
                                     <td> {{item.email}}</td>
                                     <td> 
-                                        <a href="#"> Responder<span class="badge badge-primary">{{item.conversaciones.length}}</span></a>
+                                        <a :href="url(`tickets/${item.num_ticket}/view`)"> Responder<span class="badge badge-primary">{{item.conversaciones.length}}</span></a>
                                     </td>
                                 </tr>
                             </tbody>
@@ -58,6 +58,12 @@
                 })
                 .catch( (error)=> {
                 })
+            },
+            url(link){
+                if (link) {
+                    return `${window.location.origin}/${link}`
+                }
+                return `${window.location.origin}`
             }
         }
 
