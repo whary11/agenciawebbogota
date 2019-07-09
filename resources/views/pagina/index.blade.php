@@ -136,13 +136,13 @@
                                     </ul>
                                 </li>
                                 <li><a href="blog">Blog </a></li>
-                                <li><a href="soporte-tecnico">Soporte Técnico <i class="fas fa-chevron-down"></i></a>
+                                <li><a href="#">Soporte Técnico <i class="fas fa-chevron-down"></i></a>
                                     <ul class="sub-menu">
                                         <li><a href="redes-sociales">Canales de Ayuda </a>
                                         <li>
                                         <li><a href="posicionamiento-web">Manuales de Usuario </a>
                                         <li>
-                                        <li><a href="marketing-automatizado">Abrir un Ticket </a></li>
+                                        <li><a href="ticket">Abrir un Ticket </a></li>
                                     </ul>
                                 </li>
                                 </li>
@@ -876,29 +876,29 @@
         <button class="scroltop fas fa-chevron-up"></button>
     </div>
     <!-- JavaScript  files ========================================= -->
-    <script src="js/jquery.min.js"></script><!-- JQUERY.MIN JS -->
-    <script src="plugins/bootstrap/js/popper.min.js"></script><!-- BOOTSTRAP.MIN JS -->
-    <script src="plugins/bootstrap/js/bootstrap.min.js"></script><!-- BOOTSTRAP.MIN JS -->
+    <script src=" {{asset('js/jquery.min.js')}}"></script><!-- JQUERY.MIN JS -->
+    <script src=" {{asset('plugins/bootstrap/js/popper.min.js')}}"></script><!-- BOOTSTRAP.MIN JS -->
+    <script src=" {{asset('plugins/bootstrap/js/bootstrap.min.js')}} "></script><!-- BOOTSTRAP.MIN JS -->
     <script src=" {{asset('js/page.js')}} "></script>
-    <script src="plugins/wow/wow.js"></script><!-- BOOTSTRAP.MIN JS -->
-    <script src="plugins/bootstrap-select/bootstrap-select.min.js"></script><!-- FORM JS -->
-    <script src="plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js"></script><!-- FORM JS -->
-    <script src="plugins/magnific-popup/magnific-popup.js"></script><!-- MAGNIFIC-POPUP JS -->
-    <script src="plugins/counter/waypoints-min.js"></script><!-- WAYPOINTS JS -->
-    <script src="plugins/counter/counterup.min.js"></script><!-- COUNTERUP JS -->
-    <script src="plugins/imagesloaded/imagesloaded.js"></script><!-- MASONRY  -->
-    <script src="plugins/masonry/masonry-3.1.4.js"></script><!-- MASONRY  -->
-    <script src="plugins/masonry/masonry.filter.js"></script><!-- MASONRY  -->
-    <script src="plugins/owl-carousel/owl.carousel.js"></script><!-- OWL  SLIDER  -->
-    <script src="plugins/rangeslider/rangeslider.js"></script><!-- Rangeslider -->
-    <script src="js/dz.carousel.js"></script><!-- SORTCODE FUCTIONS  -->
-    <script src="plugins/loading/anime.js"></script><!-- LOADING JS -->
-    <script src="plugins/loading/anime-app.js"></script><!-- LOADING JS -->
-    <script src="js/custom.js"></script><!-- CUSTOM FUCTIONS  -->
+    <script src=" {{asset('plugins/wow/wow.js')}}"></script><!-- BOOTSTRAP.MIN JS -->
+    <script src=" {{asset('plugins/bootstrap-select/bootstrap-select.min.js')}}"></script><!-- FORM JS -->
+    <script src=" {{asset('plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js')}}"></script><!-- FORM JS -->
+    <script src=" {{asset('plugins/magnific-popup/magnific-popup.js')}}"></script><!-- MAGNIFIC-POPUP JS -->
+    <script src=" {{asset('plugins/counter/waypoints-min.js')}}"></script><!-- WAYPOINTS JS -->
+    <script src=" {{asset('plugins/counter/counterup.min.js')}}"></script><!-- COUNTERUP JS -->
+    <script src=" {{asset('plugins/imagesloaded/imagesloaded.js')}}"></script><!-- MASONRY  -->
+    <script src=" {{asset('plugins/masonry/masonry-3.1.4.js')}}"></script><!-- MASONRY  -->
+    <script src=" {{asset('plugins/masonry/masonry.filter.js')}}"></script><!-- MASONRY  -->
+    <script src=" {{asset('plugins/owl-carousel/owl.carousel.js')}}"></script><!-- OWL  SLIDER  -->
+    <script src=" {{asset('plugins/rangeslider/rangeslider.js')}}"></script><!-- Rangeslider -->
+    <script src=" {{asset('js/dz.carousel.js')}}"></script><!-- SORTCODE FUCTIONS  -->
+    <script src=" {{asset('plugins/loading/anime.js')}}"></script><!-- LOADING JS -->
+    <script src=" {{asset('plugins/loading/anime-app.js')}}"></script><!-- LOADING JS -->
+    <script src=" {{asset('js/custom.js')}}"></script><!-- CUSTOM FUCTIONS  -->
     <script src='https://www.google.com/recaptcha/api.js'></script> <!-- Google API For Recaptcha  -->
-    <script src="plugins/loading/anime.js"></script><!-- Tilt Jquery -->
-    <script src="plugins/loading/anime-app3.js"></script><!-- Tilt Jquery -->
-    <script src="js/dz.ajax.js"></script><!-- CONTACT JS  -->
+    <script src="{{asset('plugins/loading/anime.js')}}"></script><!-- Tilt Jquery -->
+    <script src="{{asset('plugins/loading/anime-app3.js')}}"></script><!-- Tilt Jquery -->
+    <script src="{{asset('js/dz.ajax.js')}} "></script><!-- CONTACT JS  -->
 </body>
 
 </html>

@@ -6,6 +6,9 @@ use Illuminate\Http\Request;
 use App\Ticket;
 use App\Conversation;
 use Illuminate\Support\Facades\Auth;
+use App\Http\Requests\TicketRequest;
+use Illuminate\Support\Facades\DB;
+use App\Notifications\TicketNotificaction;
 
 class TicketController extends Controller
 {
@@ -19,6 +22,46 @@ class TicketController extends Controller
 
     public function updateTicket($num){
         return Ticket::where('num_ticket', $num)->where('user_id', Auth::id())->with(['conversaciones'])->get();
+    }
+
+    public function createTicket(TicketRequest $request){
+            
+            $succes='';
+          DB::beginTransaction();
+          try {
+              $ticket = Ticket::create([
+                  'remitente' => $request->remitente,
+                  'email'=> $request->email,
+                  'user_id' => 1,
+                  'telefono' => $request->telefono,
+                  'compania' => $request->compania,
+                  'num_ticket' => time()
+              ]);
+              Conversation::create([
+                'ticket_id' => $ticket->id,
+                'mensaje'=>$request->mensaje,
+                'rol' => Conversation::REMITENTE
+              ]);
+
+              $ticket->notify(new TicketNotificaction);
+              $succes = true;
+              DB::commit();
+          } catch (\Throwable $th) {
+              $succes = false;
+              $error = $th->getMessage();
+              DB::rollBack();
+          }
+          if ($succes) {
+             return [
+                 'status' => 'success',
+                 'data' => $ticket
+             ];
+          }else {
+              return[
+                  'status' => 'false',
+                  'error' => $error
+              ];
+          }
     }
 }
 

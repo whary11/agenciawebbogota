@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use App\User;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Date;
 
 class IndexController extends Controller
 {
@@ -47,6 +48,7 @@ class IndexController extends Controller
     }
 
     public function blog(){
+
         return [
             'blog' => 'Página principal'
         ];
@@ -56,5 +58,8 @@ class IndexController extends Controller
         return [
             'page' => 'Página de contacto'
         ];
+    }
+    public function ticket(){
+        return view('ticket.ver');
     }
 }

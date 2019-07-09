@@ -8,6 +8,8 @@ class Conversation extends Model
 {
     const REMITENTE = 'REMITENTE';
     const ADMIN = 'ADMIN'; 
+    protected $guarded =[];
+
 
 
     public function tickets(){

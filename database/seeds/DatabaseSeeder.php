@@ -12,7 +12,6 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         // $this->call(UsersTableSeeder::class);
-        factory(App\User::class, 2)->create();
         App\User::create(
             [
                 'name' => 'Dev Raga',
@@ -22,6 +21,7 @@ class DatabaseSeeder extends Seeder
                 'remember_token' => Str::random(10),
             ]
         );
+        factory(App\User::class, 2)->create();
         factory(App\Ticket::class, 50)->create();
         factory(App\Conversation::class, 300)->create();
     }

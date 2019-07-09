@@ -20,7 +20,7 @@ class CreateTicketsTable extends Migration
             $table->string('num_ticket');
             $table->string('telefono');
             $table->string('email');
-            $table->string('compania');
+            $table->string('compania')->nullable();
             $table->integer('user_id')->unsigned();
             $table->foreign('user_id')->references('id')->on('users');
         });
