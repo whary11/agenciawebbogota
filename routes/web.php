@@ -22,6 +22,7 @@ Route::get('/posicionamiento-web', 'IndexController@posicionamientoWeb');//posic
 Route::get('/marketing-automatizado', 'IndexController@marketingAutomatizado');//posicionamientoWeb
 Route::get('/blog', 'IndexController@blog');//posicionamientoWeb
 Route::get('/contacto', 'IndexController@contacto');//posicionamientoWeb
+Route::get('/tickets/get', 'TicketController@getTickets')->middleware('auth');//posicionamientoWeb
 
 
 Auth::routes();

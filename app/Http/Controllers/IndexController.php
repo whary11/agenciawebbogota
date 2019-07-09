@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\User;
 
 use Illuminate\Http\Request;
 
@@ -24,6 +25,7 @@ class IndexController extends Controller
         return view('pagina.programacion-web');
     }
     public function googleApps(){
+        return User::all();
         return [
             'page' => 'Página de Google Apps'
         ];
