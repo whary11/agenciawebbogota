@@ -7,7 +7,7 @@
             <li v-for="(item, index) in errors.mensaje" :key="index+4"> {{item}} </li>
         </div>
         <div class="alert-success p-3 rounded" v-if="respuesta">
-            Su número de ticket es {{respuesta.num_ticket}}, atenderemos con la mayor brevedad.
+            Su número de ticket es {{respuesta.num_ticket}}, le atenderemos con la mayor brevedad.
         </div>
         <div class="form-group">
             <label for="remitente">Remitente</label>

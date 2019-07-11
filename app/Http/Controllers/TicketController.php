@@ -43,7 +43,7 @@ class TicketController extends Controller
                 'rol' => Conversation::REMITENTE
               ]);
 
-              $ticket->notify(new TicketNotificaction);
+            //   $ticket->notify(new TicketNotificaction);
               $succes = true;
               DB::commit();
           } catch (\Throwable $th) {
