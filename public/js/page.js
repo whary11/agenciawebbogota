@@ -2015,12 +2015,74 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
       errors: false,
       ticket: {},
-      respuesta: false
+      respuesta: false,
+      pagina: 'crear'
     };
   },
   methods: {
@@ -6518,7 +6580,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.site-header {\n    background-color: #000000 !important;\n}\n.bg-primary {\n    background-color: #007bff !important;\n}\n", ""]);
+exports.push([module.i, "\n.site-header {\n    background-color: #000000 !important;\n}\n.bg-primary {\n    background-color: #007bff !important;\n}\n\n\n", ""]);
 
 // exports
 
@@ -38248,223 +38310,307 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "form",
-    {
-      staticClass: "col-md-8",
-      on: {
-        submit: function($event) {
-          $event.preventDefault()
-          return _vm.sendTicket()
-        }
-      }
-    },
-    [
-      _vm.errors
-        ? _c(
-            "div",
-            { staticClass: "alert-danger p-3 rounded" },
-            [
-              _vm._l(_vm.errors.remitente, function(item, index) {
-                return _c("li", { key: index + 1 }, [
-                  _vm._v(" " + _vm._s(item) + " ")
-                ])
-              }),
-              _vm._v(" "),
-              _vm._l(_vm.errors.email, function(item, index) {
-                return _c("li", { key: index + 2 }, [
-                  _vm._v(" " + _vm._s(item) + " ")
-                ])
-              }),
-              _vm._v(" "),
-              _vm._l(_vm.errors.telefono, function(item, index) {
-                return _c("li", { key: index + 3 }, [
-                  _vm._v(" " + _vm._s(item) + " ")
-                ])
-              }),
-              _vm._v(" "),
-              _vm._l(_vm.errors.mensaje, function(item, index) {
-                return _c("li", { key: index + 4 }, [
-                  _vm._v(" " + _vm._s(item) + " ")
-                ])
-              })
-            ],
-            2
-          )
-        : _vm._e(),
-      _vm._v(" "),
-      _vm.respuesta
-        ? _c("div", { staticClass: "alert-success p-3 rounded" }, [
-            _vm._v(
-              "\n        Su número de ticket es " +
-                _vm._s(_vm.respuesta.num_ticket) +
-                ", atenderemos con la mayor brevedad.\n    "
-            )
-          ])
-        : _vm._e(),
-      _vm._v(" "),
-      _c("div", { staticClass: "form-group" }, [
-        _c("label", { attrs: { for: "remitente" } }, [_vm._v("Remitente")]),
-        _vm._v(" "),
-        _c("input", {
-          directives: [
-            {
-              name: "model",
-              rawName: "v-model",
-              value: _vm.ticket.remitente,
-              expression: "ticket.remitente"
-            }
-          ],
-          staticClass: "form-control",
-          attrs: {
-            type: "text",
-            id: "remitente",
-            "aria-describedby": "emailHelp",
-            placeholder: "Remitente"
-          },
-          domProps: { value: _vm.ticket.remitente },
-          on: {
-            input: function($event) {
-              if ($event.target.composing) {
-                return
-              }
-              _vm.$set(_vm.ticket, "remitente", $event.target.value)
-            }
-          }
-        })
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "form-group" }, [
-        _c("label", { attrs: { for: "email" } }, [_vm._v("Email")]),
-        _vm._v(" "),
-        _c("input", {
-          directives: [
-            {
-              name: "model",
-              rawName: "v-model",
-              value: _vm.ticket.email,
-              expression: "ticket.email"
-            }
-          ],
-          staticClass: "form-control",
-          attrs: {
-            type: "email",
-            id: "email",
-            "aria-describedby": "emailHelp",
-            placeholder: "Email"
-          },
-          domProps: { value: _vm.ticket.email },
-          on: {
-            input: function($event) {
-              if ($event.target.composing) {
-                return
-              }
-              _vm.$set(_vm.ticket, "email", $event.target.value)
-            }
-          }
-        })
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "form-group" }, [
-        _c("label", { attrs: { for: "tel" } }, [_vm._v("Telefono")]),
-        _vm._v(" "),
-        _c("input", {
-          directives: [
-            {
-              name: "model",
-              rawName: "v-model",
-              value: _vm.ticket.telefono,
-              expression: "ticket.telefono"
-            }
-          ],
-          staticClass: "form-control",
-          attrs: {
-            type: "number",
-            id: "tel",
-            "aria-describedby": "emailHelp",
-            placeholder: "Telefono"
-          },
-          domProps: { value: _vm.ticket.telefono },
-          on: {
-            input: function($event) {
-              if ($event.target.composing) {
-                return
-              }
-              _vm.$set(_vm.ticket, "telefono", $event.target.value)
-            }
-          }
-        })
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "form-group" }, [
-        _c("label", { attrs: { for: "tel" } }, [_vm._v("Compañía")]),
-        _vm._v(" "),
-        _c("input", {
-          directives: [
-            {
-              name: "model",
-              rawName: "v-model",
-              value: _vm.ticket.compania,
-              expression: "ticket.compania"
-            }
-          ],
-          staticClass: "form-control",
-          attrs: {
-            type: "compania",
-            id: "tel",
-            "aria-describedby": "emailHelp",
-            placeholder: "Compañía"
-          },
-          domProps: { value: _vm.ticket.compania },
-          on: {
-            input: function($event) {
-              if ($event.target.composing) {
-                return
-              }
-              _vm.$set(_vm.ticket, "compania", $event.target.value)
-            }
-          }
-        })
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "form-group" }, [
-        _c("label", { attrs: { for: "mensaje" } }, [_vm._v("Mensaje")]),
-        _vm._v(" "),
-        _c("textarea", {
-          directives: [
-            {
-              name: "model",
-              rawName: "v-model",
-              value: _vm.ticket.mensaje,
-              expression: "ticket.mensaje"
-            }
-          ],
-          staticClass: "form-control",
-          attrs: { id: "mensaje", rows: "3" },
-          domProps: { value: _vm.ticket.mensaje },
-          on: {
-            input: function($event) {
-              if ($event.target.composing) {
-                return
-              }
-              _vm.$set(_vm.ticket, "mensaje", $event.target.value)
-            }
-          }
-        })
-      ]),
-      _vm._v(" "),
-      _c(
-        "button",
+  return _vm.pagina == "crear"
+    ? _c(
+        "form",
         {
-          staticClass: "btn text-white bg-primary btn-block",
-          attrs: { type: "submit" }
+          staticClass: "inquiry-form wow fadeInUp dzForm",
+          attrs: { "data-wow-delay": "0.2s" },
+          on: {
+            submit: function($event) {
+              $event.preventDefault()
+              return _vm.sendTicket()
+            }
+          }
         },
-        [_vm._v("Enviar Ticket")]
+        [
+          _vm.errors
+            ? _c(
+                "div",
+                { staticClass: "alert-danger p-3 rounded" },
+                [
+                  _vm._l(_vm.errors.remitente, function(item, index) {
+                    return _c("li", { key: index + 1 }, [
+                      _vm._v(" " + _vm._s(item) + " ")
+                    ])
+                  }),
+                  _vm._v(" "),
+                  _vm._l(_vm.errors.email, function(item, index) {
+                    return _c("li", { key: index + 2 }, [
+                      _vm._v(" " + _vm._s(item) + " ")
+                    ])
+                  }),
+                  _vm._v(" "),
+                  _vm._l(_vm.errors.telefono, function(item, index) {
+                    return _c("li", { key: index + 3 }, [
+                      _vm._v(" " + _vm._s(item) + " ")
+                    ])
+                  }),
+                  _vm._v(" "),
+                  _vm._l(_vm.errors.mensaje, function(item, index) {
+                    return _c("li", { key: index + 4 }, [
+                      _vm._v(" " + _vm._s(item) + " ")
+                    ])
+                  })
+                ],
+                2
+              )
+            : _vm._e(),
+          _vm._v(" "),
+          _vm.respuesta
+            ? _c("div", { staticClass: "alert-success p-3 rounded" }, [
+                _vm._v(
+                  "\n        Su número de ticket es " +
+                    _vm._s(_vm.respuesta.num_ticket) +
+                    ", le atenderemos con la mayor brevedad.\n    "
+                )
+              ])
+            : _vm._e(),
+          _vm._v(" "),
+          _c("h3", { staticClass: "box-title m-t0 m-b10" }, [
+            _vm._v("Crear Ticket")
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v("Atenderemos su solicitud tan pronto como nos sea posible.")
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-lg-12" }, [
+              _c("div", { staticClass: "form-group" }, [
+                _c("div", { staticClass: "input-group" }, [
+                  _vm._m(0),
+                  _vm._v(" "),
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.ticket.remitente,
+                        expression: "ticket.remitente"
+                      }
+                    ],
+                    staticClass: "form-control",
+                    attrs: {
+                      name: "dzName",
+                      type: "text",
+                      required: "",
+                      placeholder: "Nombre"
+                    },
+                    domProps: { value: _vm.ticket.remitente },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.$set(_vm.ticket, "remitente", $event.target.value)
+                      }
+                    }
+                  })
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-lg-12" }, [
+              _c("div", { staticClass: "form-group" }, [
+                _c("div", { staticClass: "input-group" }, [
+                  _vm._m(1),
+                  _vm._v(" "),
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.ticket.compania,
+                        expression: "ticket.compania"
+                      }
+                    ],
+                    staticClass: "form-control",
+                    attrs: {
+                      name: "compania",
+                      type: "text",
+                      placeholder: "Correo Electrónico"
+                    },
+                    domProps: { value: _vm.ticket.compania },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.$set(_vm.ticket, "compania", $event.target.value)
+                      }
+                    }
+                  })
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-lg-12" }, [
+              _c("div", { staticClass: "form-group" }, [
+                _c("div", { staticClass: "input-group" }, [
+                  _vm._m(2),
+                  _vm._v(" "),
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.ticket.telefono,
+                        expression: "ticket.telefono"
+                      }
+                    ],
+                    staticClass: "form-control",
+                    attrs: {
+                      name: "dzOther[Phone]",
+                      type: "text",
+                      required: "",
+                      placeholder: "Teléfono"
+                    },
+                    domProps: { value: _vm.ticket.telefono },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.$set(_vm.ticket, "telefono", $event.target.value)
+                      }
+                    }
+                  })
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-lg-12" }, [
+              _c("div", { staticClass: "form-group" }, [
+                _c("div", { staticClass: "input-group" }, [
+                  _vm._m(3),
+                  _vm._v(" "),
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.ticket.email,
+                        expression: "ticket.email"
+                      }
+                    ],
+                    staticClass: "form-control",
+                    attrs: {
+                      name: "dzEmail",
+                      type: "email",
+                      required: "",
+                      placeholder: "Correo Electrónico"
+                    },
+                    domProps: { value: _vm.ticket.email },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.$set(_vm.ticket, "email", $event.target.value)
+                      }
+                    }
+                  })
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-lg-12" }, [
+              _c("div", { staticClass: "form-group" }, [
+                _c("div", { staticClass: "input-group" }, [
+                  _vm._m(4),
+                  _vm._v(" "),
+                  _c("textarea", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.ticket.mensaje,
+                        expression: "ticket.mensaje"
+                      }
+                    ],
+                    staticClass: "form-control",
+                    attrs: {
+                      name: "dzMessage",
+                      rows: "3",
+                      required: "",
+                      placeholder: "Háblenos acerca de su problema..."
+                    },
+                    domProps: { value: _vm.ticket.mensaje },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.$set(_vm.ticket, "mensaje", $event.target.value)
+                      }
+                    }
+                  })
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _vm._m(5)
+          ])
+        ]
       )
-    ]
-  )
+    : _vm._e()
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("span", { staticClass: "input-group-addon" }, [
+      _c("i", { staticClass: "ti-user text-primary" })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("span", { staticClass: "input-group-addon" }, [
+      _c("i", { staticClass: "ti-email text-primary" })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("span", { staticClass: "input-group-addon" }, [
+      _c("i", { staticClass: "ti-mobile text-primary" })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("span", { staticClass: "input-group-addon" }, [
+      _c("i", { staticClass: "ti-layout-cta-center text-primary" })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("span", { staticClass: "input-group-addon" }, [
+      _c("i", { staticClass: "ti-agenda text-primary" })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "button",
+      {
+        staticClass: "site-button button-lg",
+        attrs: { name: "submit", type: "submit", value: "Submit" }
+      },
+      [_c("span", [_vm._v("¡LISTO!\n                ENVIAR")])]
+    )
+  }
+]
 render._withStripped = true
 
 

@@ -52,6 +52,15 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
+        <style>
+        /* .list-angle-right li{
+            text-decoration: none;
+        } */
+        .list-angle-right li:before {
+    content: "" !important;
+}
+        </style>
+
 
 </head>
 
@@ -142,7 +151,7 @@
                                         <li>
                                         <li><a href="posicionamiento-web">Manuales de Usuario </a>
                                         <li>
-                                        <li><a href="ticket">Abrir un Ticket </a></li>
+                                        <li><a href="/ticket">Abrir un Ticket </a></li>
                                     </ul>
                                 </li>
                                 </li>
@@ -364,12 +373,12 @@
                                     <h3 class="m-t0 m-b10">Sitios Web Administrables con Todos los Beneficios Incluidos
                                     </h3>
                                     <ul class="list-angle-right">
-                                        <li>Websites en WordPress con Tema Premium Incluido</li>
-                                        <li>Websites en HTML y CSS desde cero sin plantillas</li>
-                                        <li>Landing Pages Para Promociones y Anuncios</li>
-                                        <li>E-Commerce con Woocommerce o PrestaShop</li>
-                                        <li>Sitios Corporativos con Posicionamiento Incluido</li>
-                                        <li>Portales Educativos con Funciones Avanzadas</li>
+                                        <li><i class="ti-check text-primary"></i> en WordPress con Tema Premium Incluido</li>
+                                        <li><i class="ti-check text-primary"></i>Websites en HTML y CSS desde cero sin plantillas</li>
+                                        <li><i class="ti-check text-primary"></i>Landing Pages Para Promociones y Anuncios</li>
+                                        <li><i class="ti-check text-primary"></i>E-Commerce con Woocommerce o PrestaShop</li>
+                                        <li><i class="ti-check text-primary"></i>Sitios Corporativos con Posicionamiento Incluido</li>
+                                        <li><i class="ti-check text-primary"></i>Portales Educativos con Funciones Avanzadas</li>
                                     </ul>
                                     <a href="#" class="site-button black outline outline-2">Quiero Cotizar Mi Sitio Web
                                         <i class="ti-arrow-right m-l10"></i></a>
