@@ -1,44 +1,4 @@
 <template>
-
-    <!-- <form class="col-md-8" @submit.prevent="sendTicket()">
-        <div class="alert-danger p-3 rounded" v-if="errors">
-            <li v-for="(item, index) in errors.remitente" :key="index+1"> {{item}} </li>
-            <li v-for="(item, index) in errors.email" :key="index+2"> {{item}} </li>
-            <li v-for="(item, index) in errors.telefono" :key="index+3"> {{item}} </li>
-            <li v-for="(item, index) in errors.mensaje" :key="index+4"> {{item}} </li>
-        </div>
-        <div class="alert-success p-3 rounded" v-if="respuesta">
-            Su número de ticket es {{respuesta.num_ticket}}, le atenderemos con la mayor brevedad.
-        </div>
-        <div class="form-group">
-            <label for="remitente">Remitente</label>
-            <input type="text" v-model="ticket.remitente" class="form-control" id="remitente"
-                aria-describedby="emailHelp" placeholder="Remitente">
-        </div>
-        <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" v-model="ticket.email" class="form-control" id="email" aria-describedby="emailHelp"
-                placeholder="Email">
-        </div>
-        <div class="form-group">
-            <label for="tel">Telefono</label>
-            <input type="number" v-model="ticket.telefono" class="form-control" id="tel" aria-describedby="emailHelp"
-                placeholder="Telefono">
-        </div>
-        <div class="form-group">
-            <label for="tel">Compañía</label>
-            <input type="compania" v-model="ticket.compania" class="form-control" id="tel" aria-describedby="emailHelp"
-                placeholder="Compañía">
-        </div>
-        <div class="form-group">
-            <label for="mensaje">Mensaje</label>
-            <textarea class="form-control" v-model="ticket.mensaje" id="mensaje" rows="3"></textarea>
-        </div>
-        <button type="submit" class="btn text-white bg-primary btn-block">Enviar Ticket</button>
-    </form> -->
-
-    
-
     <form class="inquiry-form wow fadeInUp dzForm" data-wow-delay="0.2s" @submit.prevent="sendTicket()" v-if="pagina=='crear'">
         <div class="alert-danger p-3 rounded" v-if="errors">
             <li v-for="(item, index) in errors.remitente" :key="index+1"> {{item}} </li>
