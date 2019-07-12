@@ -21,6 +21,7 @@ window.Vue = require('vue');
 
 Vue.component('cotizacion-component', require('./components/page/Cotizacion').default);
 Vue.component('crear-ticket', require('./components/page/CrearTicket').default);
+Vue.component('consultar-ticket', require('./components/page/ConsultarTicket').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

@@ -22,10 +22,10 @@
 	<!-- MOBILE SPECIFIC -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 	<!-- STYLESHEETS -->
-	<link rel="stylesheet" type="text/css" href="css/plugins.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/templete.css">
-	<link class="skin" rel="stylesheet" type="text/css" href="css/skin-1.css">
+	<link rel="stylesheet" type="text/css" href="/css/plugins.css">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/css/templete.css">
+	<link class="skin" rel="stylesheet" type="text/css" href="/css/skin-1.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	
 </head>
@@ -38,7 +38,7 @@
     <div class="page-content bg-white" id="page" style="padding-top:200px;">
         <div class="container">
             <div class="row justify-content-center">
-                <crear-ticket></crear-ticket>
+                <consultar-ticket></consultar-ticket>
             </div>
         </div>
     </div>
@@ -48,14 +48,13 @@
     <!-- Footer END-->
 </div>
 <!-- JAVASCRIPT FILES ========================================= -->
-<script src="{{asset('js/page.js')}}"></script>
-<script src="js/jquery.min.js"></script><!-- JQUERY.MIN JS -->
-<script src="plugins/wow/wow.js"></script><!-- WOW JS -->
-<script src="plugins/bootstrap/js/popper.min.js"></script><!-- BOOTSTRAP.MIN JS -->
-<script src="plugins/bootstrap/js/bootstrap.min.js"></script><!-- BOOTSTRAP.MIN JS -->
-<script src="plugins/bootstrap-select/bootstrap-select.min.js"></script><!-- FORM JS -->
-<script src="plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js"></script><!-- FORM JS -->
-<script src="plugins/magnific-popup/magnific-popup.js"></script><!-- MAGNIFIC POPUP JS -->
+<script src="/js/jquery.min.js"></script><!-- JQUERY.MIN JS -->
+<script src="/plugins/wow/wow.js"></script><!-- WOW JS -->
+<script src="/plugins/bootstrap/js/popper.min.js"></script><!-- BOOTSTRAP.MIN JS -->
+<script src="/plugins/bootstrap/js/bootstrap.min.js"></script><!-- BOOTSTRAP.MIN JS -->
+<script src="/plugins/bootstrap-select/bootstrap-select.min.js"></script><!-- FORM JS -->
+<script src="/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js"></script><!-- FORM JS -->
+{{-- <script src="plugins/magnific-popup/magnific-popup.js"></script><!-- MAGNIFIC POPUP JS -->
 <script src="plugins/counter/waypoints-min.js"></script><!-- WAYPOINTS JS -->
 <script src="plugins/counter/counterup.min.js"></script><!-- COUNTERUP JS -->
 <script src="plugins/imagesloaded/imagesloaded.js"></script><!-- IMAGESLOADED -->
@@ -68,6 +67,7 @@
 <script src="plugins/loading/anime.js"></script><!-- LOADING JS -->
 <script src="plugins/loading/anime-app3.js"></script><!-- LOADING JS -->
 <script src='https://www.google.com/recaptcha/api.js'></script> <!-- Google API For Recaptcha  -->
-<script src="js/dz.ajax.js"></script><!-- CONTACT JS  -->
+<script src="js/dz.ajax.js"></script><!-- CONTACT JS  --> --}}
+<script src="{{asset('js/page.js')}}"></script>
 </body>
 </html>

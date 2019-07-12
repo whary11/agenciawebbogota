@@ -24,8 +24,10 @@ Route::get('/blog', 'IndexController@blog');
 Route::get('/contacto', 'IndexController@contacto');
 
 Route::get('/ticket', 'IndexController@ticket');
+Route::get('/ticket/consultar', 'TicketController@getTicket');
 Route::get('/tickets/get', 'TicketController@getTickets')->middleware('auth');
 Route::post('/tickets/create', 'TicketController@createTicket');
+Route::get('/ticket/numero_ticket/{num_ticket}', 'TicketController@getNumTicket');
 Route::get('/tickets/{num}/view', 'TicketController@updateTicket')->middleware('auth');
 
 

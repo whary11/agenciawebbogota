@@ -23,6 +23,6 @@ class DatabaseSeeder extends Seeder
         );
         factory(App\User::class, 2)->create();
         factory(App\Ticket::class, 50)->create();
-        factory(App\Conversation::class, 300)->create();
+        factory(App\Conversation::class, 1000)->create();
     }
 }

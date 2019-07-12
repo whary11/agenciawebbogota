@@ -36,7 +36,7 @@
             <div class="container clearfix">
                 <!-- website logo -->
                 <div class="logo-header">
-                <a href="{{route('principal')}}"><img src="images/logo-agencia-web-bogota.svg"
+                <a href="{{route('principal')}}"><img src="{{asset('images/logo-agencia-web-bogota.svg')}}"
                             alt="Logo Agencia Web Bogotá"></a>
                 </div>
                 <!-- nav toggle button -->

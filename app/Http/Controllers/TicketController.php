@@ -19,13 +19,23 @@ class TicketController extends Controller
             abort(404);
         }
     }
+    public function getTicket(){
+        return view('ticket.consultar');
+    }
 
     public function updateTicket($num){
         return Ticket::where('num_ticket', $num)->where('user_id', Auth::id())->with(['conversaciones'])->get();
     }
 
+
+    public function getNumTicket($num_ticket){
+        return Ticket::where('num_ticket', $num_ticket)->with(['conversaciones' => function($q){
+            $q->orderBy('created_at', 'DESC');
+        }])->get()[0];
+    }
+
+
     public function createTicket(TicketRequest $request){
-            
             $succes='';
           DB::beginTransaction();
           try {
