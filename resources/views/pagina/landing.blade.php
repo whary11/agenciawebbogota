@@ -46,7 +46,7 @@
             <div class="container">
                 <div class="dlab-bnr-inr-entry texto-ini">
 					<h1 class="text-white">Landing Pages</h1>
-					<h2 class="text-white">Páginas de destino</h2>					
+					<h2 class="text-white">Páginas de destino super efectivas para sus campañas publicitarias</h2>					
                 </div>
             </div>
         </div>
@@ -56,7 +56,7 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="text-center max-w800 m-auto ">
-							<h4 class="font-weight-600 font-20">Diseñamos Páginas de destino para sus campañas publicitarias con alojamiento indefinido Por solo $120.000</h4>
+							<h4 class="font-weight-600 font-20">Diseñamos su Página de Destino a medida en un solo día para sus campañas publicitarias</h4>
 							<a href="#" class="site-button radius-sm outline outline-2"><span class="p-lr10">¡Quiero mi Landing Page!</span></a>
 						</div>
 					</div>
@@ -93,7 +93,7 @@
 									<div class="text-primary"> 
 										<span class="icon-cell icon-lg"><i class="fas fa-broom"></i></span> 
 									</div>
-									<div class="icon-content m-b20">
+									<div class="icon-content m-b20 p-t20">
 										<h5 class="dlab-tilte">Diseño Único</h5>
 										<p>No usamos plantillas ni temas predefinidos, creamos su landing page desde cero según sus necesidades y objetivos definidos</p>
 									</div>
@@ -106,7 +106,7 @@
 									<div class="text-primary"> 
 										<span class="icon-cell icon-lg"><i class="fas fa-rocket"></i></span> 
 									</div>
-									<div class="icon-content m-b20">
+									<div class="icon-content m-b20 p-t20">
 										<h5 class="dlab-tilte">Solo En 1 Día</h5>
 										<p>Sabemos que tiene algo de prisa por publicar sus anuncios, por ello no tardaremos más de 1 día en entregarle su landing page</p>
 									</div>
@@ -119,7 +119,7 @@
 									<div class="text-primary"> 
 										<span class="icon-cell icon-lg"><i class="fas fa-piggy-bank"></i></span> 
 									</div>
-									<div class="icon-content m-b20">
+									<div class="icon-content m-b20 p-t20">
 										<h5 class="dlab-tilte">Economía y Calidad</h5>
 										<p>Entendemos que ya ha invertido dinero en anuncios, y no queremos que supere su presupuesto destinado a publicidad digital</p>
 									</div>
@@ -132,7 +132,7 @@
 									<div class="text-primary"> 
 										<span class="icon-cell icon-lg"><i class="fas fa-bezier-curve"></i></span> 
 									</div>
-									<div class="icon-content m-b20">
+									<div class="icon-content m-b20 p-t20">
 										<h5 class="dlab-tilte">Automatizables</h5>
 										<p>Integramos sus landing pages a un sistema de autorespuestas para que sus anuncios trabajen en piloto automático</p>
 									</div>
@@ -147,7 +147,8 @@
 					<div class="container">
 						 <div class="row ">
 							<div class="col-lg-5 col-md-4 about-img wow fadeIn" data-wow-delay="0.4s">
-								<img src="images/modelo-de-landing-page.jpg" data-tilt alt=""/>
+								<picture><source srcset="images/modelo-de-landing-page.webp"  type="image/webp">							
+								<img src="images/modelo-de-landing-page.jpg" data-tilt alt=""/></picture>
 							</div>
 							<div class="col-lg-7 col-md-8">
 								<div class="abuot-box left row m-lr0 wow fadeIn" data-wow-delay="0.6s">
@@ -156,10 +157,10 @@
 										<h4>Landing pages con sistema de autorespuestas</h4>
 									</div>
 									<div class="col-lg-8">
-										<p>Con nuestras landing pages puede crear un flujo completo de marketing digital totalmente automatizado. Enlace sus anuncios, landing pages, listas de correos, autorespuestas y registros, para aprovechar cada centavo que invierta en publicidad digital.
+										<p class="text-justify">Con nuestras landing pages puede crear un flujo completo de marketing digital totalmente automatizado. Enlace sus anuncios, landing pages, listas de correos, autorespuestas y registros, para aprovechar cada centavo que invierta en publicidad digital.
 						     				Diseñamos landing pages multipropósito con formularios de suscripción, compra, descarga, video promocional incrustado o lo que necesite para publicitar sus ofertas e incrementar su número de prospectos. Autoajustables a cualquier tamaño de pantalla (100% responsive), rápidas, ordenadas, sencillas y bien estructuradas. Desarrolladas en HTML5 + CSS3 + PHP, WordPress o directamente en la plataforma de automatización de marketing digital.</p>
 										<p class="text-wite font-20 font-weight-600">Pague solo por las páginas que necesite</p>
-										<p class="m-b0">Muchas plataformas le ofrecen landing pages ilimitadas y fáciles de construir pagando una membresía mensual. Esto no siempre es bueno, si su rotación de anuncios y campañas no es tan frecuente, no vale la pena pagar hasta 100 dólares mensuales por un servicio de creación de páginas de aterrizaje. Le conviene más crear una landing page para sus campañas solo cuando la requiera, así optimizará su presupuesto.</p>
+										<p class="m-b0 text-justify">Muchas plataformas le ofrecen landing pages ilimitadas y fáciles de construir pagando una membresía mensual. Esto no siempre es bueno, si su rotación de anuncios y campañas no es tan frecuente, no vale la pena pagar hasta 100 dólares mensuales por un servicio de creación de páginas de aterrizaje. Le conviene más crear una landing page para sus campañas solo cuando la requiera, así optimizará su presupuesto.</p>
 									</div>
 								</div>
 							</div>
@@ -173,7 +174,7 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="text-center max-w800 m-auto ">
-							<h4 class="text-uppercase font-weight-700 font-30">Diseñamos su Landing Page en un día<br> por solo $120.000</h4>
+							<h4 class="text-uppercase font-weight-700 font-30">Diseñamos su Landing Page en un día<br> por solo $250.000 IVA Incluido</h4>
 							<p>Sin tiempo de caducidad, con alojamiento indefinido</p>
 						</div>
 					</div>
@@ -195,7 +196,7 @@
 								<div class="text-center p-t20">
 									<a href="https://api.whatsapp.com/send?phone=573168785601" class="site-button btn-whatsapp"><i class="fab fa-whatsapp"></i>  ¡Pregúntenos por WhatsApp!</a>
 									<a href="https://m.me/agenciawebbogota" class="site-button btn-messenger"><i class="fab fa-facebook-messenger"></i>  ¡Háblenos por Messenger!</a>
-									<p class="p-t10 font-16 text-center">Horario de Atención: Lunes a Sábado 7:30 AM a 6:00 PM</p>
+									<p class="p-t10 font-16 text-center">Horario de Atención: Lunes a Sábado 8:00 AM a 6:00 PM</p>
 								</div>
 								<div class="row">
 									

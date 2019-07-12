@@ -26,19 +26,15 @@ class IndexController extends Controller
         return view('pagina.programacion-web');
     }
     public function googleApps(){
-        return User::all();
-        return [
-            'page' => 'Página de Google Apps'
-        ];
+        // return User::all();
+        return view('pagina.googleapps');
     }
 
     public function redesSociales(){
         return view('pagina.redes-sociales');
     }
     public function posicionamientoWeb(){
-        return [
-            'page' => 'Página de Posicionamiento web'
-        ];
+        return view('pagina.posicionamiento-web');
     }
 
     public function marketingAutomatizado(){

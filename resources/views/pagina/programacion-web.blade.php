@@ -38,7 +38,7 @@
     @include('partials.header')
 		<!-- header END -->
     <!-- Content -->
-    <div class="page-content bg-white">
+	<div class="page-content bg-white">
         <!-- inner page banner -->
         <div class="dlab-bnr-inr overlay-primary" style="background-image:url(images/aplicativos-web.jpg);">
             <div class="container">
