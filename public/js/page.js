@@ -39046,7 +39046,7 @@ var render = function() {
                       ])
                     ])
                   : _c("div", { staticClass: "media mt-4" }, [
-                      _c("div", { staticClass: "media-body card bg-danger" }, [
+                      _c("div", { staticClass: "media-body card" }, [
                         _c("div", { staticClass: "card-body " }, [
                           _c("h5", {}, [_vm._v(_vm._s(_vm.ticket.remitente))]),
                           _vm._v(" "),

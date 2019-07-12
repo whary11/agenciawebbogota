@@ -31,7 +31,7 @@
                     </div>
 
                     <div class="media mt-4" v-else>
-                        <div class="media-body card bg-danger">
+                        <div class="media-body card">
                             <div class="card-body ">
                                 <h5 class="">{{ticket.remitente}}</h5>
                                     <p class="text-muted">{{item.created_at}}</p>
