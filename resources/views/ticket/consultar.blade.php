@@ -16,7 +16,7 @@
 	
 	<!-- FAVICONS ICON -->
 	<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+	<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png" />
 	<!-- PAGE TITLE HERE -->
 	<title> {{env('APP_NAME')}} - Ticket</title>
 	<!-- MOBILE SPECIFIC -->

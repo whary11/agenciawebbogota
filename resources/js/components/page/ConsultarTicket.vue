@@ -13,17 +13,25 @@
         </form>
         <div class="" v-else>
             <div class="card-header bg-white">
-                Ticket # 2787287346
+                Ticket # {{num_ticket}}
             </div>
+            <form >
+                <div class="input-group mb-3 shadow-sm p-3 mb-5 bg-white rounded">
+                    <input type="text" class="form-control" placeholder="Continua la coversación...." required v-model="mensaje">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="submit">Enviar</button>
+                    </div>
+                </div>
+            </form>
             <div class="card-body">
                 <section v-for="(item, index) in ticket.conversaciones" :key="index">
                     <div class="media mt-4" v-if="item.rol == 'ADMIN'">
                         <!-- <div class="card"> -->
                         <img class="mr-3" src="/images/favicon.png" alt="Logo Agencia Web Bogotá">
-                        <div class="media-body card">
-                            <div class="card-body">
+                        <div class="media-body card shadow-sm" style="background-color:#007bff !important;">
+                            <div class="card-body text-white ">
                                 <h5 class="mt-0 mb-1">Agencia Web Bogotá</h5>
-                                    <p class="text-muted">{{item.created_at}}</p>
+                                <p class="">{{item.created_at | moment("dddd, MMMM D de YYYY, h: mm: ss a")}}</p>
                                 <p>{{item.mensaje}}</p>
                             </div>
                         </div>
@@ -31,12 +39,12 @@
                     </div>
 
                     <div class="media mt-4" v-else>
-                        <div class="media-body card">
-                            <div class="card-body ">
+                        <div class="media-body card" style="background-color:#e94861 !important;">
+                            <div class="card-body text-white">
                                 <h5 class="">{{ticket.remitente}}</h5>
-                                    <p class="text-muted">{{item.created_at}}</p>
+                                <p class="">{{item.created_at | moment("dddd, MMMM D de YYYY, h: mm: ss a")}}</p>
                                 <p>
-                                    {{item.mesaje}}
+                                    {{item.mensaje}}
                                 </p>
                             </div>
                         </div>
@@ -59,8 +67,8 @@
     export default {
         data() {
             return {
-                // bandera: true,
-                num_ticket: '6118525817',
+                mensaje: '',
+                num_ticket: '6452488750',
                 ticket: false,
             }
         },

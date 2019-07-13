@@ -7,6 +7,14 @@
 require('./bootstrap');
 
 window.Vue = require('vue');
+import VueMoment from 'vue-moment'
+const moment = require('moment')
+// import moment from 'moment-timezone'
+require('moment/locale/es')
+ 
+Vue.use(VueMoment, {
+    moment,
+})
 
 /**
  * The following block of code may be used to automatically register your
