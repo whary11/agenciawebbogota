@@ -1886,6 +1886,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -1995,6 +2001,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -2024,7 +2032,7 @@ __webpack_require__.r(__webpack_exports__);
         axios.get('/ticket/numero_ticket/' + this.numm_ticket).then(function (resp) {
           _this.ticket = resp.data;
           console.log(resp.data);
-        })["catch"](function (error) {}); // console.log(this.num_ticket);
+        })["catch"](function (error) {});
       }
     },
     sendConversacion: function sendConversacion() {
@@ -6510,6 +6518,25 @@ __webpack_require__.r(__webpack_exports__);
 
 }));
 //# sourceMappingURL=bootstrap.js.map
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/admin/Alltickets.vue?vue&type=style&index=0&lang=css&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/admin/Alltickets.vue?vue&type=style&index=0&lang=css& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.bounce-enter-active {\n        -webkit-animation: bounce-in .5s;\n                animation: bounce-in .5s;\n}\n.bounce-leave-active {\n        animation: bounce-in .5s reverse;\n}\n@-webkit-keyframes bounce-in {\n0% {\n            -webkit-transform: scale(0);\n                    transform: scale(0);\n}\n50% {\n            -webkit-transform: scale(1.5);\n                    transform: scale(1.5);\n}\n100% {\n            -webkit-transform: scale(1);\n                    transform: scale(1);\n}\n}\n@keyframes bounce-in {\n0% {\n            -webkit-transform: scale(0);\n                    transform: scale(0);\n}\n50% {\n            -webkit-transform: scale(1.5);\n                    transform: scale(1.5);\n}\n100% {\n            -webkit-transform: scale(1);\n                    transform: scale(1);\n}\n}\n.list-item {\n  display: inline-block;\n  margin-right: 10px;\n}\n.list-enter-active, .list-leave-active {\n  -webkit-transition: all 1s;\n  transition: all 1s;\n}\n.list-enter, .list-leave-to /* .list-leave-active below version 2.1.8 */ {\n  opacity: 0;\n  -webkit-transform: translateY(30px);\n          transform: translateY(30px);\n}\n\n\n", ""]);
+
+// exports
 
 
 /***/ }),
@@ -54979,6 +55006,36 @@ process.umask = function() { return 0; };
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/admin/Alltickets.vue?vue&type=style&index=0&lang=css&":
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/admin/Alltickets.vue?vue&type=style&index=0&lang=css& ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/src??ref--6-2!../../../../node_modules/vue-loader/lib??vue-loader-options!./Alltickets.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/admin/Alltickets.vue?vue&type=style&index=0&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/admin/ConsultarTicket.vue?vue&type=style&index=0&lang=css&":
 /*!*******************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/admin/ConsultarTicket.vue?vue&type=style&index=0&lang=css& ***!
@@ -55612,111 +55669,129 @@ var render = function() {
     "div",
     { staticClass: "container" },
     [
-      _vm.responder
-        ? _c("consultar-ticket", { attrs: { numm_ticket: _vm.numero_ticket } })
-        : _c("div", { staticClass: "row justify-content-center" }, [
-            _c("div", { staticClass: "col-md-12" }, [
-              _c("div", { staticClass: "card" }, [
-                _c("div", { staticClass: "card-header" }, [_vm._v("Tickets")]),
-                _vm._v(" "),
-                _c("div", { staticClass: "card-body" }, [
-                  _c("table", { staticClass: "table table-condensed" }, [
-                    _c("thead", [
-                      _c("tr", [
-                        _c("th", [_vm._v("Item")]),
-                        _vm._v(" "),
-                        _c("th", [_vm._v("Número de Ticket")]),
-                        _vm._v(" "),
-                        _c("th", [_vm._v("Remitente")]),
-                        _vm._v(" "),
-                        _c("th", [_vm._v("Teléfono")]),
-                        _vm._v(" "),
-                        _c("th", [_vm._v("Compañía")]),
-                        _vm._v(" "),
-                        _c("th", [_vm._v("Correo")]),
-                        _vm._v(" "),
-                        _c("th", [_vm._v("Estado")]),
-                        _vm._v(" "),
-                        _c("th", [_vm._v("Ver")])
-                      ])
-                    ]),
-                    _vm._v(" "),
-                    _c(
-                      "tbody",
-                      _vm._l(_vm.tickets, function(item, index) {
-                        return _c("tr", { key: index }, [
-                          _c("td", [_vm._v(" " + _vm._s(index + 1) + " ")]),
-                          _vm._v(" "),
-                          _c("td", [
-                            _vm._v(" " + _vm._s(item.num_ticket) + " ")
+      _c(
+        "transition-group",
+        { attrs: { name: "list", tag: "p" } },
+        [
+          _vm.responder
+            ? _c("consultar-ticket", {
+                key: 23,
+                attrs: { numm_ticket: _vm.numero_ticket }
+              })
+            : _c(
+                "div",
+                { key: 24, staticClass: "row justify-content-center" },
+                [
+                  _c("div", { staticClass: "col-md-12" }, [
+                    _c("div", { staticClass: "card" }, [
+                      _c("div", { staticClass: "card-header" }, [
+                        _vm._v("Tickets")
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "card-body" }, [
+                        _c("table", { staticClass: "table table-condensed" }, [
+                          _c("thead", [
+                            _c("tr", [
+                              _c("th", [_vm._v("Item")]),
+                              _vm._v(" "),
+                              _c("th", [_vm._v("Número de Ticket")]),
+                              _vm._v(" "),
+                              _c("th", [_vm._v("Remitente")]),
+                              _vm._v(" "),
+                              _c("th", [_vm._v("Teléfono")]),
+                              _vm._v(" "),
+                              _c("th", [_vm._v("Compañía")]),
+                              _vm._v(" "),
+                              _c("th", [_vm._v("Correo")]),
+                              _vm._v(" "),
+                              _c("th", [_vm._v("Estado")]),
+                              _vm._v(" "),
+                              _c("th", [_vm._v("Ver")])
+                            ])
                           ]),
                           _vm._v(" "),
-                          _c("td", [
-                            _vm._v(" " + _vm._s(item.remitente) + " ")
-                          ]),
-                          _vm._v(" "),
-                          _c("td", [_vm._v(" " + _vm._s(item.telefono))]),
-                          _vm._v(" "),
-                          _c("td", [_vm._v(" " + _vm._s(item.compania))]),
-                          _vm._v(" "),
-                          _c("td", [_vm._v(" " + _vm._s(item.email))]),
-                          _vm._v(" "),
-                          item.estado == "ABIERTO"
-                            ? _c("td", [
-                                _c(
-                                  "span",
-                                  { staticClass: "badge badge-danger" },
-                                  [_vm._v(_vm._s(item.estado))]
-                                )
-                              ])
-                            : _vm._e(),
-                          _vm._v(" "),
-                          item.estado == "CERRADO"
-                            ? _c("td", [
-                                _c(
-                                  "span",
-                                  { staticClass: "badge badge-success" },
-                                  [_vm._v(_vm._s(item.estado))]
-                                )
-                              ])
-                            : _vm._e(),
-                          _vm._v(" "),
-                          _c("td", [
-                            _c(
-                              "a",
-                              {
-                                attrs: {
-                                  href: _vm.url(
-                                    "tickets/" + item.num_ticket + "/view"
+                          _c(
+                            "tbody",
+                            _vm._l(_vm.tickets, function(item, index) {
+                              return _c("tr", { key: index }, [
+                                _c("td", [
+                                  _vm._v(" " + _vm._s(index + 1) + " ")
+                                ]),
+                                _vm._v(" "),
+                                _c("td", [
+                                  _vm._v(" " + _vm._s(item.num_ticket) + " ")
+                                ]),
+                                _vm._v(" "),
+                                _c("td", [
+                                  _vm._v(" " + _vm._s(item.remitente) + " ")
+                                ]),
+                                _vm._v(" "),
+                                _c("td", [_vm._v(" " + _vm._s(item.telefono))]),
+                                _vm._v(" "),
+                                _c("td", [_vm._v(" " + _vm._s(item.compania))]),
+                                _vm._v(" "),
+                                _c("td", [_vm._v(" " + _vm._s(item.email))]),
+                                _vm._v(" "),
+                                item.estado == "ABIERTO"
+                                  ? _c("td", [
+                                      _c(
+                                        "span",
+                                        { staticClass: "badge badge-danger" },
+                                        [_vm._v(_vm._s(item.estado))]
+                                      )
+                                    ])
+                                  : _vm._e(),
+                                _vm._v(" "),
+                                item.estado == "CERRADO"
+                                  ? _c("td", [
+                                      _c(
+                                        "span",
+                                        { staticClass: "badge badge-success" },
+                                        [_vm._v(_vm._s(item.estado))]
+                                      )
+                                    ])
+                                  : _vm._e(),
+                                _vm._v(" "),
+                                _c("td", [
+                                  _c(
+                                    "a",
+                                    {
+                                      attrs: { href: "#" },
+                                      on: {
+                                        click: function($event) {
+                                          $event.preventDefault()
+                                          _vm.responder = true
+                                          _vm.numero_ticket = item.num_ticket
+                                        }
+                                      }
+                                    },
+                                    [
+                                      _vm._v("Resp"),
+                                      _c(
+                                        "span",
+                                        { staticClass: "badge badge-primary" },
+                                        [
+                                          _vm._v(
+                                            _vm._s(item.conversaciones.length)
+                                          )
+                                        ]
+                                      )
+                                    ]
                                   )
-                                },
-                                on: {
-                                  click: function($event) {
-                                    $event.preventDefault()
-                                    _vm.responder = true
-                                    _vm.numero_ticket = item.num_ticket
-                                  }
-                                }
-                              },
-                              [
-                                _vm._v(" Responder"),
-                                _c(
-                                  "span",
-                                  { staticClass: "badge badge-primary" },
-                                  [_vm._v(_vm._s(item.conversaciones.length))]
-                                )
-                              ]
-                            )
-                          ])
+                                ])
+                              ])
+                            }),
+                            0
+                          )
                         ])
-                      }),
-                      0
-                    )
+                      ])
+                    ])
                   ])
-                ])
-              ])
-            ])
-          ])
+                ]
+              )
+        ],
+        1
+      )
     ],
     1
   )
@@ -55782,8 +55857,10 @@ var render = function() {
                   )
                 ])
               : _c("div", { staticClass: "card-header bg-white" }, [
-                  _c("a", { attrs: { href: "#" } }, [_vm._v("<")]),
-                  _vm._v(" El tickt está cerrado\n            ")
+                  _c("a", { attrs: { href: "#" } }, [
+                    _vm._v("\n                    <")
+                  ]),
+                  _vm._v(" El tickt está cerrado ")
                 ]),
             _vm._v(" "),
             _vm.ticket.estado == "ABIERTO"
@@ -55872,12 +55949,14 @@ var render = function() {
                                 _vm._v(" "),
                                 _c("p", {}, [
                                   _vm._v(
-                                    _vm._s(
-                                      _vm._f("moment")(
-                                        item.created_at,
-                                        "dddd, MMMM D de YYYY, h: mm: ss a"
-                                      )
-                                    )
+                                    "\n                                                " +
+                                      _vm._s(
+                                        _vm._f("moment")(
+                                          item.created_at,
+                                          "dddd, MMMM D de YYYY, h: mm: ss a"
+                                        )
+                                      ) +
+                                      "\n                                            "
                                   )
                                 ]),
                                 _vm._v(" "),
@@ -55907,20 +55986,22 @@ var render = function() {
                               _vm._v(" "),
                               _c("p", {}, [
                                 _vm._v(
-                                  _vm._s(
-                                    _vm._f("moment")(
-                                      item.created_at,
-                                      "dddd, MMMM D de YYYY, h: mm: ss a"
-                                    )
-                                  )
+                                  "\n                                                " +
+                                    _vm._s(
+                                      _vm._f("moment")(
+                                        item.created_at,
+                                        "dddd, MMMM D de YYYY, h: mm: ss a"
+                                      )
+                                    ) +
+                                    "\n                                            "
                                 )
                               ]),
                               _vm._v(" "),
                               _c("p", [
                                 _vm._v(
-                                  "\n                                        " +
+                                  "\n                                                " +
                                     _vm._s(item.mensaje) +
-                                    "\n                                    "
+                                    "\n                                            "
                                 )
                               ])
                             ])
@@ -72939,7 +73020,9 @@ if (token) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Alltickets_vue_vue_type_template_id_5bde575e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Alltickets.vue?vue&type=template&id=5bde575e& */ "./resources/js/components/admin/Alltickets.vue?vue&type=template&id=5bde575e&");
 /* harmony import */ var _Alltickets_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Alltickets.vue?vue&type=script&lang=js& */ "./resources/js/components/admin/Alltickets.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* empty/unused harmony star reexport *//* harmony import */ var _Alltickets_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Alltickets.vue?vue&type=style&index=0&lang=css& */ "./resources/js/components/admin/Alltickets.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
 
 
 
@@ -72947,7 +73030,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
   _Alltickets_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _Alltickets_vue_vue_type_template_id_5bde575e___WEBPACK_IMPORTED_MODULE_0__["render"],
   _Alltickets_vue_vue_type_template_id_5bde575e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
@@ -72976,6 +73059,22 @@ component.options.__file = "resources/js/components/admin/Alltickets.vue"
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Alltickets_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./Alltickets.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/admin/Alltickets.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Alltickets_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/admin/Alltickets.vue?vue&type=style&index=0&lang=css&":
+/*!***************************************************************************************!*\
+  !*** ./resources/js/components/admin/Alltickets.vue?vue&type=style&index=0&lang=css& ***!
+  \***************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Alltickets_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/style-loader!../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/src??ref--6-2!../../../../node_modules/vue-loader/lib??vue-loader-options!./Alltickets.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/admin/Alltickets.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Alltickets_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Alltickets_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Alltickets_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Alltickets_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Alltickets_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
