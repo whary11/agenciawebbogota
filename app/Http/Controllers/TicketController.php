@@ -23,16 +23,46 @@ class TicketController extends Controller
         return view('ticket.consultar');
     }
 
-    public function updateTicket($num){
-        return Ticket::where('num_ticket', $num)->where('user_id', Auth::id())->with(['conversaciones'])->get();
+    public function updateTicket(Request $request){
+        $succes='';
+        DB::beginTransaction();
+        try {
+            Ticket::where('num_ticket', $request->num_ticket)->with(['conversaciones'])->update([
+                'estado' => 'CERRADO'
+            ]);
+            //   $ticket->notify(new TicketNotificaction);
+              $succes = true;
+              DB::commit();
+          } catch (\Throwable $th) {
+              $succes = false;
+              $error = $th->getMessage();
+              DB::rollBack();
+          }
+          if ($succes) {
+             return [
+                 'status' => 'success',
+                //  'data' => $conversacion
+             ];
+          }else {
+              return[
+                  'status' => 'false',
+                  'error' => $error
+              ];
+          }
     }
 
 
     public function getNumTicket($num_ticket){
+        
         return Ticket::where('num_ticket', $num_ticket)->with(['conversaciones' => function($q){
             $q->orderBy('created_at', 'DESC');
         }])->get()[0];
     }
+
+
+    // public function updateTicket(Request $request){
+
+    // }
 
     public function createConversacion(Request $request){
         $succes='';

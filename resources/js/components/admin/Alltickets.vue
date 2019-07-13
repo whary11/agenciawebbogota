@@ -16,6 +16,7 @@
                                     <th>Teléfono</th>
                                     <th>Compañía</th>
                                     <th>Correo</th>
+                                    <th>Estado</th>
                                     <th>Ver</th>
                                 </tr>
                             </thead>
@@ -27,6 +28,12 @@
                                     <td> {{item.telefono}}</td>
                                     <td> {{item.compania}}</td>
                                     <td> {{item.email}}</td>
+                                    <td v-if="item.estado == 'ABIERTO'"> 
+                                        <span class="badge badge-danger">{{item.estado}}</span>
+                                    </td>
+                                    <td v-if="item.estado == 'CERRADO'"> 
+                                        <span class="badge badge-success">{{item.estado}}</span>
+                                    </td>
                                     <td> 
                                         <a :href="url(`tickets/${item.num_ticket}/view`)" @click.prevent="responder=true; numero_ticket=item.num_ticket"> Responder<span class="badge badge-primary">{{item.conversaciones.length}}</span></a>
                                     </td>
