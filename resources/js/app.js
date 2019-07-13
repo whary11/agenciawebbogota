@@ -7,6 +7,14 @@
 require('./bootstrap');
 
 window.Vue = require('vue');
+import VueMoment from 'vue-moment'
+const moment = require('moment')
+// import moment from 'moment-timezone'
+require('moment/locale/es')
+ 
+Vue.use(VueMoment, {
+    moment,
+})
 
 /**
  * The following block of code may be used to automatically register your
@@ -20,6 +28,8 @@ window.Vue = require('vue');
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
 
 Vue.component('alltickets-component', require('./components/admin/Alltickets').default);
+Vue.component('consultar-ticket', require('./components/admin/ConsultarTicket').default);
+
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

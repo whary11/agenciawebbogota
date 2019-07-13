@@ -30,12 +30,12 @@
 	
 </head>
 <body id="bg">
-<div class="page-wraper">
+<div class="page-wraper" id="page">
 	<!-- header -->
 	@include('partials.header')
     <!-- header END -->
     <!-- Content -->
-    <div class="page-content bg-white" id="page" style="padding-top:200px;">
+    <div class="page-content bg-white"  style="padding-top:200px;">
         <div class="container">
             <div class="row justify-content-center">
                 <consultar-ticket></consultar-ticket>

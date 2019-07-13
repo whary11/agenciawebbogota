@@ -34,7 +34,41 @@ class TicketController extends Controller
         }])->get()[0];
     }
 
+    public function createConversacion(Request $request){
+        $succes='';
+          DB::beginTransaction();
 
+          if (Auth::check()) {
+              $rol = Conversation::ADMIN;
+          }else{
+              $rol = Conversation::REMITENTE;
+          }
+          try {
+              $conversacion = Conversation::create([
+                'ticket_id' => $request->ticket_id,
+                'mensaje'=>$request->mensaje,
+                'rol' => $rol
+              ]);
+            //   $ticket->notify(new TicketNotificaction);
+              $succes = true;
+              DB::commit();
+          } catch (\Throwable $th) {
+              $succes = false;
+              $error = $th->getMessage();
+              DB::rollBack();
+          }
+          if ($succes) {
+             return [
+                 'status' => 'success',
+                 'data' => $conversacion
+             ];
+          }else {
+              return[
+                  'status' => 'false',
+                  'error' => $error
+              ];
+          }
+    }
     public function createTicket(TicketRequest $request){
             $succes='';
           DB::beginTransaction();

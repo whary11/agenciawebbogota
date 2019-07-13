@@ -27,6 +27,7 @@ Route::get('/ticket', 'IndexController@ticket');
 Route::get('/ticket/consultar', 'TicketController@getTicket');
 Route::get('/tickets/get', 'TicketController@getTickets')->middleware('auth');
 Route::post('/tickets/create', 'TicketController@createTicket');
+Route::post('/tickets/create/conversacion', 'TicketController@createConversacion');
 Route::get('/ticket/numero_ticket/{num_ticket}', 'TicketController@getNumTicket');
 Route::get('/tickets/{num}/view', 'TicketController@updateTicket')->middleware('auth');
 

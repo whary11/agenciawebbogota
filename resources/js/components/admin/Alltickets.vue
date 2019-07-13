@@ -1,6 +1,7 @@
 <template>
     <div class="container">
-        <div class="row justify-content-center">
+        <consultar-ticket v-if="responder" :numm_ticket="numero_ticket"></consultar-ticket>
+        <div class="row justify-content-center" v-else>
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">Tickets</div>
@@ -27,7 +28,7 @@
                                     <td> {{item.compania}}</td>
                                     <td> {{item.email}}</td>
                                     <td> 
-                                        <a :href="url(`tickets/${item.num_ticket}/view`)"> Responder<span class="badge badge-primary">{{item.conversaciones.length}}</span></a>
+                                        <a :href="url(`tickets/${item.num_ticket}/view`)" @click.prevent="responder=true; numero_ticket=item.num_ticket"> Responder<span class="badge badge-primary">{{item.conversaciones.length}}</span></a>
                                     </td>
                                 </tr>
                             </tbody>
@@ -38,12 +39,13 @@
         </div>
     </div>
 </template>
-
 <script>
     export default {
         data() {
             return {
                 tickets:[],
+                responder:false,
+                numero_ticket:''
             }
         },
         mounted() {
