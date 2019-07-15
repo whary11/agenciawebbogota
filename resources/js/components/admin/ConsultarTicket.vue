@@ -1,5 +1,4 @@
 <template>
-
     <div class="col-md-12">
         <div class="" v-if="ticket.conversaciones">
             <div>
