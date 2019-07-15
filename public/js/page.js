@@ -56107,9 +56107,7 @@ var render = function() {
               0
             )
           ])
-        ]),
-    _vm._v(" "),
-    _c("pre", [_vm._v(_vm._s(_vm.$data))])
+        ])
   ])
 }
 var staticRenderFns = [
