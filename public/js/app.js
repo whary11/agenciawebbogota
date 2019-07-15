@@ -2062,12 +2062,14 @@ __webpack_require__.r(__webpack_exports__);
       }
     },
     cerrarTicket: function cerrarTicket() {
+      var _this3 = this;
+
       axios.put('/tickets/update', {
         num_ticket: this.numm_ticket
       }).then(function (resp) {
         if (resp.data.status == 'success') {
-          alert('Se cerró el Ticket..');
-          console.log(resp.data);
+          _this3.ticket.estado = "CERRADO"; // alert('Se cerró el Ticket..')
+          // console.log(resp.data);
         }
       })["catch"](function (error) {});
     }

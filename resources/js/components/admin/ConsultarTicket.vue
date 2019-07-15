@@ -138,8 +138,9 @@
                     })
                     .then((resp) => {
                         if (resp.data.status == 'success') {
-                            alert('Se cerró el Ticket..')
-                            console.log(resp.data);
+                            this.ticket.estado = "CERRADO"
+                            // alert('Se cerró el Ticket..')
+                            // console.log(resp.data);
                         }
                     })
                     .catch((error) => {})
