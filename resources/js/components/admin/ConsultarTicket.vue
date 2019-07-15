@@ -13,59 +13,58 @@
                     <!-- Hay {{ticket.conversaciones.length}} conversaciones relacionadas al Ticket # {{numm_ticket}} -->
                 </div>
                 <div v-else class="card-header bg-white">
-                    <a href="#">
-                        <</a> El tickt está cerrado </div> <form @submit.prevent="sendConversacion()"
-                            v-if="ticket.estado == 'ABIERTO'">
-                            <div class="input-group mb-3 shadow-sm p-3 mb-5 bg-white rounded">
-                                <textarea type="text" class="form-control" placeholder="Continua la coversación...."
-                                    required v-model="mensaje"> </textarea>
-                                <div class="input-group-append">
-                                    <button class="btn btn-primary" type="submit">Enviar</button>
+                    El tickt está cerrado
+                </div>
+                <form @submit.prevent="sendConversacion()" v-if="ticket.estado == 'ABIERTO'">
+                    <div class="input-group mb-3 shadow-sm p-3 mb-5 bg-white rounded">
+                        <textarea type="text" class="form-control" placeholder="Continua la coversación...." required
+                            v-model="mensaje"> </textarea>
+                        <div class="input-group-append">
+                            <button class="btn btn-primary" type="submit">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+                <div class="card-body">
+                    <section v-for="(item, index) in ticket.conversaciones" :key="index">
+                        <!-- <template v-if="ticket.estado == 'ABIERTO'"> -->
+                        <div class="media mt-4" v-if="item.rol == 'ADMIN'">
+                            <!-- <div class="card"> -->
+                            <img class="mr-3" src="/images/favicon.png" alt="Logo Agencia Web Bogotá">
+                            <div class="media-body card shadow-sm" style="background-color:#59C6FF !important;">
+                                <div class="card-body text-white ">
+                                    <h5 class="mt-0 mb-1">Agencia Web Bogotá</h5>
+                                    <p class="">
+                                        {{item.created_at | moment("dddd, MMMM D de YYYY, h: mm: ss a")}}
+                                    </p>
+                                    <p>{{item.mensaje}}</p>
                                 </div>
                             </div>
-                            </form>
-                            <div class="card-body">
-                                <section v-for="(item, index) in ticket.conversaciones" :key="index">
-                                    <!-- <template v-if="ticket.estado == 'ABIERTO'"> -->
-                                    <div class="media mt-4" v-if="item.rol == 'ADMIN'">
-                                        <!-- <div class="card"> -->
-                                        <img class="mr-3" src="/images/favicon.png" alt="Logo Agencia Web Bogotá">
-                                        <div class="media-body card shadow-sm"
-                                            style="background-color:#59C6FF !important;">
-                                            <div class="card-body text-white ">
-                                                <h5 class="mt-0 mb-1">Agencia Web Bogotá</h5>
-                                                <p class="">
-                                                    {{item.created_at | moment("dddd, MMMM D de YYYY, h: mm: ss a")}}
-                                                </p>
-                                                <p>{{item.mensaje}}</p>
-                                            </div>
-                                        </div>
-                                        <!-- </div> -->
-                                    </div>
-                                    <div class="media mt-4" v-if="item.rol == 'REMITENTE'">
-                                        <div class="media-body card" style="background-color:#E872D4 !important;">
-                                            <div class="card-body text-white">
-                                                <h5 class="">{{ticket.remitente}}</h5>
-                                                <p class="">
-                                                    {{item.created_at | moment("dddd, MMMM D de YYYY, h: mm: ss a")}}
-                                                </p>
-                                                <p>
-                                                    {{item.mensaje}}
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <img class="ml-3"
-                                            src="https://community.auspost.com.au/ncsphoto/RgsDV95kF0ctrocRbk6AtiHqF68CRRupG_AVvDkfwBQCjmnGDYcr3kUaYwQaML3n"
-                                            alt="Logo Agencia Web Bogotá">
-                                    </div>
-                                    <!-- </template> -->
-
-                                </section>
+                            <!-- </div> -->
+                        </div>
+                        <div class="media mt-4" v-if="item.rol == 'REMITENTE'">
+                            <div class="media-body card" style="background-color:#E872D4 !important;">
+                                <div class="card-body text-white">
+                                    <h5 class="">{{ticket.remitente}}</h5>
+                                    <p class="">
+                                        {{item.created_at | moment("dddd, MMMM D de YYYY, h: mm: ss a")}}
+                                    </p>
+                                    <p>
+                                        {{item.mensaje}}
+                                    </p>
+                                </div>
                             </div>
+                            <img class="ml-3"
+                                src="https://community.auspost.com.au/ncsphoto/RgsDV95kF0ctrocRbk6AtiHqF68CRRupG_AVvDkfwBQCjmnGDYcr3kUaYwQaML3n"
+                                alt="Logo Agencia Web Bogotá">
+                        </div>
+                        <!-- </template> -->
+
+                    </section>
                 </div>
             </div>
-            <!-- <pre>{{$data}}</pre> -->
         </div>
+        <!-- <pre>{{$data}}</pre> -->
+    </div>
 </template>
 
 <script>

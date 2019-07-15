@@ -24,6 +24,8 @@ class TicketController extends Controller
     }
 
     public function updateTicket(Request $request){
+        // return $request;
+        
         $succes='';
         DB::beginTransaction();
         try {
@@ -109,7 +111,8 @@ class TicketController extends Controller
                   'user_id' => 1,
                   'telefono' => $request->telefono,
                   'compania' => $request->compania,
-                  'num_ticket' => time()
+                  'num_ticket' => time(),
+                  'estado' => 'ABIERTO'
               ]);
               Conversation::create([
                 'ticket_id' => $ticket->id,

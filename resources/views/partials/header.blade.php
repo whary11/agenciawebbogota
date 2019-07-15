@@ -83,7 +83,13 @@
                                 <li>
                                 <li><a href="posicionamiento-web">Manuales de Usuario </a>
                                 <li>
-                                <li><a href="/ticket">Abrir un Ticket </a></li>
+
+                                <li><a href="#">Ticket<i class="fa fa-angle-right"></i></a>
+                                    <ul class="sub-menu">
+                                    <li><a href="{{url('/ticket')}}" class="dez-page">Abrir</a></li>
+                                    <li><a href="{{url('/ticket/consultar')}}" class="dez-page">Consultar</a></li>
+                                    </ul>
+                                </li>
                             </ul>
                         </li>
                         </li>

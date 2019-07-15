@@ -2002,7 +2002,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -55857,10 +55856,9 @@ var render = function() {
                   )
                 ])
               : _c("div", { staticClass: "card-header bg-white" }, [
-                  _c("a", { attrs: { href: "#" } }, [
-                    _vm._v("\n                    <")
-                  ]),
-                  _vm._v(" El tickt está cerrado ")
+                  _vm._v(
+                    "\n                El tickt está cerrado\n            "
+                  )
                 ]),
             _vm._v(" "),
             _vm.ticket.estado == "ABIERTO"
@@ -55949,14 +55947,14 @@ var render = function() {
                                 _vm._v(" "),
                                 _c("p", {}, [
                                   _vm._v(
-                                    "\n                                                " +
+                                    "\n                                    " +
                                       _vm._s(
                                         _vm._f("moment")(
                                           item.created_at,
                                           "dddd, MMMM D de YYYY, h: mm: ss a"
                                         )
                                       ) +
-                                      "\n                                            "
+                                      "\n                                "
                                   )
                                 ]),
                                 _vm._v(" "),
@@ -55986,22 +55984,22 @@ var render = function() {
                               _vm._v(" "),
                               _c("p", {}, [
                                 _vm._v(
-                                  "\n                                                " +
+                                  "\n                                    " +
                                     _vm._s(
                                       _vm._f("moment")(
                                         item.created_at,
                                         "dddd, MMMM D de YYYY, h: mm: ss a"
                                       )
                                     ) +
-                                    "\n                                            "
+                                    "\n                                "
                                 )
                               ]),
                               _vm._v(" "),
                               _c("p", [
                                 _vm._v(
-                                  "\n                                                " +
+                                  "\n                                    " +
                                     _vm._s(item.mensaje) +
-                                    "\n                                            "
+                                    "\n                                "
                                 )
                               ])
                             ])
