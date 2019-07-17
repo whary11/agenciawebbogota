@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Contacto;
 use Illuminate\Support\Facades\DB;
+use App\Mail\Contactos;
+use Illuminate\Support\Facades\Mail;
 
 class ContactoController extends Controller
 {
@@ -14,13 +16,14 @@ class ContactoController extends Controller
           DB::beginTransaction();
           try {
              //Sentencias a ejecutar
-             Contacto::create([
+             $contacto = Contacto::create([
                  'nombre' => $request->nombre,
                  'email' => $request->email,
                  'telefono' => $request->telefono,
                  'mensaje' => $request->mensaje,
                  'canal' => 'Página web principal'
              ]);
+             Mail::to('whary11@gmail.com')->send(new Contactos($contacto));
               $succes = true;
               DB::commit();
           } catch (\Throwable $th) {
