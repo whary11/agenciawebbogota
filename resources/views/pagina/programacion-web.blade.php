@@ -13,8 +13,8 @@
 	<meta name="format-detection" content="telephone=no">
 	
 	<!-- FAVICONS ICON -->
-	<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+	<link rel="icon" href="{{asset('images/favicon.ico')}}" type="image/x-icon" />
+	<link rel="shortcut icon" type="image/x-icon" href="{{asset('images/favicon.png')}}" />
 	
 	<!-- PAGE TITLE HERE -->
 	<title>Programación Web</title>
@@ -23,10 +23,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 		
 	<!-- STYLESHEETS -->
-	<link rel="stylesheet" type="text/css" href="css/plugins.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/templete.css">
-	<link class="skin" rel="stylesheet" type="text/css" href="css/skin-1.css">
+	<link rel="stylesheet" type="text/css" href="{{asset('css/plugins.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{asset('css/templete.css')}}">
+	<link class="skin" rel="stylesheet" type="text/css" href="{{asset('css/skin-1.css')}}">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
 </head>
@@ -40,7 +40,7 @@
     <!-- Content -->
 	<div class="page-content bg-white">
         <!-- inner page banner -->
-        <div class="dlab-bnr-inr overlay-primary" style="background-image:url(images/aplicativos-web.jpg);">
+	<div class="dlab-bnr-inr overlay-primary" style="background-image:url({{asset('images/aplicativos-web.jpg')}});">
             <div class="container">
                 <div class="dlab-bnr-inr-entry texto-ini">
 					<h1 class="text-white">Programación Web</h1>
@@ -51,7 +51,7 @@
         <!-- inner page banner END -->
         <!-- contact area -->
         <div class="content-block">
-				<div class="section-full content-inner bg-img-fix bg-img-fix" style="background-image:url(images/background/bg12.jpg);">
+		<div class="section-full content-inner bg-img-fix bg-img-fix" style="background-image:url({{asset('images/background/bg12.jpg')}});">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-4 col-md-12 align-self-center wow fadeInLeft" data-wow-delay="0.2s">
@@ -98,7 +98,7 @@
 							<div class="row serv">
 								<div class="col-lg-6 col-md-12 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.2s">
 									<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-										<div class="icon-lg m-b20"> <a href="#" class="icon-cell"><img src="images/nodejs-logo.png" alt=""/></a> </div>
+										<div class="icon-lg m-b20"> <a href="#" class="icon-cell"><img src="{{asset('images/nodejs-logo.png')}}" alt=""/></a> </div>
 										<div class="icon-content">
 											<h5 class="dlab-tilte">NodeJS</h5>
 											<p>Sistemas POS, Aplicaciones Real-Time, Desarrollo de Apps</p>
@@ -107,7 +107,7 @@
 								</div>
 								<div class="col-lg-6 col-md-12 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.4s">
 									<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-										<div class="icon-lg m-b20"> <a href="#" class="icon-cell"><img src="images/vuejs-logo.png" alt=""/></a> </div>
+										<div class="icon-lg m-b20"> <a href="#" class="icon-cell"><img src="{{asset('images/vuejs-logo.png')}}" alt=""/></a> </div>
 										<div class="icon-content">
 											<h5 class="dlab-tilte"><a href="#">VueJS</a></h5>
 											<p>Sistemas Single-Page, Experiencia de Usuario, Salas de Chat</p>
@@ -116,7 +116,7 @@
 								</div>
 								<div class="col-lg-6 col-md-12 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.2s">
 									<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-										<div class="icon-lg m-b20"> <a href="#" class="icon-cell"><img src="images/laravel.png" alt=""/></a> </div>
+										<div class="icon-lg m-b20"> <a href="#" class="icon-cell"><img src="{{asset('images/laravel.png')}}" alt=""/></a> </div>
 										<div class="icon-content">
 											<h5 class="dlab-tilte"><a href="#">Laravel</a></h5>
 											<p>Sistemas Administrativos, Sistemas de Inventarios, Citas y Reservas Online </p>
@@ -125,7 +125,7 @@
 								</div>
 								<div class="col-lg-6 col-md-12 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.4s">
 									<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-										<div class="icon-lg m-b20"> <a href="#" class="icon-cell"><img src="images/python-logo.png" alt=""/></a> </div>
+										<div class="icon-lg m-b20"> <a href="#" class="icon-cell"><img src="{{asset('images/python-logo.png')}}" alt=""/></a> </div>
 										<div class="icon-content">
 											<h5 class="dlab-tilte"><a href="#">Python</a></h5>
 											<p>Inteligencia Artificial AI, Sistemas de Gestión Big Data, Apps Corporativas</p>
@@ -134,7 +134,7 @@
 								</div>
 								<div class="col-lg-6 col-md-12 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.2s">
 									<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-										<div class="icon-lg m-b20"> <a href="#" class="icon-cell"><img src="images/php-logo.png" alt=""/></a> </div>
+										<div class="icon-lg m-b20"> <a href="#" class="icon-cell"><img src="{{asset('images/php-logo.png')}}" alt=""/></a> </div>
 										<div class="icon-content">
 											<h5 class="dlab-tilte"><a href="#">PHP</a></h5>
 											<p>Bases de Datos, Plataformas para Email Marketing, Correos Electrónicos</p>
@@ -143,7 +143,7 @@
 								</div>
 								<div class="col-lg-6 col-md-12 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.4s">
 									<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-										<div class="icon-lg m-b20"> <a href="#" class="icon-cell"><img src="images/google-aps-logo.png" alt=""/></a> </div>
+										<div class="icon-lg m-b20"> <a href="#" class="icon-cell"><img src="{{asset('images/google-aps-logo.png')}}" alt=""/></a> </div>
 										<div class="icon-content">
 											<h5 class="dlab-tilte"><a href="#">Google Apps</a></h5>
 											<p>Automatización de tareas en Drive, Conexión de todas las Apps de Google</p>
@@ -152,7 +152,7 @@
 								</div>
 								<div class="col-lg-6 col-md-12 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.2s">
 									<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-										<div class="icon-lg m-b20"> <a href="#" class="icon-cell"><img src="images/firebase-logo.png" alt=""/></a> </div>
+										<div class="icon-lg m-b20"> <a href="#" class="icon-cell"><img src="{{asset('images/firebase-logo.png')}}" alt=""/></a> </div>
 										<div class="icon-content">
 											<h5 class="dlab-tilte text-uppercase"><a href="#">Firebase</a></h5>
 											<p>Desarrollo de Apps, Aplicaciones Real Time, Marketing Mobile</p>
@@ -161,7 +161,7 @@
 								</div>
 								<div class="col-lg-6 col-md-12 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.4s">
 									<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-										<div class="icon-lg m-b20"> <a href="#" class="icon-cell"><img src="images/mysql-logo.png" alt=""/></a> </div>
+										<div class="icon-lg m-b20"> <a href="#" class="icon-cell"><img src="{{asset('images/mysql-logo.png')}}" alt=""/></a> </div>
 										<div class="icon-content">
 											<h5 class="dlab-tilte text-uppercase"><a href="#">MySQL</a></h5>
 											<p>Aplicaciones para e-commerce, Consulta y Respuesta de Datos</p>
@@ -170,7 +170,7 @@
 								</div>
 								<div class="col-lg-6 col-md-12 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.2s">
 									<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-										<div class="icon-lg m-b20"> <a href="#" class="icon-cell"><img src="images/mongodb-logo.png" alt=""/></a> </div>
+										<div class="icon-lg m-b20"> <a href="#" class="icon-cell"><img src="{{asset('images/mongodb-logo.png')}}" alt=""/></a> </div>
 										<div class="icon-content">
 											<h5 class="dlab-tilte"><a href="#">MongoDB</a></h5>
 											<p>Aplicaciones para Big Data, Consulta y Manejo de Archivo</p>
@@ -179,7 +179,7 @@
 								</div>
 								<div class="col-lg-6 col-md-12 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.4s">
 									<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-										<div class="icon-lg m-b20"> <a href="#" class="icon-cell"><img src="images/boostarp-logo.png" alt=""/></a> </div>
+										<div class="icon-lg m-b20"> <a href="#" class="icon-cell"><img src="{{asset('images/boostarp-logo.png')}}" alt=""/></a> </div>
 										<div class="icon-content">
 											<h5 class="dlab-tilte"><a href="#">Bootstrapp</a></h5>
 											<p>Plantillas para Websites y Apps, Efectos visuales y Animaciones</p>
@@ -207,11 +207,11 @@
 			</div>
 
             <!-- Our Awesome Services -->
-            <div class="section-full bg-blue-light content-inner about-us-box" style="background-image:url(images/bg15.jpg); background-size:cover">
+		<div class="section-full bg-blue-light content-inner about-us-box" style="background-image:url({{asset('images/bg15.jpg')}}); background-size:cover">
                 <div class="container">
 					<div class="row">
 						<div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
-							<div class="dlab-box-bg m-b30 box-hover fly-box" style="background-image: url(images/pic-bg.jpg)">
+						<div class="dlab-box-bg m-b30 box-hover fly-box" style="background-image: url({{asset('images/pic-bg.jpg')}})">
 								<div class="icon-bx-wraper center p-lr20 p-tb30">
 									<div class="text-primary"> 
 										<span class="icon-cell icon-lg p-b30"><i class="fas fa-tablet-alt"></i></span> 
@@ -224,7 +224,7 @@
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
-							<div class="dlab-box-bg m-b30 box-hover fly-box" style="background-image: url(images/pic-bg.jpg)">
+						<div class="dlab-box-bg m-b30 box-hover fly-box" style="background-image: url({{asset('images/pic-bg.jpg')}})">
 								<div class="icon-bx-wraper center p-lr20 p-tb30">
 									<div class="text-primary"> 
 										<span class="icon-cell icon-lg p-b30"><i class="fas fa-boxes"></i></span> 
@@ -237,7 +237,7 @@
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
-							<div class="dlab-box-bg m-b30 box-hover active fly-box" style="background-image: url(images/pic-bg.jpg)">
+						<div class="dlab-box-bg m-b30 box-hover active fly-box" style="background-image: url({{asset('images/pic-bg.jpg')}})">
 								<div class="icon-bx-wraper center p-lr20 p-tb30">
 									<div class="text-primary"> 
 										<span class="icon-cell icon-lg p-b30"><i class="fas fa-chart-line"></i></span> 
@@ -250,7 +250,7 @@
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
-							<div class="dlab-box-bg m-b30 box-hover fly-box" style="background-image: url(images/pic-bg.jpg)">
+						<div class="dlab-box-bg m-b30 box-hover fly-box" style="background-image: url({{asset('images/pic-bg.jpg')}})">
 								<div class="icon-bx-wraper center p-lr20 p-tb30">
 									<div class="text-primary"> 
 										<span class="icon-cell icon-lg p-b30"><i class="fas fa-check-double"></i></span> 
@@ -299,25 +299,25 @@
     <!-- Footer END-->
 </div>
 <!-- JAVASCRIPT FILES ========================================= -->
-<script src="js/jquery.min.js"></script><!-- JQUERY.MIN JS -->
-<script src="plugins/wow/wow.js"></script><!-- WOW JS -->
-<script src="plugins/bootstrap/js/popper.min.js"></script><!-- BOOTSTRAP.MIN JS -->
-<script src="plugins/bootstrap/js/bootstrap.min.js"></script><!-- BOOTSTRAP.MIN JS -->
-<script src="plugins/bootstrap-select/bootstrap-select.min.js"></script><!-- FORM JS -->
-<script src="plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js"></script><!-- FORM JS -->
-<script src="plugins/magnific-popup/magnific-popup.js"></script><!-- MAGNIFIC POPUP JS -->
-<script src="plugins/counter/waypoints-min.js"></script><!-- WAYPOINTS JS -->
-<script src="plugins/counter/counterup.min.js"></script><!-- COUNTERUP JS -->
-<script src="plugins/imagesloaded/imagesloaded.js"></script><!-- IMAGESLOADED -->
-<script src="plugins/masonry/masonry-3.1.4.js"></script><!-- MASONRY -->
-<script src="plugins/masonry/masonry.filter.js"></script><!-- MASONRY -->
-<script src="plugins/owl-carousel/owl.carousel.js"></script><!-- OWL SLIDER -->
-<script src="js/custom.js"></script><!-- CUSTOM FUCTIONS  -->
-<script src="js/dz.carousel.js"></script><!-- SORTCODE FUCTIONS  -->
-<script src="js/dz.ajax.js"></script><!-- CONTACT JS  -->
-<script src="plugins/chart/Chart.bundle.js"></script>
-<script src="plugins/chart/utils.js"></script>
-<script src="plugins/chart/chart-script.js"></script>
+<script src="{{asset('js/jquery.min.js')}}"></script><!-- JQUERY.MIN JS -->
+<script src="{{asset('plugins/wow/wow.js')}}"></script><!-- WOW JS -->
+<script src="{{asset('plugins/bootstrap/js/popper.min.js')}}"></script><!-- BOOTSTRAP.MIN JS -->
+<script src="{{asset('plugins/bootstrap/js/bootstrap.min.js')}}"></script><!-- BOOTSTRAP.MIN JS -->
+<script src="{{asset('plugins/bootstrap-select/bootstrap-select.min.js')}}"></script><!-- FORM JS -->
+<script src="{{asset('plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js')}}"></script><!-- FORM JS -->
+<script src="{{asset('plugins/magnific-popup/magnific-popup.js')}}"></script><!-- MAGNIFIC POPUP JS -->
+<script src="{{asset('plugins/counter/waypoints-min.js')}}"></script><!-- WAYPOINTS JS -->
+<script src="{{asset('plugins/counter/counterup.min.js')}}"></script><!-- COUNTERUP JS -->
+<script src="{{asset('plugins/imagesloaded/imagesloaded.js')}}"></script><!-- IMAGESLOADED -->
+<script src="{{asset('plugins/masonry/masonry-3.1.4.js')}}"></script><!-- MASONRY -->
+<script src="{{asset('plugins/masonry/masonry.filter.js')}}"></script><!-- MASONRY -->
+<script src="{{asset('plugins/owl-carousel/owl.carousel.js')}}"></script><!-- OWL SLIDER -->
+<script src="{{asset('js/custom.js')}}"></script><!-- CUSTOM FUCTIONS  -->
+<script src="{{asset('js/dz.carousel.js')}}"></script><!-- SORTCODE FUCTIONS  -->
+<script src="{{asset('js/dz.ajax.js')}}"></script><!-- CONTACT JS  -->
+<script src="{{asset('plugins/chart/Chart.bundle.js')}}"></script>
+<script src="{{asset('plugins/chart/utils.js')}}"></script>
+<script src="{{asset('plugins/chart/chart-script.js')}}"></script>
 <script>
 jQuery(document).ready(function() {
 	'use strict';

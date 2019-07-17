@@ -12,20 +12,20 @@
     <meta name="keywords"
         content="agencia web bogota, diseño web bogota, diseño de paginas web Bogota, páginas web corporativas,  diseño de paginas web, diseño paginas web economicas, diseño web optimizado, neuromarketing">
     <meta name="author" content="Agencia Web Bogotá">
-	<meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="telephone=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-	
+
 
     <!-- FAVICONS ICON -->
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+    <link rel="icon" href="{{asset('images/favicon.ico')}}" type="image/x-icon" />
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('images/favicon.png')}}" />
     <link rel="apple-touch-icon" href="images/apple-icon-touch.png">
 
     <!-- STYLESHEETS -->
-    <link rel="stylesheet" type="text/css" href="css/plugins.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/templete.css">
-    <link class="skin" rel="stylesheet" type="text/css" href="css/skin-1.css">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/plugins.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/templete.css')}}">
+    <link class="skin" rel="stylesheet" type="text/css" href="{{asset('css/skin-1.css')}}">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
@@ -71,7 +71,7 @@
                     <div class="container-fluid">
                         <div class="row dzseth">
                             <div class="col-lg-6 col-md-12 p-a0">
-                                <img src="images/muestra-paginas-web.jpg"
+                                <img src="{{asset('images/muestra-paginas-web.jpg')}}"
                                     alt="Diseño de páginas web en varias pantallas" class="img-cover" />
                             </div>
                             <div class="col-lg-6 col-md-12 bg-gray p-lr0 dis-tbl">
@@ -114,124 +114,7 @@
                             <h4>Diseño Web A La Medida De Sus Necesidades</h4>
                             <h6 class="m-b50">Con la mejor oferta costo/beneficio del mercado</h6>
                         </div>
-                        {{-- <div class="row">
-                            <div class="col-lg-4 col-md-4 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.3s">
-                                <div class="icon-bx-wraper bx-style-1 p-a30 center fly-box-ho">
-                                    <img src="images/landing-page-modelo.jpg" alt="Modelo de landing page">
-                                    <div class="icon-content">
-                                        <h4 class="dlab-tilte p-t30">Landing Pages<br><span
-                                                class="text-blue font-16">COP $120.000</span></h4>
-                                        <p>Diseño de una sola página ideal para resaltar sus productos o servicios en
-                                            campañas publicitarias</p>
-                                        <a href="https://api.whatsapp.com/send?phone=573168785601&text=Hola,%20necesito%20una%20landing%20page"
-                                            class="site-button radius-sm">Contratar</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.4s">
-                                <div class="icon-bx-wraper bx-style-1 p-a30 center fly-box-ho">
-                                    <img src="images/pagina-web-sencilla.jpg" alt="Modelo de página web sencilla">
-                                    <div class="icon-content">
-                                        <h4 class="dlab-tilte p-t30">Página Web Sencilla<br><span
-                                                class="text-blue font-16">COP $450.000</span></h4>
-                                        <p>Diseño en HTML, CSS y JavaScript, 4 páginas internas, formulario de contacto,
-                                            diseño adaptable</p>
-                                        <a href="https://api.whatsapp.com/send?phone=573168785601&text=Hola,%20quiero%20una%20página%20web%20sencilla"
-                                            class="site-button radius-sm">Contratar</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-12 m-b30 wow fadeInUp" data-wow-delay="0.5s">
-                                <div class="icon-bx-wraper bx-style-1 p-a30 center fly-box-ho">
-                                    <img src="images/pagina-web-administrable.jpg"
-                                        alt="Modelo de página web administrable">
-                                    <div class="icon-content">
-                                        <h4 class="dlab-tilte p-t30">Página Administrable<br><span
-                                                class="text-blue font-16">COP $680.000</span></h4>
-                                        <p>Diseño en WordPres (CMS) con tema premium licenciado. Ideal para blogs y
-                                            orientado a posicionamiento</p>
-                                        <a href="https://api.whatsapp.com/send?phone=573168785601&text=Hola,%20quiero%20una%20página%20web%20administrable"
-                                            class="site-button radius-sm">Contratar</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-12 m-b30 wow fadeInUp" data-wow-delay="0.6s">
-                                <div class="icon-bx-wraper bx-style-1 p-a30 center fly-box-ho">
-                                    <img src="images/pagina-web-corporativa.jpg" alt="Modelo de página web Corporativa">
-                                    <div class="icon-content">
-                                        <h4 class="dlab-tilte p-t30">Página Corporativa<br><span
-                                                class="text-blue font-16">COP $850.000</span></h4>
-                                        <p>Incluye consola de administración, hosting y dominio, correos corporativos y
-                                            optimización para seo</p>
-                                        <a href="https://api.whatsapp.com/send?phone=573168785601&text=Hola,%20quiero%20una%20página%20web%20corporativa"
-                                            class="site-button radius-sm">Contratar</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-12 m-b30 wow fadeInUp" data-wow-delay="0.7s">
-                                <div class="icon-bx-wraper bx-style-1 p-a30 center fly-box-ho">
-                                    <img src="images/tienda-online-basica.jpg" alt="Modelo tienda online básica">
-                                    <div class="icon-content">
-                                        <h4 class="dlab-tilte p-t30">Tienda Online Básica<br><span
-                                                class="text-blue font-16">COP $1.100.000</span></h4>
-                                        <p>Diseño con WordPress y Woocomerce, hasta 50 artículos, pagos online, carrito
-                                            de compras</p>
-                                        <a href="https://api.whatsapp.com/send?phone=573168785601&text=Hola,%20necesito%20una%20tienda%20online"
-                                            class="site-button radius-sm">Contratar</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-12 m-b30 wow fadeInUp" data-wow-delay="0.8s">
-                                <div class="icon-bx-wraper bx-style-1 p-a30 center fly-box-ho">
-                                    <img src="images/tienda-online-avanzada.jpg" alt="Modelo Tienda Online Avanzada">
-                                    <div class="icon-content">
-                                        <h4 class="dlab-tilte p-t30">Tienda Avanzada<br><span
-                                                class="text-blue font-16">COP $1.550.000</span></h4>
-                                        <p>Wordpress + Woocomerce, consola administrativa, pagos online y sistema de
-                                            envíos e inventarios</p>
-                                        <a href="https://api.whatsapp.com/send?phone=573168785601&text=Hola,%20necesito%20una%20tienda%20online"
-                                            class="site-button radius-sm">Contratar</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-12 m-b30 wow fadeInUp" data-wow-delay="0.9s">
-                                <div class="icon-bx-wraper bx-style-1 p-a30 center fly-box-ho">
-                                    <img src="images/tienda-online-prestashop.jpg" alt="">
-                                    <div class="icon-content">
-                                        <h4 class="dlab-tilte p-t30">Tienda Prestashop<br><span
-                                                class="text-blue font-16">COP $1.550.000</span></h4>
-                                        <p>Productos ilimitados, consola administrable, registro de usuarios, pagos
-                                            online y carrito de compras</p>
-                                        <a href="#" class="site-button radius-sm">Contratar</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-12 m-b30 wow fadeInUp" data-wow-delay="1.0s">
-                                <div class="icon-bx-wraper bx-style-1 p-a30 center fly-box-ho">
-                                    <img src="images/pagina-educacion.jpg" alt="">
-                                    <div class="icon-content">
-                                        <h4 class="dlab-tilte p-t30">Portal Educativo<br><span
-                                                class="text-blue font-16">COTIZAR</span></h4>
-                                        <p>Sitios para instituciones educativas con sistemas inteligentes que superan a
-                                            moodle y otras plataformas</p>
-                                        <a href="#" class="site-button radius-sm">Contratar</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-12 m-b30 wow fadeInUp" data-wow-delay="1.2s">
-                                <div class="icon-bx-wraper bx-style-1 p-a30 center fly-box-ho">
-                                    <img src="images/pagina-web-inteligente.jpg" alt="">
-                                    <div class="icon-content">
-                                        <h4 class="dlab-tilte p-t30">Sitio Web Inteligente<br><span
-                                                class="text-blue font-16">COTIZAR</span></h4>
-                                        <p>Aplicativos especiales, bases de datos, sistemas real-time, alojamiento VPS,
-                                            sistemas programables</p>
-                                        <a href="#" class="site-button radius-sm">Contratar</a>
-                                    </div>
-                                </div>
-                            </div>
-						</div> --}}
-						<cotizacion-component></cotizacion-component>
+                        <cotizacion-component></cotizacion-component>
                     </div>
                 </div>
                 <!-- Why Chose Us -->
@@ -248,24 +131,30 @@
                     <div class="container m-tb30">
                         <div class="client-logo-carousel owl-carousel owl-btn-center-lr owl-btn-3">
                             <div class="item">
-                                <div class="br-col-b1 border-1"><img src="images/logos/wordpress-logo.jpg" alt=""></div>
+                                <div class="br-col-b1 border-1"><img src="{{asset('images/logos/wordpress-logo.jpg')}}"
+                                        alt=""></div>
                             </div>
                             <div class="item">
-                                <div class="br-col-b1 border-1"><img src="images/logos/html+css+js.jpg" alt=""></div>
+                                <div class="br-col-b1 border-1"><img src="{{asset('images/logos/htmlcssjs.jpg')}}"
+                                        alt=""></div>
                             </div>
                             <div class="item">
-                                <div class="br-col-b1 border-1"><img src="images/logos/prestashop-logo.jpg" alt="">
+                                <div class="br-col-b1 border-1"><img src="{{asset('images/logos/prestashop-logo.jpg')}}"
+                                        alt="">
                                 </div>
                             </div>
                             <div class="item">
-                                <div class="br-col-b1 border-1"><img src="images/logos/woocomerce-logo.jpg" alt="">
+                                <div class="br-col-b1 border-1"><img src="{{asset('images/logos/woocomerce-logo.jpg')}}"
+                                        alt="">
                                 </div>
                             </div>
                             <div class="item">
-                                <div class="br-col-b1 border-1"><img src="images/logos/laravel-logo.jpg" alt=""></div>
+                                <div class="br-col-b1 border-1"><img src="{{asset('images/logos/laravel-logo.jpg')}}"
+                                        alt=""></div>
                             </div>
                             <div class="item">
-                                <div class="br-col-b1 border-1"><img src="images/logos/drupal-logo.jpg" alt=""></div>
+                                <div class="br-col-b1 border-1"><img src="{{asset('images/logos/drupal-logo.jpg')}}"
+                                        alt=""></div>
                             </div>
                         </div>
                     </div>
@@ -291,8 +180,13 @@
                                     data-wow-delay="0.2s">
                                     <div class="dlab-box dlab-gallery-box">
                                         <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-                                            <img src="images/portafolio/imagen-vidrios-norte.jpg"
-                                                alt="Ejemplo de página web corporativa mostrada en notebook">
+                                            <picture>
+                                                <source
+                                                    srcset="{{asset('images/portafolio/imagen-vidrios-norte.webp')}}"
+                                                    type="image/webp">
+                                                <img src="{{asset('images/portafolio/imagen-vidrios-norte.jpg')}}"
+                                                    alt="Ejemplo de página web corporativa mostrada en notebook">
+                                            </picture>
                                             <div class="overlay-bx">
                                                 <div class="overlay-icon align-b text-white">
                                                     <div class="text-white text-left port-box">
@@ -310,8 +204,13 @@
                                     data-wow-delay="0.2s">
                                     <div class="dlab-box dlab-gallery-box">
                                         <div class="dlab-media dlab-img-overlay1 dlab-img-effect dlab-img-effect ">
-                                            <img src="images/portafolio/imagen-menusfacil.jpg"
-                                                alt="Ejemplo de sitio web magazine">
+                                            <picture>
+                                                <source srcset="{{asset('images/portafolio/menusfacil.webp')}}"
+                                                    type="image/webp">
+
+                                                <img src="{{asset('images/portafolio/imagen-menusfacil.jpg')}}"
+                                                    alt="Ejemplo de sitio web magazine">
+                                            </picture>
                                             <div class="overlay-bx">
                                                 <div class="overlay-icon align-b text-white">
                                                     <div class="text-white text-left port-box">
@@ -329,8 +228,13 @@
                                     data-wow-delay="0.2s">
                                     <div class="dlab-box dlab-gallery-box">
                                         <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-                                            <img src="images/portafolio/imagen-grupohelm.jpg"
-                                                alt="Ejemplo de sitio web corporativ en un mac">
+                                                <picture>
+                                                    <source
+                                                        srcset="{{asset('images/portafolio/imagen-grupohelm.webp')}}"
+                                                        type="image/webp">
+                                                    <img src="{{asset('images/portafolio/imagen-grupohelm.jpg')}}"
+                                                        alt="Ejemplo de sitio web corporativ en un mac">
+                                                </picture>
                                             <div class="overlay-bx">
                                                 <div class="overlay-icon align-b text-white">
                                                     <div class="text-white text-left port-box">
@@ -348,8 +252,14 @@
                                     data-wow-delay="0.2s">
                                     <div class="dlab-box dlab-gallery-box">
                                         <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-                                            <img src="images/portafolio/imagen-medefiende.jpg"
-                                                alt="Ejemplo de sitio web corporativo en varias pantallas">
+                                                <picture>
+                                                    <source
+                                                        srcset="{{asset('images/portafolio/imagen-medefiende.webp')}}"
+                                                        type="image/webp">
+                                                    
+                                                        <img src="{{asset('images/portafolio/imagen-medefiende.jpg')}}"
+                                                            alt="Ejemplo de sitio web corporativo en varias pantallas">
+                                                </picture>
                                             <div class="overlay-bx">
                                                 <div class="overlay-icon align-b text-white">
                                                     <div class="text-white text-left port-box">
@@ -367,8 +277,12 @@
                                     data-wow-delay="0.2s">
                                     <div class="dlab-box dlab-gallery-box">
                                         <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-                                            <img src="images/portafolio/imagen-funconuf.jpg"
-                                                alt="Ejemplo de Página web ESAL en un notebook">
+                                            <picture>
+                                                <source srcset="{{asset('images/portafolio/funconuf.webp')}}"
+                                                    type="image/webp">
+                                                <img src="{{asset('images/portafolio/funconuf.jpg')}}"
+                                                    alt="Ejemplo de Página web ESAL en un notebook">
+                                            </picture>
                                             <div class="overlay-bx">
                                                 <div class="overlay-icon align-b text-white">
                                                     <div class="text-white text-left port-box">
@@ -386,8 +300,13 @@
                                     data-wow-delay="0.2s">
                                     <div class="dlab-box dlab-gallery-box">
                                         <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-                                            <img src="images/portafolio/imagen-cpc.jpg"
-                                                alt="Ejemplo de diseño web en varias pantallas">
+                                                <picture>
+                                                        <source
+                                                            srcset="{{asset('images/portafolio/imagen-cpc.webp')}}"
+                                                            type="image/webp">
+                                                            <img src="{{asset('images/portafolio/imagen-cpc.jpg')}}"
+                                                                alt="Ejemplo de diseño web en varias pantallas">
+                                                    </picture>
                                             <div class="overlay-bx">
                                                 <div class="overlay-icon align-b text-white">
                                                     <div class="text-white text-left port-box">
@@ -405,8 +324,15 @@
                                     data-wow-delay="0.2s">
                                     <div class="dlab-box dlab-gallery-box">
                                         <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-                                            <img src="images/portafolio/imagen-unifinanciera.jpg"
-                                                alt="Ejemplo de sitio web Unifinanciera">
+
+                                                <picture>
+                                                        <source
+                                                            srcset="{{asset('images/portafolio/unifinanciera.webp')}}"
+                                                            type="image/webp">
+                                                            
+                                                            <img src="{{asset('images/portafolio/unifinanciera.jpg')}}"
+                                                                alt="Ejemplo de sitio web Unifinanciera">
+                                                    </picture>
                                             <div class="overlay-bx">
                                                 <div class="overlay-icon align-b text-white">
                                                     <div class="text-white text-left port-box">
@@ -424,8 +350,15 @@
                                     data-wow-delay="0.2s">
                                     <div class="dlab-box dlab-gallery-box">
                                         <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-                                            <img src="images/portafolio/imagen-wsfast.jpg"
-                                                alt="Ejemplo de landing page en varias pantallas"> </a>
+                                                <picture>
+                                                        <source
+                                                            srcset="{{asset('images/portafolio/imagen-wsfast.webp')}}"
+                                                            type="image/webp">
+                                                            
+                                                            <img src="{{asset('images/portafolio/imagen-wsfast.jpg')}}"
+                                                                alt="Ejemplo de landing page en varias pantallas"> </a>
+                                                            
+                                                    </picture>
                                             <div class="overlay-bx">
                                                 <div class="overlay-icon align-b text-white">
                                                     <div class="text-white text-left port-box">
@@ -443,8 +376,15 @@
                                     data-wow-delay="0.2s">
                                     <div class="dlab-box dlab-gallery-box">
                                         <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-                                            <img src="images/portafolio/imagen-ezry-1.jpg"
-                                                alt="Muestra de sitio web servicios en varios tamaños">
+
+                                                <picture>
+                                                        <source
+                                                            srcset="{{asset('images/portafolio/imagen-ezry-1.webp')}}"
+                                                            type="image/webp">
+                                                            <img src="{{asset('images/portafolio/imagen-ezry-1.jpg')}}"
+                                                                alt="Muestra de sitio web servicios en varios tamaños">
+                                                            
+                                                    </picture>
                                             <div class="overlay-bx">
                                                 <div class="overlay-icon align-b text-white">
                                                     <div class="text-white text-left port-box">
@@ -464,7 +404,7 @@
                 </div>
                 <!-- Our Portfolio END -->
 
-                
+
 
 
                 <!-- Clients Words END -->
@@ -512,8 +452,8 @@
     <script src="js/jquery.min.js"></script><!-- JQUERY.MIN JS -->
     <script src="plugins/wow/wow.js"></script><!-- WOW JS -->
     <script src="plugins/bootstrap/js/popper.min.js"></script><!-- BOOTSTRAP.MIN JS -->
-	<script src="plugins/bootstrap/js/bootstrap.min.js"></script><!-- BOOTSTRAP.MIN JS -->
-	<script src=" {{asset('js/page.js')}} "></script>
+    <script src="plugins/bootstrap/js/bootstrap.min.js"></script><!-- BOOTSTRAP.MIN JS -->
+    <script src=" {{asset('js/page.js')}} "></script>
     <script src="plugins/bootstrap-select/bootstrap-select.min.js"></script><!-- FORM JS -->
     <script src="plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js"></script><!-- FORM JS -->
     <script src="plugins/magnific-popup/magnific-popup.js"></script><!-- MAGNIFIC POPUP JS -->

@@ -13,8 +13,8 @@
 	<meta name="format-detection" content="telephone=no">
 	
 	<!-- FAVICONS ICON -->
-	<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+	<link rel="icon" href="{{asset('images/favicon.ico')}}" type="image/x-icon" />
+	<link rel="shortcut icon" type="image/x-icon" href="{{asset('images/favicon.png')}}" />
 	
 	<!-- PAGE TITLE HERE -->
 	<title>Publicidad en Redes Sociales</title>
@@ -28,10 +28,10 @@
 	<![endif]-->
 	
 	<!-- STYLESHEETS -->
-	<link rel="stylesheet" type="text/css" href="css/plugins.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/templete.css">
-	<link class="skin" rel="stylesheet" type="text/css" href="css/skin-1.css">
+	<link rel="stylesheet" type="text/css" href="{{asset('css/plugins.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{asset('css/templete.css')}}">
+	<link class="skin" rel="stylesheet" type="text/css" href="{{asset('css/skin-1.css')}}">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	
 </head>
@@ -44,7 +44,7 @@
     <!-- Content -->
     <div class="page-content bg-white">
         <!-- inner page banner -->
-        <div class="dlab-bnr-inr overlay-primary" style="background-image:url(images/aplicativos-web.jpg);">
+	<div class="dlab-bnr-inr overlay-primary" style="background-image:url({{asset('images/aplicativos-web.jpg')}});">
             <div class="container">
                 <div class="dlab-bnr-inr-entry texto-ini">
 					<h1 class="text-white">Publicidad en Redes Sociales</h1>
@@ -56,7 +56,7 @@
         <!-- contact area -->
         <div class="content-block">
             <!-- Our Awesome Services -->
-            <div class="section-full bg-white content-inner" style="background-image:url(images/background/bg1.png);">
+		<div class="section-full bg-white content-inner" style="background-image:url({{asset('images/background/bg1.png')}});">
                 <div class="container">
                     <div class="section-content">
                         <div class="row">
@@ -90,12 +90,12 @@
 							</div>
 							<div class="col-6 col-lg-3 col-md-6 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.2s">
 								<div class="dlab-media dlab-img-overlay6 gradient radius-sm"> 
-									<img src="images/about/pic1.jpg" alt=""> 
+									<img src="{{asset('images/about/pic1.jpg')}}" alt=""> 
 								</div>
 							</div>
 							<div class="col-6 col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
 								<div class="dlab-media dlab-img-overlay6 gradient radius-sm"> 
-									<img src="images/about/pic2.jpg" alt=""> 
+									<img src="{{asset('images/about/pic2.jpg')}}" alt=""> 
 								</div>
 							</div>
 						</div>
@@ -108,7 +108,7 @@
                 <div class="container-fluid">
                     <div class="row dzseth">
 						<div class="col-lg-6 col-md-12 col-xs-12 p-a0"> 
-							<img src="images/about/pic3.jpg" alt="" class="img-cover"/> 
+							<img src="{{asset('images/about/pic3.jpg')}}" alt="" class="img-cover"/> 
 						</div>
 						<div class="col-lg-6 col-md-12 col-xs-12 bg-black-light p-lr0 dis-tbl">
 							<div class="p-a30 dis-tbl-cell wow fadeInRight" data-wow-delay="0.2s">
@@ -134,7 +134,7 @@
             </div>
             <!-- About Us End -->
 			<!-- About Agency -->
-			<div class="section-full content-inner" style="background-image:url(images/pattern/pic1.jpg);">
+		<div class="section-full content-inner" style="background-image:url({{asset('images/pattern/pic1.jpg')}});">
 				<div class="container">
 					<div class="section-head text-black text-center">
 						<h2 class="text-uppercase m-b10">CASOS DE EXITO</h2>
@@ -196,25 +196,25 @@
     <!-- Footer END-->
 </div>
 <!-- JAVASCRIPT FILES ========================================= -->
-<script src="js/jquery.min.js"></script><!-- JQUERY.MIN JS -->
-<script src="plugins/wow/wow.js"></script><!-- WOW JS -->
-<script src="plugins/bootstrap/js/popper.min.js"></script><!-- BOOTSTRAP.MIN JS -->
-<script src="plugins/bootstrap/js/bootstrap.min.js"></script><!-- BOOTSTRAP.MIN JS -->
-<script src="plugins/bootstrap-select/bootstrap-select.min.js"></script><!-- FORM JS -->
-<script src="plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js"></script><!-- FORM JS -->
-<script src="plugins/magnific-popup/magnific-popup.js"></script><!-- MAGNIFIC POPUP JS -->
-<script src="plugins/counter/waypoints-min.js"></script><!-- WAYPOINTS JS -->
-<script src="plugins/counter/counterup.min.js"></script><!-- COUNTERUP JS -->
-<script src="plugins/imagesloaded/imagesloaded.js"></script><!-- IMAGESLOADED -->
-<script src="plugins/masonry/masonry-3.1.4.js"></script><!-- MASONRY -->
-<script src="plugins/masonry/masonry.filter.js"></script><!-- MASONRY -->
-<script src="plugins/owl-carousel/owl.carousel.js"></script><!-- OWL SLIDER -->
-<script src="plugins/rangeslider/rangeslider.js" ></script><!-- Rangeslider -->
-<script src="js/custom.js"></script><!-- CUSTOM FUCTIONS  -->
-<script src="js/dz.carousel.js"></script><!-- SORTCODE FUCTIONS  -->
-<script src="plugins/loading/anime.js"></script><!-- LOADING JS -->
-<script src="plugins/loading/anime-app3.js"></script><!-- LOADING JS -->
-<script src="js/dz.ajax.js"></script><!-- CONTACT JS  -->
+<script src="{{asset('js/jquery.min.js')}}"></script><!-- JQUERY.MIN JS -->
+<script src="{{asset('plugins/wow/wow.js')}}"></script><!-- WOW JS -->
+<script src="{{asset('plugins/bootstrap/js/popper.min.js')}}"></script><!-- BOOTSTRAP.MIN JS -->
+<script src="{{asset('plugins/bootstrap/js/bootstrap.min.js')}}"></script><!-- BOOTSTRAP.MIN JS -->
+<script src="{{asset('plugins/bootstrap-select/bootstrap-select.min.js')}}"></script><!-- FORM JS -->
+<script src="{{asset('plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js')}}"></script><!-- FORM JS -->
+<script src="{{asset('plugins/magnific-popup/magnific-popup.js')}}"></script><!-- MAGNIFIC POPUP JS -->
+<script src="{{asset('plugins/counter/waypoints-min.js')}}"></script><!-- WAYPOINTS JS -->
+<script src="{{asset('plugins/counter/counterup.min.js')}}"></script><!-- COUNTERUP JS -->
+<script src="{{asset('plugins/imagesloaded/imagesloaded.js')}}"></script><!-- IMAGESLOADED -->
+<script src="{{asset('plugins/masonry/masonry-3.1.4.js')}}"></script><!-- MASONRY -->
+<script src="{{asset('plugins/masonry/masonry.filter.js')}}"></script><!-- MASONRY -->
+<script src="{{asset('plugins/owl-carousel/owl.carousel.js')}}"></script><!-- OWL SLIDER -->
+<script src="{{asset('plugins/rangeslider/rangeslider.js')}}" ></script><!-- Rangeslider -->
+<script src="{{asset('js/custom.js')}}"></script><!-- CUSTOM FUCTIONS  -->
+<script src="{{asset('js/dz.carousel.js')}}"></script><!-- SORTCODE FUCTIONS  -->
+<script src="{{asset('plugins/loading/anime.js')}}"></script><!-- LOADING JS -->
+<script src="{{asset('plugins/loading/anime-app3.js')}}"></script><!-- LOADING JS -->
+<script src="{{asset('js/dz.ajax.js')}}"></script><!-- CONTACT JS  -->
 
  
 
