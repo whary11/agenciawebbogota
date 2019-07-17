@@ -1,4 +1,5 @@
 <?php
+use App\Contacto;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,6 +23,21 @@ Route::get('/posicionamiento-web', 'IndexController@posicionamientoWeb');
 Route::get('/marketing-automatizado', 'IndexController@marketingAutomatizado');
 Route::get('/blog', 'IndexController@blog');
 Route::get('/contacto', 'IndexController@contacto');
+
+
+// Url para el formulario de contacto
+
+Route::post('formcontacto/crear', 'ContactoController@create');
+
+
+
+Route::get('mailable', function () {
+
+    $contacto = Contacto::first();
+    return new App\Mail\Contactos($contacto);
+});
+
+// Url para los tickets
 
 Route::get('/ticket', 'IndexController@ticket');
 Route::get('/ticket/consultar', 'TicketController@getTicket');

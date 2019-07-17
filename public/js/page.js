@@ -2221,6 +2221,98 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/page/FormularioContacto.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/page/FormularioContacto.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      contacto: {},
+      mensaje: ''
+    };
+  },
+  methods: {
+    send: function send() {
+      var _this = this;
+
+      axios.post('formcontacto/crear', this.contacto).then(function (resp) {
+        if (resp.data.status) {
+          _this.contacto = {};
+          _this.mensaje = "<div class=\"alert alert-success\" role=\"alert\">Ya tenemos su mensaje, pronto nos comunicaremos con usted.</div>";
+        } else {
+          _this.mensaje = "<div class=\"alert alert-danger\" role=\"alert\">Se ha presentado un falla inesperada, recarga el navegador e intentalo nuevamente.</div>";
+        }
+
+        console.log(resp.data);
+      })["catch"](function (error) {
+        _this.mensaje = "<div class=\"alert alert-danger\" role=\"alert\">Se ha presentado un falla inesperada, recarga el navegador e intentalo nuevamente.</div>";
+      });
+    }
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/bootstrap/dist/js/bootstrap.js":
 /*!*****************************************************!*\
   !*** ./node_modules/bootstrap/dist/js/bootstrap.js ***!
@@ -56687,6 +56779,275 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/page/FormularioContacto.vue?vue&type=template&id=7b5879f4&":
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/page/FormularioContacto.vue?vue&type=template&id=7b5879f4& ***!
+  \**************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "form",
+    {
+      staticClass: "inquiry-form wow fadeInUp dzForm",
+      attrs: { "data-wow-delay": "0.2s" },
+      on: {
+        submit: function($event) {
+          $event.preventDefault()
+          return _vm.send()
+        }
+      }
+    },
+    [
+      _c("div", { domProps: { innerHTML: _vm._s(_vm.mensaje) } }),
+      _vm._v(" "),
+      _c("h3", { staticClass: "box-title m-t0 m-b10" }, [
+        _vm._v("Contacte con Agencia Web Bogotá")
+      ]),
+      _vm._v(" "),
+      _c("p", [
+        _vm._v("Atenderemos su solicitud tan pronto como nos sea posible.")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-lg-6" }, [
+          _c("div", { staticClass: "form-group" }, [
+            _c("div", { staticClass: "input-group" }, [
+              _vm._m(0),
+              _vm._v(" "),
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.contacto.nombre,
+                    expression: "contacto.nombre"
+                  }
+                ],
+                staticClass: "form-control",
+                attrs: {
+                  name: "dzName",
+                  type: "text",
+                  required: "",
+                  placeholder: "Nombre"
+                },
+                domProps: { value: _vm.contacto.nombre },
+                on: {
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.$set(_vm.contacto, "nombre", $event.target.value)
+                  }
+                }
+              })
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-lg-6" }, [
+          _c("div", { staticClass: "form-group" }, [
+            _c("div", { staticClass: "input-group" }, [
+              _vm._m(1),
+              _vm._v(" "),
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.contacto.telefono,
+                    expression: "contacto.telefono"
+                  }
+                ],
+                staticClass: "form-control",
+                attrs: {
+                  name: "dzOther[Phone]",
+                  type: "text",
+                  required: "",
+                  placeholder: "Teléfono"
+                },
+                domProps: { value: _vm.contacto.telefono },
+                on: {
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.$set(_vm.contacto, "telefono", $event.target.value)
+                  }
+                }
+              })
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-lg-12" }, [
+          _c("div", { staticClass: "form-group" }, [
+            _c("div", { staticClass: "input-group" }, [
+              _vm._m(2),
+              _vm._v(" "),
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.contacto.email,
+                    expression: "contacto.email"
+                  }
+                ],
+                staticClass: "form-control",
+                attrs: {
+                  name: "dzEmail",
+                  type: "email",
+                  required: "",
+                  placeholder: "Correo Electrónico"
+                },
+                domProps: { value: _vm.contacto.email },
+                on: {
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.$set(_vm.contacto, "email", $event.target.value)
+                  }
+                }
+              })
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-lg-12" }, [
+          _c("div", { staticClass: "form-group" }, [
+            _c("div", { staticClass: "input-group" }, [
+              _vm._m(3),
+              _vm._v(" "),
+              _c("textarea", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.contacto.mensaje,
+                    expression: "contacto.mensaje"
+                  }
+                ],
+                staticClass: "form-control",
+                attrs: {
+                  name: "dzMessage",
+                  rows: "4",
+                  required: "",
+                  placeholder: "Háblenos acerca de su proyecto..."
+                },
+                domProps: { value: _vm.contacto.mensaje },
+                on: {
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.$set(_vm.contacto, "mensaje", $event.target.value)
+                  }
+                }
+              })
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _vm._m(4)
+      ]),
+      _vm._v(" "),
+      _vm._m(5)
+    ]
+  )
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("span", { staticClass: "input-group-addon" }, [
+      _c("i", { staticClass: "ti-user text-primary" })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("span", { staticClass: "input-group-addon" }, [
+      _c("i", { staticClass: "ti-mobile text-primary" })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("span", { staticClass: "input-group-addon" }, [
+      _c("i", { staticClass: "ti-email text-primary" })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("span", { staticClass: "input-group-addon" }, [
+      _c("i", { staticClass: "ti-agenda text-primary" })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "button",
+      {
+        staticClass: "site-button button-lg",
+        attrs: { name: "submit", type: "submit", value: "Submit" }
+      },
+      [_c("span", [_vm._v("¡LISTO!\n                ENVIAR")])]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "text-center p-t80" }, [
+      _c(
+        "a",
+        {
+          staticClass: "site-button btn-whatsapp",
+          attrs: { href: "https://api.whatsapp.com/send?phone=573168785601" }
+        },
+        [
+          _c("i", { staticClass: "fab fa-whatsapp" }),
+          _vm._v(" ¡Pregúntenos por WhatsApp!")
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "a",
+        {
+          staticClass: "site-button btn-messenger",
+          attrs: { href: "https://m.me/agenciawebbogota" }
+        },
+        [
+          _c("i", { staticClass: "fab fa-facebook-messenger" }),
+          _vm._v(" ¡Háblenos por Messenger!")
+        ]
+      )
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js":
 /*!********************************************************************!*\
   !*** ./node_modules/vue-loader/lib/runtime/componentNormalizer.js ***!
@@ -73857,6 +74218,75 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/page/FormularioContacto.vue":
+/*!*************************************************************!*\
+  !*** ./resources/js/components/page/FormularioContacto.vue ***!
+  \*************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _FormularioContacto_vue_vue_type_template_id_7b5879f4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormularioContacto.vue?vue&type=template&id=7b5879f4& */ "./resources/js/components/page/FormularioContacto.vue?vue&type=template&id=7b5879f4&");
+/* harmony import */ var _FormularioContacto_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormularioContacto.vue?vue&type=script&lang=js& */ "./resources/js/components/page/FormularioContacto.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _FormularioContacto_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FormularioContacto_vue_vue_type_template_id_7b5879f4___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FormularioContacto_vue_vue_type_template_id_7b5879f4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/page/FormularioContacto.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/page/FormularioContacto.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************!*\
+  !*** ./resources/js/components/page/FormularioContacto.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormularioContacto_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./FormularioContacto.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/page/FormularioContacto.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormularioContacto_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/page/FormularioContacto.vue?vue&type=template&id=7b5879f4&":
+/*!********************************************************************************************!*\
+  !*** ./resources/js/components/page/FormularioContacto.vue?vue&type=template&id=7b5879f4& ***!
+  \********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormularioContacto_vue_vue_type_template_id_7b5879f4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./FormularioContacto.vue?vue&type=template&id=7b5879f4& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/page/FormularioContacto.vue?vue&type=template&id=7b5879f4&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormularioContacto_vue_vue_type_template_id_7b5879f4___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormularioContacto_vue_vue_type_template_id_7b5879f4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/js/page.js":
 /*!******************************!*\
   !*** ./resources/js/page.js ***!
@@ -73899,6 +74329,7 @@ Vue.use(vue_moment__WEBPACK_IMPORTED_MODULE_0___default.a, {
 Vue.component('cotizacion-component', __webpack_require__(/*! ./components/page/Cotizacion */ "./resources/js/components/page/Cotizacion.vue")["default"]);
 Vue.component('crear-ticket', __webpack_require__(/*! ./components/page/CrearTicket */ "./resources/js/components/page/CrearTicket.vue")["default"]);
 Vue.component('consultar-ticket', __webpack_require__(/*! ./components/page/ConsultarTicket */ "./resources/js/components/page/ConsultarTicket.vue")["default"]);
+Vue.component('formulario-contacto', __webpack_require__(/*! ./components/page/FormularioContacto */ "./resources/js/components/page/FormularioContacto.vue")["default"]);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

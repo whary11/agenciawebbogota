@@ -62,10 +62,6 @@ class TicketController extends Controller
     }
 
 
-    // public function updateTicket(Request $request){
-
-    // }
-
     public function createConversacion(Request $request){
         $succes='';
           DB::beginTransaction();

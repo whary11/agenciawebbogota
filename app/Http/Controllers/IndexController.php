@@ -44,16 +44,13 @@ class IndexController extends Controller
     }
 
     public function blog(){
-
         return [
             'blog' => 'Página principal'
         ];
     }
 
     public function contacto(){
-        return [
-            'page' => 'Página de contacto'
-        ];
+        return view('pagina.contacto');
     }
     public function ticket(){
         return view('ticket.ver');
