@@ -39,7 +39,7 @@
                     <section v-for="(item, index) in ticket.conversaciones" :key="index">
                         <div class="media mt-4" v-if="item.rol == 'ADMIN'">
                             <!-- <div class="card"> -->
-                            <img class="mr-3" src="/images/favicon.png" alt="Logo Agencia Web Bogotá">
+                            <img class="mr-3" :src="url('/images/favicon.png')" alt="Logo Agencia Web Bogotá">
                             <div class="media-body card shadow-sm" style="background-color:#007bff !important;">
                                 <div class="card-body text-white ">
                                     <h5 class="mt-0 mb-1">Agencia Web Bogotá</h5>
@@ -88,6 +88,8 @@
             }
         },
         mounted() {
+
+            this.url()
 
         },
         methods: {
@@ -149,6 +151,14 @@
                     })
                     .catch((error) => {})
 
+            },
+            url(url){
+                if (url) {
+                    return `${location.hostname}/${url}`
+                } else{
+                   return location.hostname 
+                }
+                 
             }
         }
     }

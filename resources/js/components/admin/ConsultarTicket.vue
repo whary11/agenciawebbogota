@@ -85,8 +85,7 @@
             this.num_ticket = window.location.pathname.split('/')[2]
             this.getTicket()
 
-            console.log(this.numm_ticket);
-
+            this.url()
         },
         methods: {
             getTicket() {
@@ -138,12 +137,15 @@
                     .then((resp) => {
                         if (resp.data.status == 'success') {
                             this.ticket.estado = "CERRADO"
-                            // alert('Se cerró el Ticket..')
-                            // console.log(resp.data);
+                            
                         }
                     })
                     .catch((error) => {})
 
+            },
+            url(){
+                console.log(localhost.hostname);
+                 
             }
         }
     }

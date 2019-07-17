@@ -1926,7 +1926,9 @@ __webpack_require__.r(__webpack_exports__);
       ticket: false
     };
   },
-  mounted: function mounted() {},
+  mounted: function mounted() {
+    this.url();
+  },
   methods: {
     getTicket: function getTicket() {
       var _this = this;
@@ -1980,6 +1982,13 @@ __webpack_require__.r(__webpack_exports__);
 
         console.log(resp.data);
       })["catch"](function (error) {});
+    },
+    url: function url(_url) {
+      if (_url) {
+        return "".concat(location.hostname, "/").concat(_url);
+      } else {
+        return location.hostname;
+      }
     }
   }
 });
@@ -2114,6 +2123,15 @@ __webpack_require__.r(__webpack_exports__);
   mounted: function mounted() {
     // $('#exampleModal').modal('show')
     console.log('Cotizador montado');
+  },
+  methods: {
+    url: function url(_url) {
+      if (_url) {
+        return "".concat(location.hostname, "/").concat(_url);
+      } else {
+        return location.hostname;
+      }
+    }
   }
 });
 
@@ -56109,7 +56127,7 @@ var render = function() {
                         _c("img", {
                           staticClass: "mr-3",
                           attrs: {
-                            src: "/images/favicon.png",
+                            src: _vm.url("/images/favicon.png"),
                             alt: "Logo Agencia Web Bogotá"
                           }
                         }),

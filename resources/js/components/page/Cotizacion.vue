@@ -128,6 +128,16 @@
         mounted() {
             // $('#exampleModal').modal('show')
             console.log('Cotizador montado')
+        },
+        methods:{
+            url(url){
+                if (url) {
+                    return `${location.hostname}/${url}`
+                } else{
+                   return location.hostname 
+                }
+                 
+            }
         }
     }
 </script>

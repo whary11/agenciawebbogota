@@ -2018,7 +2018,7 @@ __webpack_require__.r(__webpack_exports__);
   mounted: function mounted() {
     this.num_ticket = window.location.pathname.split('/')[2];
     this.getTicket();
-    console.log(this.numm_ticket);
+    this.url();
   },
   methods: {
     getTicket: function getTicket() {
@@ -2067,10 +2067,12 @@ __webpack_require__.r(__webpack_exports__);
         num_ticket: this.numm_ticket
       }).then(function (resp) {
         if (resp.data.status == 'success') {
-          _this3.ticket.estado = "CERRADO"; // alert('Se cerró el Ticket..')
-          // console.log(resp.data);
+          _this3.ticket.estado = "CERRADO";
         }
       })["catch"](function (error) {});
+    },
+    url: function url() {
+      console.log(localhost.hostname);
     }
   }
 });

@@ -6,7 +6,7 @@
                     <div class="widget widget_services border-0">
                         <ul>
                             <a href="https://agenciawebbogota.com" class="dez-page">
-                                <img src="/images/logo-agencia-web-bogota.svg" alt="Logo Agencia Web Bogotá" width="300">
+                                <img src=" {{asset('/images/logo-agencia-web-bogota.svg')}}" alt="Logo Agencia Web Bogotá" width="300">
                             </a>                            <ul>
                             <li><a href="sobre-la-agencia">Sobre la Agencia </a></li>
                             <li><a href="portafolio">Portafolio </a></li>
@@ -32,8 +32,8 @@
                         <p class="m-b20 text-none">Puede enviar un pago por cualquier servicio contratado con Agencia Web Bogotá, usando los medios de pago disponibles</p>
                         <div class="m-b20">
                             <picture>
-                                <source srcset="/images/medios-de-pago.webp"  type="image/webp">
-                                <img src="/images/medios-de-pago.png" alt="Logos de medios de pago">
+                                <source srcset="{{asset('/images/medios-de-pago.webp')}}"  type="image/webp">
+                                <img src="{{asset('/images/medios-de-pago.png')}}" alt="Logos de medios de pago">
                             </picture>
                         </div>							
                     </div>
