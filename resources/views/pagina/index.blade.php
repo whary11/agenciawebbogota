@@ -44,9 +44,9 @@
     <link rel="shortcut icon" type="image/x-icon" href=" {{asset('images/favicon.png')}}" />
     <link rel="apple-touch-icon" href="{{asset('images/apple-icon-touch.png')}}">
     <!-- STYLESHEETS -->
-    <link rel="stylesheet" type="text/css" href=" {{asset('css/plugins.css')}}">
-    <link rel="stylesheet" type="text/css" href=" {{ asset('css/style.css') }}">
-    <link rel="stylesheet" type="text/css" href=" {{ asset('css/templete.css') }} ">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/plugins.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/templete.css')}}">
 <link class="skin" rel="stylesheet" type="text/css" href="{{asset('css/skin-1.css')}}">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
