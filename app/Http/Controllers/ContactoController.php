@@ -23,7 +23,7 @@ class ContactoController extends Controller
                  'mensaje' => $request->mensaje,
                  'canal' => 'Página web principal'
              ]);
-             Mail::to('whary11@gmail.com')->send(new Contactos($contacto));
+             Mail::to(['email' => 'whary11@gmail.com'])->send(new Contactos($contacto));
               $succes = true;
               DB::commit();
           } catch (\Throwable $th) {

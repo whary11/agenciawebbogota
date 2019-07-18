@@ -31,6 +31,6 @@ class Contactos extends Mailable
     public function build()
     {
         
-        return $this->from(env('MAIL_USERNAME'))->markdown('emails.contacto');;
+        return $this->from('soporte@agenciawebbogota.com')->markdown('emails.contacto');;
     }
 }
