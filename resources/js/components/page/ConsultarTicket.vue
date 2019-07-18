@@ -150,7 +150,6 @@
                         
                     })
                     .catch((error) => {})
-
             },
             url(url){
                 if (url) {

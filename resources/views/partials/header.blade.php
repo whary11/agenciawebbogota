@@ -60,28 +60,28 @@
                                     class="fas fa-home font-20"></i></a></li>
                         <li><a>Desarrollo Web<i class="fas fa-chevron-down"></i></a>
                             <ul class="sub-menu">
-                                <li><a href="paginas-web">Páginas Web </a>
+                                <li><a href="{{url('paginas-web')}}">Páginas Web </a>
                                 <li>
-                                <li><a href="landing-page">Landing Pages </a></li>
-                                <li><a href="tiendas-online">Tiendas Online </a></li>
-                                <li><a href="programacion-web">Programación Web</a></li>
-                                <li><a href="google-apps">Google Apps</a></li>
+                                <li><a href="{{url('landing-page')}}">Landing Pages </a></li>
+                                <li><a href="{{url('tiendas-online')}}">Tiendas Online </a></li>
+                                <li><a href="{{url('programacion-web')}}">Programación Web</a></li>
+                                <li><a href="{{url('google-apps')}}">Google Apps</a></li>
                             </ul>
                         <li><a>Marketing Digital <i class="fas fa-chevron-down"></i></a>
                             <ul class="sub-menu">
-                                <li><a href="redes-sociales">Redes Sociales </a>
+                                <li><a href="{{url('redes-sociales')}}">Redes Sociales </a>
                                 <li>
-                                <li><a href="posicionamiento-web">Posicionamiento Web </a>
+                                <li><a href="{{url('posicionamiento-web')}}">Posicionamiento Web </a>
                                 <li>
-                                <li><a href="marketing-automatizado">Community Manager </a></li>
+                                <li><a href="{{url('marketing-automatizado')}}">Community Manager </a></li>
                             </ul>
                         </li>
                         <li><a href="blog">Blog </a></li>
                         <li><a href="#">Soporte Técnico <i class="fas fa-chevron-down"></i></a>
                             <ul class="sub-menu">
-                                <li><a href="redes-sociales">Canales de Ayuda </a>
+                                <li><a href="{{url('redes-sociales')}}">Canales de Ayuda </a>
                                 <li>
-                                <li><a href="posicionamiento-web">Manuales de Usuario </a>
+                                <li><a href="{{url('posicionamiento-web')}}">Manuales de Usuario </a>
                                 <li>
 
                                 <li><a href="#">Ticket<i class="fa fa-angle-right"></i></a>

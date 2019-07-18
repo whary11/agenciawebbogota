@@ -8,10 +8,10 @@
                             <a href="https://agenciawebbogota.com" class="dez-page">
                                 <img src=" {{asset('/images/logo-agencia-web-bogota.svg')}}" alt="Logo Agencia Web Bogotá" width="300">
                             </a>                            <ul>
-                            <li><a href="sobre-la-agencia">Sobre la Agencia </a></li>
-                            <li><a href="portafolio">Portafolio </a></li>
-                            <li><a href="proyectos">Proyectos </a></li>
-                            <li><a href="cursos">Cursos </a></li>                                
+                            <li><a href="#">Sobre la Agencia </a></li>
+                            <li><a href="#">Portafolio </a></li>
+                            <li><a href="#">Proyectos </a></li>
+                            <li><a href="#">Cursos </a></li>                                
                         </ul>
                     </div>
                 </div>					
@@ -52,7 +52,7 @@
                     <div class="widget-link"> 
                         <ul>								
                             <li class="font-12">
-                                <a href="politicas-de-privacidad">Políticas de Privacidad y Protección de Datos</a>
+                                <a href="#">Políticas de Privacidad y Protección de Datos</a>
                             </li> 
                         </ul>
                     </div>
@@ -61,5 +61,4 @@
         </div>
     </div>
 </footer>
-
 <button class="scroltop fas fa-chevron-up"></button>
