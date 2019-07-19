@@ -118,290 +118,189 @@
                     </div>
                 </div>
                 <!-- Why Chose Us -->
-                <div class="section-full content-inner-1 overlay-primary about-service bg-img-fix"
-                    style="background-image:url(images/parallax-layers-9.jpg);">
-                    <div class="container">
-                        <div class="section-head text-white text-center">
-                            <h2 class="box-title m-tb0 max-w800 m-auto">Sitios Web Multiplataforma</h2>
-                            <p>No desarrollamos todos los sitios web con la misma técnica, siempre ofrecemos innovación,
-                                creatividad y un diseño único para cada cliente</p>
-                            <h3>Desarrollamos con:</h3>
-                        </div>
-                    </div>
-                    <div class="container m-tb30">
-                        <div class="client-logo-carousel owl-carousel owl-btn-center-lr owl-btn-3">
-                            <div class="item">
-                                <div class="br-col-b1 border-1"><img src="{{asset('images/logos/wordpress-logo.jpg')}}"
-                                        alt=""></div>
-                            </div>
-                            <div class="item">
-                                <div class="br-col-b1 border-1"><img src="{{asset('images/logos/htmlcssjs.jpg')}}"
-                                        alt=""></div>
-                            </div>
-                            <div class="item">
-                                <div class="br-col-b1 border-1"><img src="{{asset('images/logos/prestashop-logo.jpg')}}"
-                                        alt="">
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="br-col-b1 border-1"><img src="{{asset('images/logos/woocomerce-logo.jpg')}}"
-                                        alt="">
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="br-col-b1 border-1"><img src="{{asset('images/logos/laravel-logo.jpg')}}"
-                                        alt=""></div>
-                            </div>
-                            <div class="item">
-                                <div class="br-col-b1 border-1"><img src="{{asset('images/logos/drupal-logo.jpg')}}"
-                                        alt=""></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <div class="section-head text-white text-center">
-                            <h2 class="box-title p-b30 max-w800 m-auto font-weight-500 font-18">Todos nuestros sitios
-                                incluyen hosting y dominio durante el primer año</h2>
-                        </div>
-                    </div>
-                </div>
-                <!-- Why Chose Us End -->
-                <!-- Our Portfolio -->
-                <div class="section-full content-inner-2 portfolio" id="portfolio">
-                    <div class="container">
-                        <div class="section-head text-center">
-                            <h2 class="box-title m-tb0">Ultimos Trabajos Realizados<span class="bg-primary"></span></h2>
-                            <p> Nuestros clientes </p>
-                        </div>
-                        <div class="clearfix">
-                            <ul id="masonry"
-                                class="dlab-gallery-listing gallery-grid-4 gallery mfp-gallery port-style1">
-                                <li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
-                                    data-wow-delay="0.2s">
-                                    <div class="dlab-box dlab-gallery-box">
-                                        <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-                                            <picture>
-                                                <source
-                                                    srcset="{{asset('images/portafolio/imagen-vidrios-norte.webp')}}"
-                                                    type="image/webp">
-                                                <img src="{{asset('images/portafolio/imagen-vidrios-norte.jpg')}}"
-                                                    alt="Ejemplo de página web corporativa mostrada en notebook">
-                                            </picture>
-                                            <div class="overlay-bx">
-                                                <div class="overlay-icon align-b text-white">
-                                                    <div class="text-white text-left port-box">
-                                                        <a href="http://vidriosnorte.com.co/" target="_blank">
-                                                            <h5>Vidrios Norte</h5>
-                                                        </a>
-                                                        <p>Sitio Web Corporativo</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
-                                    data-wow-delay="0.2s">
-                                    <div class="dlab-box dlab-gallery-box">
-                                        <div class="dlab-media dlab-img-overlay1 dlab-img-effect dlab-img-effect ">
-                                            <picture>
-                                                <source srcset="{{asset('images/portafolio/menusfacil.webp')}}"
-                                                    type="image/webp">
-
-                                                <img src="{{asset('images/portafolio/imagen-menusfacil.jpg')}}"
-                                                    alt="Ejemplo de sitio web magazine">
-                                            </picture>
-                                            <div class="overlay-bx">
-                                                <div class="overlay-icon align-b text-white">
-                                                    <div class="text-white text-left port-box">
-                                                        <a href="http://diocesisdeyopal.org/" target="_blank">
-                                                            <h5>Diócesis de Yopal</h5>
-                                                        </a>
-                                                        <p>Sitio Web Tipo Magazine</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
-                                    data-wow-delay="0.2s">
-                                    <div class="dlab-box dlab-gallery-box">
-                                        <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-                                                <picture>
-                                                    <source
-                                                        srcset="{{asset('images/portafolio/imagen-grupohelm.webp')}}"
-                                                        type="image/webp">
-                                                    <img src="{{asset('images/portafolio/imagen-grupohelm.jpg')}}"
-                                                        alt="Ejemplo de sitio web corporativ en un mac">
-                                                </picture>
-                                            <div class="overlay-bx">
-                                                <div class="overlay-icon align-b text-white">
-                                                    <div class="text-white text-left port-box">
-                                                        <a href="https://grupohelmcontadores.com" target="_blank">
-                                                            <h5>Grupo Helm</h5>
-                                                        </a>
-                                                        <p>Página Web Corporativa</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
-                                    data-wow-delay="0.2s">
-                                    <div class="dlab-box dlab-gallery-box">
-                                        <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-                                                <picture>
-                                                    <source
-                                                        srcset="{{asset('images/portafolio/imagen-medefiende.webp')}}"
-                                                        type="image/webp">
-                                                    
-                                                        <img src="{{asset('images/portafolio/imagen-medefiende.jpg')}}"
-                                                            alt="Ejemplo de sitio web corporativo en varias pantallas">
-                                                </picture>
-                                            <div class="overlay-bx">
-                                                <div class="overlay-icon align-b text-white">
-                                                    <div class="text-white text-left port-box">
-                                                        <a href="https://medefiende.com" target="_blank">
-                                                            <h5>Medefiende</h5>
-                                                        </a>
-                                                        <p>Sitio Web Corporativo</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
-                                    data-wow-delay="0.2s">
-                                    <div class="dlab-box dlab-gallery-box">
-                                        <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-                                            <picture>
-                                                <source srcset="{{asset('images/portafolio/funconuf.webp')}}"
-                                                    type="image/webp">
-                                                <img src="{{asset('images/portafolio/funconuf.jpg')}}"
-                                                    alt="Ejemplo de Página web ESAL en un notebook">
-                                            </picture>
-                                            <div class="overlay-bx">
-                                                <div class="overlay-icon align-b text-white">
-                                                    <div class="text-white text-left port-box">
-                                                        <a href="https://funconuf.org/" target="_blank">
-                                                            <h5>Funconuf</h5>
-                                                        </a>
-                                                        <p>Página Web ESAL</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
-                                    data-wow-delay="0.2s">
-                                    <div class="dlab-box dlab-gallery-box">
-                                        <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-                                                <picture>
-                                                        <source
-                                                            srcset="{{asset('images/portafolio/imagen-cpc.webp')}}"
-                                                            type="image/webp">
-                                                            <img src="{{asset('images/portafolio/imagen-cpc.jpg')}}"
-                                                                alt="Ejemplo de diseño web en varias pantallas">
-                                                    </picture>
-                                            <div class="overlay-bx">
-                                                <div class="overlay-icon align-b text-white">
-                                                    <div class="text-white text-left port-box">
-                                                        <a href="https://consultoriaprofesionalc.com/" target="_blank">
-                                                            <h5>CPC&CO SAS</h5>
-                                                        </a>
-                                                        <p>Sitio Web Corporativo</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
-                                    data-wow-delay="0.2s">
-                                    <div class="dlab-box dlab-gallery-box">
-                                        <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-
-                                                <picture>
-                                                        <source
-                                                            srcset="{{asset('images/portafolio/unifinanciera.webp')}}"
-                                                            type="image/webp">
-                                                            
-                                                            <img src="{{asset('images/portafolio/unifinanciera.jpg')}}"
-                                                                alt="Ejemplo de sitio web Unifinanciera">
-                                                    </picture>
-                                            <div class="overlay-bx">
-                                                <div class="overlay-icon align-b text-white">
-                                                    <div class="text-white text-left port-box">
-                                                        <a href="https://unifinanciera.com/" target="_blank">
-                                                            <h5>Unifinanciera SA</h5>
-                                                        </a>
-                                                        <p>Página Web Promoción Servicios</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="web branding card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
-                                    data-wow-delay="0.2s">
-                                    <div class="dlab-box dlab-gallery-box">
-                                        <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-                                                <picture>
-                                                        <source
-                                                            srcset="{{asset('images/portafolio/imagen-wsfast.webp')}}"
-                                                            type="image/webp">
-                                                            
-                                                            <img src="{{asset('images/portafolio/imagen-wsfast.jpg')}}"
-                                                                alt="Ejemplo de landing page en varias pantallas"> </a>
-                                                            
-                                                    </picture>
-                                            <div class="overlay-bx">
-                                                <div class="overlay-icon align-b text-white">
-                                                    <div class="text-white text-left port-box">
-                                                        <a href="https://wsfast.com/" target="_blank">
-                                                            <h5>WSFAST</h5>
-                                                        </a>
-                                                        <p>Página Web Promocional</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
-                                    data-wow-delay="0.2s">
-                                    <div class="dlab-box dlab-gallery-box">
-                                        <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-
-                                                <picture>
-                                                        <source
-                                                            srcset="{{asset('images/portafolio/imagen-ezry-1.webp')}}"
-                                                            type="image/webp">
-                                                            <img src="{{asset('images/portafolio/imagen-ezry-1.jpg')}}"
-                                                                alt="Muestra de sitio web servicios en varios tamaños">
-                                                            
-                                                    </picture>
-                                            <div class="overlay-bx">
-                                                <div class="overlay-icon align-b text-white">
-                                                    <div class="text-white text-left port-box">
-                                                        <a href="https://ezrymantenimientos.com/" target="_blank">
-                                                            <h5>Ezry Mantenimientos</h5>
-                                                        </a>
-                                                        <p>Sitio Web Servicios</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                <!-- Why Chose Us -->
+			<div class="section-full content-inner-1 overlay-primary about-service bg-img-fix" style="background-image:url(images/parallax-layers-9.jpg);">
+				<div class="container">
+					<div class="section-head text-white text-center">
+						<h2 class="box-title m-tb0 max-w800 m-auto">Sitios Web Multiplataforma</h2>
+						<p>No desarrollamos todos los sitios web con la misma técnica, siempre ofrecemos innovación, creatividad y un diseño único para cada cliente</p>
+						<h3>Desarrollamos con:</h3>
+					</div>
+				</div>
+				<div class="container m-tb30">
+					<div class="client-logo-carousel owl-carousel owl-btn-center-lr owl-btn-3">
+						<div class="item"><div class="br-col-b1 border-1"><img src="images/logos/wordpress-logo.jpg" alt=""></div></div>
+						<div class="item"><div class="br-col-b1 border-1"><img src="images/logos/html+css+js.jpg" alt=""></div></div>
+						<div class="item"><div class="br-col-b1 border-1"><img src="images/logos/prestashop-logo.jpg" alt=""></div></div>
+						<div class="item"><div class="br-col-b1 border-1"><img src="images/logos/woocomerce-logo.jpg" alt=""></div></div>
+						<div class="item"><div class="br-col-b1 border-1"><img src="images/logos/laravel-logo.jpg" alt=""></div></div>
+						<div class="item"><div class="br-col-b1 border-1"><img src="images/logos/drupal-logo.jpg" alt=""></div></div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="section-head text-white text-center">
+						<h2 class="box-title p-b30 max-w800 m-auto font-weight-500 font-18">Todos nuestros sitios incluyen hosting, dominio y cuentas mail durante el primer año</h2>
+					</div>
+				</div>				
+			</div>
+			<!-- Why Chose Us End -->			
+			<!-- Our Portfolio -->
+			<div class="section-full content-inner-2 portfolio" id="portfolio">
+				<div class="container">
+					<div class="section-head text-center">
+						<h2 class="box-title m-tb0">Ultimas Páginas Diseñadas</h2>
+						<p> Algunos de Nuestros clientes </p>
+					</div>
+					<div class="clearfix">
+						<ul id="masonry" class="dlab-gallery-listing gallery-grid-4 gallery mfp-gallery port-style1">
+							<li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn" data-wow-delay="0.2s">
+								<div class="dlab-box dlab-gallery-box">
+									<div class="dlab-media dlab-img-overlay1 dlab-img-effect">
+										<picture><source srcset="images/portafolio/imagen-vidrios-norte.webp"  type="image/webp">						
+										<img src="images/portafolio/imagen-vidrios-norte.jpg"  alt="Ejemplo de página web corporativa mostrada en notebook"></picture>
+										<div class="overlay-bx">
+											<div class="overlay-icon align-b text-white"> 
+												<div class="text-white text-left port-box">
+													<a href="http://vidriosnorte.com.co/" target="_blank"><h5>Vidrios Norte</h5></a>
+													<p>Sitio Web Corporativo</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn" data-wow-delay="0.2s">
+								<div class="dlab-box dlab-gallery-box">
+									<div class="dlab-media dlab-img-overlay1 dlab-img-effect dlab-img-effect "> 
+										<picture><source srcset="images/portafolio/diocesis-yopal.webp"  type="image/webp">						
+										<img src="images/portafolio/diocesis-yopal.jpg"  alt="Diseño de sitio web diocesis de yopal"></picture>
+										<div class="overlay-bx">
+											<div class="overlay-icon align-b text-white"> 
+												<div class="text-white text-left port-box">
+													<a href="https://diocesisdeyopal.org/" target="_blank"><h5>Diócesis de Yopal</h5></a>
+													<p>Sitio Web Tipo Magazine</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn" data-wow-delay="0.2s">
+								<div class="dlab-box dlab-gallery-box">
+									<div class="dlab-media dlab-img-overlay1 dlab-img-effect">
+									<picture><source srcset="images/portafolio/imagen-grupohelm.webp"  type="image/webp">									
+									<img src="images/portafolio/imagen-grupohelm.jpg"  alt="Ejemplo de sitio web corporativo en un mac"></picture> 
+										<div class="overlay-bx">
+											<div class="overlay-icon align-b text-white"> 
+												<div class="text-white text-left port-box">
+													<a href="https://grupohelmcontadores.com" target="_blank"><h5>Grupo Helm</h5></a>
+													<p>Página Web Corporativa</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn" data-wow-delay="0.2s">
+								<div class="dlab-box dlab-gallery-box">
+									<div class="dlab-media dlab-img-overlay1 dlab-img-effect">
+									<picture><source srcset="images/portafolio/imagen-medefiende.webp"  type="image/webp">									
+									<img src="images/portafolio/imagen-medefiende.jpg"  alt="Ejemplo de sitio web corporativo en varias pantallas"></picture>
+										<div class="overlay-bx">
+											<div class="overlay-icon align-b text-white"> 
+												<div class="text-white text-left port-box">
+													<a href="https://medefiende.com" target="_blank"><h5>Medefiende</h5></a>
+													<p>Sitio Web Corporativo</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn" data-wow-delay="0.2s">
+								<div class="dlab-box dlab-gallery-box">
+									<div class="dlab-media dlab-img-overlay1 dlab-img-effect">
+									<picture><source srcset="images/portafolio/funconuf.webp"  type="image/webp">			
+									<img src="images/portafolio/funconuf.jpg"  alt="Ejemplo de Página web ESAL en un notebook"></picture>
+										<div class="overlay-bx">
+											<div class="overlay-icon align-b text-white"> 
+												<div class="text-white text-left port-box">
+													<a href="https://funconuf.org/" target="_blank"><h5>Funconuf</h5></a>
+													<p>Página Web ESAL</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn" data-wow-delay="0.2s">
+									<div class="dlab-box dlab-gallery-box">
+										<div class="dlab-media dlab-img-overlay1 dlab-img-effect">
+										<picture><source srcset="images/portafolio/imagen-cpc.webp"  type="image/webp">				
+										<img src="images/portafolio/imagen-cpc.jpg"  alt="Ejemplo de diseño web en varias pantallas"></picture>
+											<div class="overlay-bx">
+												<div class="overlay-icon align-b text-white"> 
+													<div class="text-white text-left port-box">
+														<a href="https://consultoriaprofesionalc.com/" target="_blank"><h5>CPC&CO SAS</h5></a>
+														<p>Sitio Web Corporativo</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+							</li>
+							<li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn" data-wow-delay="0.2s">
+									<div class="dlab-box dlab-gallery-box">
+										<div class="dlab-media dlab-img-overlay1 dlab-img-effect">
+										<picture><source srcset="images/portafolio/unifinanciera.webp"  type="image/webp">									
+										<img src="images/portafolio/unifinanciera.jpg"  alt="Ejemplo de sitio web Unifinanciera"></picture>
+											<div class="overlay-bx">
+												<div class="overlay-icon align-b text-white"> 
+													<div class="text-white text-left port-box">
+														<a href="https://unifinanciera.com/" target="_blank"><h5>Unifinanciera SA</h5></a>
+														<p>Página Web Promoción Servicios</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+							</li>
+							<li class="web branding card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn" data-wow-delay="0.2s">
+									<div class="dlab-box dlab-gallery-box">
+										<div class="dlab-media dlab-img-overlay1 dlab-img-effect">
+										<picture><source srcset="images/portafolio/imagen-wsfast.webp"  type="image/webp">									
+										<img src="images/portafolio/imagen-wsfast.jpg"  alt="Ejemplo de landing page en varias pantallas"></picture>
+											<div class="overlay-bx">
+												<div class="overlay-icon align-b text-white"> 
+													<div class="text-white text-left port-box">
+														<a href="https://wsfast.com/" target="_blank"><h5>WSFAST</h5></a>
+														<p>Página Web Promocional</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+							</li>
+							<li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn" data-wow-delay="0.2s">
+									<div class="dlab-box dlab-gallery-box">
+										<div class="dlab-media dlab-img-overlay1 dlab-img-effect">
+										<picture><source srcset="images/portafolio/imagen-ezry-1.webp"  type="image/webp">									
+										<img src="images/portafolio/imagen-ezry-1.jpg"  alt="Muestra de sitio web servicios en varios tamaños"></picture>
+											<div class="overlay-bx">
+												<div class="overlay-icon align-b text-white"> 
+													<div class="text-white text-left port-box">
+														<a href="https://ezrymantenimientos.com/" target="_blank"><h5>Ezry Mantenimientos</h5></a>
+														<p>Sitio Web Servicios</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+							</li>							
+						</ul>
+					</div>
+				</div>
+			</div>
                 <!-- Our Portfolio END -->
 
 

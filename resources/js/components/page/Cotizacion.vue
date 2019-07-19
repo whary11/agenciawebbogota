@@ -3,7 +3,18 @@
         <div class="col-lg-4 col-md-4 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.3s"
             v-for="(item, index) in servicios" :key="index">
             <div class="icon-bx-wraper bx-style-1 p-a30 center fly-box-ho">
-                <img :src="item.imagen" alt="Modelo de landing page">
+
+
+                <picture>
+                    <source :srcset="item.webp"  type="image/webp">									
+				    <!-- <img src="images/pagina-web-corporativa.jpg" alt="Modelo de página web Corporativa"> -->
+                    <img :src="item.imagen" :alt="item.descripcion">
+                </picture>
+
+
+
+
+
                 <div class="icon-content">
                     <h4 class="dlab-tilte p-t30"> {{item.titulo}}<br><span
                             class="text-blue font-16">{{item.precio}}</span></h4>
@@ -65,61 +76,71 @@
                 servicios: [{
                         titulo: 'Landing Pages',
                         descripcion: 'Diseñamos sus perfiles y anuncios publicitarios, creamos sus campañas, optimizamos su presupuesto y le garantizamos resultados',
-                        precio: 'COP $120.000',
+                        precio: 'COP $250.000',
                         imagen: 'images/landing-page-modelo.jpg',
+                        webp:'images/landing-page-modelo.webp'
                         // icono: '<i class="fas fa-thumbs-up"></i>',
                     },
                     {
                         titulo: 'Página Web Sencilla',
                         descripcion: 'Diseño en HTML, CSS y JavaScript, 4 páginas internas, formulario de contacto, diseño adaptable',
-                        precio: 'COP $450.000',
+                        precio: 'COP $600.000',
                         imagen: 'images/pagina-web-sencilla.jpg',
+                        webp: 'images/pagina-web-sencilla.webp'
                         // icono: '<i class="fas fa-thumbs-up"></i>',
                     },
                     {
                         titulo: 'Página Administrable',
                         descripcion: 'Diseño en WordPres (CMS) con tema premium licenciado. Ideal para blogs y orientado a posicionamiento',
-                        precio: 'COP $680.000',
+                        precio: 'COP $750.000',
                         imagen: 'images/pagina-web-administrable.jpg',
+                        webp:'images/pagina-web-administrable.webp'
                         // icono: '<i class="fas fa-thumbs-up"></i>',
                     },
                     {
                         titulo: 'Página Corporativa',
                         descripcion: 'Incluye consola de administración, hosting y dominio, correos corporativos y optimización para seo',
-                        precio: 'COP $850.000',
+                        precio: 'COP $990.000',
                         imagen: 'images/pagina-web-corporativa.jpg',
+                        webp:'images/pagina-web-corporativa.webp'
                         // icono: '<i class="fas fa-thumbs-up"></i>',
                     },
                     {
                         titulo: 'Tienda Online Básica',
                         descripcion: 'Diseño con WordPress y Woocomerce, hasta 50 artículos, pagos online, carrito de compras',
-                        precio: 'COP $1.100.000',
+                        precio: 'COP $1.200.000',
                         imagen: 'images/tienda-online-basica.jpg',
+                        webp:'images/tienda-online-basica.webp'
                         // icono: '<i class="fas fa-thumbs-up"></i>',
                     },
                     {
                         titulo: 'Tienda Avanzada',
                         descripcion: 'Wordpress + Woocomerce, consola administrativa, pagos online y sistema de envíos e inventarios',
-                        precio: 'COP $1.550.000',
+                        precio: 'COP $1.800.000',
                         imagen: 'images/tienda-online-avanzada.jpg',
+                        webp:'images/tienda-online-avanzada.webp'
                     },
                     {
-                        titulo: 'Tienda Prestashop',
-                        descripcion: 'Productos ilimitados, consola administrable, registro de usuarios, pagos online y carrito de compras',
-                        precio: 'COP $1.550.000',
+                        titulo: 'Tienda a Medida',
+                        descripcion: 'Diseño a medida, productos ilimitados, registro de usuarios, pagos online y carrito de compras',
+                        precio: 'Cotizar',
                         imagen: 'images/tienda-online-prestashop.jpg',
+                        webp:'images/tienda-online-prestashop.webp'
                     },
                     {
                         titulo: 'Portal Educativo',
                         descripcion: 'Sitios para instituciones educativas con sistemas inteligentes que superan a moodle y otras plataformas',
                         precio: 'COTIZAR',
                         imagen: 'images/pagina-educacion.jpg',
+                        webp:'images/pagina-educacion.webp'
                     },
+
                     {
-                        titulo: 'Sitio Web Inteligente',
+                        titulo: 'Web Administrativa',
                         descripcion: 'Aplicativos especiales, bases de datos, sistemas real-time, alojamiento VPS, sistemas programables',
                         precio: 'COTIZAR',
                         imagen: 'images/pagina-web-inteligente.jpg',
+                        webp:'images/pagina-web-inteligente.webp'
                     },
 
                 ]
