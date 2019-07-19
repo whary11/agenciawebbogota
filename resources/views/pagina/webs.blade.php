@@ -134,7 +134,8 @@
 						<div class="item"><div class="br-col-b1 border-1"><img src="images/logos/prestashop-logo.jpg" alt=""></div></div>
 						<div class="item"><div class="br-col-b1 border-1"><img src="images/logos/woocomerce-logo.jpg" alt=""></div></div>
 						<div class="item"><div class="br-col-b1 border-1"><img src="images/logos/laravel-logo.jpg" alt=""></div></div>
-						<div class="item"><div class="br-col-b1 border-1"><img src="images/logos/drupal-logo.jpg" alt=""></div></div>
+                        <div class="item"><div class="br-col-b1 border-1"><img src="images/logos/drupal-logo.jpg" alt=""></div></div>
+                        
 					</div>
 				</div>
 				<div class="container">
