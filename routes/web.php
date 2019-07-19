@@ -32,7 +32,6 @@ Route::post('formcontacto/crear', 'ContactoController@create');
 
 
 Route::get('mailable', function () {
-
     $contacto = Contacto::first();
     return new App\Mail\Contactos($contacto);
 });

@@ -9,6 +9,8 @@ Hay un nuevo registro de usuario:
 ##### Teléfono: {{$contacto->telefono}}
 ##### Correo electrónico: {{$contacto->email}}
 ##### Canal: {{$contacto->canal}}
+
+##### Mensaje: {{$contacto->mensaje}}
 <br>
 Gracias,<br>
 {{ config('app.name') }}
