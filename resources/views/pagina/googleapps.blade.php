@@ -68,7 +68,10 @@
                 <div class="container-fluid">
                     <div class="row dzseth">
 						<div class="col-lg-6 col-md-12 col-xs-12 p-a0"> 
-						<img src="{{asset('images/about/pic3.jpg')}}" alt="" class="img-cover"/> 
+						<picture>
+                            <source srcset="{{asset('images/google-apps.webp')}}" type="image/webp">
+                            <img src="{{asset('images/google-apps.jpg')}}" alt="Logotipos de todas las Google Apps enlazadas">
+                        </picture> 
 						</div>
 						<div class="col-lg-6 col-md-12 col-xs-12 bg-black-light p-lr0 dis-tbl">
 							<div class="p-a30 dis-tbl-cell wow fadeInRight" data-wow-delay="0.2s">

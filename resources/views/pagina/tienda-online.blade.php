@@ -119,7 +119,7 @@
             </div>
             <!-- Our Services -->
 			<!-- Why Chose Us -->
-		<div class="section-full content-inner-1 overlay-primary about-service bg-img-fix" style="background-image:url({{asset('images/background/bg1.jpg')}});">
+		<div class="section-full content-inner-1 overlay-primary about-service bg-img-fix" style="background-image:url({{asset('images/bg-tienda-online-img1.jpg')}});">
 				<div class="container">
 					<div class="section-head text-white text-center">
 						<h2 class="box-title m-tb0 max-w800 m-auto">Conectamos su tienda con las mejores herramientas de marketing digital</h2>
