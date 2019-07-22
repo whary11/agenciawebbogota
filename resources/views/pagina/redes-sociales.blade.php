@@ -6,7 +6,7 @@
 	<meta name="keywords" content="" />
 	<meta name="author" content="" />
 	<meta name="robots" content="" />
-		<meta name="description" content="Agency - Business And Agency Template" />
+	<meta name="description" content="Agency - Business And Agency Template" />
 	<meta property="og:title" content="Agency : Business And Agency Template" />
 	<meta property="og:description" content="Agency : Business And Agency Template" />
 	<meta property="og:image" content="dhakdhakindia.com/product/agency/" />
@@ -44,7 +44,7 @@
     <!-- Content -->
     <div class="page-content bg-white">
         <!-- inner page banner -->
-	<div class="dlab-bnr-inr overlay-primary" style="background-image:url({{asset('images/aplicativos-web.jpg')}});">
+	<div class="dlab-bnr-inr overlay-primary" style="background-image:url({{asset('images/background/bg3.jpg')}});">
             <div class="container">
                 <div class="dlab-bnr-inr-entry texto-ini">
 					<h1 class="text-white">Publicidad en Redes Sociales</h1>
@@ -89,13 +89,19 @@
 								</div>
 							</div>
 							<div class="col-6 col-lg-3 col-md-6 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.2s">
-								<div class="dlab-media dlab-img-overlay6 gradient radius-sm"> 
-									<img src="{{asset('images/about/pic1.jpg')}}" alt=""> 
+								<div class="dlab-media radius-sm"> 
+							<picture>
+                                <source srcset="{{asset('images/redes-1.webp')}}" type="image/webp">
+                                <img src="{{asset('images/redes-1.png')}}" alt="Diseño de perfil de facebook">
+                            </picture> 
 								</div>
 							</div>
 							<div class="col-6 col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
-								<div class="dlab-media dlab-img-overlay6 gradient radius-sm"> 
-									<img src="{{asset('images/about/pic2.jpg')}}" alt=""> 
+								<div class="dlab-media radius-sm"> 
+							<picture>
+                                <source srcset="{{asset('images/redes-2.webp')}}" type="image/webp">
+                                <img src="{{asset('images/redes-2.png')}}" alt="Diseño de historia de Instragram">
+                            </picture> 
 								</div>
 							</div>
 						</div>
@@ -108,7 +114,10 @@
                 <div class="container-fluid">
                     <div class="row dzseth">
 						<div class="col-lg-6 col-md-12 col-xs-12 p-a0"> 
-							<img src="{{asset('images/about/pic3.jpg')}}" alt="" class="img-cover"/> 
+						<picture>
+                                <source srcset="{{asset('images/venta-por-redes-sociales.webp')}}" type="image/webp">
+                                <img src="{{asset('images/venta-por-redes-sociales.jpg')}}" alt="Joven publicando fotos en facebook">
+                        </picture> 
 						</div>
 						<div class="col-lg-6 col-md-12 col-xs-12 bg-black-light p-lr0 dis-tbl">
 							<div class="p-a30 dis-tbl-cell wow fadeInRight" data-wow-delay="0.2s">
@@ -120,9 +129,8 @@
 										</div>
 									</div>
 									<div class="row">
-										<div class="col-lg-12 m-b30 text-gray">
+										<div class="col-lg-12 text-gray">
 											<p>Trabajando con Agencia Web Bogotá aumentará sus posibilidades de cerrar ventas y posicionarse por encima de su competencia. Garantizamos resultados al corto, mediano y largo plazo, con un mínimo de inversión.</p>
-											<a href="#" class="site-button radius-xl outline white">Solicite Asesoría <i class="ti-arrow-right m-l10"></i></a>
 										</div>
 									</div>
 

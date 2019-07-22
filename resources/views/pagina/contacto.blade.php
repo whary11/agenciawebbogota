@@ -92,7 +92,7 @@
 		<!-- inner page banner END -->
     </div>
     <!-- Content END-->
-    </footer> --}}
+    </footer>
 
     @include('partials.footer')
     <!-- Footer END-->

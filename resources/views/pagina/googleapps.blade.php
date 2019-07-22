@@ -70,10 +70,10 @@
 						<div class="col-lg-6 col-md-12 col-xs-12 p-a0"> 
 						<picture>
                             <source srcset="{{asset('images/google-apps.webp')}}" type="image/webp">
-                            <img src="{{asset('images/google-apps.jpg')}}" alt="Logotipos de todas las Google Apps enlazadas">
+                            <img src="{{asset('images/google-apps.png')}}" alt="Logotipos de todas las Google Apps enlazadas">
                         </picture> 
 						</div>
-						<div class="col-lg-6 col-md-12 col-xs-12 bg-black-light p-lr0 dis-tbl">
+						<div class="col-lg-6 col-md-12 col-xs-12 bg-azul-oscuro-agencia p-lr0 dis-tbl">
 							<div class="p-a30 dis-tbl-cell wow fadeInRight" data-wow-delay="0.2s">
 								<div class="max-w500 m-auto p-tb30">
 									<div class="row">
@@ -85,7 +85,6 @@
 										<div class="col-lg-12 m-b30 text-gray">
 											<p class="text-justify">Tanto en la programación de sus aplicaciones, como en la capacitación de su personal, le ayudaremos a descubrir todo el potencial de las Google Apps.</p>
 											<p class="text-justify">Le sorprenderá conocer los cientos de funcionalidades a las que tiene acceso solo con una cuenta gratuita de Google. Por medio de código de programación y conexiones API implementaremos GSuite exitosamente en los procesos de su empresa.</p>
-											<a href="#" class="site-button radius-xl outline white">Solicite más Información <i class="ti-arrow-right m-l10"></i></a>
 										</div>
 									</div>
 
@@ -142,7 +141,7 @@
 					<div class="col-lg-12">
 						<div class="text-center max-w800 m-auto">
 							<h4 class="font-weight-600 font-20">Evolucione ya mismo a GSuite, aumente su productividad y reduzca sustancialmente sus costos por software</h4>
-							<a href="#" class="site-button radius-sm outline outline-2"><span class="p-lr10">¡Si Quiero Hacerlo!</span></a>
+							<a href="contacto" class="site-button radius-sm outline outline-2"><span class="p-lr10">¡Si Quiero Hacerlo!</span></a>
 						</div>
 					</div>
 				</div>
