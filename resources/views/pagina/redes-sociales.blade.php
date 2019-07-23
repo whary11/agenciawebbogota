@@ -157,25 +157,33 @@
 									<img src="{{asset('images/caso-de-exito-1.png')}}" alt="Móviles mostrando redes sociales">
 								</picture> </div>
 								<div class="dlab-info p-a30 border-1 bg-white">
-									<h5 class="dlab-title m-t0"><a href="#">Bikers y Moto Accesorios</a></h5>
+									<h5 class="dlab-title m-t0">Bikers y Moto Accesorios</h5>
 									<p class="m-b0">Más de 1.000 ventas a través de Facebook e Instagram, más de 2.500 seguidores en redes</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.4s">
 							<div class="dlab-box">
-								<div class="dlab-media dlab-img-effect rotate"> <a href="#"><img src="images/our-work/pic5.jpg" alt=""></a> </div>
+								<div class="dlab-media dlab-img-effect rotate"> 
+								<picture>
+									<source srcset="{{asset('images/caso-de-exito-2.webp')}}" type="image/webp">
+									<img src="{{asset('images/caso-de-exito-2.png')}}" alt="fotografias de diferentes articulos">
+								</picture> </div>
 								<div class="dlab-info p-a30 border-1 bg-white">
-									<h5 class="dlab-title m-t0"><a href="#">Compra Todo Online</a></h5>
+									<h5 class="dlab-title m-t0">Compra Todo Online</h5>
 									<p class="m-b0">Diseño de marca, más de 200 ventas por Facebook en menos de 2 meses, ventas por Mercadolibre e Instagram</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-12 m-b30 wow fadeInUp" data-wow-delay="0.6s">
 							<div class="dlab-box">
-								<div class="dlab-media dlab-img-effect rotate"> <a href="#"><img src="images/our-work/pic3.jpg" alt=""></a> </div>
+								<div class="dlab-media dlab-img-effect rotate">
+								<picture>
+									<source srcset="{{asset('images/caso-de-exito-3.webp')}}" type="image/webp">
+									<img src="{{asset('images/caso-de-exito-3.png')}}" alt="fotografias de diferentes articulos">
+								</picture> </div>
 								<div class="dlab-info p-a30 border-1 bg-white">
-									<h5 class="dlab-title m-t0"><a href="#">Esencias Para Una Diosa</a></h5>
+									<h5 class="dlab-title m-t0">Esencias Para Una Diosa</h5>
 									<p class="m-b0">Más de 500 visitas a negocio local por medio de publicidad en Facebook, Instagram y Google My Business</p>
 								</div>
 							</div>
@@ -192,7 +200,7 @@
 							<div class="text-center max-w600 m-auto ">
 								<div class="m-b20"><i class="fa fa-quote-left font-45 text-primary"></i></div>
 								<h4 class="text-uppercase font-weight-700 font-30">Porque no importa lo que vendas, lo que importa es como lo muestres</h4>
-								<a href="#" class="site-button radius-xl outline outline-2"><span class="p-lr10">Cotiza tu estrategia de Marketing</span></a>
+								<a href="contacto" class="site-button radius-xl outline outline-2"><span class="p-lr10">Cotiza tu estrategia de Marketing</span></a>
 							</div>
 						</div>
 					</div>
