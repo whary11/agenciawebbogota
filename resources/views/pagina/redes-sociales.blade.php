@@ -151,7 +151,11 @@
 					<div class="row text-center">
 						<div class="col-lg-4 col-md-4 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.2s">
 							<div class="dlab-box">
-								<div class="dlab-media dlab-img-effect rotate"> <a href="#"><img src="images/our-work/pic1.jpg" alt=""></a> </div>
+								<div class="dlab-media dlab-img-effect rotate">
+								<picture>
+									<source srcset="{{asset('images/caso-de-exito-1.webp')}}" type="image/webp">
+									<img src="{{asset('images/caso-de-exito-1.png')}}" alt="Móviles mostrando redes sociales">
+								</picture> </div>
 								<div class="dlab-info p-a30 border-1 bg-white">
 									<h5 class="dlab-title m-t0"><a href="#">Bikers y Moto Accesorios</a></h5>
 									<p class="m-b0">Más de 1.000 ventas a través de Facebook e Instagram, más de 2.500 seguidores en redes</p>

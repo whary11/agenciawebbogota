@@ -130,7 +130,7 @@
 				<div class="container m-tb30">
 					<div class="client-logo-carousel owl-carousel owl-btn-center-lr owl-btn-3">
 						<div class="item"><div class="br-col-b1 border-1"><img src="images/logos/wordpress-logo.jpg" alt=""></div></div>
-						<div class="item"><div class="br-col-b1 border-1"><img src="images/logos/html+css+js.jpg" alt=""></div></div>
+						<div class="item"><div class="br-col-b1 border-1"><img src="images/logos/htmlcssjs.jpg" alt=""></div></div>
 						<div class="item"><div class="br-col-b1 border-1"><img src="images/logos/prestashop-logo.jpg" alt=""></div></div>
 						<div class="item"><div class="br-col-b1 border-1"><img src="images/logos/woocomerce-logo.jpg" alt=""></div></div>
 						<div class="item"><div class="br-col-b1 border-1"><img src="images/logos/laravel-logo.jpg" alt=""></div></div>

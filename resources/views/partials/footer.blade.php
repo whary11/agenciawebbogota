@@ -19,10 +19,12 @@
                     <div class="widget widget_getintuch">
                         <h5 class="m-b30 text-white text-uppercase">Contáctenos</h5>
                         <ul>
+                        <li class="text-none">
+                            <i class="fas fa-map-marker-alt"></i>Carrera 57 No. 14-70<br>Bogotá, Colombia</li>
                             <li class="text-none">
                                 <i class="fas fa-mobile-alt"></i><strong>Celular</strong>316 8785601 - 304 3788629</li>
                             <li class="text-none">
-                                <i class="fas fa-mail-bulk"></i><strong>Emails</strong>info@agenciawebbogota.com<br>proyectos@agenciawebbogota.com<br>soporte@agenciawebbogota.com</li>
+                                <i class="fas fa-mail-bulk"></i><strong>Email</strong>info@agenciawebbogota.com</li>
                         </ul>
                     </div>
                 </div>

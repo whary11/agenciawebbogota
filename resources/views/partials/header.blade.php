@@ -73,7 +73,6 @@
                                 <li>
                                 <li><a href="{{url('posicionamiento-web')}}">Posicionamiento Web </a>
                                 <li>
-                                <li><a href="{{url('marketing-automatizado')}}">Community Manager </a></li>
                             </ul>
                         </li>
                         <li><a href="blog">Blog </a></li>

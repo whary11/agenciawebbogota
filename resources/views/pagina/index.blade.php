@@ -234,28 +234,28 @@
                         <div class="site-filters clearfix center  m-b40">
                             <ul class="filters" data-toggle="buttons">
                                 <li data-filter="" class="btn active">
-                                    <a href="#" class="site-button-secondry radius-sm"
-                                        onclick="window.location = '#'"><span>Diseño Web</span></a>
+                                    <a href="paginas-web" class="site-button-secondry radius-sm"
+                                        onclick="window.location = 'paginas-web'"><span>Diseño Web</span></a>
                                 </li>
                                 <li data-filter="web" class="btn">
                                     <a href="#" class="site-button-secondry radius-sm"
                                         onclick="window.location = '#'"><span>Branding</span></a>
                                 </li>
                                 <li data-filter="advertising" class="btn active">
-                                    <a href="#" class="site-button-secondry radius-sm"
-                                        onclick="window.location = '#'"><span>Marketing en Redes Sociales</span></a>
+                                    <a href="redes-sociales" class="site-button-secondry radius-sm"
+                                        onclick="window.location = 'redes-sociales'"><span>Marketing en Redes Sociales</span></a>
                                 </li>
                                 <li data-filter="branding" class="btn">
                                     <a href="#" class="site-button-secondry radius-sm"
                                         onclick="window.location = '#'"><span>Desarrollo de Apps</span></a>
                                 </li>
                                 <li data-filter="design" class="btn active">
-                                    <a href="#" class="site-button-secondry radius-sm"
-                                        onclick="window.location = '#'"><span>Tiendas Online</span></a>
+                                    <a href="tiendas-online" class="site-button-secondry radius-sm"
+                                        onclick="window.location = 'tiendas-online'"><span>Tiendas Online</span></a>
                                 </li>
                                 <li data-filter="photography" class="btn">
-                                    <a href="#" class="site-button-secondry radius-sm"
-                                        onclick="window.location = '#'"><span>Posicionamiento</span></a>
+                                    <a href="posicionamiento-web" class="site-button-secondry radius-sm"
+                                        onclick="window.location = 'posicionamiento-web'"><span>Posicionamiento</span></a>
                                 </li>
                             </ul>
                         </div>
@@ -271,20 +271,20 @@
                                     <h3 class="m-t0 m-b10">Sitios Web Administrables con Todos los Beneficios Incluidos
                                     </h3>
                                     <ul class="list-angle-right">
-                                        <li><i class="ti-check text-primary"></i>Websites en WordPress con Tema Premium
+                                        <li><i class="ti-check text-blue"></i> Websites en WordPress con Tema Premium
                                             Incluido</li>
-                                        <li><i class="ti-check text-primary"></i>Websites en HTML y CSS desde cero sin
+                                        <li><i class="ti-check text-blue"></i> Websites en HTML y CSS desde cero sin
                                             plantillas</li>
-                                        <li><i class="ti-check text-primary"></i>Landing Pages Para Promociones y
+                                        <li><i class="ti-check text-blue"></i> Landing Pages Para Promociones y
                                             Anuncios</li>
-                                        <li><i class="ti-check text-primary"></i>E-Commerce con Woocommerce o PrestaShop
+                                        <li><i class="ti-check text-blue"></i> E-Commerce con Woocommerce o PrestaShop
                                         </li>
-                                        <li><i class="ti-check text-primary"></i>Sitios Corporativos con Posicionamiento
+                                        <li><i class="ti-check text-blue"></i> Sitios Corporativos con Posicionamiento
                                             Incluido</li>
-                                        <li><i class="ti-check text-primary"></i>Portales Educativos con Funciones
+                                        <li><i class="ti-check text-blue"></i> Portales Educativos con Funciones
                                             Avanzadas</li>
                                     </ul>
-                                    <a href="#" class="site-button black outline outline-2">Quiero Cotizar Mi Sitio Web
+                                    <a href="contacto" class="site-button bg-azul-oscuro-agencia outline outline-2">Quiero Cotizar Mi Sitio Web
                                         <i class="ti-arrow-right m-l10"></i></a>
                                 </div>
                             </div>
@@ -322,7 +322,7 @@
                                         </div>
                                     </div>
                                     <div class="icon-box-btn text-center">
-                                        <a href="#" class="site-button btn-block">Conozca más</a>
+                                        <a href="redes-sociales" class="site-button btn-block">Conozca más</a>
                                     </div>
                                 </div>
                             </div>
@@ -341,7 +341,7 @@
                                         </div>
                                     </div>
                                     <div class="icon-box-btn text-center">
-                                        <a href="#" class="site-button btn-block">Conozca más</a>
+                                        <a href="redes-sociales" class="site-button btn-block">Conozca más</a>
                                     </div>
                                 </div>
                             </div>
@@ -359,7 +359,7 @@
                                         </div>
                                     </div>
                                     <div class="icon-box-btn text-center">
-                                        <a href="#" class="site-button btn-block">Conozca más</a>
+                                        <a href="posicionamiento-web" class="site-button btn-block">Conozca más</a>
                                     </div>
                                 </div>
                             </div>
@@ -377,7 +377,7 @@
                                         </div>
                                     </div>
                                     <div class="icon-box-btn text-center">
-                                        <a href="#" class="site-button btn-block">Conozca más</a>
+                                        <a href="redes-sociales" class="site-button btn-block">Conozca más</a>
                                     </div>
                                 </div>
                             </div>
@@ -620,11 +620,25 @@
             style="background-image:url({{asset('images/Home-business-Slider-image-3.jpg')}})">
                     <div class="container">
                         <div class="max-w600 m-auto text-center m-b30 text-white">
-                            <h3 class="m-t0">¿Que opinan nuestros clientes sobre Agencia Web Bogotá?</h3>
+                            <h3 class="m-t0">¿Que opinan nuestros clientes sobre nosotros?</h3>
                         </div>
                         <div class="section-content m-b30 wow fadeIn" data-wow-delay="0.5s">
                             <div
                                 class="testimonial-two-dots owl-carousel owl-theme owl-dots-white-full owl-btn-center-lr owl-btn-3 btn-white">
+                                <div class="item p-a5">
+                                    <div class="testimonial-1">
+                                        <div class="testimonial-text">
+                                            <p class="font-weight-400 text-italic text-white">"Los servicios prestados por Agencia Web Bogotá, son excelentes, los recomendamos
+                                                por su atención. Desde el principio se mostraron serviciales y atentos a nuestras inquietudes, 
+                                                consideramos que el talento humano es su valor más importante. Los tiempos de entrega están en lo previsto por 
+                                                ellos sin ningún tipo de retraso. Gracias."
+                                            </p>
+                                        </div>
+                                        <div class="testimonial-detail"> <strong
+                                                class="testimonial-name text-white">Administrador</strong> <span
+                                                class="testimonial-position">DIÓCESIS DE VALLEDUPAR</span> </div>
+                                    </div>
+                                </div>
                                 <div class="item p-a5">
                                     <div class="testimonial-1">
                                         <div class="testimonial-text">
