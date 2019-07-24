@@ -37,6 +37,10 @@ class IndexController extends Controller
         return view('pagina.posicionamiento-web');
     }
 
+    public function servicios(){
+        return view('pagina.servicios');
+    }
+
     public function marketingAutomatizado(){
         return [
             'page' => 'Página de Marketing Automatizado'

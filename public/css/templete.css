@@ -220,7 +220,36 @@
 	background-image: url("/images/background/bg7.webp");
 	background-size: cover;
 }
-
+.no-webp-googleapps{
+	background-image: url("/images/background/bg8.jpg")
+}
+.webp-googleapps{
+	background-image: url("/images/background/bg8.webp")
+}
+.no-webp-redes{
+	background-image: url("/images/background/bg3.jpg")
+}
+.webp-redes{
+	background-image: url("/images/background/bg3.webp")
+}
+.no-webp-seo{
+	background-image: url("/images/background/bg9.jpg")
+}
+.webp-seo{
+	background-image: url("/images/background/bg9.webp")
+}
+.no-webp-seo2{
+	background-image: url("/images/background/bg1.jpg")
+}
+.webp-seo2{
+	background-image: url("/images/background/bg1.webp")
+}
+.no-webp-contacto{
+	background-image: url("/images/background/bg-seccion-contacto.jpg")
+}
+.webp-contacto{
+	background-image: url("/images/background/bg-seccion-contacto.webp")
+}
 /*==========================
 	FIN Custom css
 ==========================*/

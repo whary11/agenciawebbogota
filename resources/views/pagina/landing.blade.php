@@ -71,7 +71,7 @@
 
             <div class="content-block">
                 <!-- About Us -->
-                <div class="section-full content-inner exp-services">
+                <div class="section-full content-inner exp-services" style="background-image:url({{asset('images/background/bg1.png')}});">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12">

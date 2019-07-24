@@ -36,7 +36,7 @@
     <!-- Content -->
     <div class="full-section">
         <!-- inner page banner -->
-        <div class="dlab-bnr-inr overlay-primary-dark contact-page" style="background-image:url({{asset('images/background/bg2.jpg')}});">
+        <div class="dlab-bnr-inr overlay-primary-dark contact-page no-webp-contacto webp-contacto">
             <div class="container">
                 <div class="row">
 					<div class="col-lg-4 col-xs-4">
@@ -69,7 +69,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-12 col-md-6 m-b30 wow fadeIn" data-wow-delay="0.8s">
+							<div class="col-lg-12 col-md-6 m-b30 wow fadeIn" data-wow-delay="0.6s">
 								<div class="icon-bx-wraper bx-style-1 p-a20 radius-sm">
 									<div class="icon-content">
 										<h5 class="dlab-tilte">

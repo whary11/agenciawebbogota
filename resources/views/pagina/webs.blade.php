@@ -50,13 +50,12 @@
             <!-- inner page banner END -->
             <div class="content-block">
                 <!-- About Us -->
-                <div class="section-full content-inner exp-services">
+                <div class="section-full content-inner exp-services" style="background-image:url({{asset('images/background/bg1.png')}});">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="section-head text-black text-center">
-                                    <h2 class="box-title m-tb0">Diseñamos Páginas Web Optimizadas Con <span
-                                            class="bg-azul-claro-agencia text-white">Neuromarketing</span></h2>
+                                    <h2 class="box-title m-tb0">Diseñamos Páginas Web Optimizadas Con <span class="bg-azul-claro-agencia text-white">Neuromarketing</span></h2>
                                     <p class="font-weight-400 font-18">En Agencia Web Bogotá desarrollamos sitios que
                                         tienen mayor impacto entre los visitantes, causan una mejor impresión, aumentan
                                         la recurrencia en las visitas y mejoran la recordación de las marcas</p>

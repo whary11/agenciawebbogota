@@ -56,7 +56,7 @@
                 <!-- main nav -->
                 <div class="header-nav navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="https://agenciawebbogota.com/"><i
+                        <li class="active"><a href="{{url('/')}}"><i
                                     class="fas fa-home font-20"></i></a></li>
                         <li><a>Desarrollo Web<i class="fas fa-chevron-down"></i></a>
                             <ul class="sub-menu">
@@ -75,8 +75,8 @@
                                 <li>
                             </ul>
                         </li>
-                        <li><a href="blog">Blog </a></li>
-                        <li><a href="#">Soporte Técnico <i class="fas fa-chevron-down"></i></a>
+                        <li><a href="{{url('/')}}">Blog </a></li>
+                        <li><a>Soporte Técnico <i class="fas fa-chevron-down"></i></a>
                             <ul class="sub-menu">
                                 <li><a href="{{url('redes-sociales')}}">Canales de Ayuda </a>
                                 <li>

@@ -40,7 +40,7 @@
     <!-- Content -->
     <div class="page-content bg-white">
         <!-- inner page banner -->
-	<div class="dlab-bnr-inr overlay-primary" style="background-image:url({{asset('images/aplicativos-web.jpg')}});">
+	<div class="dlab-bnr-inr overlay-primary no-webp-googleapps webp-google-apps">
             <div class="container">
                 <div class="dlab-bnr-inr-entry texto-ini">
 					<h1 class="text-white">Google Apps - GSuite Para Empresas</h1>
@@ -52,9 +52,9 @@
 					<!-- About Agency -->
 	<div class="section-full content-inner" style="background-image:url({{asset('images/background/bg1.png')}});">
 						<div class="container">
-							<div class="section-head text-black text-center">
+							<div class="text-black text-center">
 								<h2 class="m-b10">Más de lo que conoce en una cuenta gratuita de Google</h2>
-								<p>Las Hojas de Cálculo de Google, Google Docs, Calendarios de Google, Maps y demás, van mucho más allá de lo que usted usa a diario; su potencial es muy grande
+								<p class="font-weight-600">Las Hojas de Cálculo de Google, Google Docs, Calendarios de Google, Maps y demás, van mucho más allá de lo que usted usa a diario; su potencial es muy grande
 									y las posibilidades numerosas. Use GSuite para automatizar sus procesos, acceder a información, crear software corporativo, gestionar su inventario y prácticamente cualquier cosa que imagine.  </p>
 							</div>							
 						</div>
@@ -105,7 +105,7 @@
 				<div class="row">
 					<div class="col-lg-4 col-md-4 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.3s">
 						<div class="icon-bx-wraper bx-style-1 p-a30 center fly-box-ho">
-							<div class="icon-sm m-b20"> <a href="#" class="icon-cell"><i class="ti-headphone-alt"></i></a> </div>
+							<div class="icon-sm m-b20"><i class="icon-cell ti-headphone-alt text-blue"></i></div>
 							<div class="icon-content">
 								<h5 class="dlab-tilte text-uppercase">Capacitación Virtual</h5>
 								<p>Por medio de video conferencias y documentación especializada</p>
@@ -114,7 +114,7 @@
 					</div>
 					<div class="col-lg-4 col-md-4 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.6s">
 						<div class="icon-bx-wraper bx-style-1 p-a30 center fly-box-ho">
-							<div class="icon-sm m-b20"> <a href="#" class="icon-cell"><i class="ti-ruler-pencil"></i></a> </div>
+							<div class="icon-sm m-b20"><i class="icon-cell ti-ruler-pencil text-blue"></i></div>
 							<div class="icon-content">
 								<h5 class="dlab-tilte text-uppercase">Cursos Presenciales</h5>
 								<p>Capacitamos a su equipo de trabajo según su disponibilidad</p>
@@ -123,7 +123,7 @@
 					</div>
 					<div class="col-lg-4 col-md-4 col-sm-12 m-b10 wow fadeInUp" data-wow-delay="0.9s">
 						<div class="icon-bx-wraper bx-style-1 p-a30 center fly-box-ho">
-							<div class="icon-sm m-b20"> <a href="#" class="icon-cell text-primary"><i class="ti-desktop"></i></a> </div>
+							<div class="icon-sm m-b20"><i class="icon-cell ti-desktop text-blue"></i></a> </div>
 							<div class="icon-content">
 								<h5 class="dlab-tilte text-uppercase">Canales de Ayuda</h5>
 								<p>Ponemos a su disposición diferentes medios de soporte y asesoría</p>

@@ -20,9 +20,9 @@ Route::get('/programacion-web', 'IndexController@programacionWeb');
 Route::get('/google-apps', 'IndexController@googleApps');
 Route::get('/redes-sociales', 'IndexController@redesSociales');
 Route::get('/posicionamiento-web', 'IndexController@posicionamientoWeb');
-Route::get('/marketing-automatizado', 'IndexController@marketingAutomatizado');
 Route::get('/blog', 'IndexController@blog');
 Route::get('/contacto', 'IndexController@contacto');
+Route::get('/servicios', 'IndexController@servicios');
 
 
 // Url para el formulario de contacto

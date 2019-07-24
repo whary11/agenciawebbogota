@@ -239,7 +239,7 @@
                                 </li>
                                 <li data-filter="web" class="btn">
                                     <a href="#" class="site-button-secondry radius-sm"
-                                        onclick="window.location = '#'"><span>Branding</span></a>
+                                        onclick="window.location = '/'"><span>Branding</span></a>
                                 </li>
                                 <li data-filter="advertising" class="btn active">
                                     <a href="redes-sociales" class="site-button-secondry radius-sm"
@@ -247,7 +247,7 @@
                                 </li>
                                 <li data-filter="branding" class="btn">
                                     <a href="#" class="site-button-secondry radius-sm"
-                                        onclick="window.location = '#'"><span>Desarrollo de Apps</span></a>
+                                        onclick="window.location = '/'"><span>Desarrollo de Apps</span></a>
                                 </li>
                                 <li data-filter="design" class="btn active">
                                     <a href="tiendas-online" class="site-button-secondry radius-sm"

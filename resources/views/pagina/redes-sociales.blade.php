@@ -44,7 +44,7 @@
     <!-- Content -->
     <div class="page-content bg-white">
         <!-- inner page banner -->
-	<div class="dlab-bnr-inr overlay-primary" style="background-image:url({{asset('images/background/bg3.jpg')}});">
+	<div class="dlab-bnr-inr overlay-primary no-webp-redes webp-redes">
             <div class="container">
                 <div class="dlab-bnr-inr-entry texto-ini">
 					<h1 class="text-white">Publicidad en Redes Sociales</h1>
@@ -56,7 +56,7 @@
         <!-- contact area -->
         <div class="content-block">
             <!-- Our Awesome Services -->
-		<div class="section-full bg-white content-inner" style="background-image:url({{asset('images/background/bg1.png')}});">
+		<div class="section-full bg-white content-inner" style="background-image:url({{asset('images/background/bg11.jpg')}});">
                 <div class="container">
                     <div class="section-content">
                         <div class="row">
@@ -200,7 +200,7 @@
 							<div class="text-center max-w600 m-auto ">
 								<div class="m-b20"><i class="fa fa-quote-left font-45 text-primary"></i></div>
 								<h4 class="text-uppercase font-weight-700 font-30">Porque no importa lo que vendas, lo que importa es como lo muestres</h4>
-								<a href="contacto" class="site-button radius-xl outline outline-2"><span class="p-lr10">Cotiza tu estrategia de Marketing</span></a>
+								<a href="contacto" class="site-button radius-sm outline outline-2"><span class="p-lr10">Cotiza tu estrategia de Marketing</span></a>
 							</div>
 						</div>
 					</div>

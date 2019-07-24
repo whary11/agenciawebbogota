@@ -38,7 +38,7 @@
     <!-- Content -->
     <div class="page-content bg-white">
         <!-- inner page banner -->
-	<div class="dlab-bnr-inr overlay-primary" style="background-image:url({{asset('images/aplicativos-web.jpg')}});">
+	<div class="dlab-bnr-inr overlay-primary no-webp-seo webp-seo">
             <div class="container">
                 <div class="dlab-bnr-inr-entry texto-ini">
 					<h1 class="text-white">Posicionamiento Web</h1>
@@ -49,7 +49,7 @@
         <!-- inner page banner END -->
 		<div class="content-block">
             <!-- About Us -->
-			<div class="section-full content-inner exp-services">
+			<div class="section-full content-inner exp-services" style="background-image:url({{asset('images/background/bg-map.jpg')}});">
                 <div class="container">
 					<div class="row">
 						<div class="col-lg-12">
@@ -153,7 +153,7 @@
                 </div>
             </div>
 			<!-- Why Chose Us -->
-		<div class="section-full content-inner-1 overlay-primary about-service bg-img-fix" style="background-image:url({{asset('images/background/bg1.jpg')}});">
+		<div class="section-full content-inner-1 overlay-primary about-service bg-img-fix no-webp-seo2 webp-seo2">
 				<div class="container">
 					<div class="section-head text-white text-center">
 						<h2 class="box-title m-tb0 max-w1000 m-auto">Es en este punto donde necesita Profesionales en la Materia</h2>
@@ -202,7 +202,7 @@
 								<h4 class="font-weight-500 font-30 ">Solicite su diagnóstico SEO sin costo y sin compromiso alguno</h4>
 								<p  class="font-weight-600">Le informaremos acerca de su posición actual en Google, sus oportunidades de mejora y el trabajo que está realizando su competencia respecto a posicionamiento</p>
 								<div class="p-t40"></div>
-								<a href="contacto" class="site-button radius-xl outline outline-2"><span class="p-lr10">Solicite su Diagnóstico SEO</span></a>
+								<a href="contacto" class="site-button radius-sm outline outline-2"><span class="p-lr10">Solicite su Diagnóstico SEO</span></a>
 							</div>
 						</div>
 					</div>
