@@ -179,10 +179,50 @@
 }
 .btn-messenger{
 	background-image: linear-gradient(#00c6ff, #0077ff);
-}	
+}
+
+/*WEBP Background Images*/
+.no-webp-ecommerce{
+	background-image: url("/images/background/bg4.jpg")
+ }
+.webp-ecommerce{
+	background-image: url("/images/background/bg4.webp")
+}
+.no-webp-ecommerce2{
+	background-image: url("/images/background/bg5.jpg")
+}
+.webp-ecommerce2{
+	background-image: url("/images/background/bg5.webp")
+}
+.no-webp-pages{
+	background-image: url("/images/background/web-design-awb.jpg")
+}
+.webp-pages{
+	background-image: url("/images/background/web-design-awb.webp")
+}
+.no-webp-landing{
+	background-image: url("/images/background/ejemplos-de-landing-pages.jpg")
+}
+.webp-landing{
+	background-image: url("/images/background/ejemplos-de-landing-pages.webp")
+}
+.no-webp-programming{
+	background-image: url("/images/background/bg6.jpg")
+}
+.webp-programming{
+	background-image: url("/images/background/bg6.webp")
+}
+.no-webp-programming2{
+	background-image: url("/images/background/bg7.jpg");
+	background-size: cover;
+}
+.webp-programming2{
+	background-image: url("/images/background/bg7.webp");
+	background-size: cover;
+}
 
 /*==========================
-	Custom css
+	FIN Custom css
 ==========================*/
 
 /* Home Pages */

@@ -40,7 +40,7 @@
     <!-- Content -->
 	<div class="page-content bg-white">
         <!-- inner page banner -->
-	<div class="dlab-bnr-inr overlay-primary" style="background-image:url({{asset('images/aplicativos-web.jpg')}});">
+	<div class="dlab-bnr-inr overlay-primary no-webp-programming webp-programming">
             <div class="container">
                 <div class="dlab-bnr-inr-entry texto-ini">
 					<h1 class="text-white">Programación Web</h1>
@@ -98,7 +98,7 @@
 							<div class="row serv">
 								<div class="col-lg-6 col-md-12 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.2s">
 									<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-										<div class="icon-lg m-b20"> <a href="#" class="icon-cell"><img src="{{asset('images/nodejs-logo.png')}}" alt=""/></a> </div>
+										<div class="icon-lg m-b20"><img src="{{asset('images/nodejs-logo.png')}}" alt="Logo Node JS" class="icon-cell" /> </div>
 										<div class="icon-content">
 											<h5 class="dlab-tilte">NodeJS</h5>
 											<p>Sistemas POS, Aplicaciones Real-Time, Desarrollo de Apps</p>
@@ -107,81 +107,81 @@
 								</div>
 								<div class="col-lg-6 col-md-12 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.4s">
 									<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-										<div class="icon-lg m-b20"> <a href="#" class="icon-cell"><img src="{{asset('images/vuejs-logo.png')}}" alt=""/></a> </div>
+										<div class="icon-lg m-b20"><img src="{{asset('images/vuejs-logo.png')}}" alt="Logo VueJS" class="icon-cell"/> </div>
 										<div class="icon-content">
-											<h5 class="dlab-tilte"><a href="#">VueJS</a></h5>
+											<h5 class="dlab-tilte">VueJS</h5>
 											<p>Sistemas Single-Page, Experiencia de Usuario, Salas de Chat</p>
 										</div>
 									</div>
 								</div>
 								<div class="col-lg-6 col-md-12 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.2s">
 									<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-										<div class="icon-lg m-b20"> <a href="#" class="icon-cell"><img src="{{asset('images/laravel.png')}}" alt=""/></a> </div>
+										<div class="icon-lg m-b20"><img src="{{asset('images/laravel.png')}}" alt="Logo Laravel" class="icon-cell"/></div>
 										<div class="icon-content">
-											<h5 class="dlab-tilte"><a href="#">Laravel</a></h5>
+											<h5 class="dlab-tilte">Laravel</h5>
 											<p>Sistemas Administrativos, Sistemas de Inventarios, Citas y Reservas Online </p>
 										</div>
 									</div>
 								</div>
 								<div class="col-lg-6 col-md-12 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.4s">
 									<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-										<div class="icon-lg m-b20"> <a href="#" class="icon-cell"><img src="{{asset('images/python-logo.png')}}" alt=""/></a> </div>
+										<div class="icon-lg m-b20"><img src="{{asset('images/python-logo.png')}}" alt="Logo Python" class="icon-cell"/></div>
 										<div class="icon-content">
-											<h5 class="dlab-tilte"><a href="#">Python</a></h5>
+											<h5 class="dlab-tilte">Python</h5>
 											<p>Inteligencia Artificial AI, Sistemas de Gestión Big Data, Apps Corporativas</p>
 										</div>
 									</div>
 								</div>
 								<div class="col-lg-6 col-md-12 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.2s">
 									<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-										<div class="icon-lg m-b20"> <a href="#" class="icon-cell"><img src="{{asset('images/php-logo.png')}}" alt=""/></a> </div>
+										<div class="icon-lg m-b20"><img src="{{asset('images/php-logo.png')}}" alt="Logo PHP" class="icon-cell"/></div>
 										<div class="icon-content">
-											<h5 class="dlab-tilte"><a href="#">PHP</a></h5>
+											<h5 class="dlab-tilte">PHP</h5>
 											<p>Bases de Datos, Plataformas para Email Marketing, Correos Electrónicos</p>
 										</div>
 									</div>
 								</div>
 								<div class="col-lg-6 col-md-12 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.4s">
 									<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-										<div class="icon-lg m-b20"> <a href="#" class="icon-cell"><img src="{{asset('images/google-aps-logo.png')}}" alt=""/></a> </div>
+										<div class="icon-lg m-b20"><img src="{{asset('images/google-aps-logo.png')}}" alt="Google Apps Logo" class="icon-cell"/></div>
 										<div class="icon-content">
-											<h5 class="dlab-tilte"><a href="#">Google Apps</a></h5>
+											<h5 class="dlab-tilte">Google Apps</h5>
 											<p>Automatización de tareas en Drive, Conexión de todas las Apps de Google</p>
 										</div>
 									</div>
 								</div>
 								<div class="col-lg-6 col-md-12 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.2s">
 									<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-										<div class="icon-lg m-b20"> <a href="#" class="icon-cell"><img src="{{asset('images/firebase-logo.png')}}" alt=""/></a> </div>
+										<div class="icon-lg m-b20"><img src="{{asset('images/firebase-logo.png')}}" alt="Firebase Logo" class="icon-cell"/></div>
 										<div class="icon-content">
-											<h5 class="dlab-tilte text-uppercase"><a href="#">Firebase</a></h5>
+											<h5 class="dlab-tilte text-uppercase">Firebase</h5>
 											<p>Desarrollo de Apps, Aplicaciones Real Time, Marketing Mobile</p>
 										</div>
 									</div>
 								</div>
 								<div class="col-lg-6 col-md-12 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.4s">
 									<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-										<div class="icon-lg m-b20"> <a href="#" class="icon-cell"><img src="{{asset('images/mysql-logo.png')}}" alt=""/></a> </div>
+										<div class="icon-lg m-b20"><img src="{{asset('images/mysql-logo.png')}}" alt="Logo MySQL" class="icon-cell"/></div>
 										<div class="icon-content">
-											<h5 class="dlab-tilte text-uppercase"><a href="#">MySQL</a></h5>
+											<h5 class="dlab-tilte text-uppercase">MySQL</h5>
 											<p>Aplicaciones para e-commerce, Consulta y Respuesta de Datos</p>
 										</div>
 									</div>
 								</div>
 								<div class="col-lg-6 col-md-12 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.2s">
 									<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-										<div class="icon-lg m-b20"> <a href="#" class="icon-cell"><img src="{{asset('images/mongodb-logo.png')}}" alt=""/></a> </div>
+										<div class="icon-lg m-b20"><img src="{{asset('images/mongodb-logo.png')}}" alt="MongoDB Logo" class="icon-cell"/></div>
 										<div class="icon-content">
-											<h5 class="dlab-tilte"><a href="#">MongoDB</a></h5>
+											<h5 class="dlab-tilte">MongoDB</h5>
 											<p>Aplicaciones para Big Data, Consulta y Manejo de Archivo</p>
 										</div>
 									</div>
 								</div>
 								<div class="col-lg-6 col-md-12 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.4s">
 									<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-										<div class="icon-lg m-b20"> <a href="#" class="icon-cell"><img src="{{asset('images/boostarp-logo.png')}}" alt=""/></a> </div>
+										<div class="icon-lg m-b20"><img src="{{asset('images/boostarp-logo.png')}}" alt="Boostrap Logo" class="icon-cell"/></div>
 										<div class="icon-content">
-											<h5 class="dlab-tilte"><a href="#">Bootstrapp</a></h5>
+											<h5 class="dlab-tilte">Bootstrapp</a></h5>
 											<p>Plantillas para Websites y Apps, Efectos visuales y Animaciones</p>
 										</div>
 									</div>
@@ -192,12 +192,12 @@
 							<form class="inquiry-form inner wow fadeInUp dzForm" data-wow-delay="0.2s">
 								<div class="dzFormMsg"></div>
 									<h3 class="box-title m-t0 m-b10">Podemos convertir su idea en realidad</h3>
-									<p>La versatilidad y variedad de los lenguajes de programación actuales nos permiten hacer que <span class="text-black font-weight-600">cualquier idea de desarrollo sea perfectamente posible</span>.
+									<p class="text-justify">La versatilidad y variedad de los lenguajes de programación actuales nos permiten hacer que <span class="text-black font-weight-600">cualquier idea de desarrollo sea perfectamente posible</span>.
 										Por eso en <span class="text-blue font-weight-600">Agencia Web Bogotá</span> estamos en la capacidad de programar para usted o su empresa el aplicativo que realice la tarea que usted quiera. 
-										<span class="text-black font-weight-600">Automatizando todos sus procesos, aumentando su productividad</span> y mejorando sustancialmente la experiencia de sus usuarios al interactuar con sus productos y servicios.
+										<span class="text-black font-weight-600">Automatizando completamente todos sus procesos, aumentando la productividad de su equipo</span> y mejorando sustancialmente la experiencia de sus usuarios al interactuar con sus productos y servicios.
 									</p>
 									<div class="col-lg-12"> 
-										<button class="site-button button-lg"> <span>Solicite Cotización</span> </button>
+										<a href="contacto" class="site-button button-lg"> <span>Solicite Cotización</span> </a>
 									</div>
 									</div>
 								</form>	
@@ -207,7 +207,7 @@
 			</div>
 
             <!-- Our Awesome Services -->
-		<div class="section-full bg-blue-light content-inner about-us-box" style="background-image:url({{asset('images/bg15.jpg')}}); background-size:cover">
+		<div class="section-full bg-blue-light content-inner about-us-box no-webp-programming2 webp-programming2">
                 <div class="container">
 					<div class="row">
 						<div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
@@ -279,7 +279,7 @@
 								<div class="text-center p-t20">
 									<a href="https://api.whatsapp.com/send?phone=573168785601" class="site-button btn-whatsapp"><i class="fab fa-whatsapp"></i>  ¡Pregúntenos por WhatsApp!</a>
 									<a href="https://m.me/agenciawebbogota" class="site-button btn-messenger"><i class="fab fa-facebook-messenger"></i>  ¡Háblenos por Messenger!</a>
-									<p class="p-t10 font-16 text-center">Horario de Atención: Lunes a Sábado 7:30 AM a 6:00 PM</p>
+									<p class="p-t10 font-16 text-center">Horario de Atención: Lunes a Sábado 8:00 AM a 6:00 PM</p>
 								</div>
 								<div class="row">
 									

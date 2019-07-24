@@ -55,13 +55,13 @@
 						<div class="col-lg-12">
 							<div class="section-head text-black text-center">
 								<h2 class="box-title m-tb0">Conquiste a Google con un sitio web optimizado</h2>
-								<p class="font-weight-300 font-18"><strong class="text-pink">¿Cómo lo hacemos?</strong> Un diseño inteligente, una alta usabilidad, una navegación clara y sencilla, una interfaz amigable, una óptima velocidad de carga y las palabras clave correctas ubicadas dentro del contenido de forma estratégica</p>
+								<p class="font-weight-600 font-18"><strong class="text-pink">¿Cómo lo hacemos?</strong> Un diseño inteligente, una alta usabilidad, una navegación clara y sencilla, una interfaz amigable, una óptima velocidad de carga y las palabras clave correctas ubicadas dentro del contenido de forma estratégica</p>
 							</div>
 							<div class="row serv">
 								<div class="col-lg-2 col-md-4 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.2s">
 									<div class="icon-bx-wraper expertise  bx-style-1 p-lr10 p-tb20 center">
 										<div class="icon-bx-sm bg-azul-claro-agencia radius m-b20">
-											<i class="flaticon-devices text-white"></i>
+										<i class="fas fa-mobile-alt text-white"></i>
 										</div>
 										<div class="icon-content">
 											<h5 class="dlab-tilte">Optimización Móviles</h5>
@@ -71,7 +71,7 @@
 								<div class="col-lg-2 col-md-4 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.4s">
 									<div class="icon-bx-wraper expertise  bx-style-1 p-lr10 p-tb20 center">
 										<div class="icon-bx-sm bg-azul-claro-agencia radius m-b20">
-											<i class="flaticon-pencil text-white"></i>
+										<i class="fas fa-tags text-white"></i>
 										</div>
 										<div class="icon-content">
 											<h5 class="dlab-tilte">Palabras y Frases Clave</h5>
@@ -81,7 +81,7 @@
 								<div class="col-lg-2 col-md-4 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.6s">
 									<div class="icon-bx-wraper expertise  bx-style-1 p-lr10 p-tb20 center">
 										<div class="icon-bx-sm bg-azul-claro-agencia radius m-b20">
-											<i class="flaticon-layers text-white"></i> 
+										<i class="fab fa-wordpress text-white"></i> 
 										</div>
 										<div class="icon-content">
 											<h5 class="dlab-tilte">WordPress Yoast SEO</h5>
@@ -91,7 +91,7 @@
 								<div class="col-lg-2 col-md-4 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.8s">
 									<div class="icon-bx-wraper expertise  bx-style-1 p-lr10 p-tb20 center">
 										<div class="icon-bx-sm bg-azul-claro-agencia radius m-b20">
-											<i class="flaticon-shop text-white"></i> 
+										<i class="fas fa-chart-line text-white"></i> 
 										</div>
 										<div class="icon-content">
 											<h5 class="dlab-tilte">Estudio de Competencia</h5>
@@ -101,7 +101,7 @@
 								<div class="col-lg-2 col-md-4 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="1.0s">
 									<div class="icon-bx-wraper expertise  bx-style-1 p-lr10 p-tb20 center">
 										<div class="icon-bx-sm bg-azul-claro-agencia radius m-b20">
-											<i class="flaticon-downloading-from-smartphone text-white"></i> 
+										<i class="fas fa-store text-white"></i> 
 										</div>
 										<div class="icon-content">
 											<h5 class="dlab-tilte">Negocio<br> Local</h5>
@@ -111,7 +111,7 @@
 								<div class="col-lg-2 col-md-4 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="1.2s">
 									<div class="icon-bx-wraper expertise  bx-style-1 p-lr10 p-tb20 center">
 										<div class="icon-bx-sm bg-azul-claro-agencia radius m-b20">
-											<i class="flaticon-internet text-white"></i> 
+										<i class="fas fa-shopping-bag text-white"></i> 
 										</div>
 										<div class="icon-content">
 											<h5 class="dlab-tilte">SEO<br> Productos</h5>
@@ -130,7 +130,10 @@
                 <div class="container-fluid">
                     <div class="row dzseth">
 						<div class="col-lg-6 col-md-12 p-a0"> 
-							<img src="images/about/pic3.jpg" alt="" class="img-cover"/> 
+						<picture>
+                            <source srcset="{{asset('images/seo-posicionamiento.webp')}}" type="image/webp">
+							<img src="{{asset('images/seo-posicionamiento.png')}}" alt="Arbol de Posicionamiento SEO">
+						</picture> 
 						</div>
 						<div class="col-lg-6 col-md-12 bg-black-light p-lr0 dis-tbl">
 							<div class="p-a30 dis-tbl-cell wow fadeInRight" data-wow-delay="0.2s">
@@ -161,7 +164,7 @@
 					<div class="row text-white">
 						<div class="col-lg-4 col-md-4 col-sm-6 m-b30">
 							<div class="icon-bx-wraper bx-style-1 p-a30 center">
-								<div class="icon-lg text-white m-b20"> <a href="#" class="icon-cell text-white"><i class="flaticon-diamond"></i></a> </div>
+								<div class="icon-lg text-white m-b20"><i class="fas fa-file-invoice-dollar"></i> </div>
 								<div class="icon-content">
 									<h5 class="dlab-tilte text-uppercase">Resultados<br>Garantizados</h5>
 									<p>Usted verá su inversión reflejada en el aumento de exponencial de sus ventas</p>
@@ -170,7 +173,7 @@
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6 m-b30">
 							<div class="icon-bx-wraper bx-style-1 p-a30 center">
-								<div class="icon-lg text-white m-b20"> <a href="#" class="icon-cell text-white"><i class="flaticon-diamond"></i></a> </div>
+								<div class="icon-lg text-white m-b20"> <i class="fas fa-external-link-alt"></i> </div>
 								<div class="icon-content">
 									<h5 class="dlab-tilte text-uppercase">Estrategias<br>Efectivas</h5>
 									<p>Empleamos los más efectivos métodos para lograr un posicionamiento rápido</p>
@@ -179,7 +182,7 @@
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-12 m-b30">
 							<div class="icon-bx-wraper bx-style-1 p-a30 center">
-								<div class="icon-lg text-white m-b20"> <a href="#" class="icon-cell text-white"><i class="flaticon-devices"></i></a> </div>
+								<div class="icon-lg text-white m-b20"> <i class="fas fa-piggy-bank"></i> </div>
 								<div class="icon-content">
 									<h5 class="dlab-tilte text-uppercase">Mínima<br>Inversión</h5>
 									<p>Contamos con la mejor relación costo/beneficio del mercado</p>
@@ -197,9 +200,9 @@
 						<div class="col-lg-12">
 							<div class="text-center max-w1000 m-auto">
 								<h4 class="font-weight-500 font-30 ">Solicite su diagnóstico SEO sin costo y sin compromiso alguno</h4>
-								<p>Le informaremos acerca de su posición actual en Google, sus oportunidades de mejora y el trabajo que está realizando su competencia respecto a posicionamiento</p>
+								<p  class="font-weight-600">Le informaremos acerca de su posición actual en Google, sus oportunidades de mejora y el trabajo que está realizando su competencia respecto a posicionamiento</p>
 								<div class="p-t40"></div>
-								<a href="#" class="site-button radius-xl outline outline-2"><span class="p-lr10">Solicite su Diagnóstico SEO</span></a>
+								<a href="contacto" class="site-button radius-xl outline outline-2"><span class="p-lr10">Solicite su Diagnóstico SEO</span></a>
 							</div>
 						</div>
 					</div>

@@ -39,7 +39,7 @@
         <!-- Content -->
         <div class="page-content bg-white" id="page">
             <!-- inner page banner -->
-            <div class="dlab-bnr-inr overlay-primary" style="background-image:url(images/web-design-awb.jpg);">
+            <div class="dlab-bnr-inr overlay-primary no-webp-pages webp-pages">
                 <div class="container">
                     <div class="dlab-bnr-inr-entry texto-ini">
                         <h1 class="text-white">Diseño de Páginas Web</h1>
@@ -71,8 +71,10 @@
                     <div class="container-fluid">
                         <div class="row dzseth">
                             <div class="col-lg-6 col-md-12 p-a0">
-                                <img src="{{asset('images/muestra-paginas-web.jpg')}}"
-                                    alt="Diseño de páginas web en varias pantallas" class="img-cover" />
+							<picture>
+                                <source srcset="{{asset('images/muestra-paginas-web.webp')}}" type="image/webp">
+                                <img src="{{asset('images/muestra-paginas-web.jpg')}}" alt="Diseño de páginas web en varias pantallas" class="img-cover">
+                            </picture>	
                             </div>
                             <div class="col-lg-6 col-md-12 bg-gray p-lr0 dis-tbl">
                                 <div class="p-a30 dis-tbl-cell wow fadeInRight" data-wow-delay="0.2s">
@@ -328,7 +330,7 @@
                                             ¡Pregúntenos por WhatsApp!</a>
                                         <a href="https://m.me/agenciawebbogota" class="site-button btn-messenger"><i
                                                 class="fab fa-facebook-messenger"></i> ¡Háblenos por Messenger!</a>
-                                        <p class="p-t10 font-16 text-center">Horario de Atención: Lunes a Sábado 7:30 AM
+                                        <p class="p-t10 font-16 text-center">Horario de Atención: Lunes a Sábado 8:00 AM
                                             a 6:00 PM</p>
                                     </div>
                                     <div class="row">

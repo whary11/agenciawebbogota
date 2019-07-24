@@ -228,7 +228,7 @@
                         <div class="section-head text-black text-center">
                             <h4 class="text-gray-dark m-b10">Tenemos la mejor relación costo/beneficio del mercado</h4>
                             <h2 class="box-title m-tb0">Confíe el desarrollo de su proyecto a Agencia Web Bogotá</h2>
-                            <p>Trabajamos con las mejores herramientas web, plataformas seguras y servidores eficientes.
+                            <p class="font-weight-600">Trabajamos con las mejores herramientas web, plataformas seguras y servidores eficientes.
                                 Con dedicación, profesionalismo y cumplimiento</p>
                         </div>
                         <div class="site-filters clearfix center  m-b40">
@@ -268,21 +268,14 @@
                         <div class="row equal-wraper3">
                             <div class="col-lg-5 equal-col dis-tbl m-b30 wow zoomInLeft" data-wow-delay="0.4s">
                                 <div class="dis-tbl-cell  m-b30">
-                                    <h3 class="m-t0 m-b10">Sitios Web Administrables con Todos los Beneficios Incluidos
-                                    </h3>
-                                    <ul class="list-angle-right">
-                                        <li><i class="ti-check text-blue"></i> Websites en WordPress con Tema Premium
-                                            Incluido</li>
-                                        <li><i class="ti-check text-blue"></i> Websites en HTML y CSS desde cero sin
-                                            plantillas</li>
-                                        <li><i class="ti-check text-blue"></i> Landing Pages Para Promociones y
-                                            Anuncios</li>
-                                        <li><i class="ti-check text-blue"></i> E-Commerce con Woocommerce o PrestaShop
-                                        </li>
-                                        <li><i class="ti-check text-blue"></i> Sitios Corporativos con Posicionamiento
-                                            Incluido</li>
-                                        <li><i class="ti-check text-blue"></i> Portales Educativos con Funciones
-                                            Avanzadas</li>
+                                    <h3 class="m-t0 m-b10">Sitios Web Administrables con Todos los Beneficios Incluidos</h3>                                    
+                                        <p class="font-weight-600">Websites en WordPress con Tema Premium Incluido<br>
+                                        Websites en HTML y CSS desde cero sin plantillas<br>
+                                        Landing Pages Para Promociones y Anuncios<br>
+                                        Tienda Online con Woocommerce o PrestaShop<br>
+                                        Sitios Corporativos con Posicionamiento Incluido<br>
+                                        Portales Educativos con Funciones Avanzadas<br>
+                                        Websites hechos a medida con Funciones Específicas</p>
                                     </ul>
                                     <a href="contacto" class="site-button bg-azul-oscuro-agencia outline outline-2">Quiero Cotizar Mi Sitio Web
                                         <i class="ti-arrow-right m-l10"></i></a>

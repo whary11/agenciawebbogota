@@ -45,8 +45,7 @@
         <!-- Content -->
         <div class="page-content bg-white">
             <!-- inner page banner -->
-            <div class="dlab-bnr-inr p-t30 p-b30 "
-                style="background-image:url({{asset('images/ejemplos-de-landing-pages.jpg')}});">
+            <div class="dlab-bnr-inr p-t30 p-b30 no-webp-landing webp-landing">
                 <div class="container">
                     <div class="dlab-bnr-inr-entry texto-ini">
                         <h1 class="text-white">Landing Pages</h1>
@@ -62,7 +61,7 @@
                             <div class="text-center max-w800 m-auto ">
                                 <h4 class="font-weight-600 font-20">Diseñamos su Página de Destino a medida en un solo
                                     día para sus campañas publicitarias</h4>
-                                <a href="#" class="site-button radius-sm outline outline-2"><span class="p-lr10">¡Quiero
+                                <a href="contacto" class="site-button radius-sm outline outline-2"><span class="p-lr10">¡Quiero
                                         mi Landing Page!</span></a>
                             </div>
                         </div>
@@ -79,7 +78,7 @@
                                 <div class="section-head text-black text-center">
                                     <h2 class="box-title font-30">Mejore sustancialmente los resultados de sus campañas
                                         publicitarias</h2>
-                                    <p class="font-weight-400 font-18">Dirigir sus anuncios de Google Adwords o Facebook
+                                    <p class="font-weight-600 font-18">Dirigir sus anuncios de Google Adwords o Facebook
                                         directamente a su página web principal, <span class="text-pink">es un grave
                                             error</span>. Para obtener los mejores resultados en sus campañas de
                                         publicidad digital, debe dirigir a sus visitantes a una página de destino o

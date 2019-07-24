@@ -38,7 +38,7 @@
     <!-- Content -->
     <div class="page-content bg-white">
         <!-- inner page banner -->
-	<div class="dlab-bnr-inr overlay-primary" style="background-image:url({{asset('images/web-design-awb.jpg')}});">
+	<div class="dlab-bnr-inr overlay-primary no-webp-ecommerce webp-ecommerce">
             <div class="container">
                 <div class="dlab-bnr-inr-entry texto-ini">
 					<h1 class="text-white">Tiendas Online</h1>
@@ -54,14 +54,14 @@
 					<div class="section-head text-black text-center">
 						<h4 class="text-gray-dark m-b10">E-COMMERCE</h4>
 						<h2 class="box-title m-tb0">Tiendas Online 100% Automatizadas</h2>
-						<p>Desarrollamos sitios web para comercio electrónico con todos los componentes necesarios para garantizar un crecimiento rápido de su negocio</p>
+						<p class="font-weight-600">Desarrollamos sitios web para comercio electrónico con todos los componentes necesarios para garantizar un crecimiento rápido de su negocio</p>
 					</div>
 				</div>
 				<div class="container">
 					 <div class="row ">
 						<div class="col-md-4 col-sm-6 m-b30 wow zoomIn" data-wow-delay="0.2s">
 							<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-								<div class="icon-lg m-b20"> <a href="#" class="icon-cell"><i class="fas fa-laptop-code"></i></a> </div>
+								<div class="icon-lg m-b20"> <i class="fas fa-laptop-code text-blue"></i> </div>
 								<div class="icon-content">
 									<h5 class="dlab-tilte text-uppercase">Tiendas Administrables</h5>
 									<p>Plataformas sencillas, intuitivas, automatizadas y de fácil manejo, con soporte para varios administradores</p>
@@ -70,45 +70,45 @@
 						</div>
 						<div class="col-md-4 col-sm-6 m-b30 wow zoomIn" data-wow-delay="0.4s">
 							<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-								<div class="icon-lg m-b20"> <a href="#" class="icon-cell"><i class="fas fa-boxes"></i></a> </div>
+								<div class="icon-lg m-b20"> <i class="fas fa-boxes text-blue"></i></div>
 								<div class="icon-content">
-									<h5 class="dlab-tilte text-uppercase"><a href="#">Sistemas de Inventario</a></h5>
+									<h5 class="dlab-tilte text-uppercase">Sistemas de Inventario</h5>
 									<p>Lleve el control del stock de su tienda, defina la disponibilidad y reciba notificaciones de existencias</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6 m-b30 wow zoomIn" data-wow-delay="0.6s">
 							<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-								<div class="icon-lg m-b20"> <a href="#" class="icon-cell"><i class="fas fa-cart-plus"></i></a> </div>
+								<div class="icon-lg m-b20"> <i class="fas fa-cart-plus text-blue"></i> </div>
 								<div class="icon-content">
-									<h5 class="dlab-tilte text-uppercase"><a href="#">Carrito de Compras</a></h5>
+									<h5 class="dlab-tilte text-uppercase">Carrito de Compras</h5>
 									<p>Agregue la función carrito de compras con múltiples opciones dependiendo del comportamiento del usuario</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6 m-b30 wow zoomIn" data-wow-delay="0.2s">
 							<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-								<div class="icon-lg m-b20"> <a href="#" class="icon-cell"><i class="fas fa-file-invoice-dollar"></i></a> </div>
+								<div class="icon-lg m-b20"><i class="fas fa-file-invoice-dollar text-blue"></i> </div>
 								<div class="icon-content">
-									<h5 class="dlab-tilte text-uppercase"><a href="#">Pasarelas de Pago</a></h5>
+									<h5 class="dlab-tilte text-uppercase">Pasarelas de Pago</h5>
 									<p>Enlazamos su tienda con las mejores y más seguras pasarelas de pago: PayU, ePayco, Mercadopago, entre otras</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6 m-b30 wow zoomIn" data-wow-delay="0.4s">
 							<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-								<div class="icon-lg m-b20"> <a href="#" class="icon-cell"><i class="fab fa-searchengin"></i></a> </div>
+								<div class="icon-lg m-b20"><i class="fab fa-searchengin text-blue"></i></div>
 								<div class="icon-content">
-									<h5 class="dlab-tilte text-uppercase"><a href="#">Con posicionamiento</a></h5>
+									<h5 class="dlab-tilte text-uppercase">Con Posicionamiento</h5>
 									<p>Hacemos que los productos de su tienda aparezcan de primeros en los resultados de búsqueda de Google</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6 m-b30 wow zoomIn" data-wow-delay="0.6s">
 							<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-								<div class="icon-lg m-b20"> <a href="#" class="icon-cell"><i class="fas fa-shipping-fast"></i></a> </div>
+								<div class="icon-lg m-b20"><i class="fas fa-shipping-fast text-blue"></i></div>
 								<div class="icon-content">
-									<h5 class="dlab-tilte text-uppercase"><a href="#">sistemas de envío</a></h5>
+									<h5 class="dlab-tilte text-uppercase">Sistemas de Envío</h5>
 									<p>Conecte con transportadoras o defina los parámetros de envío según la ubicación de sus compradores</p>
 								</div>
 							</div>
@@ -119,7 +119,7 @@
             </div>
             <!-- Our Services -->
 			<!-- Why Chose Us -->
-		<div class="section-full content-inner-1 overlay-primary about-service bg-img-fix" style="background-image:url({{asset('images/bg-tienda-online-img1.jpg')}});">
+		<div class="section-full content-inner-1 overlay-primary about-service bg-img-fix no-webp-ecommerce2 webp-ecommerce2">
 				<div class="container">
 					<div class="section-head text-white text-center">
 						<h2 class="box-title m-tb0 max-w800 m-auto">Conectamos su tienda con las mejores herramientas de marketing digital</h2>
@@ -130,7 +130,7 @@
 					<div class="row text-white">
 						<div class="col-lg-4 col-md-4 col-sm-6 m-b30">
 							<div class="icon-bx-wraper bx-style-1 p-a30 center">
-								<div class="icon-lg text-white m-b20"> <a href="#" class="icon-cell text-white"><i class="fas fa-share-alt"></i></a> </div>
+								<div class="icon-lg text-white m-b20"><i class="icon-cell text-white fas fa-share-alt"></i></div>
 								<div class="icon-content">
 									<h5 class="dlab-tilte text-uppercase">Redes Sociales</h5>
 									<p>Enlazamos el catálogo de su tienda a las redes sociales con botones comprar, obtener oferta y pedir online</p>
@@ -139,7 +139,7 @@
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6 m-b30">
 							<div class="icon-bx-wraper bx-style-1 p-a30 center">
-								<div class="icon-lg text-white m-b20"> <a href="#" class="icon-cell text-white"><i class="fas fa-funnel-dollar"></i></a> </div>
+								<div class="icon-lg text-white m-b20"><i class="icon-cell text-white fas fa-funnel-dollar"></i></div>
 								<div class="icon-content">
 									<h5 class="dlab-tilte text-uppercase">Remarketing</h5>
 									<p>Usamos herramientas efectivas para llamar nuevamente la atención de los visitantes que desisten de la compra</p>
@@ -148,7 +148,7 @@
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-12 m-b30">
 							<div class="icon-bx-wraper bx-style-1 p-a30 center">
-								<div class="icon-lg text-white m-b20"> <a href="#" class="icon-cell text-white"><i class="fab fa-whatsapp"></i></a> </div>
+								<div class="icon-lg text-white m-b20"><i class="icon-cell text-white fab fa-whatsapp"></i></div>
 								<div class="icon-content">
 									<h5 class="dlab-tilte text-uppercase">WhatsApp Marketing</h5>
 									<p>Notifique a sus clientes por medio de WhatsApp de sus ofertas, nuevos lanzamientos y novedades de su tienda</p>
@@ -165,7 +165,7 @@
 						<div class="col-lg-12">
 							<div class="section-head text-center">
 								<h2 class="box-title m-tb0">Nuestros Planes</h2>
-								<p> Tenemos el sitio web para comercio electrónico hecho a la medida de su negocio </p>
+								<p class="font-weight-600">Tenemos el sitio web para comercio electrónico hecho a la medida de su negocio</p>
 							</div>
 							<!-- Pricing table-1 Columns 3 with gap -->
 							<div class="section-content box-sort-in button-example">
@@ -187,7 +187,7 @@
 														<li><i class="fa fa-check text-primary"></i> Variaciones de producto</li>
 													</ul>
 													<div class="m-t20"> 
-														<a href="#" class="site-button outline outline-2 button-md">Contratar</a> 
+														<a href="contacto" class="site-button outline outline-2 button-md">Contratar</a> 
 													</div>
 												</div>
 											</div>
@@ -208,7 +208,7 @@
 														<li><i class="fa fa-check text-primary"></i> Posicionamiento SEO</li>
 													</ul>
 													<div class="m-t20 m-b5"> 
-														<a href="#" class="site-button button-md">Contratar</a> 
+														<a href="contacto" class="site-button button-md">Contratar</a> 
 													</div>
 												</div>
 											</div>
@@ -229,7 +229,7 @@
 														<li><i class="fa fa-check text-primary"></i> SEO avanzado</li>
 													</ul>
 													<div class="m-t20"> 
-														<a href="#" class="site-button outline outline-2 button-md">Contratar</a> 
+														<a href="contacto" class="site-button outline outline-2 button-md">Contratar</a> 
 													</div>
 												</div>
 											</div>
@@ -255,7 +255,7 @@
 								<div class="text-center p-t20">
 									<a href="https://api.whatsapp.com/send?phone=573168785601" class="site-button btn-whatsapp"><i class="fab fa-whatsapp"></i>  ¡Pregúntenos por WhatsApp!</a>
 									<a href="https://m.me/agenciawebbogota" class="site-button btn-messenger"><i class="fab fa-facebook-messenger"></i>  ¡Háblenos por Messenger!</a>
-									<p class="p-t10 font-16 text-center">Horario de Atención: Lunes a Sábado 7:30 AM a 6:00 PM</p>
+									<p class="p-t10 font-16 text-center">Horario de Atención: Lunes a Sábado 8:00 AM a 6:00 PM</p>
 								</div>
 								<div class="row">
 									
