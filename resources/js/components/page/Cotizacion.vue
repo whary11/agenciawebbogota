@@ -28,7 +28,7 @@
             aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
-                    <div class="modal-header bg-primary">
+                    <div class="modal-header bg-primary-web">
                         <h5 class="modal-title" id="exampleModalLabel"> {{servicio.titulo}}</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
@@ -36,7 +36,8 @@
                     </div>
                     <div class="modal-body">
                         <div>
-                            <p> {{servicio.descripcion}} </p>
+                            <p v-if="servicio.textModal"> {{servicio.textModal}} </p>
+                            <p v-else> {{servicio.descripcion}} </p>
                         </div>
                         <form>
                             <div class="form-group">
@@ -59,7 +60,7 @@
 
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary " data-dismiss="modal">Cerrar</button>
-                                <button type="button" class="btn text-white bg-primary">Contratar</button>
+                                <button type="button" class="btn text-white bg-secundary-web">Contratar</button>
                             </div>
                         </form>
                     </div>
@@ -78,7 +79,8 @@
                         descripcion: 'Diseñamos sus perfiles y anuncios publicitarios, creamos sus campañas, optimizamos su presupuesto y le garantizamos resultados',
                         precio: 'COP $250.000',
                         imagen: 'images/landing-page-modelo.jpg',
-                        webp:'images/landing-page-modelo.webp'
+                        webp:'images/landing-page-modelo.webp',
+                        textModal:'Incluye: Diseño a medida sin plantillas en html y css, página de agradecimiento o confirmación, formulario de contacto conectado a correo electrónico o base de datos.'
                         // icono: '<i class="fas fa-thumbs-up"></i>',
                     },
                     {
@@ -86,7 +88,8 @@
                         descripcion: 'Diseño en HTML, CSS y JavaScript, 4 páginas internas, formulario de contacto, diseño adaptable',
                         precio: 'COP $600.000',
                         imagen: 'images/pagina-web-sencilla.jpg',
-                        webp: 'images/pagina-web-sencilla.webp'
+                        webp: 'images/pagina-web-sencilla.webp',
+                        textModal:'Incluye: Diseño a medida en html y css, 4 páginas internas para productos o servicios, formulario de contacto o cotización, hosting y dominio por un año.'
                         // icono: '<i class="fas fa-thumbs-up"></i>',
                     },
                     {
@@ -94,7 +97,8 @@
                         descripcion: 'Diseño en WordPres (CMS) con tema premium licenciado. Ideal para blogs y orientado a posicionamiento',
                         precio: 'COP $750.000',
                         imagen: 'images/pagina-web-administrable.jpg',
-                        webp:'images/pagina-web-administrable.webp'
+                        webp:'images/pagina-web-administrable.webp',
+                        textModal:'Incluye: Tema WordPress con licencia, velocidad de carga optimizada, optimización para móviles, hosting y dominio por un año.'
                         // icono: '<i class="fas fa-thumbs-up"></i>',
                     },
                     {
@@ -102,7 +106,8 @@
                         descripcion: 'Incluye consola de administración, hosting y dominio, correos corporativos y optimización para seo',
                         precio: 'COP $990.000',
                         imagen: 'images/pagina-web-corporativa.jpg',
-                        webp:'images/pagina-web-corporativa.webp'
+                        webp:'images/pagina-web-corporativa.webp',
+                        textModal:'Incluye: Tema WordPress Corporate con licencia, plugins premium para SEO, hosting, dominio y correos corporativos ilimitados por un año.'
                         // icono: '<i class="fas fa-thumbs-up"></i>',
                     },
                     {
@@ -110,7 +115,8 @@
                         descripcion: 'Diseño con WordPress y Woocomerce, hasta 50 artículos, pagos online, carrito de compras',
                         precio: 'COP $1.200.000',
                         imagen: 'images/tienda-online-basica.jpg',
-                        webp:'images/tienda-online-basica.webp'
+                        webp:'images/tienda-online-basica.webp',
+                        textModal:'Incluye: WordPress + Woocommerce, hasta 50 artículos con ficha independiente, carrito de compras, integración con pagos online.'
                         // icono: '<i class="fas fa-thumbs-up"></i>',
                     },
                     {
@@ -118,7 +124,8 @@
                         descripcion: 'Wordpress + Woocomerce, consola administrativa, pagos online y sistema de envíos e inventarios',
                         precio: 'COP $1.800.000',
                         imagen: 'images/tienda-online-avanzada.jpg',
-                        webp:'images/tienda-online-avanzada.webp'
+                        webp:'images/tienda-online-avanzada.webp',
+                        textModal:'Incluye: WordPress + Woocommerce, productos ilimitados, plugins envíos e inventarios, posicionamiento seo de productos.'
                     },
                     {
                         titulo: 'Tienda a Medida',
@@ -163,10 +170,25 @@
     }
 </script>
 <style>
-    .bg-primary {
-        background-color: #007bff !important;
+    .bg-primary-web {
+        background-color: #1795c5 !important;
+    }
+    .bg-secundary-web {
+        background-color: #e94861 !important;
     }
     .modal {
         margin-top: 50px !important;
+        /* border-radius: 10px !important; */
+
     }
+    .modal-content{
+        border-radius: 12px !important;
+
+    }
+    .modal-header{
+        border-top-left-radius : 12px !important;
+        border-top-right-radius :12px !important;
+
+    }
+
 </style>
