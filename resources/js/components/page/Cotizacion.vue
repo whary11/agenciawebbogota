@@ -6,15 +6,10 @@
 
 
                 <picture>
-                    <source :srcset="item.webp"  type="image/webp">									
-				    <!-- <img src="images/pagina-web-corporativa.jpg" alt="Modelo de página web Corporativa"> -->
+                    <source :srcset="item.webp" type="image/webp">
+                    <!-- <img src="images/pagina-web-corporativa.jpg" alt="Modelo de página web Corporativa"> -->
                     <img :src="item.imagen" :alt="item.descripcion">
                 </picture>
-
-
-
-
-
                 <div class="icon-content">
                     <h4 class="dlab-tilte p-t30"> {{item.titulo}}<br><span
                             class="text-blue font-16">{{item.precio}}</span></h4>
@@ -39,28 +34,30 @@
                             <p v-if="servicio.textModal"> {{servicio.textModal}} </p>
                             <p v-else> {{servicio.descripcion}} </p>
                         </div>
-                        <form>
+                        <form @submit.prevent="contratar(servicio.textModal)">
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Nombre</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp" placeholder="Nombre">
+                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Nombre" v-model="datos.nombre" required>
                                 <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Correo electrónico</label>
                                 <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp" placeholder="Correo electrónico">
+                                    aria-describedby="emailHelp" placeholder="Correo electrónico" v-model="datos.email" required>
                                 <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputPassword1">Teléfono</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1"
-                                    placeholder="Teléfono">
+                                <input type="text" class="form-control" id="exampleInputPassword1"
+                                    placeholder="Teléfono" v-model="datos.telefono" required>
                             </div>
+
+                            <!-- <pre>{{$data.datos}}</pre> -->
 
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary " data-dismiss="modal">Cerrar</button>
-                                <button type="button" class="btn text-white bg-secundary-web">Contratar</button>
+                                <button type="submit" class="btn text-white bg-secundary-web">Contratar</button>
                             </div>
                         </form>
                     </div>
@@ -79,8 +76,8 @@
                         descripcion: 'Diseñamos sus perfiles y anuncios publicitarios, creamos sus campañas, optimizamos su presupuesto y le garantizamos resultados',
                         precio: 'COP $250.000',
                         imagen: 'images/landing-page-modelo.jpg',
-                        webp:'images/landing-page-modelo.webp',
-                        textModal:'Incluye: Diseño a medida sin plantillas en html y css, página de agradecimiento o confirmación, formulario de contacto conectado a correo electrónico o base de datos.'
+                        webp: 'images/landing-page-modelo.webp',
+                        textModal: 'Incluye: Diseño a medida sin plantillas en html y css, página de agradecimiento o confirmación, formulario de contacto conectado a correo electrónico o base de datos.'
                         // icono: '<i class="fas fa-thumbs-up"></i>',
                     },
                     {
@@ -89,7 +86,7 @@
                         precio: 'COP $600.000',
                         imagen: 'images/pagina-web-sencilla.jpg',
                         webp: 'images/pagina-web-sencilla.webp',
-                        textModal:'Incluye: Diseño a medida en html y css, 4 páginas internas para productos o servicios, formulario de contacto o cotización, hosting y dominio por un año.'
+                        textModal: 'Incluye: Diseño a medida en html y css, 4 páginas internas para productos o servicios, formulario de contacto o cotización, hosting y dominio por un año.'
                         // icono: '<i class="fas fa-thumbs-up"></i>',
                     },
                     {
@@ -97,8 +94,8 @@
                         descripcion: 'Diseño en WordPres (CMS) con tema premium licenciado. Ideal para blogs y orientado a posicionamiento',
                         precio: 'COP $750.000',
                         imagen: 'images/pagina-web-administrable.jpg',
-                        webp:'images/pagina-web-administrable.webp',
-                        textModal:'Incluye: Tema WordPress con licencia, velocidad de carga optimizada, optimización para móviles, hosting y dominio por un año.'
+                        webp: 'images/pagina-web-administrable.webp',
+                        textModal: 'Incluye: Tema WordPress con licencia, velocidad de carga optimizada, optimización para móviles, hosting y dominio por un año.'
                         // icono: '<i class="fas fa-thumbs-up"></i>',
                     },
                     {
@@ -106,8 +103,8 @@
                         descripcion: 'Incluye consola de administración, hosting y dominio, correos corporativos y optimización para seo',
                         precio: 'COP $990.000',
                         imagen: 'images/pagina-web-corporativa.jpg',
-                        webp:'images/pagina-web-corporativa.webp',
-                        textModal:'Incluye: Tema WordPress Corporate con licencia, plugins premium para SEO, hosting, dominio y correos corporativos ilimitados por un año.'
+                        webp: 'images/pagina-web-corporativa.webp',
+                        textModal: 'Incluye: Tema WordPress Corporate con licencia, plugins premium para SEO, hosting, dominio y correos corporativos ilimitados por un año.'
                         // icono: '<i class="fas fa-thumbs-up"></i>',
                     },
                     {
@@ -115,8 +112,8 @@
                         descripcion: 'Diseño con WordPress y Woocomerce, hasta 50 artículos, pagos online, carrito de compras',
                         precio: 'COP $1.200.000',
                         imagen: 'images/tienda-online-basica.jpg',
-                        webp:'images/tienda-online-basica.webp',
-                        textModal:'Incluye: WordPress + Woocommerce, hasta 50 artículos con ficha independiente, carrito de compras, integración con pagos online.'
+                        webp: 'images/tienda-online-basica.webp',
+                        textModal: 'Incluye: WordPress + Woocommerce, hasta 50 artículos con ficha independiente, carrito de compras, integración con pagos online.'
                         // icono: '<i class="fas fa-thumbs-up"></i>',
                     },
                     {
@@ -124,22 +121,22 @@
                         descripcion: 'Wordpress + Woocomerce, consola administrativa, pagos online y sistema de envíos e inventarios',
                         precio: 'COP $1.800.000',
                         imagen: 'images/tienda-online-avanzada.jpg',
-                        webp:'images/tienda-online-avanzada.webp',
-                        textModal:'Incluye: WordPress + Woocommerce, productos ilimitados, plugins envíos e inventarios, posicionamiento seo de productos.'
+                        webp: 'images/tienda-online-avanzada.webp',
+                        textModal: 'Incluye: WordPress + Woocommerce, productos ilimitados, plugins envíos e inventarios, posicionamiento seo de productos.'
                     },
                     {
                         titulo: 'Tienda a Medida',
                         descripcion: 'Diseño a medida, productos ilimitados, registro de usuarios, pagos online y carrito de compras',
                         precio: 'Cotizar',
                         imagen: 'images/tienda-online-prestashop.jpg',
-                        webp:'images/tienda-online-prestashop.webp'
+                        webp: 'images/tienda-online-prestashop.webp'
                     },
                     {
                         titulo: 'Portal Educativo',
                         descripcion: 'Sitios para instituciones educativas con sistemas inteligentes que superan a moodle y otras plataformas',
                         precio: 'COTIZAR',
                         imagen: 'images/pagina-educacion.jpg',
-                        webp:'images/pagina-educacion.webp'
+                        webp: 'images/pagina-educacion.webp'
                     },
 
                     {
@@ -147,24 +144,49 @@
                         descripcion: 'Aplicativos especiales, bases de datos, sistemas real-time, alojamiento VPS, sistemas programables',
                         precio: 'COTIZAR',
                         imagen: 'images/pagina-web-inteligente.jpg',
-                        webp:'images/pagina-web-inteligente.webp'
+                        webp: 'images/pagina-web-inteligente.webp'
                     },
 
-                ]
+                ],
+                datos: {
+                    nombre: '',
+                    email:'',
+                    telefono:''
+
+                }
             }
         },
         mounted() {
             // $('#exampleModal').modal('show')
             console.log('Cotizador montado')
         },
-        methods:{
-            url(url){
+        methods: {
+            url(url) {
                 if (url) {
                     return `${location.hostname}/${url}`
-                } else{
-                   return location.hostname 
+                } else {
+                    return location.hostname
                 }
-                 
+
+            },
+            contratar(d){
+                this.datos.mensaje = d
+                axios.post('formcontacto/crear', this.datos)
+                    .then((resp) => {
+                        if (resp.data.status) {
+                            this.contacto = {}
+                            this.mensaje =
+                                `<div class="alert alert-success" role="alert">Ya tenemos su mensaje, pronto nos comunicaremos con usted.</div>`
+                        } else {
+                            this.mensaje =
+                                `<div class="alert alert-danger" role="alert">Se ha presentado un falla inesperada, recarga el navegador e intentalo nuevamente.</div>`
+                        }
+                        console.log(resp.data);
+                    })
+                    .catch((error) => {
+                        this.mensaje =
+                            `<div class="alert alert-danger" role="alert">Se ha presentado un falla inesperada, recarga el navegador e intentalo nuevamente.</div>`
+                    })
             }
         }
     }
@@ -173,22 +195,25 @@
     .bg-primary-web {
         background-color: #1795c5 !important;
     }
+
     .bg-secundary-web {
         background-color: #e94861 !important;
     }
+
     .modal {
         margin-top: 50px !important;
         /* border-radius: 10px !important; */
 
     }
-    .modal-content{
+
+    .modal-content {
         border-radius: 12px !important;
 
     }
-    .modal-header{
-        border-top-left-radius : 12px !important;
-        border-top-right-radius :12px !important;
+
+    .modal-header {
+        border-top-left-radius: 12px !important;
+        border-top-right-radius: 12px !important;
 
     }
-
 </style>
