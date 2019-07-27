@@ -23,6 +23,7 @@ Route::get('/posicionamiento-web', 'IndexController@posicionamientoWeb');
 Route::get('/blog', 'IndexController@blog');
 Route::get('/contacto', 'IndexController@contacto');
 Route::get('/servicios', 'IndexController@servicios');
+Route::get('/branding', 'IndexController@branding');
 
 
 // Url para el formulario de contacto
