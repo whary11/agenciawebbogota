@@ -250,6 +250,18 @@
 .webp-contacto{
 	background-image: url("/images/background/bg-seccion-contacto.webp")
 }
+.no-webp-servicios{
+	background-image: url("/images/background/bg10.jpg")
+}
+.webp-servicios{
+	background-image: url("/images/background/bg10.webp")
+}
+.no-webp-branding{
+	background-image: url("/images/background/bg16.jpg")
+}
+.webp-branding{
+	background-image: url("/images/background/bg16.webp")
+}
 /*==========================
 	FIN Custom css
 ==========================*/

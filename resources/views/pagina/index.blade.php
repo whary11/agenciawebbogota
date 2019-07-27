@@ -10,10 +10,8 @@
     <meta name="MobileOptimized" content="320">
     <meta name="Robots" content="index, follow">
     <title>Agencia Web Bogotá - Diseño de Páginas Web y Marketing Digital en Bogotá</title>
-    <meta name="description"
-        content="Agencia Web Bogotá creamos diseños, publicidad y contenidos optimizados con Neuromarketing. Líderes en Diseño de Páginas Web y Marketing Digital en Bogotá" />
-    <meta name="keywords"
-        content="agencia web bogota, diseño web bogota, diseño de paginas web Bogota, páginas web corporativas,  diseño de paginas web, diseño paginas web economicas, diseño web optimizado, neuromarketing">
+    <meta name="description" content="Agencia Web Bogotá creamos diseños, publicidad y contenidos optimizados con Neuromarketing. Líderes en Diseño de Páginas Web y Marketing Digital en Bogotá" />
+    <meta name="keywords" content="agencia web bogota, diseño web bogota, diseño de paginas web Bogota, páginas web corporativas,  diseño de paginas web, diseño paginas web economicas, diseño web optimizado, neuromarketing">
     <meta name="author" content="Agencia Web Bogotá">
     <meta name="email" content="agenciawebbogota@gmail.com">
     <meta name="Rating" content="General">
@@ -25,16 +23,14 @@
     <meta property="og:title" content="Diseño de Páginas Web y Marketing Digital en Bogotá" />
     <meta property="og:url" content="https://agenciawebbogota.com" />
     <meta property="og:image" content="http://agenciawebbogota.com/social/ogg-image.jpg" />
-    <meta property="og:description"
-        content="Creamos diseños, publicidad y contenidos optimizados con Neuromarketing. Líderes en Diseño de Páginas Web y Marketing Digital en Bogotá" />
+    <meta property="og:description" content="Creamos diseños, publicidad y contenidos optimizados con Neuromarketing. Líderes en Diseño de Páginas Web y Marketing Digital en Bogotá" />
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@AgenciaBogota">
     <meta name="twitter:creator" content="@AgenciaBogota">
     <meta name="twitter:image" content="http://agenciawebbogota.com/social/ogg-image.jpg">
     <meta name="twitter:image:alt" content="Agencia Web Bogotá | Diseño Web Optimizado con Neuromarketing">
     <meta name="twitter:title" content="Diseño Web + Neuromarketing">
-    <meta name="twitter:description"
-        content="Creamos diseños, publicidad y contenidos optimizados con Neuromarketing. Líderes en Diseño de Páginas Web y Marketing Digital en Bogotá">
+    <meta name="twitter:description" content="Creamos diseños, publicidad y contenidos optimizados con Neuromarketing. Líderes en Diseño de Páginas Web y Marketing Digital en Bogotá">
     <link rel="canonical" href="https://agenciawebbogota.com" />
     <link rel="publisher" href="https://plus.google.com/u/0/113079972107918983296" />
     <meta name="format-detection" content="telephone=no">
@@ -77,7 +73,7 @@
                             <div class="slide-content-box container title-princ">
                                 <div class="max-w600 text-white">
                                     <h1 class="text-white font-weight-600 bs">Diseño Web y Marketing Digital </h1>
-                                    <h4>No competimos en el mercado, creamos nuevas cosas para el mercado</h4>
+                                    <h4>No competimos en el mercado, creamos cosas nuevas para el mercado</h4>
                                     <p>Con la mejor oferta costo/beneficio del mercado, respaldada por amplios
                                         conocimientos en lenguajes de programación, gestores de contenido, diseño
                                         gráfico y posicionamiento SEO.</p>
@@ -239,7 +235,7 @@
                                 </li>
                                 <li data-filter="web" class="btn">
                                     <a href="#" class="site-button-secondry radius-sm"
-                                        onclick="window.location = '/'"><span>Branding</span></a>
+                                        onclick="window.location = 'programacion-web'"><span>Programación</span></a>
                                 </li>
                                 <li data-filter="advertising" class="btn active">
                                     <a href="redes-sociales" class="site-button-secondry radius-sm"
@@ -247,7 +243,7 @@
                                 </li>
                                 <li data-filter="branding" class="btn">
                                     <a href="#" class="site-button-secondry radius-sm"
-                                        onclick="window.location = '/'"><span>Desarrollo de Apps</span></a>
+                                        onclick="window.location = '/'"><span>Branding</span></a>
                                 </li>
                                 <li data-filter="design" class="btn active">
                                     <a href="tiendas-online" class="site-button-secondry radius-sm"
