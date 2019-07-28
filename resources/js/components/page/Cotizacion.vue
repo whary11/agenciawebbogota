@@ -157,8 +157,6 @@
             }
         },
         mounted() {
-            // $('#exampleModal').modal('show')
-            console.log('Cotizador montado')
         },
         methods: {
             url(url) {
@@ -167,7 +165,6 @@
                 } else {
                     return location.hostname
                 }
-
             },
             contratar(d){
                 this.datos.mensaje = d

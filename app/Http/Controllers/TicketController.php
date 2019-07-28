@@ -8,7 +8,10 @@ use App\Conversation;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Requests\TicketRequest;
 use Illuminate\Support\Facades\DB;
-use App\Notifications\TicketNotificaction;
+// use App\Notifications\TicketNotificaction;
+use App\Mail\TicketMail;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\TicketUpdate;
 
 class TicketController extends Controller
 {
@@ -42,12 +45,11 @@ class TicketController extends Controller
           }
           if ($succes) {
              return [
-                 'status' => 'success',
-                //  'data' => $conversacion
+                 'status' => true,
              ];
           }else {
               return[
-                  'status' => 'false',
+                  'status' => false,
                   'error' => $error
               ];
           }
@@ -77,7 +79,11 @@ class TicketController extends Controller
                 'mensaje'=>$request->mensaje,
                 'rol' => $rol
               ]);
-            //   $ticket->notify(new TicketNotificaction);
+
+              $ticket = Ticket::where('id', $conversacion->ticket_id)->first();
+
+              Mail::to(['email' => 'soporte@gmail.com'])->cc($request->email)->send(new TicketUpdate($ticket));
+
               $succes = true;
               DB::commit();
           } catch (\Throwable $th) {
@@ -115,8 +121,7 @@ class TicketController extends Controller
                 'mensaje'=>$request->mensaje,
                 'rol' => Conversation::REMITENTE
               ]);
-
-            //   $ticket->notify(new TicketNotificaction);
+              Mail::to(['email' => 'whary11@gmail.com'])->cc($ticket->email)->send(new TicketMail($ticket));
               $succes = true;
               DB::commit();
           } catch (\Throwable $th) {

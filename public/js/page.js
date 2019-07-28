@@ -1908,11 +1908,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -1926,9 +1921,7 @@ __webpack_require__.r(__webpack_exports__);
       ticket: false
     };
   },
-  mounted: function mounted() {
-    this.url();
-  },
+  mounted: function mounted() {},
   methods: {
     getTicket: function getTicket() {
       var _this = this;
@@ -1938,22 +1931,21 @@ __webpack_require__.r(__webpack_exports__);
       } else {
         axios.get('/ticket/numero_ticket/' + this.num_ticket).then(function (resp) {
           _this.ticket = resp.data;
-          console.log(resp.data);
-        })["catch"](function (error) {}); // console.log(this.num_ticket);
+        })["catch"](function (error) {});
       }
     },
     sendConversacion: function sendConversacion() {
       var _this2 = this;
 
-      if (this.mensaje.trim() == '') {
-        console.log('El mensaje es incorrecto.');
+      if (this.mensaje.trim() == '') {// console.log('El mensaje es incorrecto.');
       } else {
         var datos = {
           mensaje: this.mensaje,
-          ticket_id: this.ticket.id
+          ticket_id: this.ticket.id,
+          email: this.ticket.email
         };
         axios.post('/tickets/create/conversacion', datos).then(function (resp) {
-          if (resp.data.status == 'success') {
+          if (resp.data.status) {
             _this2.ticket.conversaciones.unshift(resp.data.data);
 
             _this2.mensaje = '';
@@ -1976,11 +1968,8 @@ __webpack_require__.r(__webpack_exports__);
         num_ticket: this.num_ticket
       }).then(function (resp) {
         if (resp.data.status == 'success') {
-          // alert('Se cerró el Ticket..')
-          _this3.ticket.estado = "CERRADO"; // console.log(this.ticket.estado);
+          _this3.ticket.estado = "CERRADO";
         }
-
-        console.log(resp.data);
       })["catch"](function (error) {});
     },
     url: function url(_url) {
@@ -2149,10 +2138,7 @@ __webpack_require__.r(__webpack_exports__);
       }
     };
   },
-  mounted: function mounted() {
-    // $('#exampleModal').modal('show')
-    console.log('Cotizador montado');
-  },
+  mounted: function mounted() {},
   methods: {
     url: function url(_url) {
       if (_url) {
@@ -2273,6 +2259,7 @@ __webpack_require__.r(__webpack_exports__);
       axios.post('tickets/create', this.ticket).then(function (resp) {
         if (resp.data.status) {
           _this.errors = false;
+          _this.ticket = {};
           _this.respuesta = resp.data.data;
         }
       })["catch"](function (error) {
@@ -6872,7 +6859,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.site-header {\n    background-color: #000000 !important;\n}\n.bg-primary {\n    background-color: #007bff !important;\n}\n\n\n", ""]);
+exports.push([module.i, "\n.site-header {\n    background-color: #000000 !important;\n}\n.bg-primary {\n    background-color: #007bff !important;\n}\n", ""]);
 
 // exports
 
@@ -56173,7 +56160,8 @@ var render = function() {
                         _c("img", {
                           staticClass: "mr-3",
                           attrs: {
-                            src: _vm.url("/images/favicon.png"),
+                            src:
+                              "https://agenciawebbogota.test/images/favicon.png",
                             alt: "Logo Agencia Web Bogotá"
                           }
                         }),
@@ -56736,7 +56724,7 @@ var render = function() {
                     attrs: {
                       name: "compania",
                       type: "text",
-                      placeholder: "Correo Electrónico"
+                      placeholder: "Compañía.."
                     },
                     domProps: { value: _vm.ticket.compania },
                     on: {

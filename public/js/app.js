@@ -1891,7 +1891,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -1901,7 +1900,6 @@ __webpack_require__.r(__webpack_exports__);
     };
   },
   mounted: function mounted() {
-    console.log('Component mounted.');
     this.getTickets();
   },
   methods: {
@@ -2018,7 +2016,6 @@ __webpack_require__.r(__webpack_exports__);
   mounted: function mounted() {
     this.num_ticket = window.location.pathname.split('/')[2];
     this.getTicket();
-    this.url();
   },
   methods: {
     getTicket: function getTicket() {
@@ -2028,23 +2025,22 @@ __webpack_require__.r(__webpack_exports__);
         alert('Ticket invalido');
       } else {
         axios.get('/ticket/numero_ticket/' + this.numm_ticket).then(function (resp) {
-          _this.ticket = resp.data;
-          console.log(resp.data);
+          _this.ticket = resp.data; // console.log(resp.data);
         })["catch"](function (error) {});
       }
     },
     sendConversacion: function sendConversacion() {
       var _this2 = this;
 
-      if (this.mensaje.trim() == '') {
-        console.log('El mensaje es incorrecto.');
+      if (this.mensaje.trim() == '') {// console.log('El mensaje es incorrecto.');
       } else {
         var datos = {
           mensaje: this.mensaje,
-          ticket_id: this.ticket.id
+          ticket_id: this.ticket.id,
+          email: this.ticket.email
         };
         axios.post('/tickets/create/conversacion', datos).then(function (resp) {
-          if (resp.data.status == 'success') {
+          if (resp.data.status) {
             _this2.ticket.conversaciones.unshift(resp.data.data);
 
             _this2.mensaje = '';
@@ -2071,8 +2067,7 @@ __webpack_require__.r(__webpack_exports__);
         }
       })["catch"](function (error) {});
     },
-    url: function url() {
-      console.log(localhost.hostname);
+    url: function url() {// console.log(localhost.hostname);
     }
   }
 });
@@ -6536,7 +6531,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.bounce-enter-active {\n        -webkit-animation: bounce-in .5s;\n                animation: bounce-in .5s;\n}\n.bounce-leave-active {\n        animation: bounce-in .5s reverse;\n}\n@-webkit-keyframes bounce-in {\n0% {\n            -webkit-transform: scale(0);\n                    transform: scale(0);\n}\n50% {\n            -webkit-transform: scale(1.5);\n                    transform: scale(1.5);\n}\n100% {\n            -webkit-transform: scale(1);\n                    transform: scale(1);\n}\n}\n@keyframes bounce-in {\n0% {\n            -webkit-transform: scale(0);\n                    transform: scale(0);\n}\n50% {\n            -webkit-transform: scale(1.5);\n                    transform: scale(1.5);\n}\n100% {\n            -webkit-transform: scale(1);\n                    transform: scale(1);\n}\n}\n.list-item {\n  display: inline-block;\n  margin-right: 10px;\n}\n.list-enter-active, .list-leave-active {\n  -webkit-transition: all 1s;\n  transition: all 1s;\n}\n.list-enter, .list-leave-to /* .list-leave-active below version 2.1.8 */ {\n  opacity: 0;\n  -webkit-transform: translateY(30px);\n          transform: translateY(30px);\n}\n\n\n", ""]);
+exports.push([module.i, "\n.bounce-enter-active {\n    -webkit-animation: bounce-in .5s;\n            animation: bounce-in .5s;\n}\n.bounce-leave-active {\n    animation: bounce-in .5s reverse;\n}\n@-webkit-keyframes bounce-in {\n0% {\n        -webkit-transform: scale(0);\n                transform: scale(0);\n}\n50% {\n        -webkit-transform: scale(1.5);\n                transform: scale(1.5);\n}\n100% {\n        -webkit-transform: scale(1);\n                transform: scale(1);\n}\n}\n@keyframes bounce-in {\n0% {\n        -webkit-transform: scale(0);\n                transform: scale(0);\n}\n50% {\n        -webkit-transform: scale(1.5);\n                transform: scale(1.5);\n}\n100% {\n        -webkit-transform: scale(1);\n                transform: scale(1);\n}\n}\n.list-item {\n    display: inline-block;\n    margin-right: 10px;\n}\n.list-enter-active,\n.list-leave-active {\n    -webkit-transition: all 1s;\n    transition: all 1s;\n}\n.list-enter,\n.list-leave-to\n\n/* .list-leave-active below version 2.1.8 */\n    {\n    opacity: 0;\n    -webkit-transform: translateY(30px);\n            transform: translateY(30px);\n}\n", ""]);
 
 // exports
 

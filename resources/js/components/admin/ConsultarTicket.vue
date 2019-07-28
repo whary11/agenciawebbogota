@@ -85,7 +85,6 @@
             this.num_ticket = window.location.pathname.split('/')[2]
             this.getTicket()
 
-            this.url()
         },
         methods: {
             getTicket() {
@@ -95,7 +94,7 @@
                     axios.get('/ticket/numero_ticket/' + this.numm_ticket)
                         .then((resp) => {
                             this.ticket = resp.data
-                            console.log(resp.data);
+                            // console.log(resp.data);
                         })
                         .catch((error) => {
 
@@ -104,16 +103,17 @@
             },
             sendConversacion() {
                 if (this.mensaje.trim() == '') {
-                    console.log('El mensaje es incorrecto.');
+                    // console.log('El mensaje es incorrecto.');
 
                 } else {
                     let datos = {
                         mensaje: this.mensaje,
-                        ticket_id: this.ticket.id
+                        ticket_id: this.ticket.id,
+                        email:this.ticket.email
                     }
                     axios.post('/tickets/create/conversacion', datos)
                         .then((resp) => {
-                            if (resp.data.status == 'success') {
+                            if (resp.data.status) {
                                 this.ticket.conversaciones.unshift(resp.data.data)
                                 this.mensaje = ''
                                 this.error_mensaje.estado = true
@@ -144,7 +144,7 @@
 
             },
             url(){
-                console.log(localhost.hostname);
+                // console.log(localhost.hostname);
                  
             }
         }

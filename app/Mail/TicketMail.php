@@ -6,21 +6,22 @@ use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
-use App\Contacto;
+use App\Ticket;
 
-class Contactos extends Mailable
+class TicketMail extends Mailable
 {
     use Queueable, SerializesModels;
-    public $contacto;
+
+    public $ticket;
+
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct(Contacto $contacto)
+    public function __construct(Ticket $ticket)
     {
-        
-        $this->contacto = $contacto;
+        $this->ticket = $ticket;
     }
 
     /**
@@ -30,7 +31,6 @@ class Contactos extends Mailable
      */
     public function build()
     {
-        
-        return $this->subject('Nuevo contacto')->markdown('emails.contacto');;
+        return $this->subject('Nuevo Ticket')->markdown('emails.ticket');
     }
 }

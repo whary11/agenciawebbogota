@@ -1,5 +1,9 @@
 <?php
-use App\Contacto;
+use App\Ticket;
+
+
+use App\Mail\TicketUpdate;
+use App\Conversation;
 
 /*
 |--------------------------------------------------------------------------
@@ -32,10 +36,14 @@ Route::post('formcontacto/crear', 'ContactoController@create');
 
 
 
-Route::get('mailable', function () {
-    $contacto = Contacto::first();
-    return new App\Mail\Contactos($contacto);
-});
+// Route::get('mailable', function () {
+//     $ticket = Ticket::first();
+//     return new App\Mail\TicketUpdate($ticket);
+
+//     // return Conversation::with(['tickets' => function ($q){
+//     //     $q->where('num_ticket', 1564310853);
+//     // }])->get();
+// });
 
 // Url para los tickets
 

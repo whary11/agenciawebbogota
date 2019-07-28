@@ -2,7 +2,6 @@
     <div class="container">
         <transition-group name="list" tag="p">
             <consultar-ticket v-if="responder" :numm_ticket="numero_ticket" :key="23"></consultar-ticket>
-
             <div class="row justify-content-center" v-else :key="24">
                 <div class="col-md-12">
                     <div class="card">
@@ -62,7 +61,6 @@
             }
         },
         mounted() {
-            console.log('Component mounted.')
             this.getTickets()
         },
         methods: {
@@ -110,16 +108,21 @@
 
 
     .list-item {
-  display: inline-block;
-  margin-right: 10px;
-}
-.list-enter-active, .list-leave-active {
-  transition: all 1s;
-}
-.list-enter, .list-leave-to /* .list-leave-active below version 2.1.8 */ {
-  opacity: 0;
-  transform: translateY(30px);
-}
+        display: inline-block;
+        margin-right: 10px;
+    }
 
+    .list-enter-active,
+    .list-leave-active {
+        transition: all 1s;
+    }
 
+    .list-enter,
+    .list-leave-to
+
+    /* .list-leave-active below version 2.1.8 */
+        {
+        opacity: 0;
+        transform: translateY(30px);
+    }
 </style>

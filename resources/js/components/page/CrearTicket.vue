@@ -26,7 +26,7 @@
                     <div class="input-group">
                         <span class="input-group-addon"><i class="ti-email text-primary"></i></span>
                         <input name="compania" v-model="ticket.compania" type="text" class="form-control"
-                            placeholder="Correo Electrónico">
+                            placeholder="Compañía..">
                     </div>
                 </div>
             </div>
@@ -79,6 +79,7 @@
                     .then((resp) => {
                         if (resp.data.status) {
                             this.errors = false
+                            this.ticket = {}
                             this.respuesta = resp.data.data
                         }
                     })
@@ -90,16 +91,11 @@
         }
     }
 </script>
-
-
 <style>
     .site-header {
         background-color: #000000 !important;
     }
-
     .bg-primary {
         background-color: #007bff !important;
     }
-
-   
 </style>
