@@ -2873,7 +2873,7 @@ blockquote:before {
 }
 .header-nav .nav > li .sub-menu {
     background-color: #ffffff;
-    border: 1px solid #f4f4f4;
+    border: 1px solid #051821;
     display: block;
     left: 0;
     list-style: none;
@@ -3138,59 +3138,6 @@ blockquote:before {
 		margin-bottom: -30px;
 	}
 }
-/* Nav  Badge */
-.shop-cart.navbar-right{
-	margin-right:0;
-	float:none;
-	display:inline-block;
-}
-.shop-cart .dropdown-menu.cart-list{
-	box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.3);
-	top: 50px;
-	border:0;
-}
-.shop-cart .badge{
-	font-size: 9px;
-    height: 15px;
-    line-height: 15px;
-    min-width: 15px;
-    padding: 0;
-    position: absolute;
-    right: -5px;
-    text-align: center;
-    top: -5px;
-}
-.shop-cart  li{
-	padding: 10px 20px;
-	border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
-}
-.shop-cart  li:last-child{
-	border-bottom:0;
-}
-.shop-cart .media-left a {
-    display: block;
-    width: 60px;
-}
-.shop-cart .site-button-link{
-	position:relative;
-}
-.cart-list.dropdown-menu{
-	width:260px;
-	margin-top: 30px;
-	
-}
-.is-fixed .cart-list.dropdown-menu{
-	margin-top: 18px;
-	transition:all 0.5s;
-	-moz-transition:all 0.5s;
-	-webkit-transition:all 0.5s;
-}
-.cart-list .media-object{
-	width:60px;
-}
-.cart-item .media-body{
-	position:relative;
-}
 .item-close {
     background-color: #303030;
     border-radius: 20px;
@@ -3268,19 +3215,19 @@ blockquote:before {
     .header-nav {
         clear: both;
         margin: 0 -15px;
-        border-bottom: 1px solid #E9E9E9;
+        border-bottom: 1px solid #051821;
     }
     .header-nav .nav {
         float: none;
         margin: 0;
-        background: #fff;
+        background: #051821 ;
 		width:100%;
 		display: block;
     }
     .header-nav .nav li {
         float: none;
 		display:block;
-		width:100%;
+        width:100%;
     }
     .header-nav .nav > li .sub-menu > li,
     .header-nav .nav > li .mega-menu > li {
@@ -3290,7 +3237,7 @@ blockquote:before {
     }
     .header-nav .nav > li > a {
         padding: 10px 15px;
-        border-top: 1px solid #E9E9E9;
+        border-top: 1px solid #051821;
 		display:block;
     }
     .header-nav .nav i {
@@ -3299,7 +3246,7 @@ blockquote:before {
     .header-nav .nav > li > a:hover,
     .header-nav .nav > li > a:active,
     .header-nav .nav > li > a:focus {
-        background-color: #f0f0f0;
+        background-color: #051821;
         text-decoration: none;
     }
     .header-nav .nav > li .mega-menu > li:after {
@@ -3312,7 +3259,7 @@ blockquote:before {
         position: static;
         visibility: visible;
         width: auto;
-        background: #f6f6f6;
+        background: #051821;
     }
     .header-nav .nav > li ul.mega-menu ul {
         display: none;
@@ -3341,7 +3288,7 @@ blockquote:before {
     .side-nav .nav.navbar-nav li a i.fa-chevron-down,
     .nav.navbar-nav li a i.fa-chevron-down,
     .nav.navbar-nav li a i.fa-angle-right {
-        background-color: rgba(0, 0, 0, 0.2);
+        background-color: #051821 ;
         color: #ffffff;
         height: 100%;
         line-height: 40px;
@@ -3398,7 +3345,7 @@ blockquote:before {
 		padding:0;
 	}
 	.header-nav .nav > li .mega-menu > li > a{
-		display:none;
+        display:none;
 	}
 	.header-nav .nav .mega-menu a i{
 		display:inline-block;
@@ -3409,7 +3356,7 @@ blockquote:before {
     .header-nav .nav .open > a:focus,
     .header-nav .nav .open > a:hover {
         background-color: inherit;
-        border-color: #e9e9e9;
+        border-color: #051821;
     }
     .header-nav.nav-dark.nav .open > a,
     .header-nav.nav-dark .nav .open > a:focus,
@@ -3809,7 +3756,7 @@ blockquote:before {
 	.header.box.dark .header-nav .nav > li > a,
 	.header.box.overlay .header-nav .nav > li > a,
 	.header-curve [class*="bg-"] .header-nav .nav > li.active > a{
-		color:#000;
+		color:#ffffff;
 	}
 	.header.dark .header-nav.nav-dark .nav > li > a,
 	.header-transparent .header-nav.nav-dark .nav > li > a,
@@ -13064,11 +13011,12 @@ ol.commentlist li .star-rating {
 		height: auto;
 		max-width: 100%;
 		padding: 30px 15px;
-		width: 100%;
+        width: 100%;
+        background-color: #051821;
 	}
 	.mo-left .header-nav .logo-header img{
 		max-width: unset;
-		width: 130px;
+		width: 250px;
 	}
 	.mo-left .navbar-toggler.open span{
 		background:#fff;

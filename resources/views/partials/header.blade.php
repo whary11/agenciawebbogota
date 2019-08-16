@@ -54,10 +54,9 @@
                     </div>
                 </div>
                 <!-- main nav -->
-                <div class="header-nav navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
+                <div class="header-nav navbar-collapse collapse justify-content-end" id="navbarNavDropdown"> 
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="{{url('/')}}"><i
-                                    class="fas fa-home font-20"></i></a></li>
+                        <li class="active"><a href="{{url('/')}}"><i class="fas fa-home font-20"></i> Inicio</a></li>
                         <li><a>Desarrollo Web<i class="fas fa-chevron-down"></i></a>
                             <ul class="sub-menu">
                                 <li><a href="{{url('paginas-web')}}">Páginas Web </a>
