@@ -33,6 +33,8 @@
                         <h5 class="m-b30 text-white text-uppercase">Enviar un pago</h5>
                         <p class="m-b20 text-none">Puede enviar un pago por cualquier servicio contratado con Agencia Web Bogotá, usando los medios de pago disponibles</p>
                         <div class="m-b20">
+                        <a href="enviar-un-pago" class="site-button outline outline-1">Pagar Ahora <i class="fas fa-dollar-sign m-r5"></i></a>
+                        <div class="p-b15"></div>
                             <picture>
                                 <source srcset="{{asset('/images/medios-de-pago.webp')}}"  type="image/webp">
                                 <img src="{{asset('/images/medios-de-pago.png')}}" alt="Logos de medios de pago">

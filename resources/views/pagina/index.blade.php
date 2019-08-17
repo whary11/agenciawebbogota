@@ -274,7 +274,7 @@
                                         Websites hechos a medida con Funciones Específicas</p>
                                     </ul>
                                     <a href="contacto" class="site-button bg-azul-oscuro-agencia outline outline-2">Quiero Cotizar Mi Sitio Web
-                                        <i class="ti-arrow-right m-l10"></i></a>
+                                    <i class="ti-arrow-right m-l10"></i></a>
                                 </div>
                             </div>
                             <div class="col-lg-7 equal-col wow zoomInRight" data-wow-delay="0.8s">
@@ -389,18 +389,18 @@
                                         <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
                                             <a href="javascript:void(0);">
                                                 <picture>
-                                                    <source srcset="{{asset('images/portafolio/issla-risk.webp')}}"
+                                                    <source srcset="{{asset('images/portafolio/jeronimos.webp')}}"
                                                         type="image/webp">
-                                                    <img src="{{asset('images/portafolio/issla-risk.jpg')}}" alt="Issla Risk">
+                                                    <img src="{{asset('images/portafolio/jeronimos.jpg')}}" alt="Jerónimo's Cake Shop">
                                                 </picture>
                                             </a>
                                             <div class="overlay-bx">
                                                 <div class="overlay-icon align-b text-white">
                                                     <div class="text-white text-left port-box">
-                                                        <a href="https://isslarisk.com" target="_blank">
-                                                            <h5>Issla Risk Global Service</h5>
+                                                        <a href="https://jeronimos.co" target="_blank">
+                                                            <h5>Jerónimos Cake Shop</h5>
                                                         </a>
-                                                        <p>Sitio Web Corporativo</p>
+                                                        <p>Sitio Web Shop</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -413,18 +413,18 @@
                                         <div class="dlab-media dlab-img-overlay1 dlab-img-effect dlab-img-effect ">
                                             <a href="javascript:void(0);">
                                                 <picture>
-                                                    <source srcset="{{asset('images/portafolio/menusfacil.webp')}}"
+                                                    <source srcset="{{asset('images/portafolio/issla-risk.webp')}}"
                                                         type="image/webp">
-                                                    <img src="{{asset('images/portafolio/imagen-menusfacil.jpg')}}"
-                                                        alt="Menús Fácil"></picture>
+                                                    <img src="{{asset('images/portafolio/issla-risk.jpg')}}"
+                                                        alt="Issla Risk"></picture>
                                             </a>
                                             <div class="overlay-bx">
                                                 <div class="overlay-icon align-b text-white">
                                                     <div class="text-white text-left port-box">
-                                                        <a href="https://menusfacil.com" target="_blank">
-                                                            <h5>Menús Fácil</h5>
+                                                        <a href="https://isslarisk.com" target="_blank">
+                                                            <h5>Issla Risk Global Service</h5>
                                                         </a>
-                                                        <p>Aplicativo, Página Web y Branding</p>
+                                                        <p>Sitio Web Corporativo</p>
                                                     </div>
                                                 </div>
                                             </div>

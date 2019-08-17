@@ -24,7 +24,7 @@
                     <ul>
                         <li><a href="mailto:info@agenciawebbogota.com"><i class="fas fa-at m-r5"></i>
                                 info@agenciawebbogota.com</a></li>
-                        <li><a href="pagos"><i class="fas fa-dollar-sign m-r5"></i> Hacer un Pago</a></li>
+                        <li><a href="{{url('enviar-un-pago')}}"><i class="fas fa-dollar-sign m-r5"></i> Enviar un Pago</a></li>
                     </ul>
                 </div>
             </div>
