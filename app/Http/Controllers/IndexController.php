@@ -42,6 +42,9 @@ class IndexController extends Controller
     public function branding(){
         return view('pagina.branding');
     }
+    public function pagos(){
+        return view('pagina.enviar-un-pago');
+    }
     public function marketingAutomatizado(){
         return [
             'page' => 'Página de Marketing Automatizado'
