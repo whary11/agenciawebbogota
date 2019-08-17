@@ -29,6 +29,7 @@ Route::get('/contacto', 'IndexController@contacto');
 Route::get('/servicios', 'IndexController@servicios');
 Route::get('/branding', 'IndexController@branding');
 Route::get('/enviar-un-pago', 'IndexController@pagos');
+Route::get('/confirmacion', 'IndexController@confirmacion');
 
 
 // Url para el formulario de contacto

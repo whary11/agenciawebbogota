@@ -37,6 +37,10 @@
 	font-weight: 500;
 	margin-top:-20px;
 }
+.texto-pagos{
+	font-size: 12px;
+	line-height: 0.5em;
+}
 
 /*Iconos de contacto Fijos*/
 .icono-whatsapp{
@@ -261,6 +265,12 @@
 }
 .webp-branding{
 	background-image: url("/images/background/bg16.webp")
+}
+.no-webp-pagos{
+	background-image: url("/images/background/bg17.webp")
+}
+.webp-pagos{
+	background-image: url("/images/background/bg17.webp")
 }
 /*==========================
 	FIN Custom css

@@ -45,6 +45,9 @@ class IndexController extends Controller
     public function pagos(){
         return view('pagina.enviar-un-pago');
     }
+    public function confirmacion(){
+        return view('pagina.confirmacion');
+    }
     public function marketingAutomatizado(){
         return [
             'page' => 'Página de Marketing Automatizado'
