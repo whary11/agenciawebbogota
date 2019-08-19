@@ -37,98 +37,206 @@
         <div class="dlab-bnr-inr overlay-primary no-webp-branding webp-branding">
                 <div class="container">
                     <div class="dlab-bnr-inr-entry texto-ini">
-                        <h1 class="text-white">Branding Corporativo</h1>
-                        <h2 class="text-white">Diseño Gráfico e Imagen Corporativa</h2>
+                        <h1 class="text-white">Alarmante aumento en los costos de alojamiento de paginas web</h1>
                     </div>
                 </div>
         </div>
         <!-- inner page banner END -->
-		<div class="content-block">
-            <!-- About Us -->
-			<div class="section-full content-inner">                
-                <div class="section-full content-inner bg-img-fix bg-img-fix" style="background-image:url(images/background/bg12.jpg);">
-                <div class="container">
-					<div class="row m-b30">
-						<div class="col-lg-4 col-md-12 align-self-center wow fadeInLeft" data-wow-delay="0.2s">
-							<h5>Somos Creativos</h5>
-							<h2 class="font-weight-700">Diseñamos cualquier tipo de pieza gráfica para uso digital e impresión</h2>
-						</div>
-						<div class="col-lg-8 col-md-12">
-							<div class="row">
-								<div class="col-lg-4 col-md-4 col-sm-6 wow fadeIn" data-wow-delay="0.2s">
-									<div class="icon-bx-wraper bx-style-1 p-tb30 p-lr20 m-b30 center br-col-b1 bg-white">
-                                    <div class="icon-lg m-b20"><i class="fas fa-file-pdf text-blue"></i></div>
-										<div class="icon-content">
-											<h5 class="font-weight-500">Brochure<br>Corporativo</h5>
-											<p class="m-b0 font-14">Optimo para uso digital e impresión</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-4 col-md-4 col-sm-6 wow fadeIn" data-wow-delay="0.4s">
-									<div class="icon-bx-wraper bx-style-1 p-tb30 p-lr20 m-b30 center br-col-b1 bg-white">
-                                    <div class="icon-lg m-b20"><i class="far fa-copyright text-blue"></i></div>
-										<div class="icon-content">
-											<h5 class="font-weight-500">Guía de<br>Marca</h5>
-											<p class="m-b0 font-14">Integramos toda su imagen corporativa</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-4 col-md-4 col-sm-12 wow fadeIn" data-wow-delay="0.6s">
-									<div class="icon-bx-wraper bx-style-1 p-tb30 p-lr20 m-b30 center br-col-b1 bg-white">
-                                    <div class="icon-lg m-b20"><i class="fas fa-paint-brush text-blue"></i></div>
-										<div class="icon-content">
-											<h5 class="font-weight-500">Diseño de<br>marca</h5>
-											<p class="m-b0 font-14">Creamos logotipos, isotipos, imagotipos e isologos</p>
-										</div>
-									</div>
-								</div>
+        <div class="content-area">
+            <div class="container">
+                <div class="row">
+                    <!-- Left part start -->
+                    <div class="col-lg-8 col-xl-9">
+                        <!-- blog start -->
+                        <div class="blog-post blog-single">                            
+                            <div class="dlab-post-media dlab-img-effect zoom-slow wow fadeIn" data-wow-delay="0.2s"><img src="images/blog/default/thum1.jpg" alt=""></div>
+                            <div class="dlab-post-text">
+                            <p>El pasado 27 de junio de 2019, la compañía cPanel anunció un nuevo modelo de precios basado en cuentas que básicamente cambió la forma en que se factura a los clientes y resultó en un aumento de precios de hasta 2000%. El anuncio oficial está disponible en https://blog.cpanel.com/announcing-account-based-pricing/</p>
+                            <p>Si bien en la industria del alojamiento y desarrollo web ya esperábamos el aumento de precios, nadie imaginó que el modelo se cambiaría tan drásticamente y que los precios se elevarían de tal manera. Ahora los usuarios de cPanel que básicamente somos más del 90% de propietarios de sitios web, no podremos crear cuentas ilimitadas en sus servidores de cPanel sin pagar estos sobre costos.</p>
+                            <p>Este cambio afecta a toda la industria del alojamiento y desarrollo web porque hoy en día cPanel es el panel de control más utilizado. Trataremos de explicar a continuación cómo ese cambio afecta directamente a nuestros clientes que tienen su sitio web o aplicativo corriendo desde cPanel.</p>
+                            <p>Todos sabemos que nuestras páginas web se encuentran en un alojamiento compartido, puede ser un hosting de revendedores o hosting vps. Pues bien, los sobre costos afectarán directamente a los administradores de dichos servicios, quienes ya no podrán contar con cuentas ilimitadas de cPanel lo que finalmente se transmitirá al cliente final, es decir, a los propietarios de sitios web.</p>
+                            <p>Es por esto, que los precios de contratación y renovación de servicios que involucren cPanel aumentarán a partir del 1 de septiembre de 2019 hasta en un 250%. Sin embargo, Agencia Web Bogotá absorberá esos costos tanto como nos sea posible para reducir el impacto del aumento para nuestros clientes.</p>
+                            <p>Los servicios afectados por este aumento son:</p>
+                            <ul>
+                                <li>Hosting linux/windows para sitios web convencionales</li>
+                                <li>Alojamiento para correos electrónicos corporativos (email hosting)</li>
+                                <li>Aumento de capacidad en disco para sitios web y correos electrónicos</li>
+                                <li>Aumento de ancho de banda/mes para sitios web</li>
+                            </ul>
+                            <p>Es de anotar que el aumento se verá reflejado en la factura correspondiente al próximo vencimiento y los clientes que hayan realizado con anterioridad la renovación por más de un año no se verán afectados por el aumento durante el periodo vigente de renovación.</p>
+                            <h2>¿Cual es la alternativa?</h2>
+                            <p>En Agencia Web Bogotá estamos realizando una migración gradual a servidores VPS. Esto ayudará no solo a reducir el aumento de precios a nuestros clientes, sino a garantizar sitios web mucho más veloces y seguros.</p>
+                            <p>Los servidores VPS administrados por Agencia Web Bogotá contarán con un sistema administrativo similar a cPanel llamado sPanel, que se convierte en una gran alternativa para evitar los abusos en cobros de licencias de cPanel. Pero ¿que significa esto para nuestros clientes?</p>
+                            <p>En Agencia Web Bogotá siempre hemos apuntado a lograr que las situaciones de desventaja se conviertan en oportunidades de mejora, está implícito en nuestra actitud positiva frente al mercado. Por ello, la migración a VPS traerá para nuestros clientes beneficios que ofrecerán ventajas competitivas, como son:</p>
+                            <ul>
+                                <li>Sitios web mas veloces: Aumento de velocidad de carga hasta en un 200%</li>
+                                <li>Mayor seguridad: Al no tratarse de hosting compartidos donde se alojan muchos otros sitios y aplicativos, la vulnerabilidad se ve reducida</li>
+                                <li>No existe limite de recursos: Actualmente con los sistemas cPanel se asignan unos recursos a cada cuenta y el tráfico permitido es proporcional a estos recursos, con un VPS no. Los recursos de servidor están abiertos y son ilimitados en cuanto a tráfico y capacidad; lo que supone un cambio en el sistema de facturación por servicios de alojamiento.</li>
+                            </ul>
+                            <h2>¿Cuanto cuesta contratar un VPS?</h2>
+                            <p>Una vez podamos contar con los recursos de programación disponibles, estaremos en capacidad de migrar todos los servicios prestados por Agencia Web Bogotá a servidores VPS. La variación está en que nuestros clientes que deseen sus sitios y aplicativos alojados allí deberán pagar una mensualidad que depende del tráfico que se genere y los recursos que se utilicen del servidor. Es decir, pague mensualmente por lo que use.</p>
+                            <p>Bajo este modelo se terminan las renovaciones anuales de servicios de alojamiento y cuando no se realice el pago correspondiente el sitio web o aplicativo de desactivará automáticamente.</p>
+                            <h2>En conclusión…</h2>
+                            <p>De cualquier forma los costos de alojamiento subirán drásticamente, es una realidad que hay que enfrentar. Pero existen alternativas para lograr transmitir ese aumento de tarifas a los beneficios obtenidos. En Agencia Web Bogotá siempre estaremos enfocados en ofrecer la mejor relación costo/beneficio del mercado y a ofrecer a nuestros clientes el mejor y más estable servicio de alojamiento en la nube.</p>    
+                            </div>
+                            <div class="dlab-post-tags clear">
+                                <div class="post-tags"> <a href="#">Child </a> <a href="#">Eduction </a> <a href="#">Money </a> <a href="#">Resturent </a> </div>
+                            </div>
+							<div class="dlab-divider bg-gray-dark op4"><i class="icon-dot c-square"></i></div>
+							<div class="share-details-btn">
+								<ul>
+									<li><h5 class="m-a0">Share Post</h5></li>
+									<li><a href="#" class="site-button facebook button-sm"><i class="fa fa-facebook"></i> Facebook</a></li>
+									<li><a href="#" class="site-button google-plus button-sm"><i class="fa fa-google-plus"></i> Google Plus</a></li>
+									<li><a href="#" class="site-button linkedin button-sm"><i class="fa fa-linkedin"></i> Linkedin</a></li>
+									<li><a href="#" class="site-button instagram button-sm"><i class="fa fa-instagram"></i> Instagram</a></li>
+									<li><a href="#" class="site-button twitter button-sm"><i class="fa fa-twitter"></i> Twitter</a></li>
+									<li><a href="#" class="site-button whatsapp button-sm"><i class="fa fa-whatsapp"></i> Whatsapp</a></li>
+								</ul>
 							</div>
-						</div>
-					</div>
-                    <div class="row">
-						<div class="col-lg-6 col-md-6 col-sm-6 m-b30 wow fadeIn" data-wow-delay="0.2s">
-							<img src="images/about/about1.jpg" class="radius-sm" alt="">
-						</div>		
-						<div class="col-lg-6 col-md-6 col-sm-6 m-b30 wow fadeIn" data-wow-delay="0.4s">
-							<img src="images/about/about2.jpg" class="radius-sm" alt="">
-						</div>		
-					</div>
-				</div>
-            </div>
-            </div>
-            <!-- Our Services -->
-
-                <!-- Get in touch -->
-                <div class="section-full overlay-primary-dark bg-img-fix bg-azul-oscuro-agencia">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-5 col-md-5 content-inner chosesus-content text-white">
-                                <h2 class="box-title m-b15 wow fadeInLeft" data-wow-delay="0.2s">Contacte Ahora con
-                                    Agencia Web Bogotá<span class="bg-primary"></span></h2>
-                            </div>
-                            <div class="col-lg-7 col-md-7 m-b30">
-                                <form class="inquiry-form wow fadeInUp dzForm" data-wow-delay="0.2s">
-                                    <div class="dzFormMsg"></div>
-                                    <h3 class="box-title m-t0 m-b10 text-center">Estamos listos para comenzar a trabajar
-                                        en su proyecto <span class="bg-primary"></span></h3>
-                                    <div class="text-center p-t20">
-                                        <a href="https://api.whatsapp.com/send?phone=573168785601"
-                                            class="site-button btn-whatsapp"><i class="fab fa-whatsapp"></i>
-                                            ¡Pregúntenos por WhatsApp!</a>
-                                        <a href="https://m.me/agenciawebbogota" class="site-button btn-messenger"><i
-                                                class="fab fa-facebook-messenger"></i> ¡Háblenos por Messenger!</a>
-                                        <p class="p-t10 font-16 text-center">Horario de Atención: Lunes a Sábado 8:00 AM
-                                            a 6:00 PM</p>
-                                    </div>
-                                    <div class="row">
-
-                                    </div>
-                                </form>
-                            </div>
                         </div>
+                        <!-- blog END -->
                     </div>
+                    <!-- Left part END -->
+                    <!-- Side bar start -->
+                    <div class="col-lg-4 col-xl-3 sticky-top">
+                        <aside  class="side-bar">
+                            <div class="widget">
+                                <h5 class="widget-title style-1">Search</h5>
+                                <div class="search-bx style-1">
+                                    <form role="search" method="post">
+                                        <div class="input-group">
+                                            <input name="text" class="form-control" placeholder="Enter your keywords..." type="text">
+                                            <span class="input-group-btn">
+												<button type="submit" class="fa fa-search text-primary"></button>
+                                            </span> 
+										</div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="widget recent-posts-entry">
+                                <h5 class="widget-title style-1">Recent Posts</h5>
+                                <div class="widget-post-bx">
+                                    <div class="widget-post clearfix">
+                                        <div class="dlab-post-media"> <img src="images/blog/recent-blog/pic1.jpg" width="200" height="143" alt=""> </div>
+                                        <div class="dlab-post-info">
+                                            <div class="dlab-post-header">
+                                                <h6 class="post-title"><a href="#">Title of first blog post entry</a></h6>
+                                            </div>
+                                            <div class="dlab-post-meta">
+                                                <ul>
+                                                    <li class="post-author">By Jone</li>
+                                                    <li class="post-comment"><i class="fa fa-comments"></i> 28</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="widget-post clearfix">
+                                        <div class="dlab-post-media"> <img src="images/blog/recent-blog/pic2.jpg" width="200" height="160" alt=""> </div>
+                                        <div class="dlab-post-info">
+                                            <div class="dlab-post-header">
+                                                <h6 class="post-title"><a href="#">Title of first blog post entry</a></h6>
+                                            </div>
+                                            <div class="dlab-post-meta">
+                                                <ul>
+                                                    <li class="post-author">By Jone</li>
+                                                    <li class="post-comment"><i class="fa fa-comments"></i> 28</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="widget-post clearfix">
+                                        <div class="dlab-post-media"> <img src="images/blog/recent-blog/pic3.jpg" width="200" height="160" alt=""> </div>
+                                        <div class="dlab-post-info">
+                                            <div class="dlab-post-header">
+                                                <h6 class="post-title"><a href="#">Title of first blog post entry</a></h6>
+                                            </div>
+                                            <div class="dlab-post-meta">
+                                                <ul>
+                                                    <li class="post-author">By Jone</li>
+                                                    <li class="post-comment"><i class="fa fa-comments"></i> 28</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+							
+							<div class="widget widget-newslatter">
+                                <h5 class="widget-title style-1">Newsletter</h5>
+                                <div class="news-box">
+									<p>Enter your e-mail and subscribe to our newsletter.</p>
+                                    <form class="dzSubscribe" action="script/mailchamp.php" method="post">
+										<div class="dzSubscribeMsg"></div>
+                                        <div class="input-group">
+                                            <input name="dzEmail" required="required" type="email" class="form-control" placeholder="Your Email"/>
+											<button name="submit" value="Submit" type="submit" class="site-button btn-block radius-no">Subscribe Now</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+							
+							 <div class="widget widget_gallery gallery-grid-4">
+                                <h5 class="widget-title style-1">Our services</h5>
+                                <ul>
+                                    <li><div class="dlab-post-thum"><a href="#" class="dlab-img-overlay1 dlab-img-effect zoom-slow"><img src="images/gallery/pic2.jpg" alt=""></a></div></li>
+                                    <li><div class="dlab-post-thum"><a href="#" class="dlab-img-overlay1 dlab-img-effect zoom-slow"><img src="images/gallery/pic1.jpg" alt=""></a></div></li>
+                                    <li><div class="dlab-post-thum"><a href="#" class="dlab-img-overlay1 dlab-img-effect zoom-slow"><img src="images/gallery/pic5.jpg" alt=""></a></div></li>
+                                    <li><div class="dlab-post-thum"><a href="#" class="dlab-img-overlay1 dlab-img-effect zoom-slow"><img src="images/gallery/pic7.jpg" alt=""></a></div></li>
+                                    <li><div class="dlab-post-thum"><a href="#" class="dlab-img-overlay1 dlab-img-effect zoom-slow"><img src="images/gallery/pic8.jpg" alt=""></a></div></li>
+                                    <li><div class="dlab-post-thum"><a href="#" class="dlab-img-overlay1 dlab-img-effect zoom-slow"><img src="images/gallery/pic9.jpg" alt=""></a></div></li>
+									<li><div class="dlab-post-thum"><a href="#" class="dlab-img-overlay1 dlab-img-effect zoom-slow"><img src="images/gallery/pic3.jpg" alt=""></a></div></li>
+                                    <li><div class="dlab-post-thum"><a href="#" class="dlab-img-overlay1 dlab-img-effect zoom-slow"><img src="images/gallery/pic4.jpg" alt=""></a></div></li>
+                                </ul>
+                            </div>
+							
+                            <div class="widget widget_archive">
+                                <h5 class="widget-title style-1">Categories List</h5>
+                                <ul>
+                                    <li><a href="#">aciform</a></li>
+                                    <li><a href="#">championship</a></li>
+                                    <li><a href="#">chastening</a></li>
+                                    <li><a href="#">clerkship</a></li>
+                                    <li><a href="#">disinclination</a></li>
+                                </ul>
+                            </div>
+							<div class="widget widget-project">
+                                <h5 class="widget-title style-1">Our Project</h5>
+                                <div class="widget-project-box owl-none owl-loaded owl-theme owl-carousel dots-style-1 owl-dots-black-full">
+									<div class="item"><img src="images/our-services/pic1.jpg" alt=""/></div>
+									<div class="item"><img src="images/our-services/pic2.jpg" alt=""/></div>
+									<div class="item"><img src="images/our-services/pic3.jpg" alt=""/></div>
+								</div>
+                            </div>
+                           
+                            <div class="widget widget_tag_cloud radius">
+                                <h5 class="widget-title style-1">Tags</h5>
+                                <div class="tagcloud"> 
+									<a href="#">Design</a> 
+									<a href="#">User interface</a> 
+									<a href="#">SEO</a> 
+									<a href="#">WordPress</a> 
+									<a href="#">Development</a> 
+									<a href="#">Joomla</a> 
+									<a href="#">Design</a> 
+									<a href="#">User interface</a> 
+									<a href="#">SEO</a> 
+									<a href="#">WordPress</a> 
+									<a href="#">Development</a> 
+									<a href="#">Joomla</a> 
+									<a href="#">Design</a> 
+									<a href="#">User interface</a> 
+									<a href="#">SEO</a> 
+									<a href="#">WordPress</a> 
+									<a href="#">Development</a> 
+									<a href="#">Joomla</a> 
+								</div>
+                            </div>
+                        </aside>
+                    </div>
+                    <!-- Side bar END -->
                 </div>
-                <!-- Get in touch -->
+            </div>
         </div>
 		<!-- contact area END -->
     </div>

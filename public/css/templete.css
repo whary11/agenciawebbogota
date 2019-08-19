@@ -41,7 +41,6 @@
 	font-size: 12px;
 	line-height: 0.5em;
 }
-
 /*Iconos de contacto Fijos*/
 .icono-whatsapp{
 	background-image: linear-gradient(#5ad066, #2db742);
@@ -1605,8 +1604,8 @@ svg.radial-progress:nth-of-type(6n+1) circle { stroke: #6cc000; }
 ==========================*/
 @media (min-width:320px) and (max-width:720px){
 	.slide-item-img img{ height:800px; }
-	.texto-ini h1{ font-size: 30px; text-align: center !important; line-height: 2em;}
-	.texto-ini h2{ font-size: 18px; text-align: center; line-height: 1.5em; }
+	.texto-ini h1{ font-size: 20px; text-align: center !important; line-height: 1.2em; font-weight: 600;}
+	.texto-ini h2{ font-size: 18px; text-align: center; line-height: 1.2em; padding-top:10px; }
 	.title-princ{ margin-top: -100px; }
 	.icono-whatsapp{ top:55%; left:4%; font-size:30px; border:1px;}
 	.icono-messenger{ top:65%; left:4%; font-size:30px; border:1px;}
