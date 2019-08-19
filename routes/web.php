@@ -30,6 +30,8 @@ Route::get('/servicios', 'IndexController@servicios');
 Route::get('/branding', 'IndexController@branding');
 Route::get('/enviar-un-pago', 'IndexController@pagos');
 Route::get('/confirmacion', 'IndexController@confirmacion');
+Route::get('/blog', 'IndexController@blog');
+Route::get('/blog/alarmante-aumento-en-los-costos-de-alojamiento-de-paginas-web', 'IndexController@aumento');
 
 
 // Url para el formulario de contacto

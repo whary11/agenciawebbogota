@@ -47,23 +47,17 @@ class IndexController extends Controller
     }
     public function confirmacion(){
         return view('pagina.confirmacion');
-    }
-    public function marketingAutomatizado(){
-        return [
-            'page' => 'Página de Marketing Automatizado'
-        ];
-    }
-
-    public function blog(){
-        return [
-            'blog' => 'Página principal'
-        ];
-    }
-
+    }    
     public function contacto(){
         return view('pagina.contacto');
     }
     public function ticket(){
         return view('ticket.ver');
+    }
+    public function blog(){
+        return view('pagina.blog');
+    }
+    public function aumento(){
+        return view('pagina.blog/aumento');
     }
 }
