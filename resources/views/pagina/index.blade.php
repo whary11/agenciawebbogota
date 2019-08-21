@@ -10,7 +10,7 @@
     <meta name="MobileOptimized" content="320">
     <meta name="Robots" content="index, follow">
     <title>Agencia Web Bogotá - Desarrollo Web y Marketing Digital</title>
-    <meta name="description" content="Agencia Web Bogotá profesionales en diseño web, programación de aplicaciones, diseño gráfico y marketing digital. Tenemos la mejor oferta costo/beneficio del mercado" />
+    <meta name="description" content="Agencia Web Bogotá profesionales en diseño web, programación, diseño gráfico y marketing digital. Tenemos la mejor oferta costo/beneficio del mercado." />
     <meta name="keywords" content="agencia web bogota, diseño web bogota, diseño de paginas web Bogota, páginas web corporativas,  diseño de paginas web, diseño paginas web economicas, diseño web optimizado, neuromarketing">
     <meta name="author" content="Agencia Web Bogotá">
     <meta name="email" content="agenciawebbogota@gmail.com">
@@ -55,6 +55,10 @@
 </head>
 
 <body id="bg">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W7763V6"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <div class="page-wraper">
         @include('partials.header')
         {{-- END Header --}}
