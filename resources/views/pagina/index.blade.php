@@ -9,8 +9,8 @@
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="Robots" content="index, follow">
-    <title>Agencia Web Bogotá - Diseño de Páginas Web y Marketing Digital en Bogotá</title>
-    <meta name="description" content="Agencia Web Bogotá creamos diseños, publicidad y contenidos optimizados con Neuromarketing. Líderes en Diseño de Páginas Web y Marketing Digital en Bogotá" />
+    <title>Agencia Web Bogotá - Desarrollo Web y Marketing Digital</title>
+    <meta name="description" content="Agencia Web Bogotá profesionales en diseño web, programación de aplicaciones, diseño gráfico y marketing digital. Tenemos la mejor oferta costo/beneficio del mercado" />
     <meta name="keywords" content="agencia web bogota, diseño web bogota, diseño de paginas web Bogota, páginas web corporativas,  diseño de paginas web, diseño paginas web economicas, diseño web optimizado, neuromarketing">
     <meta name="author" content="Agencia Web Bogotá">
     <meta name="email" content="agenciawebbogota@gmail.com">
@@ -51,6 +51,7 @@
             content: "" !important;
         }
     </style>
+    @include('partials.analytics')
 </head>
 
 <body id="bg">
