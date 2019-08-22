@@ -49,48 +49,43 @@
                     <div class="col-lg-8 col-xl-9">
                         <!-- blog start -->
                         <div class="blog-post blog-single">                            
-                            <div class="dlab-post-media dlab-img-effect zoom-slow wow fadeIn" data-wow-delay="0.2s"><img src="images/blog/default/thum1.jpg" alt=""></div>
-                            <div class="dlab-post-text">
-                            <p>El pasado 27 de junio de 2019, la compañía cPanel anunció un nuevo modelo de precios basado en cuentas que básicamente cambió la forma en que se factura a los clientes y resultó en un aumento de precios de hasta 2000%. El anuncio oficial está disponible en https://blog.cpanel.com/announcing-account-based-pricing/</p>
+                            <div class="dlab-post-text text-justify">
+                            <p>El pasado 27 de junio de 2019 la compañía cPanel anunció un nuevo modelo de precios basado en cuentas que básicamente cambió la forma en que se factura a los clientes y <b>resultó en un aumento de precios de hasta 2000%</b>. El anuncio oficial está disponible en la <a class="text-blue" href="https://blog.cpanel.com/announcing-account-based-pricing/" target="_blank">página oficial cPanel</a></p>
                             <p>Si bien en la industria del alojamiento y desarrollo web ya esperábamos el aumento de precios, nadie imaginó que el modelo se cambiaría tan drásticamente y que los precios se elevarían de tal manera. Ahora los usuarios de cPanel que básicamente somos más del 90% de propietarios de sitios web, no podremos crear cuentas ilimitadas en sus servidores de cPanel sin pagar estos sobre costos.</p>
-                            <p>Este cambio afecta a toda la industria del alojamiento y desarrollo web porque hoy en día cPanel es el panel de control más utilizado. Trataremos de explicar a continuación cómo ese cambio afecta directamente a nuestros clientes que tienen su sitio web o aplicativo corriendo desde cPanel.</p>
-                            <p>Todos sabemos que nuestras páginas web se encuentran en un alojamiento compartido, puede ser un hosting de revendedores o hosting vps. Pues bien, los sobre costos afectarán directamente a los administradores de dichos servicios, quienes ya no podrán contar con cuentas ilimitadas de cPanel lo que finalmente se transmitirá al cliente final, es decir, a los propietarios de sitios web.</p>
-                            <p>Es por esto, que los precios de contratación y renovación de servicios que involucren cPanel aumentarán a partir del 1 de septiembre de 2019 hasta en un 250%. Sin embargo, Agencia Web Bogotá absorberá esos costos tanto como nos sea posible para reducir el impacto del aumento para nuestros clientes.</p>
+                            <p><b class="text-red">Este cambio afecta a toda la industria del alojamiento y desarrollo web</b> porque hoy en día cPanel es el panel de control más utilizado. Trataremos de explicar a continuación cómo ese cambio afecta directamente a nuestros clientes que tienen su sitio web o aplicativo corriendo desde cPanel.</p>
+                            <p>Todos sabemos que nuestras páginas web se encuentran en un alojamiento compartido, puede ser un hosting de revendedores o hosting vps. Pues bien, los sobre costos afectarán directamente a los administradores de dichos servicios, quienes ya no podrán contar con cuentas ilimitadas de cPanel lo que <b>finalmente se transmitirá al cliente final, es decir, a los propietarios de sitios web</b>.</p>
+                            <p><b>Es por esto, que los precios de contratación y renovación de servicios que involucren cPanel aumentarán a partir del 1 de septiembre de 2019 hasta en un 250%</b>. Sin embargo, Agencia Web Bogotá absorberá esos costos tanto como nos sea posible para reducir el impacto del aumento para nuestros clientes.</p>
                             <p>Los servicios afectados por este aumento son:</p>
-                            <ul>
-                                <li>Hosting linux/windows para sitios web convencionales</li>
-                                <li>Alojamiento para correos electrónicos corporativos (email hosting)</li>
-                                <li>Aumento de capacidad en disco para sitios web y correos electrónicos</li>
-                                <li>Aumento de ancho de banda/mes para sitios web</li>
+                            <ul class="list-blog-article">
+                                <li><i class="fas fa-angle-right"></i> Hosting linux/windows para sitios web convencionales</li>
+                                <li><i class="fas fa-angle-right"></i> Alojamiento para correos electrónicos corporativos (email hosting)</li>
+                                <li><i class="fas fa-angle-right"></i> Aumento de capacidad en disco para sitios web y correos electrónicos</li>
+                                <li><i class="fas fa-angle-right"></i> Aumento de ancho de banda/mes para sitios web</li>
                             </ul>
-                            <p>Es de anotar que el aumento se verá reflejado en la factura correspondiente al próximo vencimiento y los clientes que hayan realizado con anterioridad la renovación por más de un año no se verán afectados por el aumento durante el periodo vigente de renovación.</p>
-                            <h2>¿Cual es la alternativa?</h2>
-                            <p>En Agencia Web Bogotá estamos realizando una migración gradual a servidores VPS. Esto ayudará no solo a reducir el aumento de precios a nuestros clientes, sino a garantizar sitios web mucho más veloces y seguros.</p>
-                            <p>Los servidores VPS administrados por Agencia Web Bogotá contarán con un sistema administrativo similar a cPanel llamado sPanel, que se convierte en una gran alternativa para evitar los abusos en cobros de licencias de cPanel. Pero ¿que significa esto para nuestros clientes?</p>
+                            <p><i>Es de anotar que el aumento se verá reflejado en la factura correspondiente al próximo vencimiento y los clientes que hayan realizado con anterioridad la renovación por más de un año no se verán afectados por el aumento durante el periodo vigente de renovación.</i></p>
+                            <h2 class="texto-blog">¿Cual es la alternativa?</h2>
+                            <p><b>En Agencia Web Bogotá estamos realizando una migración gradual a servidores VPS</b>. Esto ayudará no solo a reducir el aumento de precios a nuestros clientes, sino a garantizar sitios web mucho más veloces y seguros.</p>
+                            <p>Los servidores VPS administrados por Agencia Web Bogotá contarán con un sistema administrativo similar a cPanel llamado sPanel, que se convierte en una gran alternativa para evitar los abusos en cobros de licencias de cPanel. Pero <b>¿que significa esto para nuestros clientes?</b></p>
                             <p>En Agencia Web Bogotá siempre hemos apuntado a lograr que las situaciones de desventaja se conviertan en oportunidades de mejora, está implícito en nuestra actitud positiva frente al mercado. Por ello, la migración a VPS traerá para nuestros clientes beneficios que ofrecerán ventajas competitivas, como son:</p>
-                            <ul>
-                                <li>Sitios web mas veloces: Aumento de velocidad de carga hasta en un 200%</li>
-                                <li>Mayor seguridad: Al no tratarse de hosting compartidos donde se alojan muchos otros sitios y aplicativos, la vulnerabilidad se ve reducida</li>
-                                <li>No existe limite de recursos: Actualmente con los sistemas cPanel se asignan unos recursos a cada cuenta y el tráfico permitido es proporcional a estos recursos, con un VPS no. Los recursos de servidor están abiertos y son ilimitados en cuanto a tráfico y capacidad; lo que supone un cambio en el sistema de facturación por servicios de alojamiento.</li>
+                            <ul class="list-blog-article">
+                                <li><i class="fas fa-check text-pink"></i> <b>Sitios web mas veloces:</b> Aumento de velocidad de carga hasta en un 200%</li>
+                                <li><i class="fas fa-check text-pink"></i> <b>Mayor seguridad:</b> Al no tratarse de hosting compartidos donde se alojan muchos otros sitios y aplicativos, la vulnerabilidad se ve reducida</li>
+                                <li><i class="fas fa-check text-pink"></i> <b>No existe limite de recursos:</b> Actualmente con los sistemas cPanel se asignan unos recursos a cada cuenta y el tráfico permitido es proporcional a estos recursos, con un VPS no. Los recursos de servidor están abiertos y son ilimitados en cuanto a tráfico y capacidad; lo que supone un cambio en el sistema de facturación por servicios de alojamiento.</li>
                             </ul>
-                            <h2>¿Cuanto cuesta contratar un VPS?</h2>
-                            <p>Una vez podamos contar con los recursos de programación disponibles, estaremos en capacidad de migrar todos los servicios prestados por Agencia Web Bogotá a servidores VPS. La variación está en que nuestros clientes que deseen sus sitios y aplicativos alojados allí deberán pagar una mensualidad que depende del tráfico que se genere y los recursos que se utilicen del servidor. Es decir, pague mensualmente por lo que use.</p>
+                            <h2 class="texto-blog">¿Cuanto cuesta contratar un VPS?</h2>
+                            <p>Una vez podamos contar con los recursos de programación disponibles, estaremos en capacidad de migrar todos los servicios prestados por Agencia Web Bogotá a servidores VPS. La variación está en que nuestros clientes que deseen sus sitios y aplicativos alojados allí <b>deberán pagar una mensualidad que depende del tráfico que se genere y los recursos que se utilicen del servidor</b>. Es decir, pague mensualmente por lo que use.</p>
                             <p>Bajo este modelo se terminan las renovaciones anuales de servicios de alojamiento y cuando no se realice el pago correspondiente el sitio web o aplicativo de desactivará automáticamente.</p>
-                            <h2>En conclusión…</h2>
+                            <h2 class="texto-blog">En conclusión…</h2>
                             <p>De cualquier forma los costos de alojamiento subirán drásticamente, es una realidad que hay que enfrentar. Pero existen alternativas para lograr transmitir ese aumento de tarifas a los beneficios obtenidos. En Agencia Web Bogotá siempre estaremos enfocados en ofrecer la mejor relación costo/beneficio del mercado y a ofrecer a nuestros clientes el mejor y más estable servicio de alojamiento en la nube.</p>    
-                            </div>
-                            <div class="dlab-post-tags clear">
-                                <div class="post-tags"> <a href="#">Child </a> <a href="#">Eduction </a> <a href="#">Money </a> <a href="#">Resturent </a> </div>
                             </div>
 							<div class="dlab-divider bg-gray-dark op4"><i class="icon-dot c-square"></i></div>
 							<div class="share-details-btn">
 								<ul>
-									<li><h5 class="m-a0">Share Post</h5></li>
-									<li><a href="#" class="site-button facebook button-sm"><i class="fa fa-facebook"></i> Facebook</a></li>
-									<li><a href="#" class="site-button google-plus button-sm"><i class="fa fa-google-plus"></i> Google Plus</a></li>
-									<li><a href="#" class="site-button linkedin button-sm"><i class="fa fa-linkedin"></i> Linkedin</a></li>
+									<li><h5 class="m-a0">Comparta este post</h5></li>
+									<li><a href="https://www.facebook.com/sharer/sharer.php?u=http://agenciawebbogota.com/blog/alarmante-aumento-en-los-costos-de-alojamiento-de-paginas-web" title="Facebook" target="_blank" class="site-button facebook button-sm"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                                    <li><a href="#" class="site-button twitter button-sm"><i class="fa fa-twitter"></i> Twitter</a></li>
+                                    <li><a href="#" class="site-button linkedin button-sm"><i class="fa fa-linkedin"></i> Linkedin</a></li>
 									<li><a href="#" class="site-button instagram button-sm"><i class="fa fa-instagram"></i> Instagram</a></li>
-									<li><a href="#" class="site-button twitter button-sm"><i class="fa fa-twitter"></i> Twitter</a></li>
 									<li><a href="#" class="site-button whatsapp button-sm"><i class="fa fa-whatsapp"></i> Whatsapp</a></li>
 								</ul>
 							</div>

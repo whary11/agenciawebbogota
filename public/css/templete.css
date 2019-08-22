@@ -41,6 +41,19 @@
 	font-size: 12px;
 	line-height: 0.5em;
 }
+
+/*Blog*/
+.texto-blog{
+	font-size:20px;
+	font-weight: 600;
+}
+.list-blog-article{
+	list-style: none;
+	margin-left: 20px;
+}
+/*Fin Blog*/
+
+
 /*Iconos de contacto Fijos*/
 .icono-whatsapp{
 	background-image: linear-gradient(#5ad066, #2db742);

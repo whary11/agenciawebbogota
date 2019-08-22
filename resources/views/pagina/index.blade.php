@@ -102,8 +102,7 @@
                                     <p>Funciones avanzadas que automatizan sus procesos, optimizan sus recursos y
                                         mejoran la experiencia de sus clientes al interactuar con sus productos y
                                         servicios.</p>
-                                    <a href="paginas-web" class="site-button m-r10 primary button-lg btn1">Quiero Más
-                                        Info</a>
+                                    <a href="paginas-web" class="site-button m-r10 primary button-lg btn1">Quiero Más Info</a>
                                 </div>
                             </div>
                         </div>
