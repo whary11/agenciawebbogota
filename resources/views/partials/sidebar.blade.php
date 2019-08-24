@@ -32,12 +32,12 @@
                             <div class="widget widget_archive">
                                 <h5 class="widget-title style-1">Nuestros Servicios</h5>
                                 <ul>
-                                    <li><a href="#">Diseño Páginas Web</a></li>
-                                    <li><a href="#">Programación Web</a></li>
-                                    <li><a href="#">Tiendas Online</a></li>
-                                    <li><a href="#">Landing Pages</a></li>
-                                    <li><a href="#">Posicionamiento Web</a></li>
-                                    <li><a href="#">Redes Sociales</a></li>
+                                    <li><a href="{{url('paginas-web')}}">Diseño Páginas Web</a></li>
+                                    <li><a href="{{url('programacion-web')}}">Programación Web</a></li>
+                                    <li><a href="{{url('tiendas-online')}}">Tiendas Online</a></li>
+                                    <li><a href="{{url('landing-page')}}">Landing Pages</a></li>
+                                    <li><a href="{{url('posicionamiento-web')}}">Posicionamiento Web</a></li>
+                                    <li><a href="{{url('redes-sociales')}}">Redes Sociales</a></li>
 
                                 </ul>
                             </div>

@@ -50,7 +50,7 @@
                 <!-- extra nav -->
                 <div class="extra-nav">
                     <div class="extra-cell">
-                        <a href="contacto" class="dez-page site-button primary">Contáctenos</a>
+                        <a href="{{url('contacto')}}" class="dez-page site-button primary">Contáctenos</a>
                     </div>
                 </div>
                 <!-- main nav -->
@@ -77,7 +77,7 @@
                         <li><a href="{{url('blog')}}">Blog </a></li>
                         <li><a>Soporte Técnico <i class="fas fa-chevron-down"></i></a>
                             <ul class="sub-menu">
-                                <li><a href="#">Tickets<i class="fa fa-angle-right"></i></a>
+                                <li><a>Tickets<i class="fa fa-angle-right"></i></a>
                                     <ul class="sub-menu">
                                     <li><a href="{{url('/ticket')}}" class="dez-page">Abrir</a></li>
                                     <li><a href="{{url('/ticket/consultar')}}" class="dez-page">Consultar</a></li>
