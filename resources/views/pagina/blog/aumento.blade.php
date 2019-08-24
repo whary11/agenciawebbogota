@@ -34,7 +34,7 @@
 		<!-- Content -->
     <div class="page-content bg-white">
         <!-- inner page banner -->
-        <div class="dlab-bnr-inr overlay-primary no-webp-branding webp-branding">
+        <div class="dlab-bnr-inr overlay-primary no-webp-aumento webp-aumento">
                 <div class="container">
                     <div class="dlab-bnr-inr-entry texto-ini">
                         <h1 class="text-white">Alarmante aumento en los costos de alojamiento de paginas web</h1>
@@ -81,12 +81,10 @@
 							<div class="dlab-divider bg-gray-dark op4"><i class="icon-dot c-square"></i></div>
 							<div class="share-details-btn">
 								<ul>
-									<li><h5 class="m-a0">Comparta este post</h5></li>
-									<li><a href="https://www.facebook.com/sharer/sharer.php?u=http://agenciawebbogota.com/blog/alarmante-aumento-en-los-costos-de-alojamiento-de-paginas-web" title="Facebook" target="_blank" class="site-button facebook button-sm"><i class="fab fa-facebook-f"></i> Facebook</a></li>
-                                    <li><a href="#" class="site-button twitter button-sm"><i class="fa fa-twitter"></i> Twitter</a></li>
-                                    <li><a href="#" class="site-button linkedin button-sm"><i class="fa fa-linkedin"></i> Linkedin</a></li>
-									<li><a href="#" class="site-button instagram button-sm"><i class="fa fa-instagram"></i> Instagram</a></li>
-									<li><a href="#" class="site-button whatsapp button-sm"><i class="fa fa-whatsapp"></i> Whatsapp</a></li>
+									<li><h6 class="m-a0">Comparta esta información</h6></li>
+									<li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//agenciawebbogota.com/blog/alarmante-aumento-en-los-costos-de-alojamiento-de-paginas-web" title="Facebook" target="_blank" class="site-button facebook button-sm"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                                    <li><a href="https://twitter.com/intent/tweet?text=http%3A//agenciawebbogota.com/blog/alarmante-aumento-en-los-costos-de-alojamiento-de-paginas-web" title="Twitter" target="_blank" class="site-button twitter button-sm"><i class="fab fa-twitter"></i> Twitter</a></li>
+                                    <li><a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//agenciawebbogota.com/blog/alarmante-aumento-en-los-costos-de-alojamiento-de-paginas-web&title=Alarmante%20aumento%20en%20los%20costos%20de%20alojamiento%20de%20paginas%20web&summary=&source=" title="Linkedin" target="_blank" class="site-button linkedin button-sm"><i class="fab fa-linkedin-in"></i> Linkedin</a></li>
 								</ul>
 							</div>
                         </div>
@@ -95,139 +93,7 @@
                     <!-- Left part END -->
                     <!-- Side bar start -->
                     <div class="col-lg-4 col-xl-3 sticky-top">
-                        <aside  class="side-bar">
-                            <div class="widget">
-                                <h5 class="widget-title style-1">Search</h5>
-                                <div class="search-bx style-1">
-                                    <form role="search" method="post">
-                                        <div class="input-group">
-                                            <input name="text" class="form-control" placeholder="Enter your keywords..." type="text">
-                                            <span class="input-group-btn">
-												<button type="submit" class="fa fa-search text-primary"></button>
-                                            </span> 
-										</div>
-                                    </form>
-                                </div>
-                            </div>
-                            <div class="widget recent-posts-entry">
-                                <h5 class="widget-title style-1">Recent Posts</h5>
-                                <div class="widget-post-bx">
-                                    <div class="widget-post clearfix">
-                                        <div class="dlab-post-media"> <img src="images/blog/recent-blog/pic1.jpg" width="200" height="143" alt=""> </div>
-                                        <div class="dlab-post-info">
-                                            <div class="dlab-post-header">
-                                                <h6 class="post-title"><a href="#">Title of first blog post entry</a></h6>
-                                            </div>
-                                            <div class="dlab-post-meta">
-                                                <ul>
-                                                    <li class="post-author">By Jone</li>
-                                                    <li class="post-comment"><i class="fa fa-comments"></i> 28</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="widget-post clearfix">
-                                        <div class="dlab-post-media"> <img src="images/blog/recent-blog/pic2.jpg" width="200" height="160" alt=""> </div>
-                                        <div class="dlab-post-info">
-                                            <div class="dlab-post-header">
-                                                <h6 class="post-title"><a href="#">Title of first blog post entry</a></h6>
-                                            </div>
-                                            <div class="dlab-post-meta">
-                                                <ul>
-                                                    <li class="post-author">By Jone</li>
-                                                    <li class="post-comment"><i class="fa fa-comments"></i> 28</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="widget-post clearfix">
-                                        <div class="dlab-post-media"> <img src="images/blog/recent-blog/pic3.jpg" width="200" height="160" alt=""> </div>
-                                        <div class="dlab-post-info">
-                                            <div class="dlab-post-header">
-                                                <h6 class="post-title"><a href="#">Title of first blog post entry</a></h6>
-                                            </div>
-                                            <div class="dlab-post-meta">
-                                                <ul>
-                                                    <li class="post-author">By Jone</li>
-                                                    <li class="post-comment"><i class="fa fa-comments"></i> 28</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-							
-							<div class="widget widget-newslatter">
-                                <h5 class="widget-title style-1">Newsletter</h5>
-                                <div class="news-box">
-									<p>Enter your e-mail and subscribe to our newsletter.</p>
-                                    <form class="dzSubscribe" action="script/mailchamp.php" method="post">
-										<div class="dzSubscribeMsg"></div>
-                                        <div class="input-group">
-                                            <input name="dzEmail" required="required" type="email" class="form-control" placeholder="Your Email"/>
-											<button name="submit" value="Submit" type="submit" class="site-button btn-block radius-no">Subscribe Now</button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-							
-							 <div class="widget widget_gallery gallery-grid-4">
-                                <h5 class="widget-title style-1">Our services</h5>
-                                <ul>
-                                    <li><div class="dlab-post-thum"><a href="#" class="dlab-img-overlay1 dlab-img-effect zoom-slow"><img src="images/gallery/pic2.jpg" alt=""></a></div></li>
-                                    <li><div class="dlab-post-thum"><a href="#" class="dlab-img-overlay1 dlab-img-effect zoom-slow"><img src="images/gallery/pic1.jpg" alt=""></a></div></li>
-                                    <li><div class="dlab-post-thum"><a href="#" class="dlab-img-overlay1 dlab-img-effect zoom-slow"><img src="images/gallery/pic5.jpg" alt=""></a></div></li>
-                                    <li><div class="dlab-post-thum"><a href="#" class="dlab-img-overlay1 dlab-img-effect zoom-slow"><img src="images/gallery/pic7.jpg" alt=""></a></div></li>
-                                    <li><div class="dlab-post-thum"><a href="#" class="dlab-img-overlay1 dlab-img-effect zoom-slow"><img src="images/gallery/pic8.jpg" alt=""></a></div></li>
-                                    <li><div class="dlab-post-thum"><a href="#" class="dlab-img-overlay1 dlab-img-effect zoom-slow"><img src="images/gallery/pic9.jpg" alt=""></a></div></li>
-									<li><div class="dlab-post-thum"><a href="#" class="dlab-img-overlay1 dlab-img-effect zoom-slow"><img src="images/gallery/pic3.jpg" alt=""></a></div></li>
-                                    <li><div class="dlab-post-thum"><a href="#" class="dlab-img-overlay1 dlab-img-effect zoom-slow"><img src="images/gallery/pic4.jpg" alt=""></a></div></li>
-                                </ul>
-                            </div>
-							
-                            <div class="widget widget_archive">
-                                <h5 class="widget-title style-1">Categories List</h5>
-                                <ul>
-                                    <li><a href="#">aciform</a></li>
-                                    <li><a href="#">championship</a></li>
-                                    <li><a href="#">chastening</a></li>
-                                    <li><a href="#">clerkship</a></li>
-                                    <li><a href="#">disinclination</a></li>
-                                </ul>
-                            </div>
-							<div class="widget widget-project">
-                                <h5 class="widget-title style-1">Our Project</h5>
-                                <div class="widget-project-box owl-none owl-loaded owl-theme owl-carousel dots-style-1 owl-dots-black-full">
-									<div class="item"><img src="images/our-services/pic1.jpg" alt=""/></div>
-									<div class="item"><img src="images/our-services/pic2.jpg" alt=""/></div>
-									<div class="item"><img src="images/our-services/pic3.jpg" alt=""/></div>
-								</div>
-                            </div>
-                           
-                            <div class="widget widget_tag_cloud radius">
-                                <h5 class="widget-title style-1">Tags</h5>
-                                <div class="tagcloud"> 
-									<a href="#">Design</a> 
-									<a href="#">User interface</a> 
-									<a href="#">SEO</a> 
-									<a href="#">WordPress</a> 
-									<a href="#">Development</a> 
-									<a href="#">Joomla</a> 
-									<a href="#">Design</a> 
-									<a href="#">User interface</a> 
-									<a href="#">SEO</a> 
-									<a href="#">WordPress</a> 
-									<a href="#">Development</a> 
-									<a href="#">Joomla</a> 
-									<a href="#">Design</a> 
-									<a href="#">User interface</a> 
-									<a href="#">SEO</a> 
-									<a href="#">WordPress</a> 
-									<a href="#">Development</a> 
-									<a href="#">Joomla</a> 
-								</div>
-                            </div>
-                        </aside>
+                        @include('partials.sidebar')  
                     </div>
                     <!-- Side bar END -->
                 </div>

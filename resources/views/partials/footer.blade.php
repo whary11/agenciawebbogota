@@ -3,16 +3,17 @@
         <div class="container wow fadeIn" data-wow-delay="0.5s">
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-6 footer-col-4">
-                    <div class="widget widget_services border-0">
-                        <ul>
-                            <a href="https://agenciawebbogota.com" class="dez-page">
-                                <img src=" {{asset('/images/logo-agencia-web-bogota.svg')}}" alt="Logo Agencia Web Bogotá" width="300">
-                            </a>                            <ul>
-                            <li><a href="#">Sobre la Agencia </a></li>
-                            <li><a href="#">Portafolio </a></li>
-                            <li><a href="#">Proyectos </a></li>
-                            <li><a href="#">Cursos </a></li>                                
-                        </ul>
+                    <div class="widget widget_services border-0 m-t-15">                       
+                        <a href="https://agenciawebbogota.com" class="dez-page">
+                           <img src=" {{asset('/images/logo-agencia-web-bogota.svg')}}" alt="Logo Agencia Web Bogotá" width="300">
+                        </a>
+                        <p class="text-grey">Agencia de Desarrollo Web y Marketing Digital</p>
+                        <div class="p-b30"></div>
+                        <ul class="list-inline m-a0">
+					    	<li><a href="https://www.facebook.com/agenciawebbogota" title="Facebook" target="_blank" class="site-button facebook circle "><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="https://www.instagram.com/agenciawebbogota" title="Instagram" target="_blank" class="site-button instagram circle "><i class="fab fa-instagram"></i></a></li>
+							<li><a href="https://twitter.com/AgenciaBogota" title="Twitter" target="_blank" class="site-button twitter circle "><i class="fab fa-twitter"></i></a></li>
+						</ul>           
                     </div>
                 </div>					
                 <div class="col-lg-4 col-md-6 col-sm-6 footer-col-4">
@@ -39,7 +40,7 @@
                                 <source srcset="{{asset('/images/medios-de-pago.webp')}}"  type="image/webp">
                                 <img src="{{asset('/images/medios-de-pago.png')}}" alt="Logos de medios de pago">
                             </picture>
-                        </div>							
+                        </div>
                     </div>
                 </div>
             </div>
@@ -56,7 +57,7 @@
                     <div class="widget-link"> 
                         <ul>								
                             <li class="font-12">
-                                <a href="#">Políticas de Privacidad y Protección de Datos</a>
+                                <a href="{{url('')}}">Políticas de Privacidad y Protección de Datos</a>
                             </li> 
                         </ul>
                     </div>

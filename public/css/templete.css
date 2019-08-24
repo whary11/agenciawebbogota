@@ -284,6 +284,12 @@
 .webp-pagos{
 	background-image: url("/images/background/bg17.webp")
 }
+.no-webp-aumento{
+	background-image: url("/images/background/bg18.webp")
+}
+.webp-aumento{
+	background-image: url("/images/background/bg18.webp")
+}
 /*==========================
 	FIN Custom css
 ==========================*/
