@@ -1,5 +1,4 @@
-                    <!-- Side bar start -->
-                    
+               
                         <aside  class="side-bar">
                             <div class="widget">
                                 <h5 class="widget-title style-1">Síganos en Redes</h5>
@@ -28,64 +27,31 @@
                                 </div>
                             </div>
 
-                            <div class="p-b30"></div>
-							
-							 <div class="widget widget_gallery gallery-grid-4">
-                                <h5 class="widget-title style-1">Nuestros Servicios</h5>
-                                <ul>
-                                    <li><div class="dlab-post-thum"><a href="#" class="dlab-img-overlay1 dlab-img-effect zoom-slow"><img src="images/blog/pic1.jpg" alt=""></a></div></li>
-                                    <li><div class="dlab-post-thum"><a href="#" class="dlab-img-overlay1 dlab-img-effect zoom-slow"><img src="images/blog/pic1.jpg" alt=""></a></div></li>
-                                    <li><div class="dlab-post-thum"><a href="#" class="dlab-img-overlay1 dlab-img-effect zoom-slow"><img src="images/gallery/pic5.jpg" alt=""></a></div></li>
-                                    <li><div class="dlab-post-thum"><a href="#" class="dlab-img-overlay1 dlab-img-effect zoom-slow"><img src="images/gallery/pic7.jpg" alt=""></a></div></li>
-                                    <li><div class="dlab-post-thum"><a href="#" class="dlab-img-overlay1 dlab-img-effect zoom-slow"><img src="images/gallery/pic8.jpg" alt=""></a></div></li>
-                                    <li><div class="dlab-post-thum"><a href="#" class="dlab-img-overlay1 dlab-img-effect zoom-slow"><img src="images/gallery/pic9.jpg" alt=""></a></div></li>
-									<li><div class="dlab-post-thum"><a href="#" class="dlab-img-overlay1 dlab-img-effect zoom-slow"><img src="images/gallery/pic3.jpg" alt=""></a></div></li>
-                                    <li><div class="dlab-post-thum"><a href="#" class="dlab-img-overlay1 dlab-img-effect zoom-slow"><img src="images/gallery/pic4.jpg" alt=""></a></div></li>
-                                </ul>
-                            </div>
+                            <div class="p-b30"></div>							
 							
                             <div class="widget widget_archive">
-                                <h5 class="widget-title style-1">Categories List</h5>
+                                <h5 class="widget-title style-1">Nuestros Servicios</h5>
                                 <ul>
-                                    <li><a href="#">aciform</a></li>
-                                    <li><a href="#">championship</a></li>
-                                    <li><a href="#">chastening</a></li>
-                                    <li><a href="#">clerkship</a></li>
-                                    <li><a href="#">disinclination</a></li>
+                                    <li><a href="#">Diseño Páginas Web</a></li>
+                                    <li><a href="#">Programación Web</a></li>
+                                    <li><a href="#">Tiendas Online</a></li>
+                                    <li><a href="#">Landing Pages</a></li>
+                                    <li><a href="#">Posicionamiento Web</a></li>
+                                    <li><a href="#">Redes Sociales</a></li>
+
                                 </ul>
                             </div>
+
+                            <div class="p-b30"></div>							
+
 							<div class="widget widget-project">
-                                <h5 class="widget-title style-1">Our Project</h5>
+                                <h5 class="widget-title style-1">Últimos Proyectos</h5>
                                 <div class="widget-project-box owl-none owl-loaded owl-theme owl-carousel dots-style-1 owl-dots-black-full">
-									<div class="item"><img src="images/our-services/pic1.jpg" alt=""/></div>
-									<div class="item"><img src="images/our-services/pic2.jpg" alt=""/></div>
-									<div class="item"><img src="images/our-services/pic3.jpg" alt=""/></div>
+									<div class="item"><img src="{{asset('images/portafolio/jeronimos.jpg')}}" alt=""/></div>
+									<div class="item"><img src="{{asset('images/portafolio/diocesis-valledupar.jpg')}}" alt=""/></div>
+                                    <div class="item"><img src="{{asset('images/portafolio/issla-risk.jpg')}}" alt=""/></div>
+                                    <div class="item"><img src="{{asset('images/portafolio/diocesis-yopal.jpg')}}" alt=""/></div>
 								</div>
-                            </div>
-                           
-                            <div class="widget widget_tag_cloud radius">
-                                <h5 class="widget-title style-1">Tags</h5>
-                                <div class="tagcloud"> 
-									<a href="#">Design</a> 
-									<a href="#">User interface</a> 
-									<a href="#">SEO</a> 
-									<a href="#">WordPress</a> 
-									<a href="#">Development</a> 
-									<a href="#">Joomla</a> 
-									<a href="#">Design</a> 
-									<a href="#">User interface</a> 
-									<a href="#">SEO</a> 
-									<a href="#">WordPress</a> 
-									<a href="#">Development</a> 
-									<a href="#">Joomla</a> 
-									<a href="#">Design</a> 
-									<a href="#">User interface</a> 
-									<a href="#">SEO</a> 
-									<a href="#">WordPress</a> 
-									<a href="#">Development</a> 
-									<a href="#">Joomla</a> 
-								</div>
-                            </div>
+                            </div>                    
                         </aside>
                     
-                    <!-- Side bar END -->

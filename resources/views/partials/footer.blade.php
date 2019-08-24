@@ -7,9 +7,9 @@
                         <a href="https://agenciawebbogota.com" class="dez-page">
                            <img src=" {{asset('/images/logo-agencia-web-bogota.svg')}}" alt="Logo Agencia Web Bogotá" width="300">
                         </a>
-                        <p class="text-grey">Agencia de Desarrollo Web y Marketing Digital</p>
-                        <div class="p-b30"></div>
-                        <ul class="list-inline m-a0">
+                        <p class="text-grey p-t10 text-center">Agencia de Desarrollo Web<br>y Marketing Digital</p>
+                        <div class="p-b20"></div>
+                        <ul class="list-inline m-a0 text-center">
 					    	<li><a href="https://www.facebook.com/agenciawebbogota" title="Facebook" target="_blank" class="site-button facebook circle "><i class="fab fa-facebook-f"></i></a></li>
 							<li><a href="https://www.instagram.com/agenciawebbogota" title="Instagram" target="_blank" class="site-button instagram circle "><i class="fab fa-instagram"></i></a></li>
 							<li><a href="https://twitter.com/AgenciaBogota" title="Twitter" target="_blank" class="site-button twitter circle "><i class="fab fa-twitter"></i></a></li>
