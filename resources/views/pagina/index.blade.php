@@ -32,7 +32,6 @@
     <meta name="twitter:title" content="Diseño Web + Neuromarketing">
     <meta name="twitter:description" content="Creamos diseños, publicidad y contenidos optimizados con Neuromarketing. Líderes en Diseño de Páginas Web y Marketing Digital en Bogotá">
     <link rel="canonical" href="https://agenciawebbogota.com" />
-    <link rel="publisher" href="https://plus.google.com/u/0/113079972107918983296" />
     <meta name="format-detection" content="telephone=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- FAVICONS ICON -->

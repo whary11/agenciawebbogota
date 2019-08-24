@@ -5,10 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="Robots" content="index, follow">
-    <title>Agencia Web Bogotá - Diseño de Páginas Web y Marketing Digital en Bogotá</title>
-    <meta name="description" content="Agencia Web Bogotá creamos diseños, publicidad y contenidos optimizados con Neuromarketing. Líderes en Diseño de Páginas Web y Marketing Digital en Bogotá" />
-    <meta name="keywords" content="agencia web bogota, diseño web bogota, diseño de paginas web Bogota, páginas web corporativas,  diseño de paginas web, diseño paginas web economicas, diseño web optimizado, neuromarketing">
+    <title>Alarmante aumento en los costos de alojamiento de paginas web</title>
+    <meta name="description" content="Las nuevas políticas de licencia de cPanel podrían causar que los costos de alojamiento de páginas web suban hasta en un 2000% ¿Qué alternativas existen?" />
     <meta name="author" content="Agencia Web Bogotá">
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name " content="Agencia Web Bogotá" />
+    <meta property="og:title" content="Alarmante aumento en los costos de alojamiento de paginas web" />
+    <meta property="og:url" content="https://agenciawebbogota.com/blog/alarmante-aumento-en-los-costos-de-alojamiento-de-paginas-web/" />
+    <meta property="og:image" content="http://agenciawebbogota.com/images/blog/aumento-en-precios-de-hosting.jpg" />
+    <meta property="og:description" content="Las nuevas políticas de licencia de cPanel podrían causar que los costos de alojamiento de páginas web suban hasta en un 2000% ¿Qué alternativas existen?" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@AgenciaBogota">
+    <meta name="twitter:creator" content="@AgenciaBogota">
+    <meta name="twitter:image" content="http://agenciawebbogota.com/images/blog/aumento-en-precios-de-hosting.jpg">
+    <meta name="twitter:image:alt" content="Aumento en costos de hosting con cPanel">
+    <meta name="twitter:title" content="Alarmante aumento en los costos de alojamiento de paginas web">
+    <meta name="twitter:description" content="Las nuevas políticas de licencia de cPanel podrían causar que los costos de alojamiento de páginas web suban hasta en un 2000% ¿Qué alternativas existen?">
+    <link rel="canonical" href="https://agenciawebbogota.com/blog/alarmante-aumento-en-los-costos-de-alojamiento-de-paginas-web/" />
+
     <meta name="format-detection" content="telephone=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
@@ -24,7 +38,7 @@
     <link class="skin" rel="stylesheet" type="text/css" href="{{asset('css/skin-1.css')}}">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-
+        @include('partials.analytics')
 </head>
 	<body id="bg">
 	<div class="page-wraper">
@@ -52,6 +66,11 @@
                             <div class="dlab-post-text text-justify">
                             <p>El pasado 27 de junio de 2019 la compañía cPanel anunció un nuevo modelo de precios basado en cuentas que básicamente cambió la forma en que se factura a los clientes y <b>resultó en un aumento de precios de hasta 2000%</b>. El anuncio oficial está disponible en la <a class="text-blue" href="https://blog.cpanel.com/announcing-account-based-pricing/" target="_blank">página oficial cPanel</a></p>
                             <p>Si bien en la industria del alojamiento y desarrollo web ya esperábamos el aumento de precios, nadie imaginó que el modelo se cambiaría tan drásticamente y que los precios se elevarían de tal manera. Ahora los usuarios de cPanel que básicamente somos más del 90% de propietarios de sitios web, no podremos crear cuentas ilimitadas en sus servidores de cPanel sin pagar estos sobre costos.</p>
+                            <picture>
+                            <source srcset="{{asset('images/blog/aumento-en-precios-de-hosting.webp')}}" type="image/webp">
+                                <img src="{{asset('images/blog/aumento-en-precios-de-hosting.jpg')}}" alt="Hombre desesperado">
+                            </picture>
+                            <div class="p-t30"></div>
                             <p><b class="text-red">Este cambio afecta a toda la industria del alojamiento y desarrollo web</b> porque hoy en día cPanel es el panel de control más utilizado. Trataremos de explicar a continuación cómo ese cambio afecta directamente a nuestros clientes que tienen su sitio web o aplicativo corriendo desde cPanel.</p>
                             <p>Todos sabemos que nuestras páginas web se encuentran en un alojamiento compartido, puede ser un hosting de revendedores o hosting vps. Pues bien, los sobre costos afectarán directamente a los administradores de dichos servicios, quienes ya no podrán contar con cuentas ilimitadas de cPanel lo que <b>finalmente se transmitirá al cliente final, es decir, a los propietarios de sitios web</b>.</p>
                             <p><b>Es por esto, que los precios de contratación y renovación de servicios que involucren cPanel aumentarán a partir del 1 de septiembre de 2019 hasta en un 250%</b>. Sin embargo, Agencia Web Bogotá absorberá esos costos tanto como nos sea posible para reducir el impacto del aumento para nuestros clientes.</p>
@@ -84,7 +103,7 @@
 									<li><h6 class="m-a0">Comparta esta información</h6></li>
 									<li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//agenciawebbogota.com/blog/alarmante-aumento-en-los-costos-de-alojamiento-de-paginas-web" title="Facebook" target="_blank" class="site-button facebook button-sm"><i class="fab fa-facebook-f"></i> Facebook</a></li>
                                     <li><a href="https://twitter.com/intent/tweet?text=http%3A//agenciawebbogota.com/blog/alarmante-aumento-en-los-costos-de-alojamiento-de-paginas-web" title="Twitter" target="_blank" class="site-button twitter button-sm"><i class="fab fa-twitter"></i> Twitter</a></li>
-                                    <li><a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//agenciawebbogota.com/blog/alarmante-aumento-en-los-costos-de-alojamiento-de-paginas-web&title=Alarmante%20aumento%20en%20los%20costos%20de%20alojamiento%20de%20paginas%20web&summary=&source=" title="Linkedin" target="_blank" class="site-button linkedin button-sm"><i class="fab fa-linkedin-in"></i> Linkedin</a></li>
+                                    <li><a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//agenciawebbogota.com/blog/alarmante-aumento-en-los-costos-de-alojamiento-de-paginas-web&title=Alarmante%20aumento%20en%20los%20costos%20de%20alojamiento%20de%20paginas%20web&summary=&source=" title="Linkedin" target="_blank" class="site-button linkedin button-sm"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
 								</ul>
 							</div>
                         </div>

@@ -290,6 +290,12 @@
 .webp-aumento{
 	background-image: url("/images/background/bg18.webp")
 }
+.no-webp-blog{
+	background-image: url("/images/blog/bg-blog.webp")
+}
+.webp-blog{
+	background-image: url("/images/blog/bg-blog.webp")
+}
 /*==========================
 	FIN Custom css
 ==========================*/

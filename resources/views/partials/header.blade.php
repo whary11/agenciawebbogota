@@ -74,7 +74,7 @@
                                 <li>
                             </ul>
                         </li>
-                        <li><a href="{{url('/')}}">Blog </a></li>
+                        <li><a href="{{url('blog')}}">Blog </a></li>
                         <li><a>Soporte Técnico <i class="fas fa-chevron-down"></i></a>
                             <ul class="sub-menu">
                                 <li><a href="#">Tickets<i class="fa fa-angle-right"></i></a>
