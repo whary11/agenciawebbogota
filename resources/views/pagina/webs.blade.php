@@ -8,7 +8,21 @@
     <meta name="Robots" content="index, follow">
     <title>Diseño de Páginas Web con posicionamiento incluido</title>
     <meta name="description" content="Diseñamos tu sitio web con posicionamiento en Google incluido y con garantía de funcionamiento. Tenemos la mejor oferta costo/beneficio del mercado." />
-    <meta name="author" content="Agencia Web Bogotá">
+	<meta name="author" content="Agencia Web Bogotá">
+	<meta property="og:type" content="website" />
+    <meta property="og:site_name " content="Agencia Web Bogotá" />
+    <meta property="og:title" content="Diseño de Páginas Web con posicionamiento incluido" />
+    <meta property="og:url" content="https://agenciawebbogota.com/paginas-web" />
+    <meta property="og:image" content="https://agenciawebbogota.com/images/muestra-paginas-web.jpg" />
+    <meta property="og:description" content="Diseñamos tu sitio web con posicionamiento en Google incluido y con garantía de funcionamiento. Tenemos la mejor oferta costo/beneficio del mercado" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@AgenciaBogota">
+    <meta name="twitter:creator" content="@AgenciaBogota">
+    <meta name="twitter:image" content="https://agenciawebbogota.com/images/muestra-paginas-web.jpg">
+    <meta name="twitter:image:alt" content="Diseño de Páginas Web con posicionamiento incluido">
+    <meta name="twitter:title" content="Diseño de Páginas Web con posicionamiento incluido">
+    <meta name="twitter:description" content="Diseñamos tu sitio web con posicionamiento en Google incluido y con garantía de funcionamiento. Tenemos la mejor oferta costo/beneficio del mercado">
+	<link rel="canonical" href="https://agenciawebbogota.com/paginas-web" />
     <meta name="format-detection" content="telephone=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
