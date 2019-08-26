@@ -367,7 +367,7 @@
     <script src="plugins/loading/anime.js"></script><!-- LOADING JS -->
     <script src="plugins/loading/anime-app3.js"></script><!-- LOADING JS -->
     <script src="js/dz.ajax.js"></script><!-- CONTACT JS  -->
-
+	@include('partials.schema')
 </body>
 
 </html>

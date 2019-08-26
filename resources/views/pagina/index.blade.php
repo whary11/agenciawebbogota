@@ -22,12 +22,12 @@
     <meta property="og:site_name " content="Agencia Web Bogotá" />
     <meta property="og:title" content="Diseño de Páginas Web y Marketing Digital en Bogotá" />
     <meta property="og:url" content="https://agenciawebbogota.com" />
-    <meta property="og:image" content="http://agenciawebbogota.com/social/ogg-image.jpg" />
+    <meta property="og:image" content="https://agenciawebbogota.com/images/principal-3.jpg" />
     <meta property="og:description" content="Creamos diseños, publicidad y contenidos optimizados con Neuromarketing. Líderes en Diseño de Páginas Web y Marketing Digital en Bogotá" />
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@AgenciaBogota">
     <meta name="twitter:creator" content="@AgenciaBogota">
-    <meta name="twitter:image" content="http://agenciawebbogota.com/social/ogg-image.jpg">
+    <meta name="twitter:image" content="https://agenciawebbogota.com/images/principal-3.jpg">
     <meta name="twitter:image:alt" content="Agencia Web Bogotá | Diseño Web Optimizado con Neuromarketing">
     <meta name="twitter:title" content="Diseño Web + Neuromarketing">
     <meta name="twitter:description" content="Creamos diseños, publicidad y contenidos optimizados con Neuromarketing. Líderes en Diseño de Páginas Web y Marketing Digital en Bogotá">
@@ -768,6 +768,7 @@
     {{-- <script src="{{asset('plugins/loading/anime.js')}}"></script><!-- Tilt Jquery -->
     <script src="{{asset('plugins/loading/anime-app3.js')}}"></script><!-- Tilt Jquery --> --}}
     <script src="{{asset('js/dz.ajax.js')}} "></script><!-- CONTACT JS  -->
+    @include('partials.schema')
 </body>
 
 </html>
