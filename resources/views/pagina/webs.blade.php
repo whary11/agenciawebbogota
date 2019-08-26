@@ -6,11 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="Robots" content="index, follow">
-    <title>Agencia Web Bogotá - Diseño de Páginas Web y Marketing Digital en Bogotá</title>
-    <meta name="description"
-        content="Agencia Web Bogotá creamos diseños, publicidad y contenidos optimizados con Neuromarketing. Líderes en Diseño de Páginas Web y Marketing Digital en Bogotá" />
-    <meta name="keywords"
-        content="agencia web bogota, diseño web bogota, diseño de paginas web Bogota, páginas web corporativas,  diseño de paginas web, diseño paginas web economicas, diseño web optimizado, neuromarketing">
+    <title>Diseño de Páginas Web con posicionamiento incluido</title>
+    <meta name="description" content="Diseñamos tu sitio web con posicionamiento en Google incluido y con garantía de funcionamiento. Tenemos la mejor oferta costo/beneficio del mercado." />
     <meta name="author" content="Agencia Web Bogotá">
     <meta name="format-detection" content="telephone=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -28,7 +25,7 @@
     <link class="skin" rel="stylesheet" type="text/css" href="{{asset('css/skin-1.css')}}">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-
+	@include('partials.analytics')
 </head>
 
 <body id="bg">
@@ -43,7 +40,7 @@
                 <div class="container">
                     <div class="dlab-bnr-inr-entry texto-ini">
                         <h1 class="text-white">Diseño de Páginas Web</h1>
-                        <h2 class="text-white">Websites efectivos y económicos con garantía de funcionamiento</h2>
+                        <h2 class="text-white">Websites efectivos con garantía de funcionamiento</h2>
                     </div>
                 </div>
             </div>
@@ -71,7 +68,7 @@
                         <div class="row dzseth">
                             <div class="col-lg-6 col-md-12 p-a0">
 							<picture>
-                                <source srcset="{{asset('images/muestra-paginas-web.webp')}}" type="image/webp">
+                                <source srcset="{{asset('images/muestra-paginas-web.webp')}}" type="image/webp" alt="Diseño de páginas web en varias pantallas">
                                 <img src="{{asset('images/muestra-paginas-web.jpg')}}" alt="Diseño de páginas web en varias pantallas" class="img-cover">
                             </picture>	
                             </div>
@@ -130,12 +127,12 @@
 				</div>
 				<div class="container m-tb30">
 					<div class="client-logo-carousel owl-carousel owl-btn-center-lr owl-btn-3">
-						<div class="item"><div class="br-col-b1 border-1"><img src="images/logos/wordpress-logo.jpg" alt=""></div></div>
-						<div class="item"><div class="br-col-b1 border-1"><img src="images/logos/htmlcssjs.jpg" alt=""></div></div>
-						<div class="item"><div class="br-col-b1 border-1"><img src="images/logos/prestashop-logo.jpg" alt=""></div></div>
-						<div class="item"><div class="br-col-b1 border-1"><img src="images/logos/woocomerce-logo.jpg" alt=""></div></div>
-						<div class="item"><div class="br-col-b1 border-1"><img src="images/logos/laravel-logo.jpg" alt=""></div></div>
-                        <div class="item"><div class="br-col-b1 border-1"><img src="images/logos/drupal-logo.jpg" alt=""></div></div>
+						<div class="item"><div class="br-col-b1 border-1"><img src="images/logos/wordpress-logo.jpg" alt="Logo WordPress"></div></div>
+						<div class="item"><div class="br-col-b1 border-1"><img src="images/logos/htmlcssjs.jpg" alt="Logo HTML y CSS"></div></div>
+						<div class="item"><div class="br-col-b1 border-1"><img src="images/logos/prestashop-logo.jpg" alt="Logo Prestashop"></div></div>
+						<div class="item"><div class="br-col-b1 border-1"><img src="images/logos/woocomerce-logo.jpg" alt="Logo Woocomerce"></div></div>
+						<div class="item"><div class="br-col-b1 border-1"><img src="images/logos/laravel-logo.jpg" alt="Logo laravel"></div></div>
+                        <div class="item"><div class="br-col-b1 border-1"><img src="images/logos/drupal-logo.jpg" alt="Logo Drupal"></div></div>
                         
 					</div>
 				</div>
