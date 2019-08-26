@@ -60,4 +60,7 @@ class IndexController extends Controller
     public function aumento(){
         return view('pagina.blog/aumento');
     }
+    public function nuevoservicios(){
+        return view('pagina.blog/nuevoservicios');
+    }
 }
