@@ -46,6 +46,14 @@
     <div class="page-wraper">
         <!-- header -->
         @include('partials.header')
+		<div class="icono-whatsapp" id="btn-whp"><a href="https://api.whatsapp.com/send?phone=573168785601"><i class="fab fa-whatsapp"></i></a></div>
+		<div class="icono-messenger" id="btn-mes"><a href="https://m.me/agenciawebbogota"><i class="fab fa-facebook-messenger"></i></a></div>
+		<div class="icono-phone" id="btn-pho"><a href="tel:+573168785601"><i class="fas fa-phone-volume"></i></a></div>
+		<div class="tooltip-whatsapp" id="tp-whp"><span>¡Estamos en línea!</span></div>
+		<div class="tooltip-messenger" id="tp-mes"><span>Háblenos por Messenger</span></div>
+		<div class="tooltip-phone" id="tp-pho"><span>Llámenos</span></div>
+
+
         <!-- header END -->
         <!-- Content -->
         <div class="page-content bg-white" id="page">

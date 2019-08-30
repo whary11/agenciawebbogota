@@ -279,22 +279,28 @@
 	background-image: url("/images/background/bg16.webp")
 }
 .no-webp-pagos{
-	background-image: url("/images/background/bg17.webp")
+	background-image: url("/images/background/bg17.jpg")
 }
 .webp-pagos{
 	background-image: url("/images/background/bg17.webp")
 }
 .no-webp-aumento{
-	background-image: url("/images/background/bg18.webp")
+	background-image: url("/images/background/bg18.jpg")
 }
 .webp-aumento{
 	background-image: url("/images/background/bg18.webp")
 }
 .no-webp-blog{
-	background-image: url("/images/blog/bg-blog.webp")
+	background-image: url("/images/blog/bg-blog.jpg")
 }
 .webp-blog{
 	background-image: url("/images/blog/bg-blog.webp")
+}
+.no-webp-nuevasfunc{
+	background-image: url("/images/background/bg19.jpg")
+}
+.webp-nuevasfunc{
+	background-image: url("/images/background/bg19.webp")
 }
 /*==========================
 	FIN Custom css

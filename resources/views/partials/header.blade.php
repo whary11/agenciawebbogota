@@ -1,15 +1,6 @@
 <div id="loading-area">
     <div class="la-anim-10"></div>
 </div>
-<div class="icono-whatsapp" id="btn-whp"><a href="https://api.whatsapp.com/send?phone=573168785601"><i
-            class="fab fa-whatsapp"></i></a></div>
-<div class="icono-messenger" id="btn-mes"><a href="https://m.me/agenciawebbogota"><i
-            class="fab fa-facebook-messenger"></i></a></div>
-<div class="icono-phone" id="btn-pho"><a href="tel:+573168785601"><i class="fas fa-phone-volume"></i></a></div>
-<div class="tooltip-whatsapp" id="tp-whp"><span>¡Estamos en línea!</span></div>
-<div class="tooltip-messenger" id="tp-mes"><span>Háblenos por Messenger</span></div>
-<div class="tooltip-phone" id="tp-pho"><span>Llámenos</span></div>
-
 <!-- header -->
 <header class="site-header header-transparent mo-left">
     <div class="top-bar">
