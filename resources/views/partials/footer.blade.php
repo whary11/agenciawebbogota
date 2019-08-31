@@ -23,7 +23,7 @@
                         <li class="text-none">
                             <i class="fas fa-map-marker-alt"></i>Carrera 57 No. 14-70<br>Bogotá, Colombia</li>
                             <li class="text-none">
-                                <i class="fas fa-mobile-alt"></i><strong>Celular</strong>316 8785601 - 304 3788629</li>
+                                <i class="fas fa-mobile-alt"></i><strong>Celular</strong>316 8785601 - 313 4934881</li>
                             <li class="text-none">
                                 <i class="fas fa-mail-bulk"></i><strong>Email</strong>info@agenciawebbogota.com</li>
                         </ul>

@@ -76,7 +76,7 @@
 											<span class="icon-sm text-primary text-left"><i class="ti-mobile"></i></span> 
 											Números de Contaco
 										</h5>
-										<p>316 8785601 - 304 3788629</p>
+										<p>316 8785601 - 313 4934881</p>
 									</div>
 								</div>
 							</div>
