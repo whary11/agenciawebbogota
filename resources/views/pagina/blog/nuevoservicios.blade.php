@@ -11,7 +11,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:site_name " content="Agencia Web Bogotá" />
     <meta property="og:title" content="Nuevas funciones para mejorar el rendimiento de su sitio web" />
-    <meta property="og:url" content="https://agenciawebbogota.com/blog/nuevas-funciones-para mejorar-el-rendimiento-de-su-sitio-web" />
+    <meta property="og:url" content="https://agenciawebbogota.com/blog/nuevas-funciones-para-mejorar-el-rendimiento-de-su-sitio-web" />
     <meta property="og:image" content="http://agenciawebbogota.com/images/blog/funciones-sitio-web.jpg" />
     <meta property="og:description" content="Conozca las nuevas herramientas y funcionalidades que podemos  integrar en su sitio web para potenciar aún más su presencia en Internet." />
     <meta name="twitter:card" content="summary_large_image">
@@ -21,7 +21,7 @@
     <meta name="twitter:image:alt" content="Nuevas funciones para mejorar el rendimiento de su sitio web">
     <meta name="twitter:title" content="Nuevas funciones para mejorar el rendimiento de su sitio web">
     <meta name="twitter:description" content="Conozca las nuevas herramientas y funcionalidades que podemos  integrar en su sitio web para potenciar aún más su presencia en Internet.">
-    <link rel="canonical" href="https://agenciawebbogota.com/blog/nuevas-funciones-para mejorar-el-rendimiento-de-su-sitio-web" />
+    <link rel="canonical" href="https://agenciawebbogota.com/blog/nuevas-funciones-para-mejorar-el-rendimiento-de-su-sitio-web" />
 
     <meta name="format-detection" content="telephone=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">

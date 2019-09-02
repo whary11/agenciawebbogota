@@ -79,27 +79,27 @@
                         </div>
                         <div class="post card-container col-lg-4 col-md-6 col-sm-12 col-xs-12">
                             <div class="blog-post blog-grid blog-rounded blog-effect1">
-                                <div class="dlab-post-media dlab-img-effect "> <a href="{{url('blog/nuevas-funciones-para mejorar-el-rendimiento-de-su-sitio-web')}}">
+                                <div class="dlab-post-media dlab-img-effect "> <a href="{{url('blog/nuevas-funciones-para-mejorar-el-rendimiento-de-su-sitio-web')}}">
                                 <picture>
                                     <source srcset="{{asset('images/blog/funciones-sitio-web.webp')}}" type="image/webp">
                                     <img src="{{asset('images/blog/funciones-sitio-web.jpg')}}" alt="Hombre de negocios usando dispositivos de tecnología e íconos de interfaz">
                                 </picture> </a> </div>
                                 <div class="dlab-info p-a20 border-1">
                                     <div class="dlab-post-title ">
-                                        <h4 class="post-title"><a href="{{url('blog/nuevas-funciones-para mejorar-el-rendimiento-de-su-sitio-web')}}">Nuevas funciones para mejorar el rendimiento de su sitio web</a></h4>
+                                        <h4 class="post-title"><a href="{{url('blog/nuevas-funciones-para-mejorar-el-rendimiento-de-su-sitio-web')}}">Nuevas funciones para mejorar el rendimiento de su sitio web</a></h4>
                                     </div>                                    
                                     <div class="dlab-post-text">
                                        <p>Conozca las nuevas herramientas y funcionalidades que podemos  integrar en su sitio web para potenciar aún más su presencia en Internet.</p>
                                     </div>
                                    <div class="dlab-post-readmore blog-share"> 
-										<a href="{{url('blog/nuevas-funciones-para mejorar-el-rendimiento-de-su-sitio-web')}}" title="READ MORE" rel="bookmark" class="site-button outline outline-1">IR AL ARTÍCULO
+										<a href="{{url('blog/nuevas-funciones-para-mejorar-el-rendimiento-de-su-sitio-web')}}" title="READ MORE" rel="bookmark" class="site-button outline outline-1">IR AL ARTÍCULO
                                         <i class="fas fa-arrow-right"></i>
 										</a>
 										<div class="share-btn">
 											<ul class="clearfix">
-                                            <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//agenciawebbogota.com/blog/nuevas-funciones-para mejorar-el-rendimiento-de-su-sitio-web" title="Facebook" target="_blank" class="site-button sharp"><i class="fab fa-facebook-f"></i></a></li>
-												<li><a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//agenciawebbogota.com/blog/nuevas-funciones-para mejorar-el-rendimiento-de-su-sitio-web&title=nuevas%20funciones%20para%20mejorar%20el%20rendimiento%20de%20su%20sitio%20web&summary=&source=" title="Linkedin" target="_blank" class="site-button sharp"><i class="fab fa-linkedin-in"></i></a></li>
-												<li><a href="https://twitter.com/intent/tweet?text=http%3A//agenciawebbogota.com/blog/nuevas-funciones-para mejorar-el-rendimiento-de-su-sitio-web" title="Twitter" target="_blank" class="site-button sharp"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//agenciawebbogota.com/blog/nuevas-funciones-para-mejorar-el-rendimiento-de-su-sitio-web" title="Facebook" target="_blank" class="site-button sharp"><i class="fab fa-facebook-f"></i></a></li>
+												<li><a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//agenciawebbogota.com/blog/nuevas-funciones-para-mejorar-el-rendimiento-de-su-sitio-web&title=nuevas%20funciones%20para%20mejorar%20el%20rendimiento%20de%20su%20sitio%20web&summary=&source=" title="Linkedin" target="_blank" class="site-button sharp"><i class="fab fa-linkedin-in"></i></a></li>
+												<li><a href="https://twitter.com/intent/tweet?text=http%3A//agenciawebbogota.com/blog/nuevas-funciones-para-mejorar-el-rendimiento-de-su-sitio-web" title="Twitter" target="_blank" class="site-button sharp"><i class="fab fa-twitter"></i></a></li>
 												<li class="share-button"><a class="site-button sharp"><i class="fa fa-share-alt"></i></a></li>
 											</ul>
 										</div>
