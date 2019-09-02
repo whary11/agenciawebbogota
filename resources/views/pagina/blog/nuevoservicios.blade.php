@@ -66,7 +66,7 @@
                             <div class="dlab-post-text text-justify">
                             <p><b>Conozca las nuevas herramientas y funcionalidades que en Agencia Web Bogotá estamos en capacidad de integrar en su sitio web para potenciar aún más su presencia en Internet, aumentar su efectividad y mejorar sus ingresos.</b></p>
                             <picture>
-                            <source srcset="{{asset('images/blog/funciones-sitio-web.webp')}}" type="image/webp">
+                            <source srcset="{{asset('images/blog/funciones-sitio-web.webp')}}" type="image/webp" alt="Hombre de negocios usando dispositivos de tecnología e íconos de interfaz">
                                 <img src="{{asset('images/blog/funciones-sitio-web.jpg')}}" alt="Hombre de negocios usando dispositivos de tecnología e íconos de interfaz">
                             </picture>
                             <div class="p-t30"></div>

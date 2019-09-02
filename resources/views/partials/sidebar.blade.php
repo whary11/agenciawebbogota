@@ -47,10 +47,10 @@
 							<div class="widget widget-project">
                                 <h5 class="widget-title style-1">Últimos Proyectos</h5>
                                 <div class="widget-project-box owl-none owl-loaded owl-theme owl-carousel dots-style-1 owl-dots-black-full">
-									<div class="item"><img src="{{asset('images/portafolio/jeronimos.jpg')}}" alt=""/></div>
-									<div class="item"><img src="{{asset('images/portafolio/diocesis-valledupar.jpg')}}" alt=""/></div>
-                                    <div class="item"><img src="{{asset('images/portafolio/issla-risk.jpg')}}" alt=""/></div>
-                                    <div class="item"><img src="{{asset('images/portafolio/diocesis-yopal.jpg')}}" alt=""/></div>
+									<div class="item"><img src="{{asset('images/portafolio/jeronimos.jpg')}}" alt="Modelo de sitio web Jerónimos Cake Shop"/></div>
+									<div class="item"><img src="{{asset('images/portafolio/diocesis-valledupar.jpg')}}" alt="Modelo de sitio web Diocesis de Valledupar"/></div>
+                                    <div class="item"><img src="{{asset('images/portafolio/issla-risk.jpg')}}" alt="Modelo de sitio web Issla Risk"/></div>
+                                    <div class="item"><img src="{{asset('images/portafolio/diocesis-yopal.jpg')}}" alt="Modelo de sitio web Diócesis de Yopal "/></div>
 								</div>
                             </div>                    
                         </aside>

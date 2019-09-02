@@ -1,39 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="keywords" content="" />
-	<meta name="author" content="" />
-	<meta name="robots" content="" />
-		<meta name="description" content="Agency - Business And Agency Template" />
-	<meta property="og:title" content="Agency : Business And Agency Template" />
-	<meta property="og:description" content="Agency : Business And Agency Template" />
-	<meta property="og:image" content="dhakdhakindia.com/product/agency/" />
-	<meta name="format-detection" content="telephone=no">
-	
-	<!-- FAVICONS ICON -->
-	<link rel="icon" href="{{asset('images/favicon.ico')}}" type="image/x-icon" />
-	<link rel="shortcut icon" type="image/x-icon" href="{{asset('images/favicon.png')}}" />
-		
-	<!-- PAGE TITLE HERE -->
-	<title>Tiendas Online - Comercio electrónico</title>
-	
-	<!-- MOBILE SPECIFIC -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<!-- STYLESHEETS -->
-	<link rel="stylesheet" type="text/css" href="{{asset('css/plugins.css')}}">
-	<link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}">
-	<link rel="stylesheet" type="text/css" href="{{asset('css/templete.css')}}">
-	<link class="skin" rel="stylesheet" type="text/css" href="{{asset('css/skin-1.css')}}">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Robots" content="index, follow">
+    <title>Diseño de Tiendas Online | Sitios automatizados para ventas online</title>
+    <meta name="description" content="Tiendas Online Automatizadas. Sitios web para comercio electrónico con todos los componentes necesarios para un crecimiento rápido de su negocio en línea." />
+	<meta name="author" content="Agencia Web Bogotá">
+	<meta property="og:type" content="service" />
+    <meta property="og:site_name " content="Agencia Web Bogotá" />
+    <meta property="og:title" content="Diseño de Tiendas Online | Sitios automatizados para ventas online" />
+    <meta property="og:url" content="https://agenciawebbogota.com/tiendas-online" />
+    <meta property="og:image" content="https://agenciawebbogota.com/images/background/bg4.jpg" />
+    <meta property="og:description" content="Tiendas Online Automatizadas. Sitios web para comercio electrónico con todos los componentes necesarios para un crecimiento rápido de su negocio en línea." />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@AgenciaBogota">
+    <meta name="twitter:creator" content="@AgenciaBogota">
+    <meta name="twitter:image" content="https://agenciawebbogota.com/images/background/bg4.jpg">
+    <meta name="twitter:image:alt" content="Diseño de Tiendas Online | Sitios automatizados para ventas online">
+    <meta name="twitter:title" content="Diseño de Tiendas Online">
+    <meta name="twitter:description" content="Tiendas Online Automatizadas. Sitios web para comercio electrónico con todos los componentes necesarios para un crecimiento rápido de su negocio en línea.">
+	<link rel="canonical" href="https://agenciawebbogota.com/tiendas-online" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
+
+    <!-- FAVICONS ICON -->
+    <link rel="icon" href="{{asset('images/favicon.ico')}}" type="image/x-icon" />
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('images/favicon.png')}}" />
+    <link rel="apple-touch-icon" href="images/apple-icon-touch.png">
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" type="text/css" href="{{asset('css/plugins.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/templete.css')}}">
+    <link class="skin" rel="stylesheet" type="text/css" href="{{asset('css/skin-1.css')}}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	@include('partials.analytics')
 </head>
+
 <body id="bg">
-<div class="page-wraper">
-    <!-- header -->
-    @include('partials.header')
+    <div class="page-wraper">
+        <!-- header -->
+        @include('partials.header')
+		<div class="icono-whatsapp" id="btn-whp"><a href="https://api.whatsapp.com/send?phone=573168785601"><i class="fab fa-whatsapp"></i></a></div>
+		<div class="icono-messenger" id="btn-mes"><a href="https://m.me/agenciawebbogota"><i class="fab fa-facebook-messenger"></i></a></div>
+		<div class="icono-phone" id="btn-pho"><a href="tel:+573168785601"><i class="fas fa-phone-volume"></i></a></div>
+		<div class="tooltip-whatsapp" id="tp-whp"><span>¡Estamos en línea!</span></div>
+		<div class="tooltip-messenger" id="tp-mes"><span>Háblenos por Messenger</span></div>
+		<div class="tooltip-phone" id="tp-pho"><span>Llámenos</span></div>
+
+
     <!-- header END -->
     <!-- Content -->
     <div class="page-content bg-white">
@@ -295,5 +314,6 @@
 <script src="{{asset('plugins/loading/anime-app3.js')}}"></script><!-- LOADING JS -->
 <script src='https://www.google.com/recaptcha/api.js'></script> <!-- Google API For Recaptcha  -->
 <script src="{{asset('js/dz.ajax.js')}}"></script><!-- CONTACT JS  -->
+@include('partials.schema')
 </body>
 </html>
