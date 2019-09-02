@@ -55,7 +55,7 @@
                                 <li><a href="{{url('landing-page')}}">Landing Pages </a></li>
                                 <li><a href="{{url('tiendas-online')}}">Tiendas Online </a></li>
                                 <li><a href="{{url('programacion-web')}}">Programación Web</a></li>
-                                <li><a href="{{url('google-apps')}}">Google Apps</a></li>
+                                <!-- <li><a href="{{url('google-apps')}}">Google Apps</a></li> -->
                             </ul>
                         <li><a>Marketing Digital <i class="fas fa-chevron-down"></i></a>
                             <ul class="sub-menu">

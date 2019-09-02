@@ -93,7 +93,7 @@
                             <p>Los servidores compartidos tienen los días contados, es por eso que cada vez más estamos trabajando con servidores privados virtuales VPS para alojar las páginas de nuestros clientes. Teniendo en cuenta también el <a class="text-blue" href="{{url('/blog/alarmante-aumento-en-los-costos-de-alojamiento-de-paginas-web')}}">alarmante aumento de costos de las licencias de cPanel</a> ¡Una locura!</p>
                             <h2 class="texto-blog">Y seguimos adelante…</h2>
                             <p>Muy pronto publicaremos la segunda parte de esta lista de nuevas características disponibles para nuestros clientes. Cada día descubrimos nuevas cosas, nuevos métodos, crecemos con cada proyecto y estamos trabajando por mejorar el posicionamiento orgánico en Google de los sitios de nuestros clientes.</p>
-                            <p>Si desea incluir alguna de las anteriores funcionalidades en su sitio web no dude en hacernolo saber. Estaremos gustosos de ofrecer beneficios especiales a nuestros clientes que continúan confiando en Agencia Web Bogotá. </p>
+                            <p>Si desea incluir alguna de las anteriores funcionalidades en su sitio web no dude en <a class="text-blue" href="{{url('contacto')}}">contactarnos</a>. Estaremos gustosos de ofrecer beneficios especiales a nuestros clientes que continúan confiando en Agencia Web Bogotá. </p>
                             </div>
 							<div class="dlab-divider bg-gray-dark op4"><i class="icon-dot c-square"></i></div>
 							<div class="share-details-btn">
