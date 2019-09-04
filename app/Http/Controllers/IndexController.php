@@ -39,8 +39,8 @@ class IndexController extends Controller
     public function servicios(){
         return view('pagina.servicios');
     }
-    public function branding(){
-        return view('pagina.branding');
+    public function administracion(){
+        return view('pagina.administracion');
     }
     public function pagos(){
         return view('pagina.enviar-un-pago');

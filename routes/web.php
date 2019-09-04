@@ -27,7 +27,7 @@ Route::get('/posicionamiento-web', 'IndexController@posicionamientoWeb');
 Route::get('/blog', 'IndexController@blog');
 Route::get('/contacto', 'IndexController@contacto');
 Route::get('/servicios', 'IndexController@servicios');
-Route::get('/branding', 'IndexController@branding');
+Route::get('/administracion-de-sitios-web', 'IndexController@administracion');
 Route::get('/enviar-un-pago', 'IndexController@pagos');
 Route::get('/confirmacion', 'IndexController@confirmacion');
 Route::get('/blog', 'IndexController@blog');

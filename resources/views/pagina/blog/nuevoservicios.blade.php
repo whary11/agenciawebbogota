@@ -146,39 +146,5 @@
 <script src="plugins/loading/anime.js"></script><!-- LOADING JS -->
 <script src="plugins/loading/anime-app3.js"></script><!-- LOADING JS -->
 <script src="js/dz.ajax.js"></script><!-- CONTACT JS  -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://agenciawebbogota.com/blog/nuevas-funciones-para mejorar-el-rendimiento-de-su-sitio-web"
-  },
-  "headline": "Nuevas funciones para mejorar el rendimiento de su sitio web",
-  "description": "Conozca las nuevas herramientas y funcionalidades que podemos  integrar en su sitio web para potenciar aún más su presencia en Internet.",
-  "image": {
-    "@type": "ImageObject",
-    "url": "http://agenciawebbogota.com/images/blog/funciones-sitio-web.webp",
-    "width": 1200,
-    "height": 620
-  },
-  "author": {
-    "@type": "Organization",
-    "name": "Agencia Web Bogotá"
-  },  
-  "publisher": {
-    "@type": "Organization",
-    "name": "Pablo Martinez",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://agenciawebbogota.com/images/logo-agencia-web-bogota.svg",
-      "width": ,
-      "height": 
-    }
-  },
-  "datePublished": "2019-09-01",
-  "dateModified": "2019-09-01"
-}
-</script>
 </body>
 </html>
