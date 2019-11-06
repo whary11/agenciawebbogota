@@ -57,7 +57,7 @@
                     <div class="widget-link"> 
                         <ul>								
                             <li class="font-12">
-                                <a href="{{url('')}}">Políticas de Privacidad y Protección de Datos</a>
+                                <a href="{{url('politicas-de-privacidad')}}">Políticas de Privacidad y Protección de Datos</a>
                             </li> 
                         </ul>
                     </div>

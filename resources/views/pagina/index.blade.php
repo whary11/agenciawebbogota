@@ -84,8 +84,8 @@
                             <div class="slide-content-box container title-princ">
                                 <div class="max-w600 text-white">
                                     <h1 class="text-white font-weight-600 bs">Diseño Web y Marketing Digital </h1>
-                                    <h4>No competimos en el mercado, creamos cosas nuevas para el mercado</h4>
-                                    <p>Con la mejor oferta costo/beneficio del mercado, respaldada por amplios
+                                    <h4>No buscamos competir en el mercado, buscamos innovar con productos y servicios de alta calidad.</h4>
+                                    <p>Con la mejor oferta costo/beneficio, respaldada por amplios
                                         conocimientos en lenguajes de programación, gestores de contenido, diseño
                                         gráfico y posicionamiento SEO.</p>
                                     <a href="servicios" class="site-button m-r10 primary button-lg btn1">Nuestros
@@ -135,10 +135,10 @@
                                         <div class="icon-bx-wraper bx-style-1 p-a20 radius-sm">
                                             <div class="icon-content">
                                                 <h5 class="dlab-tilte">
-                                                    <span class="icon-sm"><i class="fab fa-google"></i></span>
-                                                    Google Aps
+                                                    <span class="icon-sm"><i class="fas fa-shopping-cart"></i></span>
+                                                    Tiendas Online
                                                 </h5>
-                                                <p>Descubra todo el<br>potencial de Google</p>
+                                                <p>100% automatizadas con <br>Woocommercer o Shopify</p>
                                             </div>
                                         </div>
                                     </div>
@@ -278,10 +278,11 @@
                                         <p class="font-weight-600">Websites en WordPress con Tema Premium Incluido<br>
                                         Websites en HTML y CSS desde cero sin plantillas<br>
                                         Landing Pages Para Promociones y Anuncios<br>
-                                        Tienda Online con Woocommerce o PrestaShop<br>
+                                        Tienda Online con Woocommerce, PrestaShop o Shopify<br>
                                         Sitios Corporativos con Posicionamiento Incluido<br>
                                         Portales Educativos con Funciones Avanzadas<br>
-                                        Websites hechos a medida con Funciones Específicas</p>
+                                        Websites hechos a medida con Funciones Específicas<br>
+                                        Alojamiento en VPS Ultra rápido y seguro</p>
                                     </ul>
                                     <a href="contacto" class="site-button bg-azul-oscuro-agencia outline outline-2">Quiero Cotizar Mi Sitio Web
                                     <i class="ti-arrow-right m-l10"></i></a>
@@ -370,9 +371,9 @@
                                             <span class="icon-cell icon-sm"><i class="fas fa-edit"></i></span>
                                         </div>
                                         <div class="icon-content">
-                                            <h5 class="dlab-tilte">Marketing de Contenidos</h5>
-                                            <p>Blogging, video blog, generación de contenidos de calidad, notas de
-                                                prensa, canales de ventas, encuestas online, Google reviews</p>
+                                            <h5 class="dlab-tilte">Alojamiento Web</h5>
+                                            <p><span class="text-red">Adios al hosting compartido</span> Lo nuevo es servidores privados virtuales (VPS)
+                                             que ofrecen +60% de velocidad de carga y +80% de seguridad a su sitio web</p>
                                         </div>
                                     </div>
                                     <div class="icon-box-btn text-center">

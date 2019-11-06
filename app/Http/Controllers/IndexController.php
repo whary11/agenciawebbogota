@@ -51,6 +51,9 @@ class IndexController extends Controller
     public function contacto(){
         return view('pagina.contacto');
     }
+    public function politicas(){
+        return view('pagina.politicas-de-privacidad');
+    }
     public function ticket(){
         return view('ticket.ver');
     }

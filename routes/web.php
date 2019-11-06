@@ -30,6 +30,7 @@ Route::get('/servicios', 'IndexController@servicios');
 Route::get('/administracion-de-sitios-web', 'IndexController@administracion');
 Route::get('/enviar-un-pago', 'IndexController@pagos');
 Route::get('/confirmacion', 'IndexController@confirmacion');
+Route::get('/politicas-de-privacidad', 'IndexController@politicas');
 Route::get('/blog', 'IndexController@blog');
 Route::get('/blog/alarmante-aumento-en-los-costos-de-alojamiento-de-paginas-web', 'IndexController@aumento');
 Route::get('/blog/nuevas-funciones-para-mejorar-el-rendimiento-de-su-sitio-web', 'IndexController@nuevoservicios');
