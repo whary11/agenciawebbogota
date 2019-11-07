@@ -2067,7 +2067,7 @@ __webpack_require__.r(__webpack_exports__);
       servicio: {},
       servicios: [{
         titulo: 'Landing Pages',
-        descripcion: 'Diseñamos sus perfiles y anuncios publicitarios, creamos sus campañas, optimizamos su presupuesto y le garantizamos resultados',
+        descripcion: 'Diseño de una sola página ideal para recibir el tráfico de sus anuncios publicitarios de pago',
         precio: 'COP $250.000',
         imagen: 'images/landing-page-modelo.jpg',
         webp: 'images/landing-page-modelo.webp',
@@ -2076,7 +2076,7 @@ __webpack_require__.r(__webpack_exports__);
       }, {
         titulo: 'Página Web Sencilla',
         descripcion: 'Diseño en HTML, CSS y JavaScript, 4 páginas internas, formulario de contacto, diseño adaptable',
-        precio: 'COP $600.000',
+        precio: 'COP $630.000',
         imagen: 'images/pagina-web-sencilla.jpg',
         webp: 'images/pagina-web-sencilla.webp',
         textModal: 'Incluye: Diseño a medida en html y css, 4 páginas internas para productos o servicios, formulario de contacto o cotización, hosting y dominio por un año.' // icono: '<i class="fas fa-thumbs-up"></i>',
@@ -2084,37 +2084,37 @@ __webpack_require__.r(__webpack_exports__);
       }, {
         titulo: 'Página Administrable',
         descripcion: 'Diseño en WordPres (CMS) con tema premium licenciado. Ideal para blogs y orientado a posicionamiento',
-        precio: 'COP $750.000',
+        precio: 'COP $810.000',
         imagen: 'images/pagina-web-administrable.jpg',
         webp: 'images/pagina-web-administrable.webp',
         textModal: 'Incluye: Tema WordPress con licencia, velocidad de carga optimizada, optimización para móviles, hosting y dominio por un año.' // icono: '<i class="fas fa-thumbs-up"></i>',
 
       }, {
         titulo: 'Página Corporativa',
-        descripcion: 'Incluye consola de administración, hosting y dominio, correos corporativos y optimización para seo',
+        descripcion: 'Incluye consola de administración, hosting y dominio, correos corporativos* y optimización para seo',
         precio: 'COP $990.000',
         imagen: 'images/pagina-web-corporativa.jpg',
         webp: 'images/pagina-web-corporativa.webp',
         textModal: 'Incluye: Tema WordPress Corporate con licencia, plugins premium para SEO, hosting, dominio y correos corporativos ilimitados por un año.' // icono: '<i class="fas fa-thumbs-up"></i>',
 
       }, {
-        titulo: 'Tienda Online Básica',
-        descripcion: 'Diseño con WordPress y Woocomerce, hasta 50 artículos, pagos online, carrito de compras',
-        precio: 'COP $1.200.000',
+        titulo: 'Tienda Online Shopify',
+        descripcion: 'Tema Premium Shopify, consola administrativa, App móvil Shopify, pagos online, carrito de compras',
+        precio: 'COP $1.800.000',
         imagen: 'images/tienda-online-basica.jpg',
         webp: 'images/tienda-online-basica.webp',
-        textModal: 'Incluye: WordPress + Woocommerce, hasta 50 artículos con ficha independiente, carrito de compras, integración con pagos online.' // icono: '<i class="fas fa-thumbs-up"></i>',
+        textModal: 'Incluye: Tema Premium Shopify, dominio, artículos ilimitados, variaciones de productos, carrito de compras, integración con mercadopago y Google Shopping.' // icono: '<i class="fas fa-thumbs-up"></i>',
 
       }, {
-        titulo: 'Tienda Avanzada',
+        titulo: 'Tienda Woocommerce ',
         descripcion: 'Wordpress + Woocomerce, consola administrativa, pagos online y sistema de envíos e inventarios',
-        precio: 'COP $1.800.000',
+        precio: 'COP $2.100.000',
         imagen: 'images/tienda-online-avanzada.jpg',
         webp: 'images/tienda-online-avanzada.webp',
         textModal: 'Incluye: WordPress + Woocommerce, productos ilimitados, plugins envíos e inventarios, posicionamiento seo de productos.'
       }, {
         titulo: 'Tienda a Medida',
-        descripcion: 'Diseño a medida, productos ilimitados, registro de usuarios, pagos online y carrito de compras',
+        descripcion: 'Diseño a medida, productos ilimitados, registro de usuarios, pagos online, consola administrativa',
         precio: 'Cotizar',
         imagen: 'images/tienda-online-prestashop.jpg',
         webp: 'images/tienda-online-prestashop.webp'

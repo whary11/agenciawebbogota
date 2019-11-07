@@ -25,7 +25,6 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-
     <!-- FAVICONS ICON -->
     <link rel="icon" href="{{asset('images/favicon.ico')}}" type="image/x-icon" />
     <link rel="shortcut icon" type="image/x-icon" href="{{asset('images/favicon.png')}}" />
@@ -199,7 +198,7 @@
 														<span class="pricingtable-bx text-primary">COP $850.000</span>
 													</div>
 													<ul class="pricingtable-features">
-														<li><i class="fa fa-check text-primary"></i> WordPress + Woo</li>
+														<li><i class="fa fa-check text-primary"></i> WordPress</li>
 														<li><i class="fa fa-check text-primary"></i> Hasta 20 productos</li>
 														<li><i class="fa fa-check text-primary"></i> Hosting y dominio</li>
 														<li><i class="fa fa-check text-primary"></i> Sistema de inventario</li>
@@ -216,14 +215,14 @@
 												<div class="pricingtable-inner">
 													<div class="pricingtable-price"> 
 														<div class="pricingtable-icon"><i class="flaticon-shop"></i></div>
-														<h4 class="font-weight-300 m-t10 m-b0">Tienda Básica</h4>
-														<span class="pricingtable-bx text-primary">COP $1.100.000</span>
+														<h4 class="font-weight-300 m-t10 m-b0">Tienda Shopify</h4>
+														<span class="pricingtable-bx text-primary">COP $1.800.000</span>
 													</div>
 													<ul class="pricingtable-features">
-														<li><i class="fa fa-check text-primary"></i> WordPress + Woo </li>
-														<li><i class="fa fa-check text-primary"></i> Hasta 50 productos</li>
-														<li><i class="fa fa-check text-primary"></i> Hosting y dominio</li>
-														<li><i class="fa fa-check text-primary"></i> Envíos e inventarios</li>
+														<li><i class="fa fa-check text-primary"></i> Tema Premium </li>
+														<li><i class="fa fa-check text-primary"></i> Productos Ilimitados</li>
+														<li><i class="fa fa-check text-primary"></i> App Móvil</li>
+														<li><i class="fa fa-check text-primary"></i> 100% Administrable</li>
 														<li><i class="fa fa-check text-primary"></i> Posicionamiento SEO</li>
 													</ul>
 													<div class="m-t20 m-b5"> 
@@ -237,8 +236,8 @@
 												<div class="pricingtable-inner">
 													<div class="pricingtable-price"> 
 														<div class="pricingtable-icon"><i class="flaticon-bar-chart"></i></div>
-														<h4 class="font-weight-300 m-t10 m-b0">Tienda Avanzada</h4>
-														<span class="pricingtable-bx text-primary">COP $1.550.000</span>
+														<h4 class="font-weight-300 m-t10 m-b0">Tienda Woocommerce</h4>
+														<span class="pricingtable-bx text-primary">COP $2.100.000</span>
 													</div>
 													<ul class="pricingtable-features">
 														<li><i class="fa fa-check text-primary"></i> Productos ilimitados </li>

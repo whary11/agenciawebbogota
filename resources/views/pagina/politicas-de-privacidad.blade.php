@@ -4,14 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <meta name="keywords" content="" />
     <meta name="author" content="" />
     <meta name="robots" content="" />
-    <meta name="description" content="Agency - Business And Agency Template" />
-    <meta property="og:title" content="Landing Pages Agencia Web Bogotá" />
-    <meta property="og:description" content="Agency : Business And Agency Template" />
-    <meta property="og:image" content="dhakdhakindia.com/product/agency/" />
+    <meta name="description" content="Políticas de Privacidad y Protección de Datos" />
+    <meta property="og:title" content="Políticas de Privacidad y Protección de Datos Agencia Web Bogotá" />
+    <meta property="og:description" content="Políticas de Privacidad y Protección de Datos" />
     <meta name="format-detection" content="telephone=no">
 
     <!-- FAVICONS ICON -->

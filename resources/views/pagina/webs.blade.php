@@ -74,10 +74,9 @@
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="section-head text-black text-center">
-                                    <h2 class="box-title m-tb0">Diseñamos Páginas Web Optimizadas Con <span class="bg-azul-claro-agencia text-white">Neuromarketing</span></h2>
-                                    <p class="font-weight-400 font-18">En Agencia Web Bogotá desarrollamos sitios que
-                                        tienen mayor impacto entre los visitantes, causan una mejor impresión, aumentan
-                                        la recurrencia en las visitas y mejoran la recordación de las marcas</p>
+                                    <h2 class="box-title m-tb0">Sitios Web Alojados en Servidores Privados</h2>
+									<p class="font-weight-600 font-18"><span class="text-blue">En Agencia Web Bogotá superamos los hosting compartidos convencionales</span><br>Alojamos todas las páginas web de nuestros clientes
+								en servidores privados virtuales con cuentas independientes, que ofrecen un +60% de velocidad de carga, un +80% de seguridad y una capacidad de tráfico ilimitada</p>
                                 </div>
                             </div>
                         </div>
@@ -154,14 +153,14 @@
 						<div class="item"><div class="br-col-b1 border-1"><img src="images/logos/prestashop-logo.jpg" alt="Logo Prestashop"></div></div>
 						<div class="item"><div class="br-col-b1 border-1"><img src="images/logos/woocomerce-logo.jpg" alt="Logo Woocomerce"></div></div>
 						<div class="item"><div class="br-col-b1 border-1"><img src="images/logos/laravel-logo.jpg" alt="Logo laravel"></div></div>
-                        <div class="item"><div class="br-col-b1 border-1"><img src="images/logos/drupal-logo.jpg" alt="Logo Drupal"></div></div>
+                        <div class="item"><div class="br-col-b1 border-1"><img src="images/logos/shopify-logo.jpg" alt="Logo Shopify"></div></div>
                         
 					</div>
 				</div>
 				<div class="container">
 					<div class="section-head text-white text-center">
-						<h2 class="box-title p-b30 max-w800 m-auto font-weight-500 font-18">Todos nuestros sitios incluyen hosting, dominio y cuentas mail durante el primer año</h2>
-					</div>
+						<h2 class="box-title p-b30 max-w800 m-auto font-weight-500 font-18">Todos nuestros sitios incluyen hosting, dominio y cuentas mail* durante el primer año</h2>
+				</div>
 				</div>				
 			</div>
 			<!-- Why Chose Us End -->			
@@ -319,6 +318,9 @@
 									</div>
 							</li>							
 						</ul>
+						<p class="p-tb50 p-b30 text-center">*Las cuentas mail no disponen de espacio en servidor para el alojamiento de mensajes, el servicio incluye solamente espacio para alojar el sitio web. Puede contratar con nostros
+							espacio adicional para sus correos electrónicos en el servicio de email hosting. 
+						</p>
 					</div>
 				</div>
 			</div>

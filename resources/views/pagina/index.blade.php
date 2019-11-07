@@ -496,18 +496,18 @@
                                         <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
                                             <a href="javascript:void(0);">
                                                 <picture>
-                                                    <source srcset="{{asset('images/portafolio/comfasalud.webp')}}"
+                                                    <source srcset="{{asset('images/portafolio/compratodonline.webp')}}"
                                                         type="image/webp">
-                                                    <img src="{{asset('images/portafolio/comfasalud.jpg')}}"
+                                                    <img src="{{asset('images/portafolio/compratodonline.jpg')}}"
                                                         alt="Portal Web IPS Comfasalud"></picture>
                                             </a>
                                             <div class="overlay-bx">
                                                 <div class="overlay-icon align-b text-white">
                                                     <div class="text-white text-left port-box">
                                                         <a href="https://comfasalud.com" target="_blank">
-                                                            <h5>IPS Comfasalud</h5>
+                                                            <h5>Compra Todo Online</h5>
                                                         </a>
-                                                        <p>Portal Web y Módulos de citas online</p>
+                                                        <p>Tienda Online Woocommerce</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -639,6 +639,19 @@
                                                 class="testimonial-position">DIÓCESIS DE VALLEDUPAR</span> </div>
                                     </div>
                                 </div>
+                                <div class="item p-a5">
+                                    <div class="testimonial-1">
+                                        <div class="testimonial-text">
+                                            <p class="font-weight-400 text-italic text-white">"Empezamos desde cero en nuestro negocio y gracias a los chicos de Agencia Web Bogotá
+                                                ya estamos posicionados en el sector y generando un gran volumen de ventas. Excelente trabajo..."
+                                            </p>
+                                        </div>
+                                        <div class="testimonial-detail"> <strong
+                                                class="testimonial-name text-white">Edier Acelas</strong> <span
+                                                class="testimonial-position">BIKERS Y MOTOS ACCESORIOS</span> </div>
+                                    </div>
+                                </div>
+                                
                                 <div class="item p-a5">
                                     <div class="testimonial-1">
                                         <div class="testimonial-text">
