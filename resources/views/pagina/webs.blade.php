@@ -133,10 +133,23 @@
                             <h4>Diseño Web A La Medida De Sus Necesidades</h4>
                             <h6 class="m-b50">Con la mejor oferta costo/beneficio del mercado</h6>
                         </div>
-                        <cotizacion-component></cotizacion-component>
+                        <cotizacion-component></cotizacion-component>						
+                    </div>				
+                </div>
+                
+				<div class="section-full p-t30 p-b30 bg-primary-dark text-white shop-action">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="text-center m-auto ">
+                                <h4 class="font-weight-600 font-20">Este pequeño cuestionario nos ayudará tener una idea más clara de lo que tiene en mente y enfocar mejor el diseño y características de su nuevo sitio web</h4>
+                                <a href="https://drive.google.com/open?id=1iGYkmp18DAcF8XTiYtN7BgZjN087UzFZbxaR0bJAMM0" target="_blank" class="site-button radius-sm outline outline-2"><span class="p-lr10">Háblenos Sobre Su Proyecto</span></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <!-- Why Chose Us -->
+            </div>
+
                 <!-- Why Chose Us -->
 			<div class="section-full content-inner-1 overlay-primary about-service bg-img-fix" style="background-image:url(images/parallax-layers-9.jpg);">
 				<div class="container">
@@ -318,7 +331,7 @@
 									</div>
 							</li>							
 						</ul>
-						<p class="p-tb50 p-b30 text-center">*Las cuentas mail no disponen de espacio en servidor para el alojamiento de mensajes, el servicio incluye solamente espacio para alojar el sitio web. Puede contratar con nostros
+						<p class="p-tb50 p-b30 text-center">*Las cuentas mail no disponen de espacio en servidor para el alojamiento de mensajes, el servicio incluye solamente espacio para alojar el sitio web. Puede contratar con nosotros
 							espacio adicional para sus correos electrónicos en el servicio de email hosting. 
 						</p>
 					</div>

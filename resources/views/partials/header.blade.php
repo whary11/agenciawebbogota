@@ -74,6 +74,8 @@
                                     <li><a href="{{url('/ticket/consultar')}}" class="dez-page">Consultar</a></li>
                                     </ul>
                                 </li>
+                                <li><a href="{{url('https://drive.google.com/open?id=1iGYkmp18DAcF8XTiYtN7BgZjN087UzFZbxaR0bJAMM0')}}" target="_blank">Háblenos sobre su proyecto</a></li>
+
                             </ul>
                         </li>
                         </li>

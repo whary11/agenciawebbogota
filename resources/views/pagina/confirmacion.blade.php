@@ -62,7 +62,7 @@
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="section-head text-black text-center">
-                                    <p class="font-weight-600 font-18">Si su pago ha sido exitoso recibirá la respectiva confirmación a su correo electrónico<br>Recuerde enviar el soporte de pago por correo electrónico o a través de Wh atsApp</p>
+                                    <p class="font-weight-600 font-18">Si su pago ha sido exitoso recibirá la respectiva confirmación a su correo electrónico<br>Recuerde enviar el soporte de pago por correo electrónico o a través de WhatsApp</p>
                                     <div class="text-center max-w800 m-auto p-t40">
                                     <a href="mailto:info@agenciawebbogota.com"><i class="fas fa-envelope-open-text text-blue"></i> info@agenciawebbogota.com</a><br>
                                     <a href="https://api.whatsapp.com/send?phone=573168785601"><i class="fab fa-whatsapp text-blue"></i> 316 878 56 01</a>
