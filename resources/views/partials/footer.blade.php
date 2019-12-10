@@ -1,5 +1,5 @@
 <footer class="site-footer">
-    <div class="footer-top bg-black-light">
+    <div class="footer-top bg-black-light" style="background-image:url(images/map1.png)">
         <div class="container wow fadeIn" data-wow-delay="0.5s">
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-6 footer-col-4">
@@ -32,7 +32,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6 footer-col-4 ">
                     <div class="widget">
                         <h5 class="m-b30 text-white text-uppercase">Enviar un pago</h5>
-                        <p class="m-b20 text-none">Puede enviar un pago por cualquier servicio contratado con Agencia Web Bogotá, usando los medios de pago disponibles</p>
+                        <p class="m-b20 text-none">Puede enviar un pago por cualquier servicio contratado con Agencia Web Bogotá, usando los medios de pago disponibles.</p>
                         <div class="m-b20">
                         <a href="enviar-un-pago" class="site-button outline outline-1">Pagar Ahora <i class="fas fa-dollar-sign m-r5"></i></a>
                         <div class="p-b15"></div>

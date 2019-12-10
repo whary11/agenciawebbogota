@@ -186,22 +186,30 @@
 					</div>
 					<div class="clearfix">
 						<ul id="masonry" class="dlab-gallery-listing gallery-grid-4 gallery mfp-gallery port-style1">
-							<li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn" data-wow-delay="0.2s">
-								<div class="dlab-box dlab-gallery-box">
-									<div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-										<picture><source srcset="images/portafolio/imagen-vidrios-norte.webp"  type="image/webp">						
-										<img src="images/portafolio/imagen-vidrios-norte.jpg"  alt="Ejemplo de página web corporativa mostrada en notebook"></picture>
-										<div class="overlay-bx">
-											<div class="overlay-icon align-b text-white"> 
-												<div class="text-white text-left port-box">
-													<a href="http://vidriosnorte.com.co/" target="_blank"><h5>Vidrios Norte</h5></a>
-													<p>Sitio Web Corporativo</p>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</li>
+						<li class="web design card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
+                                    data-wow-delay="0.2s">
+                                    <div class="dlab-box dlab-gallery-box">
+                                        <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
+                                            <a href="javascript:void(0);">
+                                                <picture>
+                                                    <source srcset="{{asset('images/portafolio/jeronimos.webp')}}"
+                                                        type="image/webp">
+                                                    <img src="{{asset('images/portafolio/jeronimos.jpg')}}" alt="Jerónimo's Cake Shop">
+                                                </picture>
+                                            </a>
+                                            <div class="overlay-bx">
+                                                <div class="overlay-icon align-b text-white">
+                                                    <div class="text-white text-left port-box">
+                                                        <a href="https://jeronimos.co" target="_blank">
+                                                            <h5>Jerónimos Cake Shop</h5>
+                                                        </a>
+                                                        <p>Sitio Web Shop</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </li>
 							<li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn" data-wow-delay="0.2s">
 								<div class="dlab-box dlab-gallery-box">
 									<div class="dlab-media dlab-img-overlay1 dlab-img-effect dlab-img-effect "> 
@@ -218,54 +226,78 @@
 									</div>
 								</div>
 							</li>
-							<li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn" data-wow-delay="0.2s">
-								<div class="dlab-box dlab-gallery-box">
-									<div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-									<picture><source srcset="images/portafolio/imagen-grupohelm.webp"  type="image/webp">									
-									<img src="images/portafolio/imagen-grupohelm.jpg"  alt="Ejemplo de sitio web corporativo en un mac"></picture> 
-										<div class="overlay-bx">
-											<div class="overlay-icon align-b text-white"> 
-												<div class="text-white text-left port-box">
-													<a href="https://grupohelmcontadores.com" target="_blank"><h5>Grupo Helm</h5></a>
-													<p>Página Web Corporativa</p>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</li>
-							<li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn" data-wow-delay="0.2s">
-								<div class="dlab-box dlab-gallery-box">
-									<div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-									<picture><source srcset="images/portafolio/imagen-medefiende.webp"  type="image/webp">									
-									<img src="images/portafolio/imagen-medefiende.jpg"  alt="Ejemplo de sitio web corporativo en varias pantallas"></picture>
-										<div class="overlay-bx">
-											<div class="overlay-icon align-b text-white"> 
-												<div class="text-white text-left port-box">
-													<a href="https://medefiende.com" target="_blank"><h5>Medefiende</h5></a>
-													<p>Sitio Web Corporativo</p>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</li>
-							<li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn" data-wow-delay="0.2s">
-								<div class="dlab-box dlab-gallery-box">
-									<div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-									<picture><source srcset="images/portafolio/funconuf.webp"  type="image/webp">			
-									<img src="images/portafolio/funconuf.jpg"  alt="Ejemplo de Página web ESAL en un notebook"></picture>
-										<div class="overlay-bx">
-											<div class="overlay-icon align-b text-white"> 
-												<div class="text-white text-left port-box">
-													<a href="https://funconuf.org/" target="_blank"><h5>Funconuf</h5></a>
-													<p>Página Web ESAL</p>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</li>
+							<li class="web design card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
+                                    data-wow-delay="0.8s">
+                                    <div class="dlab-box dlab-gallery-box">
+                                        <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
+                                            <a href="javascript:void(0);">
+                                                <picture>
+                                                    <source srcset="{{asset('images/portafolio/diocesis-valledupar.webp')}}"
+                                                        type="image/webp">
+                                                    <img src="{{asset('images/portafolio/diocesis-valledupar.jpg')}}"
+                                                        alt="Sitio Web Diócesis de Valledupar"></picture>
+                                            </a>
+                                            <div class="overlay-bx">
+                                                <div class="overlay-icon align-b text-white">
+                                                    <div class="text-white text-left port-box">
+                                                        <a href="https://diocesisdevalledupar.org" target="_blank">
+                                                            <h5>Diócesis de Valledupar</h5>
+                                                        </a>
+                                                        <p>Portal Web Tipo Magazine</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </li>
+							<li class="web branding card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
+                                    data-wow-delay="0.2s">
+                                    <div class="dlab-box dlab-gallery-box">
+                                        <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
+                                            <a href="javascript:void(0);">
+                                                <picture>
+                                                    <source srcset="{{asset('images/portafolio/compratodonline.webp')}}"
+                                                        type="image/webp">
+                                                    <img src="{{asset('images/portafolio/compratodonline.jpg')}}"
+                                                        alt="Portal Web IPS Comfasalud"></picture>
+                                            </a>
+                                            <div class="overlay-bx">
+                                                <div class="overlay-icon align-b text-white">
+                                                    <div class="text-white text-left port-box">
+                                                        <a href="https://comfasalud.com" target="_blank">
+                                                            <h5>Compra Todo Online</h5>
+                                                        </a>
+                                                        <p>Tienda Online Woocommerce</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+								<li class="advertising branding photography card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
+                                    data-wow-delay="0.4s">
+                                    <div class="dlab-box dlab-gallery-box">
+                                        <div class="dlab-media dlab-img-overlay1 dlab-img-effect dlab-img-effect ">
+                                            <a href="javascript:void(0);">
+                                                <picture>
+                                                    <source srcset="{{asset('images/portafolio/issla-risk.webp')}}"
+                                                        type="image/webp">
+                                                    <img src="{{asset('images/portafolio/issla-risk.jpg')}}"
+                                                        alt="Issla Risk"></picture>
+                                            </a>
+                                            <div class="overlay-bx">
+                                                <div class="overlay-icon align-b text-white">
+                                                    <div class="text-white text-left port-box">
+                                                        <a href="https://isslarisk.com" target="_blank">
+                                                            <h5>Issla Risk Global Service</h5>
+                                                        </a>
+                                                        <p>Sitio Web Corporativo</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </li>
 							<li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn" data-wow-delay="0.2s">
 									<div class="dlab-box dlab-gallery-box">
 										<div class="dlab-media dlab-img-overlay1 dlab-img-effect">
@@ -314,22 +346,30 @@
 										</div>
 									</div>
 							</li>
-							<li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn" data-wow-delay="0.2s">
-									<div class="dlab-box dlab-gallery-box">
-										<div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-										<picture><source srcset="images/portafolio/imagen-ezry-1.webp"  type="image/webp">									
-										<img src="images/portafolio/imagen-ezry-1.jpg"  alt="Muestra de sitio web servicios en varios tamaños"></picture>
-											<div class="overlay-bx">
-												<div class="overlay-icon align-b text-white"> 
-													<div class="text-white text-left port-box">
-														<a href="https://ezrymantenimientos.com/" target="_blank"><h5>Ezry Mantenimientos</h5></a>
-														<p>Sitio Web Servicios</p>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-							</li>							
+							<li class="branding design photography card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
+                                    data-wow-delay="0.6s">
+                                    <div class="dlab-box dlab-gallery-box">
+                                        <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
+                                            <a href="javascript:void(0);">
+                                                <picture>
+                                                    <source srcset="{{asset('images/portafolio/bikersymoto.webp')}}"
+                                                        type="image/webp">
+                                                    <img src="{{asset('images/portafolio/bikersymoto.jpg')}}" alt="bikersymoto">
+                                                </picture>
+                                            </a>
+                                            <div class="overlay-bx">
+                                                <div class="overlay-icon align-b text-white">
+                                                    <div class="text-white text-left port-box">
+                                                        <a href="https://bikersymoto.com" target="_blank">
+                                                            <h5>Bikers y Motos Accesorios</h5>
+                                                        </a>
+                                                        <p>Tienda Online, Branding y Marketing</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </li>							
 						</ul>
 						<p class="p-tb50 p-b30 text-center">*Las cuentas mail no disponen de espacio en servidor para el alojamiento de mensajes, el servicio incluye solamente espacio para alojar el sitio web. Puede contratar con nosotros
 							espacio adicional para sus correos electrónicos en el servicio de email hosting. 
