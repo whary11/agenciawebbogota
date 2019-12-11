@@ -127,7 +127,7 @@
                 </div>
                 <!-- About Us End -->
                 <!-- About Us -->
-                <div class="section-full content-inner bg-white">
+                <div class="section-full content-inner bg-white" style="background-image:url({{asset('images/background/bg12.jpg')}});">
                     <div class="container">
                         <div class="max-w800 m-auto text-center wow fadeIn" data-wow-delay="0.1s">
                             <h4>Diseño Web A La Medida De Sus Necesidades</h4>
@@ -142,8 +142,8 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="text-center m-auto ">
-                                <h4 class="font-weight-600 font-20">Este pequeño cuestionario nos ayudará tener una idea más clara de lo que tiene en mente y enfocar mejor el diseño y características de su nuevo sitio web</h4>
-                                <a href="https://drive.google.com/open?id=1iGYkmp18DAcF8XTiYtN7BgZjN087UzFZbxaR0bJAMM0" target="_blank" class="site-button radius-sm outline outline-2"><span class="p-lr10">Háblenos Sobre Su Proyecto</span></a>
+                                <h4 class="font-weight-600 font-20">Para conocer las tarifas de servicios adicionales o por separado, visite nuestra sección de servicios</h4>
+                                <a href="{{url('servicios')}}" class="site-button radius-sm outline outline-2"><span class="p-lr10">¡Quiero Cotizar Algo Diferente!</span></a>
                             </div>
                         </div>
                     </div>
@@ -178,7 +178,7 @@
 			</div>
 			<!-- Why Chose Us End -->			
 			<!-- Our Portfolio -->
-			<div class="section-full content-inner-2 portfolio" id="portfolio">
+			<div class="section-full content-inner-2 portfolio" id="portfolio" style="background-image:url({{asset('images/background/bg14.jpg')}});">
 				<div class="container">
 					<div class="section-head text-center">
 						<h2 class="box-title m-tb0">Ultimas Páginas Diseñadas</h2>
@@ -317,13 +317,13 @@
 							<li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn" data-wow-delay="0.2s">
 									<div class="dlab-box dlab-gallery-box">
 										<div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-										<picture><source srcset="images/portafolio/unifinanciera.webp"  type="image/webp">									
-										<img src="images/portafolio/unifinanciera.jpg"  alt="Ejemplo de sitio web Unifinanciera"></picture>
+										<picture><source srcset="images/portafolio/antero-german.webp"  type="image/webp">									
+										<img src="images/portafolio/antero-german.jpg"  alt="Sitio Web Antero Germán Ramirez"></picture>
 											<div class="overlay-bx">
 												<div class="overlay-icon align-b text-white"> 
 													<div class="text-white text-left port-box">
-														<a href="https://unifinanciera.com/" target="_blank"><h5>Unifinanciera SA</h5></a>
-														<p>Página Web Promoción Servicios</p>
+														<a href="https://usimmigrationagr.com/" target="_blank"><h5>US Immigration</h5></a>
+														<p>Dr. Antero Germán Ramirez</p>
 													</div>
 												</div>
 											</div>

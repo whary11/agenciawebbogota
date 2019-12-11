@@ -48,7 +48,7 @@
         <!-- inner page banner END -->
 		<div class="content-block">
             <!-- About Us -->
-			<div class="section-full content-inner">
+			<div class="section-full content-inner" style="background-image:url({{asset('images/background/bg12.jpg')}});">
                 <div class="container">
 					<div class="text-black text-center">
 						<h4 class="text-gray-dark m-b10">Tenemos la mejor relación costo/beneficio del mercado</h4>
@@ -91,7 +91,7 @@
 							<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
 								<div class="icon-lg m-b20"> <a href="google-apps" class="icon-cell"><i class="flaticon-team"></i></a> </div>
 								<div class="icon-content">
-									<h5 class="dlab-tilte text-uppercase"><a href="google-apps">Soluciones en Google Apps</a></h5>
+									<h5 class="dlab-tilte text-uppercase"><a href="{{url('/')}}">Soluciones en Google Apps</a></h5>
 									<p>Integramos estas herramientas gratuitas con a sus procesos y capacitamos a su equipo</p>
 								</div>
 							</div>
@@ -100,7 +100,7 @@
 							<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
 								<div class="icon-lg m-b20"> <a href="/" class="icon-cell"><i class="flaticon-notebook"></i></a> </div>
 								<div class="icon-content">
-									<h5 class="dlab-tilte text-uppercase"><a href="/">Soluciones en Capacitación</a></h5>
+									<h5 class="dlab-tilte text-uppercase"><a href="{{url('/')}}">Soluciones en Capacitación</a></h5>
 									<p>Capacitamos en el manejo de herramientas web, administración de sitios web y redes sociales</p>
 								</div>
 							</div>
@@ -109,7 +109,7 @@
 							<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
 								<div class="icon-lg m-b20"> <a href="/" class="icon-cell"><i class="flaticon-diamond"></i></a> </div>
 								<div class="icon-content">
-									<h5 class="dlab-tilte text-uppercase"><a href="/">Soluciones en Branding</a></h5>
+									<h5 class="dlab-tilte text-uppercase"><a href="{{url('/')}}">Soluciones en Branding</a></h5>
 									<p>Diseñamos su imagen corporativa, logotipo, guía de marca, flyers, banners y perfiles sociales</p>
 								</div>
 							</div>
@@ -128,7 +128,7 @@
 				</div>
 				<div class="row">
 					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 wow zoomIn" data-wow-delay="0.2s">
-						<div class="dlab-box-bg m-b30 box-hover" style="background-image: url(images/our-services/pic1.jpg)">
+						<div class="dlab-box-bg m-b30 box-hover" style="background-image: url(images/our-services/pic5.jpg)">
 							<div class="icon-bx-wraper center p-lr20 p-tb30">								
 								<div class="icon-content">
 									<h5 class="dlab-tilte">Idioma Adicional</h5>
@@ -141,7 +141,7 @@
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 wow zoomIn" data-wow-delay="0.4s">
-						<div class="dlab-box-bg m-b30 box-hover" style="background-image: url(images/our-services/pic2.jpg)">
+						<div class="dlab-box-bg m-b30 box-hover" style="background-image: url(images/our-services/pic6.jpg)">
 							<div class="icon-bx-wraper center p-lr20 p-tb30">								
 								<div class="icon-content">
 									<h5 class="dlab-tilte">Nueva Imagen</h5>
@@ -167,7 +167,7 @@
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 wow zoomIn" data-wow-delay="0.8s">
-						<div class="dlab-box-bg m-b30 box-hover" style="background-image: url(images/our-services/pic4.jpg)">
+						<div class="dlab-box-bg m-b30 box-hover" style="background-image: url(images/our-services/pic7.jpg)">
 							<div class="icon-bx-wraper center p-lr20 p-tb30">								
 								<div class="icon-content">
 									<h5 class="dlab-tilte">Integración Maps</h5>
@@ -183,7 +183,7 @@
 
 				<div class="row">
 					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 wow zoomIn" data-wow-delay="0.2s">
-						<div class="dlab-box-bg m-b30 box-hover" style="background-image: url(images/our-services/pic1.jpg)">
+						<div class="dlab-box-bg m-b30 box-hover" style="background-image: url(images/our-services/pic8.jpg)">
 							<div class="icon-bx-wraper center p-lr20 p-tb30">								
 								<div class="icon-content">
 									<h5 class="dlab-tilte">Pagos Online</h5>
@@ -196,7 +196,7 @@
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 wow zoomIn" data-wow-delay="0.4s">
-						<div class="dlab-box-bg m-b30 box-hover" style="background-image: url(images/our-services/pic2.jpg)">
+						<div class="dlab-box-bg m-b30 box-hover" style="background-image: url(images/our-services/pic9.jpg)">
 							<div class="icon-bx-wraper center p-lr20 p-tb30">								
 								<div class="icon-content">
 									<h5 class="dlab-tilte">Reservas Online</h5>
@@ -209,7 +209,7 @@
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 wow zoomIn" data-wow-delay="0.6s">
-						<div class="dlab-box-bg m-b30 box-hover active" style="background-image: url(images/our-services/pic3.jpg)">
+						<div class="dlab-box-bg m-b30 box-hover active" style="background-image: url(images/our-services/pic10.jpg)">
 							<div class="icon-bx-wraper center p-lr20 p-tb30">
 								<div class="icon-content">
 									<h5 class="dlab-tilte">Chat de WhatsApp</h5>
@@ -222,7 +222,7 @@
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 wow zoomIn" data-wow-delay="0.8s">
-						<div class="dlab-box-bg m-b30 box-hover" style="background-image: url(images/our-services/pic4.jpg)">
+						<div class="dlab-box-bg m-b30 box-hover" style="background-image: url(images/our-services/pic11.jpg)">
 							<div class="icon-bx-wraper center p-lr20 p-tb30">								
 								<div class="icon-content">
 									<h5 class="dlab-tilte">Registro de Usuarios</h5>
@@ -239,8 +239,8 @@
 		</div>
 		<!-- Team And Process END -->
 
-				<!-- About Us -->
-				<div class="section-full content-inner bg-white">
+		<!-- About Us -->
+		<div class="section-full content-inner bg-white">
 			<div class="container">
 				<div class="max-w800 m-auto text-center wow fadeIn" data-wow-delay="0.1s">
 					<h6>Tarias Servicios Adicionales</h6>
@@ -270,7 +270,38 @@
 							<div class="icon-content">
 								<h5 class="dlab-tilte text-uppercase">Multi Moneda</h5>
 								<p>Acepte en su tienda pagos con diferentes monedas dependiendo de la localización de sus compradores</p>
-								<span class="text-pink font-weight-600">COP $1.269.000</span>
+								<span class="text-pink font-weight-600">COP $569.000</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">				
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.3s">
+						<div class="icon-bx-wraper bx-style-1 p-a30 center fly-box-ho">
+							<div class="icon-content">
+								<h5 class="dlab-tilte text-uppercase">Zona de Envío</h5>
+								<p>Defina diferentes costos de envío dependiendo de la ubicación y las dimensiones del producto</p>
+								<span class="text-pink font-weight-600">COP $290.000</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.6s">
+						<div class="icon-bx-wraper bx-style-1 p-a30 center fly-box-ho">
+							<div class="icon-content">
+								<h5 class="dlab-tilte text-uppercase">Lenaguaje Adicional</h5>
+								<p>Un clon de su tienda online en otro lenguaje, con selector desplegable en cualquier parte del sitio</p>
+								<span class="text-pink font-weight-600">COP $780.000</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 m-b10 wow fadeInUp" data-wow-delay="0.9s">
+						<div class="icon-bx-wraper bx-style-1 p-a30 center fly-box-ho">
+							<div class="icon-content">
+								<h5 class="dlab-tilte text-uppercase">Edición Imágenes</h5>
+								<p>Editamos profesionalmente las fotografías de sus productos, ajustadas con fondos y tamaños ideales </p>
+								<span class="text-pink font-weight-600">COP $5.500/Imagen</span>
 							</div>
 						</div>
 					</div>
@@ -278,6 +309,71 @@
 			</div>
 		</div>
 		<!-- About Us End-->
+
+		<div class="section-full content-inner-2 bg-img-fix" style="background-image:url(images/background/bg13.jpg);">
+                <div class="container">
+                    <div class="row">
+						<div class="col-md-12 text-center section-head">
+							<h2 class="font-weight-700 m-b0">Alojamiento Web y Correos Electrónicos</h2>
+						</div>
+					</div>
+					<div class="row m-b50">
+						<div class="col-lg-3 col-md-6 col-sm-6 m-b30">
+							<div class="team-section">
+								<img src="images/pic2.jpg" alt="">
+								<div class="team-content text-white">
+									<p class="m-a0">20GB Adicionales VPS</p>
+									<h6 class="text-uppercase text-black m-b0">COP $343.000/Año</h6>
+									<div class="dlab-divider bg-white mt-2 mb-2"></div>									
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 m-b30">
+							<div class="team-section">
+								<img src="images/pic5.jpg" alt="">
+								<div class="team-content text-white">
+									<p class="m-a0">Dominio Adicional</p>
+									<h6 class="text-uppercase text-black m-b0">COP $46.000/Año</h6>
+									<div class="dlab-divider bg-white mt-2 mb-2"></div>									
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 m-b30">
+							<div class="team-section">
+								<img src="images/pic3.jpg" alt="">
+								<div class="team-content text-white">
+									<p class="m-a0">Configuración de Email </p>
+									<h6 class="text-uppercase text-black m-b0">COP $35.000/Cuenta</h6>
+									<div class="dlab-divider bg-white mt-2 mb-2"></div>									
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 m-b30">
+							<div class="team-section ">
+								<img src="images/pic6.jpg" alt="">
+								<div class="team-content text-white">
+									<p class="m-a0">Email Hosting 50GB</p>
+									<h6 class="text-uppercase text-black m-b0">COP $332.000/Año</h6>
+									<div class="dlab-divider bg-white mt-2 mb-2"></div>									
+								</div>
+							</div>
+						</div>
+					</div>
+                </div>
+				<div class="container">
+					<div class="row ">
+						<div class="col-lg-12 text-center section-head">
+							<h2 class="m-b10">¿Requiere servicios de Marketing Digital?</h2>
+							<h5 class="m-b0 font-weight-300 max-w600 m-auto">Conozca nuestras tarifas detallas según el tipo de campañas, alcances, públicos, herramientas y presupuestos</h5>
+						</div>
+					</div>					
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<a href="{{url('/')}}" class="site-button button-md">Tarifas Marketing Digital</a>
+						</div>
+					</div>
+				</div>
+			</div>	
 
 
                 <!-- Get in touch -->

@@ -2068,31 +2068,31 @@ __webpack_require__.r(__webpack_exports__);
       servicios: [{
         titulo: 'Landing Pages',
         descripcion: 'Diseño de una sola página ideal para recibir el tráfico de sus anuncios publicitarios de pago',
-        precio: 'COP $250.000',
+        precio: 'COP $450.000',
         imagen: 'images/landing-page-modelo.jpg',
         webp: 'images/landing-page-modelo.webp',
-        textModal: 'Incluye: Diseño a medida sin plantillas en html y css, página de agradecimiento o confirmación, formulario de contacto conectado a correo electrónico o base de datos.' // icono: '<i class="fas fa-thumbs-up"></i>',
+        textModal: 'Incluye: Diseño a medida en WordPress o HTML + CSS, página de agradecimiento o confirmación, formulario de contacto conectado a correo electrónico o base de datos.' // icono: '<i class="fas fa-thumbs-up"></i>',
 
       }, {
         titulo: 'Página Web Sencilla',
-        descripcion: 'Diseño en HTML, CSS y JavaScript, 4 páginas internas, formulario de contacto, diseño adaptable',
-        precio: 'COP $630.000',
+        descripcion: 'Diseño en WordPress, 4 páginas internas, formulario de contacto, diseño adaptable',
+        precio: 'COP $730.000',
         imagen: 'images/pagina-web-sencilla.jpg',
         webp: 'images/pagina-web-sencilla.webp',
-        textModal: 'Incluye: Diseño a medida en html y css, 4 páginas internas para productos o servicios, formulario de contacto o cotización, hosting y dominio por un año.' // icono: '<i class="fas fa-thumbs-up"></i>',
+        textModal: 'Incluye: Diseño a medida en WordPress, 4 páginas internas para productos o servicios, formulario de contacto o cotización, hosting y dominio por un año.' // icono: '<i class="fas fa-thumbs-up"></i>',
 
       }, {
         titulo: 'Página Administrable',
-        descripcion: 'Diseño en WordPres (CMS) con tema premium licenciado. Ideal para blogs y orientado a posicionamiento',
-        precio: 'COP $810.000',
+        descripcion: 'Consola administrativa, contenido dinámico, editor de texto avanzado. Ideal para blogs',
+        precio: 'COP $910.000',
         imagen: 'images/pagina-web-administrable.jpg',
         webp: 'images/pagina-web-administrable.webp',
         textModal: 'Incluye: Tema WordPress con licencia, velocidad de carga optimizada, optimización para móviles, hosting y dominio por un año.' // icono: '<i class="fas fa-thumbs-up"></i>',
 
       }, {
         titulo: 'Página Corporativa',
-        descripcion: 'Incluye consola de administración, hosting y dominio, correos corporativos* y optimización para seo',
-        precio: 'COP $990.000',
+        descripcion: 'Diseño Incluye consola de administración, hosting y dominio, correos corporativos* y optimización para seo',
+        precio: 'COP $1.250.000',
         imagen: 'images/pagina-web-corporativa.jpg',
         webp: 'images/pagina-web-corporativa.webp',
         textModal: 'Incluye: Tema WordPress Corporate con licencia, plugins premium para SEO, hosting, dominio y correos corporativos ilimitados por un año.' // icono: '<i class="fas fa-thumbs-up"></i>',
