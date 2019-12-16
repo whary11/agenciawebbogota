@@ -208,7 +208,7 @@
                             <div class="col-lg-12">
                                 <div class="text-center max-w800 m-auto ">
                                     <h4 class="text-uppercase font-weight-700 font-30">Diseñamos su Landing Page en un
-                                        día<br> por solo $450.000 IVA Incluido</h4>
+                                        día<br> por solo $280.000 IVA Incluido</h4>
                                     <p>Sin tiempo de caducidad, con alojamiento indefinido</p>
                                 </div>
                             </div>

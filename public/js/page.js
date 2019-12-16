@@ -2068,23 +2068,23 @@ __webpack_require__.r(__webpack_exports__);
       servicios: [{
         titulo: 'Landing Pages',
         descripcion: 'Diseño de una sola página ideal para recibir el tráfico de sus anuncios publicitarios de pago',
-        precio: 'COP $450.000',
+        precio: 'COP $280.000',
         imagen: 'images/landing-page-modelo.jpg',
         webp: 'images/landing-page-modelo.webp',
         textModal: 'Incluye: Diseño a medida en WordPress o HTML + CSS, página de agradecimiento o confirmación, formulario de contacto conectado a correo electrónico o base de datos.' // icono: '<i class="fas fa-thumbs-up"></i>',
 
       }, {
         titulo: 'Página Web Sencilla',
-        descripcion: 'Diseño en WordPress, 4 páginas internas, formulario de contacto, diseño adaptable',
-        precio: 'COP $730.000',
+        descripcion: 'Sitio web de una sola página ideal para resaltar rápidamente productos y servicios',
+        precio: 'COP $420.000',
         imagen: 'images/pagina-web-sencilla.jpg',
         webp: 'images/pagina-web-sencilla.webp',
-        textModal: 'Incluye: Diseño a medida en WordPress, 4 páginas internas para productos o servicios, formulario de contacto o cotización, hosting y dominio por un año.' // icono: '<i class="fas fa-thumbs-up"></i>',
+        textModal: 'Incluye: Desarrollo en WordPress, una sola página principal para información, productos y servicios, formulario de contacto, hosting y dominio por un año.' // icono: '<i class="fas fa-thumbs-up"></i>',
 
       }, {
         titulo: 'Página Administrable',
         descripcion: 'Consola administrativa, contenido dinámico, editor de texto avanzado. Ideal para blogs',
-        precio: 'COP $910.000',
+        precio: 'COP $710.000',
         imagen: 'images/pagina-web-administrable.jpg',
         webp: 'images/pagina-web-administrable.webp',
         textModal: 'Incluye: Tema WordPress con licencia, velocidad de carga optimizada, optimización para móviles, hosting y dominio por un año.' // icono: '<i class="fas fa-thumbs-up"></i>',
