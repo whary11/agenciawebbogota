@@ -9207,9 +9207,6 @@ ul[class*="list-"]{
     padding: 12px;
     border-bottom: 1px solid #E9E9E9;
 }
-.pricingtable-features li i {
-    margin: 0 3px;
-}
 .pricingtable-features li:nth-child(even) {
     background-color: #fff;
 }
