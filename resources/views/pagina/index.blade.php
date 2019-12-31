@@ -82,14 +82,11 @@
                         </div>
                         <div class="slide-content overlay-primary">
                             <div class="slide-content-box container title-princ">
-                                <div class="max-w600 text-white">
-                                    <h1 class="text-white font-weight-600 bs">Diseño Web y Marketing Digital </h1>
-                                    <h4>No buscamos competir en el mercado, buscamos innovar con productos y servicios de alta calidad.</h4>
-                                    <p>Con la mejor oferta costo/beneficio, respaldada por amplios
-                                        conocimientos en lenguajes de programación, gestores de contenido, diseño
-                                        gráfico y posicionamiento SEO.</p>
-                                    <a href="servicios" class="site-button m-r10 primary button-lg btn1">Nuestros
-                                        Servicios</a>
+                                <div class="max-w600 text-white">                                    
+                                    <h2 class="text-white font-weight-600 bs"><span class="text-yellow-light">¡LO NUEVO!</span> Sitios Web en Alquiler</h2>
+                                    <h4>Sitios Web y Tiendas Online Administrados y Posicionados con pago mensual sin contratos ni anticipos.</h4>
+                                    <p>Nosotros nos encargamos de todo, desde el desarrollo hasta la administración y el mantenimiento. Usted solo relájese y disfrute de los resultados.</p>
+                                    <a href="paginas-web" class="site-button m-r10 primary button-lg btn1">Quiero Más Info</a>    
                                 </div>
                             </div>
                         </div>
@@ -103,12 +100,11 @@
                         <div class="slide-content overlay-primary ">
                             <div class="slide-content-box container title-princ">
                                 <div class="max-w600 text-white">
-                                    <h2 class="text-white font-weight-600 bs">Desarrollamos Sitios Inteligentes </h2>
-                                    <h4>Para ser competitivo ya no basta con tener una simple página de Internet</h4>
-                                    <p>Funciones avanzadas que automatizan sus procesos, optimizan sus recursos y
-                                        mejoran la experiencia de sus clientes al interactuar con sus productos y
-                                        servicios.</p>
-                                    <a href="paginas-web" class="site-button m-r10 primary button-lg btn1">Quiero Más Info</a>
+                                <h1 class="text-white font-weight-600 bs"><span class="text-yellow-light">Diseño Web y Marketing Digital </span></h1>
+                                    <h4>No buscamos competir en el mercado, buscamos innovar con productos y servicios de alta calidad.</h4>
+                                    <p>Con la mejor oferta costo/beneficio, respaldada por amplios
+                                        conocimientos en lenguajes de programación, gestores de contenido, diseño gráfico y posicionamiento SEO.</p>
+                                    <a href="servicios" class="site-button m-r10 primary button-lg btn1">Nuestros Servicios</a>
                                 </div>
                             </div>
                         </div>
