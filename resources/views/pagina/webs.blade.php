@@ -142,8 +142,8 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="text-center m-auto ">
-                                <h4 class="font-weight-600 font-20">Para conocer las tarifas de servicios adicionales o por separado, visite nuestra sección de servicios</h4>
-                                <a href="{{url('servicios')}}" class="site-button radius-sm outline outline-2"><span class="p-lr10">¡Quiero Cotizar Algo Diferente!</span></a>
+                                <h4 class="font-weight-600 font-20">Ahora puede obtener su sitio web o tienda online en alquiler, sin contratos, sin anticipos y sin claúsulas. Administrado y posicionado por profesionales   </h4>
+                                <a href="{{url('servicios')}}" class="site-button radius-sm outline outline-2"><span class="p-lr10">Me Interesa, Quiero Más Detalles</span></a>
                             </div>
                         </div>
                     </div>
