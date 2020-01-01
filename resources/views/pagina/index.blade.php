@@ -23,14 +23,14 @@
     <meta property="og:title" content="Diseño de Páginas Web y Marketing Digital en Bogotá" />
     <meta property="og:url" content="https://agenciawebbogota.com" />
     <meta property="og:image" content="https://agenciawebbogota.com/images/principal-3.jpg" />
-    <meta property="og:description" content="Creamos diseños, publicidad y contenidos optimizados con Neuromarketing. Líderes en Diseño de Páginas Web y Marketing Digital en Bogotá" />
+    <meta property="og:description" content="Agencia Web Bogotá profesionales en diseño web, programación, diseño gráfico y marketing digital. Tenemos la mejor oferta costo/beneficio del mercado." />
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@AgenciaBogota">
     <meta name="twitter:creator" content="@AgenciaBogota">
     <meta name="twitter:image" content="https://agenciawebbogota.com/images/principal-3.jpg">
     <meta name="twitter:image:alt" content="Agencia Web Bogotá | Diseño Web Optimizado con Neuromarketing">
     <meta name="twitter:title" content="Diseño Web + Neuromarketing">
-    <meta name="twitter:description" content="Creamos diseños, publicidad y contenidos optimizados con Neuromarketing. Líderes en Diseño de Páginas Web y Marketing Digital en Bogotá">
+    <meta name="twitter:description" content="Agencia Web Bogotá profesionales en diseño web, programación, diseño gráfico y marketing digital. Tenemos la mejor oferta costo/beneficio del mercado.">
     <link rel="canonical" href="https://agenciawebbogota.com" />
     <meta name="format-detection" content="telephone=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -76,8 +76,8 @@
                     <div class="item slide-item">
                         <div class="slide-item-img">
                             <picture>
-                                <source srcset="{{asset('images/principal.webp')}}" type="image/webp">
-                                <img src="{{asset('images/principal.jpg')}}" alt="Diseñador en escritorio con elementos">
+                                <source srcset="{{asset('images/background/bg20.webp')}}" type="image/webp">
+                                <img src="{{asset('images/background/bg20.jpg')}}" alt="Mujer joven sonriente y relajada frente a computadora">
                             </picture>
                         </div>
                         <div class="slide-content overlay-primary">
@@ -94,8 +94,8 @@
                     <div class="item slide-item">
                         <div class="slide-item-img">
                             <picture>
-                            <source srcset="{{asset('images/principal-3.webp')}}" type="image/webp">
-                                <img src="{{asset('images/principal-3.jpg')}}" alt="Programador web trabajando en codigo"></picture>
+                            <source srcset="{{asset('images/principal.webp')}}" type="image/webp">
+                                <img src="{{asset('images/principal.jpg')}}" alt="Diseñador en escritorio con elementos"></picture>
                         </div>
                         <div class="slide-content overlay-primary ">
                             <div class="slide-content-box container title-princ">
@@ -184,7 +184,7 @@
                                     </div>
                                 </div>
                                 <div class="icon-content">
-                                    <h4 class="dlab-tilte">Precios Competitivos y Financiación</h4>
+                                    <h4 class="dlab-tilte">Precios Competitivos y Facilidades</h4>
                                 </div>
                             </div>
                         </div>
@@ -396,6 +396,30 @@
                                         <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
                                             <a href="javascript:void(0);">
                                                 <picture>
+                                                    <source srcset="{{asset('images/portafolio/antero-german.webp')}}"
+                                                        type="image/webp">
+                                                    <img src="{{asset('images/portafolio/antero-german.jpg')}}" alt="Antero Germán Ramirez">
+                                                </picture>
+                                            </a>
+                                            <div class="overlay-bx">
+                                                <div class="overlay-icon align-b text-white">
+                                                    <div class="text-white text-left port-box">
+                                                        <a href="https://usimmigrationagr.com" target="_blank">
+                                                            <h5>US Immigration</h5>
+                                                        </a>
+                                                        <p>Web Site Multidioma</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="web design card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
+                                    data-wow-delay="0.2s">
+                                    <div class="dlab-box dlab-gallery-box">
+                                        <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
+                                            <a href="javascript:void(0);">
+                                                <picture>
                                                     <source srcset="{{asset('images/portafolio/jeronimos.webp')}}"
                                                         type="image/webp">
                                                     <img src="{{asset('images/portafolio/jeronimos.jpg')}}" alt="Jerónimo's Cake Shop">
@@ -557,30 +581,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </li>
-                                <li class="advertising design photography card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
-                                    data-wow-delay="0.8s">
-                                    <div class="dlab-box dlab-gallery-box">
-                                        <div class="dlab-media dlab-img-overlay1 dlab-img-effect dlab-img-effect ">
-                                            <a href="javascript:void(0);">
-                                                <picture>
-                                                    <source srcset="{{asset('images/portafolio/fcem.webp')}}" type="image/webp">
-                                                    <img src="{{asset('images/portafolio/fcem.jpg')}}"
-                                                        alt="Página Web Fundación Cuerpo en Movimiento"></picture>
-                                            </a>
-                                            <div class="overlay-bx">
-                                                <div class="overlay-icon align-b text-white">
-                                                    <div class="text-white text-left port-box">
-                                                        <a href="https://cuerpoenmovimiento.org" target="_blank">
-                                                            <h5>Fundación Cuerpo en Movimiento</h5>
-                                                        </a>
-                                                        <p>Página Web ESAL</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
+                                </li>                                
                                 <li class="web photography card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
                                     data-wow-delay="0.2s">
                                     <div class="dlab-box dlab-gallery-box">

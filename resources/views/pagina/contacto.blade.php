@@ -48,7 +48,7 @@
 											<span class="icon-sm text-primary text-left"><i class="ti-location-pin"></i></span> 
 											Nuestras oficinas
 										</h5>
-										<p>Carrera 57 No. 14 - 70 Piso 2 Puente Aranda, Bogotá - Colombia</p>
+										<p>Calle 9 No. 37 - 30 Local 17 Bogotá - Colombia, CP 111611</p>
 										<h6 class="m-b15 font-weight-400"><i class="ti-alarm-clock"></i> Horarios de Atención</h6>
 										<p class="m-b0">Lunes a Viernes 8:00 AM - 5:00 PM</p>
 										<p class="m-b0">Sábado 9:00 AM - 2:00 PM </p>
