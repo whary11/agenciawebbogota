@@ -302,6 +302,12 @@
 .webp-nuevasfunc{
 	background-image: url("/images/background/bg19.webp")
 }
+.no-webp-alquiler{
+	background-image: url("/images/background/bg21.jpg")
+}
+.webp-alquiler{
+	background-image: url("/images/background/bg21.webp")
+}
 /*==========================
 	FIN Custom css
 ==========================*/

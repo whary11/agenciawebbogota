@@ -39,6 +39,9 @@ class IndexController extends Controller
     public function servicios(){
         return view('pagina.servicios');
     }
+    public function alquiler(){
+        return view('pagina.alquiler');
+    }
     public function administracion(){
         return view('pagina.administracion');
     }
