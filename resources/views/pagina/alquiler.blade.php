@@ -6,23 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="Robots" content="index, follow">
-    <title>Diseño de Tiendas Online | Sitios automatizados para ventas online</title>
-    <meta name="description" content="Tiendas Online Automatizadas. Sitios web para comercio electrónico con todos los componentes necesarios para un crecimiento rápido de su negocio en línea." />
+    <title>¡LO NUEVO! Sitios Web y Tiendas Online en Alquiler</title>
+    <meta name="description" content="Comience a generar tráfico y ventas con cero inversión. Nosotros nos encargamos de todo, desde el diseño hasta la administración completa." />
 	<meta name="author" content="Agencia Web Bogotá">
 	<meta property="og:type" content="service" />
     <meta property="og:site_name " content="Agencia Web Bogotá" />
-    <meta property="og:title" content="Diseño de Tiendas Online | Sitios automatizados para ventas online" />
-    <meta property="og:url" content="https://agenciawebbogota.com/tiendas-online" />
-    <meta property="og:image" content="https://agenciawebbogota.com/images/background/bg4.jpg" />
-    <meta property="og:description" content="Tiendas Online Automatizadas. Sitios web para comercio electrónico con todos los componentes necesarios para un crecimiento rápido de su negocio en línea." />
+    <meta property="og:title" content="¡LO NUEVO! Sitios Web y Tiendas Online en Alquiler" />
+    <meta property="og:url" content="https://agenciawebbogota.com/sitios-web-y-tiendas-online-en-alquiler" />
+    <meta property="og:image" content="https://agenciawebbogota.com/images/our-services/pic12.jpg" />
+    <meta property="og:description" content="Comience a generar tráfico y ventas con cero inversión. Nosotros nos encargamos de todo, desde el diseño hasta la administración completa." />
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@AgenciaBogota">
     <meta name="twitter:creator" content="@AgenciaBogota">
-    <meta name="twitter:image" content="https://agenciawebbogota.com/images/background/bg4.jpg">
-    <meta name="twitter:image:alt" content="Diseño de Tiendas Online | Sitios automatizados para ventas online">
-    <meta name="twitter:title" content="Diseño de Tiendas Online">
-    <meta name="twitter:description" content="Tiendas Online Automatizadas. Sitios web para comercio electrónico con todos los componentes necesarios para un crecimiento rápido de su negocio en línea.">
-	<link rel="canonical" href="https://agenciawebbogota.com/tiendas-online" />
+    <meta name="twitter:image" content="https://agenciawebbogota.com/images/our-services/pic12.jpg">
+    <meta name="twitter:image:alt" content="Dueña de negocio empacando producto vendido por Internet">
+    <meta name="twitter:title" content="¡LO NUEVO! Sitios Web y Tiendas Online en Alquiler">
+    <meta name="twitter:description" content="Comience a generar tráfico y ventas con cero inversión. Nosotros nos encargamos de todo, desde el diseño hasta la administración completa.">
+	<link rel="canonical" href="https://agenciawebbogota.com/sitios-web-y-tiendas-online-en-alquiler" />
     <meta name="format-detection" content="telephone=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
@@ -45,7 +45,7 @@
     <div class="page-wraper">
         <!-- header -->
         @include('partials.header')
-		<div class="icono-whatsapp" id="btn-whp"><a href="https://api.whatsapp.com/send?phone=573168785601"><i class="fab fa-whatsapp"></i></a></div>
+        <div class="icono-whatsapp" id="btn-whp"><a href="https://api.whatsapp.com/send?phone=573168785601"><i class="fab fa-whatsapp"></i></a></div>
 		<div class="icono-messenger" id="btn-mes"><a href="https://m.me/agenciawebbogota"><i class="fab fa-facebook-messenger"></i></a></div>
 		<div class="icono-phone" id="btn-pho"><a href="tel:+573168785601"><i class="fas fa-phone-volume"></i></a></div>
 		<div class="tooltip-whatsapp" id="tp-whp"><span>¡Estamos en línea!</span></div>
@@ -61,7 +61,7 @@
             <div class="container">
             <div class="dlab-bnr-inr-entry texto-ini">
 					<h1 class="text-white">Sitios Web y Tiendas Online en Alquiler</h1>
-					<h2 class="text-white">Comience a Generar Tráfico y Ventas con Inversión Cero</h2>					
+					<h2 class="text-white">Comience a Generar Tráfico y Ventas con  Cero Inversión</h2>					
                 </div>
             </div>
         </div>
@@ -77,27 +77,24 @@
 					<div class="row text-center">
 						<div class="col-lg-4 col-md-4 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.2s">
 							<div class="dlab-box">
-								<div class="dlab-media dlab-img-effect rotate"> <a href="#"><img src="images/our-work/pic1.jpg" alt=""></a> </div>
 								<div class="dlab-info p-a30 border-1 bg-white">
-									<h5 class="dlab-title m-t0"><a href="#">Con todo desde el inicio</a></h5>
+									<h5 class="dlab-title m-t0">Con todo desde el inicio</h5>
 									<p class="m-b0">Incluimos un dominio, alojamiento privado y diseño profesional adaptado a sus necesidades</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.4s">
 							<div class="dlab-box">
-								<div class="dlab-media dlab-img-effect rotate"> <a href="#"><img src="images/our-work/pic5.jpg" alt=""></a> </div>
 								<div class="dlab-info p-a30 border-1 bg-white">
-									<h5 class="dlab-title m-t0"><a href="#">Administrado por Profesionales</a></h5>
-									<p class="m-b0">Nosotros aprovecharemos todo el potencial de Internet para posicionar su marca y generar ventas</p>
+									<h5 class="dlab-title m-t0">Administrado por Profesionales</h5>
+									<p class="m-b0">Nosotros aprovecharemos todo el potencial de Internet para posicionar su marca y generarle ventas</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-12 m-b30 wow fadeInUp" data-wow-delay="0.6s">
 							<div class="dlab-box">
-								<div class="dlab-media dlab-img-effect rotate"> <a href="#"><img src="images/our-work/pic3.jpg" alt=""></a> </div>
 								<div class="dlab-info p-a30 border-1 bg-white">
-									<h5 class="dlab-title m-t0"><a href="#">Cancele cuando quiera</a></h5>
+									<h5 class="dlab-title m-t0">Cancele cuando quiera</h5>
 									<p class="m-b0">Si no ve un beneficio real en corto tiempo, puede cancelar el servicio en cualquier momento</p>
 								</div>
 							</div>
@@ -111,7 +108,10 @@
                 <div class="container-fluid">
                     <div class="row dzseth">
 						<div class="col-lg-6 col-md-12 col-xs-12 p-a0"> 
-							<img src="images/our-services/pic3.jpg" alt="" class="img-cover"/> 
+                        <picture>
+                                <source srcset="{{asset('images/our-services/pic12.webp')}}" type="image/webp" alt="Dueña de negocio empacando producto vendido por Internet">
+                                <img src="{{asset('images/our-services/pic12.jpg')}}" alt="Dueña de negocio empacando producto vendido por Internet" class="img-cover">
+                            </picture> 
 						</div>
 						<div class="col-lg-6 col-md-12 col-xs-12 bg-black-light p-lr0 dis-tbl">
 							<div class="p-a30 dis-tbl-cell wow fadeInRight" data-wow-delay="0.2s">
@@ -119,7 +119,7 @@
 									<div class="row">
 										<div class="col-lg-12">
 											<h4 class="text-pink">¿Sabía que el 80% de los sitios web se mantienen inactivos desperdiciando todo su potencial?</h4>
-											<h5 class="m-b30 text-white">Esto se debe a que los propietarios de sitios web no cuentan con el tiempo y conocimiento necesarios para hacer un uso eficiente
+											<h5 class="m-b30 text-white">Esto se debe a que los propietarios no cuentan con el tiempo y conocimiento necesarios para hacer un uso eficiente
                                             de las herramientas disponibles.</h5>
 										</div>
 									</div>
@@ -140,91 +140,204 @@
             </div>
             <!-- About Us End -->
 
-			<div class="section-full content-inner">
+			<div class="section-full content-inner" style="background-image:url({{asset('images/pattern/pic1.jpg')}});">
                 <div class="container">
 					<div class="section-head text-black text-center">
 						<h4 class="text-gray-dark m-b10">Nuestros Planes</h4>
 						<h2 class="box-title m-tb0">Planes de Diseño Web a la Medida de sus Necesidades</h2>
-						<p>No le exigimos ningún pago para iniciar el desarrollo. Cancele su primera mensualidad cuando su sitio web esté terminado 100% y online.</p>
+						<p>No le exigimos ningún pago para iniciar el desarrollo<br>Cancele su primera mensualidad cuando su sitio web esté terminado 100% y online</p>
 					</div>
 				</div>
-				<div class="container">
-					 <div class="row ">
-						<div class="col-lg-4 col-md-6 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.2s">
-							<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-								<div class="icon-content">
-                                    <h4 class="dlab-tilte text-uppercase">Página Web Startup</h4>
-                                    <h5 class="text-pink">COP $59.000<span class="font-13">/Mes</span></h5>
-                                    <p><i>Sitio web de una sola página principal, ideal para destacar rápidamente productos o servicios</i></p>
-                                    <p><i>Desarrollo en WordPress, optimizada para móviles, galerías de imágenes y formulario de contacto o cotización</i></p>
-                                    <p><i>Mantenimiento y actualización permanente</i></p>
-									<a href="#" class="site-button radius-xl outline outline-2">Contratar Ahora</a>
+				<!-- Pricing table-1 Columns 3 with gap -->
+				<div class="section-content box-sort-in button-example">
+								<div class="pricingtable-row">
+									<div class="row max-w1000 m-auto">
+										<div class="col-sm-12 col-md-4 col-lg-4 p-lr0">
+											<div class="pricingtable-wrapper style1">
+												<div class="pricingtable-inner">
+													<div class="pricingtable-price"> 
+														<div class="pricingtable-icon"><i class="fas fa-rocket"></i></div>
+														<h4 class="font-weight-300 m-t10 m-b0">Página Web Startup</h4>
+														<span class="pricingtable-bx text-primary">COP $59.000/Mes</span>
+													</div>
+													<ul class="pricingtable-features">
+														<li class="text-center font-13"> Sitio web de una sola página principal, ideal para destacar rápidamente productos o servicios</li>
+														<li class="text-center font-13"> Desarrollo en WordPress, optimizada para móviles, galerías de imágenes y formulario de contacto o cotización</li>
+														<li class="text-center font-13"> Mantenimiento y actualización permanente</li>
+													</ul>
+													<div class="m-t20"> 
+														<a href="{{url('contacto')}}" class="site-button outline outline-2 button-md">Contratar</a> 
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-sm-12 col-md-4 col-lg-4 p-lr0">
+											<div class="pricingtable-wrapper style1 active">
+												<div class="pricingtable-inner">
+													<div class="pricingtable-price"> 
+														<div class="pricingtable-icon"><i class="fas fa-briefcase"></i></div>
+														<h4 class="font-weight-300 m-t10 m-b0">Sitio Corporativo</h4>
+														<span class="pricingtable-bx text-primary">COP $105.000/Mes</span>
+													</div>
+													<ul class="pricingtable-features">
+														<li class="text-center font-13"> Sitio web en WordPress con páginas internas y contenido estático</li>
+														<li class="text-center font-13"> Optimización permanente para Google, alta en search console, integración con Google analytics</li>
+														<li class="text-center font-13"> Administración, mantenimiento y actualización permanentes </li>
+														<li class="text-center font-13"> Adición de contenido para blog, noticias o información corporativa </li>
+													</ul>
+													<div class="m-t20 m-b5"> 
+														<a href="{{url('contacto')}}" class="site-button button-md">Contratar</a> 
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-sm-12 col-md-4 col-lg-4 p-lr0">
+											<div class="pricingtable-wrapper style1">
+												<div class="pricingtable-inner">
+													<div class="pricingtable-price"> 
+														<div class="pricingtable-icon"><i class="fas fa-edit"></i></div>
+														<h4 class="font-weight-300 m-t10 m-b0">Sitio Blog/Magazine</h4>
+														<span class="pricingtable-bx text-primary">COP $225.000/Mes</span>
+													</div>
+													<ul class="pricingtable-features">
+                                                        <li class="text-center font-13"> Artículos, secciones, categorías y noticias ilimitadas </li>
+                                                        <li class="text-center font-13"> Copywriting títulos, contenidos e imágenes con SEO de artículos por palabras o frases clave </li>                                                        
+                                                        <li class="text-center font-13"> Enlace de contenido con redes sociales</li>                                                        
+														<li class="text-center font-13"> Monetización con Google Adsense </li>
+													</ul>
+													<div class="m-t20"> 
+														<a href="{{url('contacto')}}" class="site-button outline outline-2 button-md">Contratar</a> 
+													</div>
+												</div>
+											</div>
+                                        </div>                                        
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-lg-4 col-md-6 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.4s">
-							<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-								<div class="icon-content">
-                                    <h4 class="dlab-tilte text-uppercase">Sitio Corporativo</h4>
-                                    <h5 class="text-pink">COP $105.000<span class="font-13">/Mes</span></h5>
-                                    <p><i>Sitio web en WordPress con páginas internas y contenido estático</i></p>
-                                    <p><i>Optimización permanente para Google, alta en search console, integración con Google analytics</i></p>
-                                    <p><i>Administración, mantenimiento y actualización permanentes</i></p>
-                                    <p><i>Adición de contenido para blog, noticias o información corporativa</i></p>
-									<a href="#" class="site-button radius-xl outline outline-2">Contratar Ahora</a>
+                </div>
+
+                <div class="section-content box-sort-in button-example" style="background-image:url({{asset('images/background/bg11.jpg')}});">
+								<div class="pricingtable-row">
+									<div class="row max-w1000 m-auto">
+										<div class="col-sm-12 col-md-4 col-lg-4 p-lr0">
+											<div class="pricingtable-wrapper style1">
+												<div class="pricingtable-inner">
+													<div class="pricingtable-price"> 
+														<div class="pricingtable-icon"><i class="fas fa-store"></i></div>
+														<h4 class="font-weight-300 m-t10 m-b0">Tienda Online Básica</h4>
+														<span class="pricingtable-bx text-primary">COP $125.000/Mes</span>
+													</div>
+													<ul class="pricingtable-features">
+														<li class="text-center font-13"> Capacidad hasta 20 productos con máximo 5 variaciones por producto</li>
+														<li class="text-center font-13"> Galería de 5 Imágenes por producto</li>
+                                                        <li class="text-center font-13 perstable"> Administración de tienda, productos, inventarios y notificación de pedidos</li>
+													</ul>
+													<div class="m-t20"> 
+														<a href="{{url('contacto')}}" class="site-button outline outline-2 button-md">Contratar</a> 
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-sm-12 col-md-4 col-lg-4 p-lr0">
+											<div class="pricingtable-wrapper style1 active">
+												<div class="pricingtable-inner">
+													<div class="pricingtable-price"> 
+														<div class="pricingtable-icon"><i class="fas fa-shopping-cart"></i></div>
+														<h4 class="font-weight-300 m-t10 m-b0">Tienda Profesional</h4>
+														<span class="pricingtable-bx text-primary">COP $275.000/Mes</span>
+													</div>
+													<ul class="pricingtable-features">
+														<li class="text-center font-13"> Capacidad para 50 productos con máximo 10 variaciones por producto</li>
+														<li class="text-center font-13"> Galería de 6 Imágenes por producto</li>
+														<li class="text-center font-13"> Posicionamiento SEO de productos por ficha individual </li>
+                                                        <li class="text-center font-13"> Administración de tienda, productos, inventarios y notificación de pedidos </li>
+                                                        <li class="text-center font-13"> Rotación de productos destacados, ofertas o más vendidos en página principal de la tienda </li>
+														<li class="text-center font-13"> Integración con redes sociales y catálogo de tienda facebook </li>
+														<li class="text-center font-13"> Informe mensual de interacciones, visitas, compras, prospectos y oportunidades de mejora </li>
+
+													</ul>
+													<div class="m-t20 m-b5"> 
+														<a href="{{url('contacto')}}" class="site-button button-md">Contratar</a> 
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-sm-12 col-md-4 col-lg-4 p-lr0">
+											<div class="pricingtable-wrapper style1">
+												<div class="pricingtable-inner">
+													<div class="pricingtable-price"> 
+														<div class="pricingtable-icon"><i class="fas fa-cart-plus"></i></div>
+														<h4 class="font-weight-300 m-t10 m-b0">Tienda Avanzada</h4>
+														<span class="pricingtable-bx text-primary">COP $469.000/Mes</span>
+													</div>
+													<ul class="pricingtable-features">
+														<li class="text-center font-13"> Capacidad ilimitada para productos con variaciones ilimitadas</li>
+														<li class="text-center font-13"> Imágenes de productos ilimitadas</li>
+														<li class="text-center font-13"> Toma de fotografías y edición de imágenes de productos </li>
+                                                        <li class="text-center font-13"> Posicionamiento SEO de productos e integración con Google Shopping </li>
+                                                        <li class="text-center font-13"> Administración de tienda, productos, inventarios y notificación de pedidos </li>
+														<li class="text-center font-13"> Rotación de productos destacados, ofertas o más vendidos en página principal de la tienda </li>
+                                                        <li class="text-center font-13"> Integración con redes sociales y catálogo de tienda facebook </li>
+                                                        <li class="text-center font-13"> Informe mensual de interacciones, visitas, compras, prospectos y oportunidades de mejora </li>
+
+
+													</ul>
+													<div class="m-t20"> 
+														<a href="{{url('contacto')}}" class="site-button outline outline-2 button-md">Contratar</a> 
+													</div>
+												</div>
+											</div>
+                                        </div>                                        
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-lg-4 col-md-6 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.6s">
-							<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-                            <div class="icon-content">
-                                    <h4 class="dlab-tilte text-uppercase">Tienda Online Básica</h4>
-                                    <h5 class="text-pink">COP $125.000<span class="font-13">/Mes</span></h5>
-                                    <p><i>Capacidad hasta 20 productos con máximo 5 variaciones por producto</i></p>
-                                    <p><i>Galería de 5 Imágenes por producto</i></p>
-                                    <p><i>Administración de tienda, productos, inventarios y notificación de pedidos</i></p>
-									<a href="#" class="site-button radius-xl outline outline-2">Contratar Ahora</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-6 col-md-6 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.8s">
-							<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-                            <div class="icon-content">
-                                    <h4 class="dlab-tilte text-uppercase">Tienda Profesional</h4>
-                                    <h5 class="text-pink">COP $275.000<span class="font-13">/Mes</span></h5>
-                                    <p><i>Capacidad para 50 productos con máximo 10 variaciones por producto</i></p>
-                                    <p><i>Galería de 6 Imágenes por producto</i></p>
-                                    <p><i>Posicionamiento SEO de productos por ficha individual</i></p>
-                                    <p><i>Administración de tienda, productos, inventarios y notificación de pedidos</i></p>
-                                    <p><i>Rotación de productos destacados, ofertas o más vendidos en página principal de la tienda</i></p>
-                                    <p><i>Integración con redes sociales y catálogo de tienda facebook</i></p>
-                                    <p><i>Informe mensual de interacciones, visitas, compras, prospectos y oportunidades de mejora</i></p>
-									<a href="#" class="site-button radius-xl outline outline-2">Contratar Ahora</a>								
-							</div>
-							</div>
-						</div>
-						<div class="col-lg-6 col-md-6 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="1.0s">
-							<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-                            <div class="icon-content">
-                                    <h4 class="dlab-tilte text-uppercase">Tienda Avanzada</h4>
-                                    <h5 class="text-pink">COP $469.000<span class="font-13">/Mes</span></h5>
-                                    <p><i>Capacidad ilimitada para productos con variaciones ilimitadas</i></p>
-                                    <p><i>Imágenes de productos ilimitadas</i></p>
-                                    <p><i>Toma de fotografías y edición de imágenes de productos</i></p>
-                                    <p><i>Posicionamiento SEO de productos e integración con Google Shopping</i></p>
-                                    <p><i>Administración de tienda, productos, inventarios y notificación de pedidos</i></p>
-                                    <p><i>Rotación de productos destacados, ofertas o más vendidos en página principal de la tienda</i></p>
-                                    <p><i>Integración con redes sociales y catálogo de tienda facebook</i></p>
-                                    <p><i>Informe mensual de interacciones, visitas, compras, prospectos y oportunidades de mejora</i></p>
-									<a href="#" class="site-button radius-xl outline outline-2">Contratar Ahora</a>								
-							</div>
-							</div>
-						</div>						
-						
-					</div>
-				</div>
+                </div>
+
+                <div class="section-full p-t30 p-b60 bg-primary-dark text-white shop-action">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="text-center m-auto ">
+                                <h4 class="font-weight-400 font-20">Todos nuestros desarrollos incluyen alojamiento en hosting privado (VPS) de alta velocidad, dominio, correos electrónicos corporativos y certificado de navegación segura SSL   </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <!-- Our Services -->    </div>
+
+                                <!-- Get in touch -->
+                                <div class="section-full overlay-primary-dark bg-img-fix bg-azul-oscuro-agencia">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-5 col-md-5 content-inner chosesus-content text-white">
+                                <h2 class="box-title m-b15 wow fadeInLeft" data-wow-delay="0.2s">Contacte Ahora con
+                                    Agencia Web Bogotá<span class="bg-primary"></span></h2>
+                            </div>
+                            <div class="col-lg-7 col-md-7 m-b30">
+                                <form class="inquiry-form wow fadeInUp dzForm" data-wow-delay="0.2s"
+                                    action="script/contact.php">
+                                    <div class="dzFormMsg"></div>
+                                    <h3 class="box-title m-t0 m-b10 text-center">Estamos listos para comenzar a trabajar
+                                        en su proyecto <span class="bg-primary"></span></h3>
+                                    <div class="text-center p-t20">
+                                        <a href="https://api.whatsapp.com/send?phone=573168785601"
+                                            class="site-button btn-whatsapp"><i class="fab fa-whatsapp"></i>
+                                            ¡Pregúntenos por WhatsApp!</a>
+                                        <a href="https://m.me/agenciawebbogota" class="site-button btn-messenger"><i
+                                                class="fab fa-facebook-messenger"></i> ¡Háblenos por Messenger!</a>
+                                        <p class="p-t10 font-16 text-center">Horario de Atención: Lunes a Sábado 8:00 AM
+                                            a 6:00 PM</p>
+                                    </div>
+                                    <div class="row">
+
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Get in touch -->
+            </div>
     <!-- Content END-->
         <!-- Footer -->
         @include('partials.footer')

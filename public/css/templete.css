@@ -1649,5 +1649,6 @@ svg.radial-progress:nth-of-type(6n+1) circle { stroke: #6cc000; }
 	.icono-phone{ top:75%; left:4%; font-size:30px; border:1px;}
 	.btn1{ margin-top:20px; }
 	.btn-messenger{ margin-top:20px; }
+	.perstable{ padding-bottom:0px; }
 }
 

@@ -9164,6 +9164,10 @@ ul[class*="list-"]{
 
 /*== >Pricing table  ===*/
 
+.perstable{
+    padding-bottom:250px !important;
+}
+
 .pricingtable-inner {
     text-align: center;
 }
@@ -9243,9 +9247,9 @@ ul[class*="list-"]{
 	margin-left:-1px;
 }
 .pricingtable-wrapper.style1 .pricingtable-icon i{
-	color: #000000;
-    font-size: 48px;
-    line-height: 60px;
+	color: #e94861;
+    font-size: 28px;
+    line-height: 30px;
 }
 .pricingtable-wrapper.style1 .pricingtable-price{
 	background-color:#fff;
