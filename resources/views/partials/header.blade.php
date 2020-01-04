@@ -8,7 +8,7 @@
             <div class="row d-flex justify-content-between">
                 <div class="dlab-topbar-left">
                     <ul>
-                        <li><i class="fas fa-mobile-alt m-r5"></i> 316 8785601 - 313 4934881</li>
+                        <li><i class="fas fa-mobile-alt m-r5"></i> +57 316 8785601</li>
                         <li><a href="mailto:info@agenciawebbogota.com"><i class="fas fa-at m-r5"></i>
                                 info@agenciawebbogota.com</a></li>
                     </ul>
@@ -52,10 +52,11 @@
                         <li class="active"><a href="{{url('/')}}"><i class="fas fa-home font-20"></i> Inicio</a></li>
                         <li><a>Desarrollo Web<i class="fas fa-chevron-down"></i></a>
                             <ul class="sub-menu">
-                                <li><a href="{{url('paginas-web')}}">Páginas Web </a>
-                                <li>
+                                <li><a href="{{url('paginas-web')}}">Páginas Web </a><li>
                                 <li><a href="{{url('landing-page')}}">Landing Pages </a></li>
                                 <li><a href="{{url('tiendas-online')}}">Tiendas Online </a></li>
+                                <li><a href="{{url('programacion-web')}}">Programación Web</a></li>
+                                <li><a href="{{url('sitios-web-y-tiendas-online-en-alquiler')}}">Websites en Alquiler</a></li>
                                 <li><a href="{{url('programacion-web')}}">Programación Web</a></li>
                                 <li><a href="{{url('servicios')}}">Servicios Adicionales</a></li>
                             </ul>

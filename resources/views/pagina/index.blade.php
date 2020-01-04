@@ -86,7 +86,7 @@
                                     <h2 class="text-white font-weight-600 bs"><span class="text-yellow-light">¡LO NUEVO!</span> Sitios Web en Alquiler</h2>
                                     <h4>Sitios Web y Tiendas Online Administrados y Posicionados con pago mensual sin contratos ni anticipos.</h4>
                                     <p>Nosotros nos encargamos de todo, desde el desarrollo hasta la administración y el mantenimiento. Usted solo relájese y disfrute de los resultados.</p>
-                                    <a href="paginas-web" class="site-button m-r10 primary button-lg btn1">Quiero Más Info</a>    
+                                    <a href="{{url('sitios-web-y-tiendas-online-en-alquiler')}}" class="site-button m-r10 primary button-lg btn1">Más Información</a>    
                                 </div>
                             </div>
                         </div>
