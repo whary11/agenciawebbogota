@@ -29,7 +29,7 @@ Route::get('/contacto', 'IndexController@contacto');
 Route::get('/servicios', 'IndexController@servicios');
 Route::get('/administracion-de-sitios-web', 'IndexController@administracion');
 Route::get('/enviar-un-pago', 'IndexController@pagos');
-Route::get('/websites-en-alquiler', 'IndexController@alquiler');
+Route::get('/sitios-web-y-tiendas-online-en-alquiler', 'IndexController@alquiler');
 Route::get('/confirmacion', 'IndexController@confirmacion');
 Route::get('/politicas-de-privacidad', 'IndexController@politicas');
 Route::get('/blog', 'IndexController@blog');
