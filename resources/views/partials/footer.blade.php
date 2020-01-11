@@ -23,7 +23,7 @@
                         <li class="text-none">
                             <i class="fas fa-map-marker-alt"></i>Calle 9 No. 37-30 Local 17<br>Bogotá, Colombia</li>
                             <li class="text-none">
-                                <i class="fas fa-mobile-alt"></i><strong>Celular</strong>316 8785601 - 313 4934881</li>
+                                <i class="fas fa-mobile-alt"></i><strong>Celular</strong>+57 316 8785601 - +57 313 4934881</li>
                             <li class="text-none">
                                 <i class="fas fa-mail-bulk"></i><strong>Email</strong>info@agenciawebbogota.com</li>
                         </ul>
@@ -51,7 +51,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6 text-left text-none">
-                <span class="font-12"><a href="{{url('')}}">Agencia Web Bogotá</a> Todos los derechos reservados © 2019</span>
+                <span class="font-12"><a href="{{url('')}}">Agencia Web Bogotá</a> Todos los derechos reservados © 2020</span>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 text-right text-none"> 
                     <div class="widget-link"> 

@@ -69,4 +69,7 @@ class IndexController extends Controller
     public function nuevoservicios(){
         return view('pagina.blog/nuevoservicios');
     }
+    public function websalquiler(){
+        return view('pagina.blog/websalquiler');
+    }
 }

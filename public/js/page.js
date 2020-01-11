@@ -2091,7 +2091,7 @@ __webpack_require__.r(__webpack_exports__);
 
       }, {
         titulo: 'Página Corporativa',
-        descripcion: 'Diseño Incluye consola de administración, hosting y dominio, correos corporativos* y optimización para seo',
+        descripcion: 'Diseño Incluye consola de administración, hosting y dominio, cuentas mail* y optimización para seo',
         precio: 'COP $1.250.000',
         imagen: 'images/pagina-web-corporativa.jpg',
         webp: 'images/pagina-web-corporativa.webp',

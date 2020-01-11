@@ -33,9 +33,9 @@
                                 <h5 class="widget-title style-1">Nuestros Servicios</h5>
                                 <ul>
                                     <li><a href="{{url('paginas-web')}}">Diseño Páginas Web</a></li>
-                                    <li><a href="{{url('programacion-web')}}">Programación Web</a></li>
                                     <li><a href="{{url('tiendas-online')}}">Tiendas Online</a></li>
                                     <li><a href="{{url('landing-page')}}">Landing Pages</a></li>
+                                    <li><a href="{{url('sitios-web-y-tiendas-online-en-alquiler')}}">Websites en Alquiler</a></li>
                                     <li><a href="{{url('posicionamiento-web')}}">Posicionamiento Web</a></li>
                                     <li><a href="{{url('redes-sociales')}}">Redes Sociales</a></li>
 
@@ -47,10 +47,10 @@
 							<div class="widget widget-project">
                                 <h5 class="widget-title style-1">Últimos Proyectos</h5>
                                 <div class="widget-project-box owl-none owl-loaded owl-theme owl-carousel dots-style-1 owl-dots-black-full">
-									<div class="item"><img src="{{asset('images/portafolio/jeronimos.jpg')}}" alt="Modelo de sitio web Jerónimos Cake Shop"/></div>
+                                    <div class="item"><img src="{{asset('images/portafolio/antero-german.jpg')}}" alt="Modelo de sitio web Antero Germán Ramirez"/></div>
+                                    <div class="item"><img src="{{asset('images/portafolio/jeronimos.jpg')}}" alt="Modelo de sitio web Jerónimos Cake Shop"/></div>
 									<div class="item"><img src="{{asset('images/portafolio/diocesis-valledupar.jpg')}}" alt="Modelo de sitio web Diocesis de Valledupar"/></div>
                                     <div class="item"><img src="{{asset('images/portafolio/issla-risk.jpg')}}" alt="Modelo de sitio web Issla Risk"/></div>
-                                    <div class="item"><img src="{{asset('images/portafolio/diocesis-yopal.jpg')}}" alt="Modelo de sitio web Diócesis de Yopal "/></div>
 								</div>
                             </div>                    
                         </aside>

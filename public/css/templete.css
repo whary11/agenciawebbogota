@@ -308,6 +308,12 @@
 .webp-alquiler{
 	background-image: url("/images/background/bg21.webp")
 }
+.no-webp-alquilerblog{
+	background-image: url("/images/background/bg22.jpg")
+}
+.webp-alquilerblog{
+	background-image: url("/images/background/bg22.webp")
+}
 /*==========================
 	FIN Custom css
 ==========================*/
