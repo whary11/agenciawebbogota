@@ -46,29 +46,29 @@
             <div class="container">
                     <!-- blog grid -->
                     <div class="dlab-blog-grid-3 row" id="masonry" >
-                        <div class="post card-container col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                    <div class="post card-container col-lg-4 col-md-6 col-sm-12 col-xs-12">
                             <div class="blog-post blog-grid blog-rounded blog-effect1">
-                                <div class="dlab-post-media dlab-img-effect "> <a href="{{url('blog/alarmante-aumento-en-los-costos-de-alojamiento-de-paginas-web')}}">
+                                <div class="dlab-post-media dlab-img-effect "> <a href="{{url('blog/renta-un-sitio-web-o-tienda-online')}}">
                                 <picture>
-                                    <source srcset="{{asset('images/blog/aumento-en-precios-de-hosting.webp')}}" type="image/webp">
-                                    <img src="{{asset('images/blog/aumento-en-precios-de-hosting.jpg')}}" alt="Hombre desesperado">
+                                    <source srcset="{{asset('images/blog/sitios-web-en-alquiler.webp')}}" type="image/webp">
+                                    <img src="{{asset('images/blog/sitios-web-en-alquiler.jpg')}}" alt="Hombre de negocios usando dispositivos de tecnología e íconos de interfaz">
                                 </picture> </a> </div>
                                 <div class="dlab-info p-a20 border-1">
                                     <div class="dlab-post-title ">
-                                        <h4 class="post-title"><a href="{{url('blog/alarmante-aumento-en-los-costos-de-alojamiento-de-paginas-web')}}">Alarmante aumento en los costos de alojamiento de paginas web</a></h4>
+                                        <h4 class="post-title"><a href="{{url('blog/renta-un-sitio-web-o-tienda-online')}}">Este 2020 venimos a solucionarlo todo, sitios web y tiendas en alquiler</a></h4>
                                     </div>                                    
                                     <div class="dlab-post-text">
-                                       <p>Las nuevas políticas de licencia de cPanel podrían causar que los costos de alojamiento de páginas web suban hasta en un 2000% ¿Qué alternativas existen?</p>
+                                       <p>Rentar un sitio web o tienda online con todos los servicios administrativos incluidos, se perfila como la gran solución al problema de la improductividad.</p>
                                     </div>
                                    <div class="dlab-post-readmore blog-share"> 
-										<a href="{{url('blog/alarmante-aumento-en-los-costos-de-alojamiento-de-paginas-web')}}" title="READ MORE" rel="bookmark" class="site-button outline outline-1">IR AL ARTÍCULO
+										<a href="{{url('blog/renta-un-sitio-web-o-tienda-online')}}" title="READ MORE" rel="bookmark" class="site-button outline outline-1">IR AL ARTÍCULO
                                         <i class="fas fa-arrow-right"></i>
 										</a>
 										<div class="share-btn">
 											<ul class="clearfix">
-                                            <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//agenciawebbogota.com/blog/alarmante-aumento-en-los-costos-de-alojamiento-de-paginas-web" title="Facebook" target="_blank" class="site-button sharp"><i class="fab fa-facebook-f"></i></a></li>
-												<li><a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//agenciawebbogota.com/blog/alarmante-aumento-en-los-costos-de-alojamiento-de-paginas-web&title=Alarmante%20aumento%20en%20los%20costos%20de%20alojamiento%20de%20paginas%20web&summary=&source=" title="Linkedin" target="_blank" class="site-button sharp"><i class="fab fa-linkedin-in"></i></a></li>
-												<li><a href="https://twitter.com/intent/tweet?text=http%3A//agenciawebbogota.com/blog/alarmante-aumento-en-los-costos-de-alojamiento-de-paginas-web" title="Twitter" target="_blank" class="site-button sharp"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//agenciawebbogota.com/blog/nuevas-funciones-para-mejorar-el-rendimiento-de-su-sitio-web" title="Facebook" target="_blank" class="site-button sharp"><i class="fab fa-facebook-f"></i></a></li>
+												<li><a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//agenciawebbogota.com/blog/nuevas-funciones-para-mejorar-el-rendimiento-de-su-sitio-web&title=nuevas%20funciones%20para%20mejorar%20el%20rendimiento%20de%20su%20sitio%20web&summary=&source=" title="Linkedin" target="_blank" class="site-button sharp"><i class="fab fa-linkedin-in"></i></a></li>
+												<li><a href="https://twitter.com/intent/tweet?text=http%3A//agenciawebbogota.com/blog/nuevas-funciones-para-mejorar-el-rendimiento-de-su-sitio-web" title="Twitter" target="_blank" class="site-button sharp"><i class="fab fa-twitter"></i></a></li>
 												<li class="share-button"><a class="site-button sharp"><i class="fa fa-share-alt"></i></a></li>
 											</ul>
 										</div>
@@ -108,6 +108,37 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="post card-container col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                            <div class="blog-post blog-grid blog-rounded blog-effect1">
+                                <div class="dlab-post-media dlab-img-effect "> <a href="{{url('blog/alarmante-aumento-en-los-costos-de-alojamiento-de-paginas-web')}}">
+                                <picture>
+                                    <source srcset="{{asset('images/blog/aumento-en-precios-de-hosting.webp')}}" type="image/webp">
+                                    <img src="{{asset('images/blog/aumento-en-precios-de-hosting.jpg')}}" alt="Hombre desesperado">
+                                </picture> </a> </div>
+                                <div class="dlab-info p-a20 border-1">
+                                    <div class="dlab-post-title ">
+                                        <h4 class="post-title"><a href="{{url('blog/alarmante-aumento-en-los-costos-de-alojamiento-de-paginas-web')}}">Alarmante aumento en los costos de alojamiento de paginas web</a></h4>
+                                    </div>                                    
+                                    <div class="dlab-post-text">
+                                       <p>Las nuevas políticas de licencia de cPanel podrían causar que los costos de alojamiento de páginas web suban hasta en un 2000% ¿Qué alternativas existen?</p>
+                                    </div>
+                                   <div class="dlab-post-readmore blog-share"> 
+										<a href="{{url('blog/alarmante-aumento-en-los-costos-de-alojamiento-de-paginas-web')}}" title="READ MORE" rel="bookmark" class="site-button outline outline-1">IR AL ARTÍCULO
+                                        <i class="fas fa-arrow-right"></i>
+										</a>
+										<div class="share-btn">
+											<ul class="clearfix">
+                                            <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//agenciawebbogota.com/blog/alarmante-aumento-en-los-costos-de-alojamiento-de-paginas-web" title="Facebook" target="_blank" class="site-button sharp"><i class="fab fa-facebook-f"></i></a></li>
+												<li><a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//agenciawebbogota.com/blog/alarmante-aumento-en-los-costos-de-alojamiento-de-paginas-web&title=Alarmante%20aumento%20en%20los%20costos%20de%20alojamiento%20de%20paginas%20web&summary=&source=" title="Linkedin" target="_blank" class="site-button sharp"><i class="fab fa-linkedin-in"></i></a></li>
+												<li><a href="https://twitter.com/intent/tweet?text=http%3A//agenciawebbogota.com/blog/alarmante-aumento-en-los-costos-de-alojamiento-de-paginas-web" title="Twitter" target="_blank" class="site-button sharp"><i class="fab fa-twitter"></i></a></li>
+												<li class="share-button"><a class="site-button sharp"><i class="fa fa-share-alt"></i></a></li>
+											</ul>
+										</div>
+									</div>
+                                    
+                                </div>
+                            </div>
+                        </div>                        
                     </div>
                     <!-- blog grid END -->
                     <!-- Pagination -->

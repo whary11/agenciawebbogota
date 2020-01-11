@@ -721,6 +721,86 @@
                     </div>
                 </div>
                 <!-- Clients Words END -->
+                <div class="section-full content-inner bg-img-fix" style="background-image:url(images/background/bg14.jpg);">
+				<div class="container">
+					 <div class="row">
+						<div class="col-md-12 text-center section-head">
+							<h2 class="font-weight-700 m-b0">Nuestro Blog</h2>
+							<p class="m-b0">Novedades, Tendencias, Oportunidades</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="blog-carousel owl-carousel owl-btn-center-lr owl-btn-3 owl-theme owl-btn-center-lr owl-btn-1">
+								<div class="item">
+									<div class="blog-post blog-grid blog-rounded blog-effect1">
+                                        <div class="dlab-post-media dlab-img-effect "> <a href="{{url('blog/renta-un-sitio-web-o-tienda-online')}}">
+                                          <picture>
+                                            <source srcset="{{asset('images/blog/sitios-web-en-alquiler.webp')}}" type="image/webp">
+                                            <img src="{{asset('images/blog/sitios-web-en-alquiler.jpg')}}" alt="Mujer feliz por rentar un sitio web">
+                                          </picture> </a> </div>
+										<div class="dlab-info p-a20 border-1">
+											<div class="dlab-post-title ">
+												<h5 class="post-title font-weight-500"><a href="{{url('blog/renta-un-sitio-web-o-tienda-online')}}">Este 2020 venimos a solucionarlo todo, websites en alquiler</a></h5>
+											</div>											
+											<div class="dlab-post-text">
+											   <p>Rentar un sitio web o tienda online con todos los servicios administrativos incluidos, se perfila como la gran solución al problema de la improductividad...</p>
+											</div>
+										   <div class="dlab-post-readmore"> 
+												<a href="{{url('blog/renta-un-sitio-web-o-tienda-online')}}" title="READ MORE" rel="bookmark" class="site-button outline outline-1">IR ARTÍCULO <i class="ti-arrow-right"></i></a> 
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="blog-post blog-grid blog-rounded blog-effect1">
+                                        <div class="dlab-post-media dlab-img-effect "> <a href="{{url('blog/nuevas-funciones-para-mejorar-el-rendimiento-de-su-sitio-web')}}">
+                                        <picture>
+                                            <source srcset="{{asset('images/blog/funciones-sitio-web.webp')}}" type="image/webp">
+                                            <img src="{{asset('images/blog/funciones-sitio-web.jpg')}}" alt="Hombre de negocios usando dispositivos de tecnología e íconos de interfaz">
+                                        </picture> </a>
+                                        </div>
+										<div class="dlab-info p-a20 border-1">
+											<div class="dlab-post-title ">
+												<h5 class="post-title font-weight-500"><a href="{{url('blog/nuevas-funciones-para-mejorar-el-rendimiento-de-su-sitio-web')}}">Nuevas funciones para mejorar el rendimiento de su sitio web</a></h5>
+											</div>											
+											<div class="dlab-post-text">
+											   <p>Conozca las nuevas herramientas y funcionalidades que podemos  integrar en su sitio web para potenciar aún más su presencia en Internet...</p>
+											</div>
+										   <div class="dlab-post-readmore"> 
+												<a href="{{url('blog/nuevas-funciones-para-mejorar-el-rendimiento-de-su-sitio-web')}}" title="READ MORE" rel="bookmark" class="site-button outline outline-1">IR AL ARTÍCULO <i class="ti-arrow-right"></i></a> 
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="blog-post blog-grid blog-rounded blog-effect1">
+                                        <div class="dlab-post-media dlab-img-effect "> <a href="{{url('blog/alarmante-aumento-en-los-costos-de-alojamiento-de-paginas-web')}}">
+                                        <picture>
+                                            <source srcset="{{asset('images/blog/aumento-en-precios-de-hosting.webp')}}" type="image/webp">
+                                            <img src="{{asset('images/blog/aumento-en-precios-de-hosting.jpg')}}" alt="Hombre desesperado">
+                                        </picture> </a>
+                                        </div>
+										<div class="dlab-info p-a20 border-1">
+											<div class="dlab-post-title ">
+												<h5 class="post-title font-weight-500"><a href="{{url('blog/alarmante-aumento-en-los-costos-de-alojamiento-de-paginas-web')}}">Alarmante aumento en los costos de alojamiento de paginas web</a></h5>
+											</div>											
+											<div class="dlab-post-text">
+											   <p>Las nuevas políticas de licencia de cPanel podrían causar que los costos de alojamiento de páginas web suban hasta en un 2000% ¿Qué alternativas existen?..</p>
+											</div>
+										   <div class="dlab-post-readmore"> 
+												<a href="{{url('blog/alarmante-aumento-en-los-costos-de-alojamiento-de-paginas-web')}}" title="READ MORE" rel="bookmark" class="site-button outline outline-1">IR AL ARTÍCULO <i class="ti-arrow-right"></i></a> 
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
                 <!-- Get in touch -->
                 <div class="section-full overlay-primary-dark bg-img-fix bg-azul-oscuro-agencia">
                     <div class="container">
