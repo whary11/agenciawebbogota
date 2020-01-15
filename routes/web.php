@@ -21,7 +21,6 @@ Route::get('/paginas-web', 'IndexController@paginaWeb');
 Route::get('/landing-page', 'IndexController@landing');
 Route::get('/tiendas-online', 'IndexController@tiendaOnline');
 Route::get('/programacion-web', 'IndexController@programacionWeb');
-Route::get('/google-apps', 'IndexController@googleApps');
 Route::get('/redes-sociales', 'IndexController@redesSociales');
 Route::get('/posicionamiento-web', 'IndexController@posicionamientoWeb');
 Route::get('/blog', 'IndexController@blog');
