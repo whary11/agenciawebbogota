@@ -74,7 +74,7 @@
 									<div class="icon-content">
 										<h5 class="dlab-tilte">
 											<span class="icon-sm text-primary text-left"><i class="ti-mobile"></i></span> 
-											Números de Contaco
+											Números de Contacto
 										</h5>
 										<p>316 8785601 - 313 4934881</p>
 									</div>
