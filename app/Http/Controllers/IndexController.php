@@ -24,11 +24,7 @@ class IndexController extends Controller
 
     public function programacionWeb(){
         return view('pagina.programacion-web');
-<<<<<<< HEAD
     }  
-=======
-    }
->>>>>>> fb3e5896560cd08f5d751c941f711e130a004afc
     public function redesSociales(){
         return view('pagina.redes-sociales');
     }
