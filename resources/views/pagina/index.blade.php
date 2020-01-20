@@ -66,6 +66,7 @@
     <div class="tooltip-whatsapp" id="tp-whp"><span>¡Estamos en línea!</span></div>
     <div class="tooltip-messenger" id="tp-mes"><span>Háblenos por Messenger</span></div>
     <div class="tooltip-phone" id="tp-pho"><span>Llámenos</span></div>
+    
 
         {{-- END Header --}}
         <!-- Content -->
@@ -867,6 +868,11 @@
     <script src="{{asset('plugins/loading/anime-app3.js')}}"></script><!-- Tilt Jquery --> --}}
     <script src="{{asset('js/dz.ajax.js')}} "></script><!-- CONTACT JS  -->
     @include('partials.schema')
+    <script>
+        $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
 </body>
 
 </html>

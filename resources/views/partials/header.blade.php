@@ -18,6 +18,7 @@
                         <li><a href="{{url('servicios')}}"><i class="fas fa-dollar-sign m-r5"></i>
                                 Tarifas Servicios</a></li>
                         <li><a href="{{url('enviar-un-pago')}}"><i class="far fa-credit-card"></i> Enviar un Pago</a></li>
+
                     </ul>
                 </div>
             </div>
@@ -80,6 +81,9 @@
 
                             </ul>
                         </li>
+                        <li><a href="{{url('https://en.agenciawebbogota.com')}}" data-toggle="tooltip" data-placement="bottom" title="Versión Inglés">
+                        <img src="{{asset('images/usa-flag.jpg')}}" alt="EEUU Bandera"></a></li>
+
                         </li>
                         </li>
                     </ul>
