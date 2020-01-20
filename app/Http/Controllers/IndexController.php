@@ -24,12 +24,7 @@ class IndexController extends Controller
 
     public function programacionWeb(){
         return view('pagina.programacion-web');
-    }
-    public function googleApps(){
-        // return User::all();
-        return view('pagina.googleapps');
-    }
-
+    }  
     public function redesSociales(){
         return view('pagina.redes-sociales');
     }
