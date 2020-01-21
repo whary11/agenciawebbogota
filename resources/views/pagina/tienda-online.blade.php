@@ -60,7 +60,7 @@
             <div class="container">
                 <div class="dlab-bnr-inr-entry texto-ini">
 					<h1 class="text-white">Tiendas Online</h1>
-					<h2 class="text-white">Comience a Vender Online con Inversión Cero</h2>					
+					<h2 class="text-white">Websites para comercio electrónico</h2>					
                 </div>
             </div>
         </div>
@@ -71,45 +71,45 @@
                 <div class="container">
 					<div class="section-head text-black text-center">
 						<h4 class="text-gray-dark m-b10">E-COMMERCE</h4>
-						<h2 class="box-title m-tb0">Usted ocúpese solo de mantener su inventario</h2>
-						<p class="font-weight-600">Nosotros diseñamos, posicionamos y administramos por usted su Tienda en Línea</p>
+						<h2 class="box-title m-tb0">Tiendas Online 100% Automatizadas</h2>
+						<p class="font-weight-600">Desarrollamos sitios web para comercio electrónico con todos los componentes necesarios para garantizar un crecimiento rápido de su negocio</p>
 					</div>
 				</div>
 				<div class="container">
 					 <div class="row ">
 						<div class="col-md-4 col-sm-6 m-b30 wow zoomIn" data-wow-delay="0.2s">
 							<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-								<div class="icon-lg m-b20"> <i class="fas fa-file-invoice-dollar text-blue"></i> </div>
+								<div class="icon-lg m-b20"> <i class="fas fa-laptop-code text-blue"></i> </div>
 								<div class="icon-content">
-									<h5 class="dlab-tilte text-uppercase">Sin Anticipos Ni Contratos</h5>
-									<p>Empiece a vender online con inversión cero, pague mensualmente y cancele cuando quiera</p>
+									<h5 class="dlab-tilte text-uppercase">Tiendas Administrables</h5>
+									<p>Plataformas sencillas, intuitivas, automatizadas y de fácil manejo, con soporte para varios administradores</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6 m-b30 wow zoomIn" data-wow-delay="0.4s">
 							<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-								<div class="icon-lg m-b20"> <i class="fas fa-store text-blue"></i></div>
+								<div class="icon-lg m-b20"> <i class="fas fa-boxes text-blue"></i></div>
 								<div class="icon-content">
-									<h5 class="dlab-tilte text-uppercase">Vendemos Por Usted</h5>
-									<p>Desde el desarrollo inicial hasta la administración, todo correrá por nuestra cuenta</p>
+									<h5 class="dlab-tilte text-uppercase">Sistemas de Inventario</h5>
+									<p>Lleve el control del stock de su tienda, defina la disponibilidad y reciba notificaciones de existencias</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6 m-b30 wow zoomIn" data-wow-delay="0.6s">
 							<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-								<div class="icon-lg m-b20"> <i class="far fa-smile-wink text-blue"></i> </div>
+								<div class="icon-lg m-b20"> <i class="fas fa-cart-plus text-blue"></i> </div>
 								<div class="icon-content">
-									<h5 class="dlab-tilte text-uppercase">Sin Preocupaciones</h5>
-									<p>No tiene nada que perder, ni de que preocuparse; lo hacemos absolutamente todo por usted</p>
+									<h5 class="dlab-tilte text-uppercase">Carrito de Compras</h5>
+									<p>Agregue la función carrito de compras con múltiples opciones dependiendo del comportamiento del usuario</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6 m-b30 wow zoomIn" data-wow-delay="0.2s">
 							<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-								<div class="icon-lg m-b20"><i class="fab fa-black-tie text-blue"></i> </div>
+								<div class="icon-lg m-b20"><i class="fas fa-file-invoice-dollar text-blue"></i> </div>
 								<div class="icon-content">
-									<h5 class="dlab-tilte text-uppercase">En las manos correctas</h5>
-									<p>Su tienda virtual será diseñada y administrada por profesionales en diferentes plataformas</p>
+									<h5 class="dlab-tilte text-uppercase">Pasarelas de Pago</h5>
+									<p>Enlazamos su tienda con las mejores y más seguras pasarelas de pago: PayU, ePayco, Mercadopago, entre otras</p>
 								</div>
 							</div>
 						</div>
@@ -118,16 +118,16 @@
 								<div class="icon-lg m-b20"><i class="fab fa-searchengin text-blue"></i></div>
 								<div class="icon-content">
 									<h5 class="dlab-tilte text-uppercase">Con Posicionamiento</h5>
-									<p>Posicionamos su marca y sus productos, aumentando exponencialmente sus ventas</p>
+									<p>Hacemos que los productos de su tienda aparezcan de primeros en los resultados de búsqueda de Google</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6 m-b30 wow zoomIn" data-wow-delay="0.6s">
 							<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-								<div class="icon-lg m-b20"><i class="fas fa-bell text-blue"></i></div>
+								<div class="icon-lg m-b20"><i class="fas fa-shipping-fast text-blue"></i></div>
 								<div class="icon-content">
-									<h5 class="dlab-tilte text-uppercase">Notificaciones Permanentes</h5>
-									<p>Enviamos notificaciones inmediatas sobre pedidos, inventario, preguntas y todo sobre su tienda</p>
+									<h5 class="dlab-tilte text-uppercase">Sistemas de Envío</h5>
+									<p>Conecte con transportadoras o defina los parámetros de envío según la ubicación de sus compradores</p>
 								</div>
 							</div>
 						</div>
@@ -183,7 +183,7 @@
 						<div class="col-lg-12">
 							<div class="section-head text-center">
 								<h2 class="box-title m-tb0">Nuestros Planes</h2>
-								<p class="font-weight-600">Todas nuestras tiendas incluyen alojamiento en Hosting Privado Vitual (VPS), Dominio, Certificado de Seguridad y Cuentas de Correo Electrónico </p>
+								<p class="font-weight-600">Tenemos el sitio web para comercio electrónico hecho a la medida de su negocio</p>
 							</div>
 							<!-- Pricing table-1 Columns 3 with gap -->
 							<div class="section-content box-sort-in button-example">
@@ -195,14 +195,14 @@
 													<div class="pricingtable-price"> 
 														<div class="pricingtable-icon"><i class="flaticon-rocket-ship"></i></div>
 														<h4 class="font-weight-300 m-t10 m-b0">Tienda Startup</h4>
-														<span class="pricingtable-bx text-primary">COP $50.000/Mes</span>
+														<span class="pricingtable-bx text-primary">COP $850.000</span>
 													</div>
 													<ul class="pricingtable-features">
-														<li class="text-center"> Capacidad 20 Productos</li>
-														<li class="text-center"> 5 Imágenes por producto</li>
-														<li class="text-center"> 5 Variaciones por producto</li>
-														<li class="text-center"> XXXXXXXXXXXXXX</li>
-														<li class="text-center"> XXXXXXXXXXXXXX</li>
+														<li><i class="fa fa-check text-primary"></i> WordPress</li>
+														<li><i class="fa fa-check text-primary"></i> Hasta 20 productos</li>
+														<li><i class="fa fa-check text-primary"></i> Hosting y dominio</li>
+														<li><i class="fa fa-check text-primary"></i> Sistema de inventario</li>
+														<li><i class="fa fa-check text-primary"></i> Variaciones de producto</li>
 													</ul>
 													<div class="m-t20"> 
 														<a href="contacto" class="site-button outline outline-2 button-md">Contratar</a> 
@@ -215,15 +215,15 @@
 												<div class="pricingtable-inner">
 													<div class="pricingtable-price"> 
 														<div class="pricingtable-icon"><i class="flaticon-shop"></i></div>
-														<h4 class="font-weight-300 m-t10 m-b0">Tienda Profesional</h4>
-														<span class="pricingtable-bx text-primary">COP $00.000/Mes</span>
+														<h4 class="font-weight-300 m-t10 m-b0">Tienda Shopify</h4>
+														<span class="pricingtable-bx text-primary">COP $1.800.000</span>
 													</div>
 													<ul class="pricingtable-features">
-														<li class="text-center"> Capacidad 50 Productos </li>
-														<li class="text-center"> 6 Imágenes por producto</li>
-														<li class="text-center"> 10 Variaciones por producto</li>
-														<li class="text-center"> SEO de Productos</li>
-														<li class="text-center"> XXXXXXXXXXXXXXXXXXX</li>
+														<li><i class="fa fa-check text-primary"></i> Tema Premium </li>
+														<li><i class="fa fa-check text-primary"></i> Productos Ilimitados</li>
+														<li><i class="fa fa-check text-primary"></i> App Móvil</li>
+														<li><i class="fa fa-check text-primary"></i> 100% Administrable</li>
+														<li><i class="fa fa-check text-primary"></i> Posicionamiento SEO</li>
 													</ul>
 													<div class="m-t20 m-b5"> 
 														<a href="contacto" class="site-button button-md">Contratar</a> 
@@ -236,15 +236,15 @@
 												<div class="pricingtable-inner">
 													<div class="pricingtable-price"> 
 														<div class="pricingtable-icon"><i class="flaticon-bar-chart"></i></div>
-														<h4 class="font-weight-300 m-t10 m-b0">Tienda Max</h4>
-														<span class="pricingtable-bx text-primary">COP $000.000/Mes</span>
+														<h4 class="font-weight-300 m-t10 m-b0">Tienda Woocommerce</h4>
+														<span class="pricingtable-bx text-primary">COP $2.100.000</span>
 													</div>
 													<ul class="pricingtable-features">
 														<li><i class="fa fa-check text-primary"></i> Productos ilimitados </li>
-														<li><i class="fa fa-check text-primary"></i> Variaciones Ilimitadas</li>
-														<li><i class="fa fa-check text-primary"></i> Imágenes Ilimitadas</li>
-														<li><i class="fa fa-check text-primary"></i> SEO de Productos</li>
-														<li><i class="fa fa-check text-primary"></i> Publicación en Redes Sociales</li>
+														<li><i class="fa fa-check text-primary"></i> Registro de usuarios</li>
+														<li><i class="fa fa-check text-primary"></i> Consola administrativa</li>
+														<li><i class="fa fa-check text-primary"></i> Envíos e inventarios</li>
+														<li><i class="fa fa-check text-primary"></i> SEO avanzado</li>
 													</ul>
 													<div class="m-t20"> 
 														<a href="contacto" class="site-button outline outline-2 button-md">Contratar</a> 
@@ -259,7 +259,6 @@
 					</div>
 				</div>
 			</div>
-			
 			
 			<div class="section-full overlay-primary-dark bg-img-fix bg-azul-oscuro-agencia m-t60">
 				<div class="container">
