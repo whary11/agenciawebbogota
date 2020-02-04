@@ -61,7 +61,7 @@
             <div class="container">
             <div class="dlab-bnr-inr-entry texto-ini">
 					<h1 class="text-white">Sitios Web y Tiendas Online en Alquiler</h1>
-					<h2 class="text-white">Comience a Generar Tráfico y Ventas con  Cero Inversión</h2>					
+					<h2 class="text-white">Pague solo por lo que necesite, cancele cuando quiera</h2>					
                 </div>
             </div>
         </div>
