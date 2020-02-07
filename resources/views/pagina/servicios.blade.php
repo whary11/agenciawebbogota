@@ -1,17 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="Robots" content="index, follow">
-    <title>Agencia Web Bogotá - Diseño de Páginas Web y Marketing Digital en Bogotá</title>
-    <meta name="description"
-        content="Agencia Web Bogotá creamos diseños, publicidad y contenidos optimizados con Neuromarketing. Líderes en Diseño de Páginas Web y Marketing Digital en Bogotá" />
-    <meta name="keywords"
-        content="agencia web bogota, diseño web bogota, diseño de paginas web Bogota, páginas web corporativas,  diseño de paginas web, diseño paginas web economicas, diseño web optimizado, neuromarketing">
-    <meta name="author" content="Agencia Web Bogotá">
-    <meta name="format-detection" content="telephone=no">
+    <title>Nuestros Servicios: Diseño Web, Branding y Marketing Digital</title>
+    <meta name="description" content="Conozca los precios de los servicios fijos y adicionales. Complementos, desarrollos, herramientas, diseños y funciones adicionales para su sitio web." />
+	<meta name="author" content="Agencia Web Bogota">
+	<meta property="og:type" content="service" />
+    <meta property="og:site_name " content="Agencia Web Bogota" />
+    <meta property="og:title" content="Nuestros Servicios: Diseño Web, Branding y Marketing Digital" />
+    <meta property="og:url" content="https://agenciawebbogota.com/servicios" />
+    <meta property="og:image" content="https://agenciawebbogota.com/images/background/bg10.jpg" />
+    <meta property="og:description" content="Conozca los precios de los servicios fijos y adicionales. Complementos, desarrollos, herramientas, diseños y funciones adicionales para su sitio web." />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@AgenciaBogota">
+    <meta name="twitter:creator" content="@AgenciaBogota">
+    <meta name="twitter:image" content="https://agenciawebbogota.com/images/background/bg10.jpg">
+    <meta name="twitter:image:alt" content="Diferentes iconos de diseño web que salen de una laptop">
+    <meta name="twitter:title" content="Nuestros Servicios: Diseño Web, Branding y Marketing Digital">
+    <meta name="twitter:description" content="Conozca los precios de los servicios fijos y adicionales. Complementos, desarrollos, herramientas, diseños y funciones adicionales para su sitio web.">
+	<link rel="canonical" href="https://agenciawebbogota.com/servicios" />
+	<link rel="alternate" hreflang="en-EN" href="https://www.en.agenciawebbogota.com/services"/>
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
 
@@ -27,12 +36,19 @@
     <link class="skin" rel="stylesheet" type="text/css" href="{{asset('css/skin-1.css')}}">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-
+	@include('partials.analytics')
 </head>
-	<body id="bg">
+<body id="bg">
 	<div class="page-wraper">
 		<!-- header -->
 		@include('partials.header')
+		<div class="icono-whatsapp" id="btn-whp"><a href="https://api.whatsapp.com/send?phone=573168785601"><i class="fab fa-whatsapp"></i></a></div>
+		<div class="icono-messenger" id="btn-mes"><a href="https://m.me/agenciawebbogota"><i class="fab fa-facebook-messenger"></i></a></div>
+		<div class="icono-phone" id="btn-pho"><a href="tel:+573168785601"><i class="fas fa-phone-volume"></i></a></div>
+		<div class="tooltip-whatsapp" id="tp-whp"><span>¡Estamos en línea!</span></div>
+		<div class="tooltip-messenger" id="tp-mes"><span>Háblenos por Messenger</span></div>
+		<div class="tooltip-phone" id="tp-pho"><span>Llámenos</span></div>
+
 		<!-- header END -->  
 		<!-- Content -->
     <div class="page-content bg-white">
@@ -41,7 +57,7 @@
                 <div class="container">
                     <div class="dlab-bnr-inr-entry texto-ini">
                         <h1 class="text-white">Nuestros Servicios</h1>
-                        <h2 class="text-white">Buscamos competir en el mercado, buscamos innovar con productos y servicios de alta calidad</h2>
+                        <h2 class="text-white">No buscamos competir en el mercado, buscamos innovar con productos y servicios de alta calidad</h2>
                     </div>
                 </div>
         </div>
@@ -91,8 +107,8 @@
 							<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
 								<div class="icon-lg m-b20"> <a href="google-apps" class="icon-cell"><i class="flaticon-team"></i></a> </div>
 								<div class="icon-content">
-									<h5 class="dlab-tilte text-uppercase"><a href="{{url('/')}}">Soluciones en Google Apps</a></h5>
-									<p>Integramos estas herramientas gratuitas con a sus procesos y capacitamos a su equipo</p>
+									<h5 class="dlab-tilte text-uppercase"><a href="{{url('/')}}">Soluciones en Redes Sociales</a></h5>
+									<p>Creamos y gestionamos sus campañas de redes sociales, asegurando resultados positivos</p>
 								</div>
 							</div>
 						</div>
@@ -290,7 +306,7 @@
 					<div class="col-lg-4 col-md-4 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.6s">
 						<div class="icon-bx-wraper bx-style-1 p-a30 center fly-box-ho">
 							<div class="icon-content">
-								<h5 class="dlab-tilte text-uppercase">Lenaguaje Adicional</h5>
+								<h5 class="dlab-tilte text-uppercase">Lenguaje Adicional</h5>
 								<p>Un clon de su tienda online en otro lenguaje, con selector desplegable en cualquier parte del sitio</p>
 								<span class="text-pink font-weight-600">COP $780.000</span>
 							</div>
@@ -438,5 +454,11 @@
 <script src="plugins/loading/anime.js"></script><!-- LOADING JS -->
 <script src="plugins/loading/anime-app3.js"></script><!-- LOADING JS -->
 <script src="js/dz.ajax.js"></script><!-- CONTACT JS  -->
+@include('partials.schema')
+    <script>
+        $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
 </body>
 </html>

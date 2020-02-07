@@ -1,28 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <meta name="keywords" content="" />
-    <meta name="author" content="" />
-    <meta name="robots" content="" />
-    <meta name="description" content="Agency - Business And Agency Template" />
-    <meta property="og:title" content="Landing Pages Agencia Web Bogotá" />
-    <meta property="og:description" content="Agency : Business And Agency Template" />
-    <meta property="og:image" content="dhakdhakindia.com/product/agency/" />
-    <meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Robots" content="index, follow">
+    <title>Landing Pages efectivas para sus campañas publicitarias</title>
+    <meta name="description" content="Increíbles Landing Pages en Wordpress o HTML para sus campañas publicitarias con hosting indefinido por solo $280.000 Integradas a bases de datos o CRM" />
+	<meta name="author" content="Agencia Web Bogota">
+	<meta property="og:type" content="service" />
+    <meta property="og:site_name " content="Agencia Web Bogota" />
+    <meta property="og:title" content="Landing Pages efectivas para sus campañas publicitarias" />
+    <meta property="og:url" content="https://agenciawebbogota.com/landing-pages" />
+    <meta property="og:image" content="https://agenciawebbogota.com/images/background/ejemplos-de-landing-pages.jpg" />
+    <meta property="og:description" content="Increíbles Landing Pages en Wordpress o HTML para sus campañas publicitarias con hosting indefinido por solo $280.000 Integradas a bases de datos o CRM" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@AgenciaBogota">
+    <meta name="twitter:creator" content="@AgenciaBogota">
+    <meta name="twitter:image" content="https://agenciawebbogota.com/images/background/ejemplos-de-landing-pages.jpg">
+    <meta name="twitter:image:alt" content="Propietario del negocio de embalaje de productos vendidos en línea">
+    <meta name="twitter:title" content="Landing Pages efectivas para sus campañas publicitarias">
+    <meta name="twitter:description" content="Increíbles Landing Pages en Wordpress o HTML para sus campañas publicitarias con hosting indefinido por solo $280.000 Integradas a bases de datos o CRM">
+	<link rel="canonical" href="https://agenciawebbogota.com/landing-pages" />
+	<link rel="alternate" hreflang="en-EN" href="https://en.agenciawebbogota.com/landing-pages"/>
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- FAVICONS ICON -->
     <link rel="icon" href="{{asset('images/favicon.ico')}}" type="image/x-icon" />
     <link rel="shortcut icon" type="image/x-icon" href="{{asset('images/favicon.png')}}" />
-
-    <!-- PAGE TITLE HERE -->
-    <title>Landing Pages - Páginas de Destino</title>
-
-    <!-- MOBILE SPECIFIC -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="images/apple-icon-touch.png">
 
     <!-- STYLESHEETS -->
     <link rel="stylesheet" type="text/css" href="{{asset('css/plugins.css')}}">
@@ -31,7 +36,7 @@
     <link class="skin" rel="stylesheet" type="text/css" href="{{asset('css/skin-1.css')}}">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-
+	@include('partials.analytics')
 </head>
 
 <body id="bg">
@@ -39,8 +44,13 @@
 
 
         <!-- header -->
-        <!-- header -->
         @include('partials.header')
+        <div class="icono-whatsapp" id="btn-whp"><a href="https://api.whatsapp.com/send?phone=573168785601"><i class="fab fa-whatsapp"></i></a></div>
+		<div class="icono-messenger" id="btn-mes"><a href="https://m.me/agenciawebbogota"><i class="fab fa-facebook-messenger"></i></a></div>
+		<div class="icono-phone" id="btn-pho"><a href="tel:+573168785601"><i class="fas fa-phone-volume"></i></a></div>
+		<div class="tooltip-whatsapp" id="tp-whp"><span>¡Estamos en línea!</span></div>
+		<div class="tooltip-messenger" id="tp-mes"><span>Háblenos por Messenger</span></div>
+		<div class="tooltip-phone" id="tp-pho"><span>Llámenos</span></div>
         <!-- header END -->
         <!-- Content -->
         <div class="page-content bg-white">
@@ -277,7 +287,12 @@
     <script src="{{asset('plugins/loading/anime-app3.js')}}"></script><!-- LOADING JS -->
     <script src='https://www.google.com/recaptcha/api.js'></script> <!-- Google API For Recaptcha  -->
     <script src="{{asset('js/dz.ajax.js')}}"></script><!-- CONTACT JS  -->
-
+    @include('partials.schema')
+    <script>
+        $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
 </body>
 
 </html>

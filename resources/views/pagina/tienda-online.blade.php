@@ -22,7 +22,7 @@
     <meta name="twitter:title" content="Diseño de Tiendas Online">
     <meta name="twitter:description" content="Tiendas Online Automatizadas. Sitios web para comercio electrónico con todos los componentes necesarios para un crecimiento rápido de su negocio en línea.">
 	<link rel="canonical" href="https://agenciawebbogota.com/tiendas-online" />
-    <meta name="format-detection" content="telephone=no">
+    <link rel="alternate" hreflang="en-EN" href="https://es.agenciawebbogota.com/e-commerce" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- FAVICONS ICON -->
@@ -314,5 +314,10 @@
 <script src='https://www.google.com/recaptcha/api.js'></script> <!-- Google API For Recaptcha  -->
 <script src="{{asset('js/dz.ajax.js')}}"></script><!-- CONTACT JS  -->
 @include('partials.schema')
+<script>
+        $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+        })
+</script>
 </body>
 </html>

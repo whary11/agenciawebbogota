@@ -1,34 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="keywords" content="" />
-	<meta name="author" content="" />
-	<meta name="robots" content="" />
-		<meta name="description" content="Agency - Business And Agency Template" />
-	<meta property="og:title" content="Agency : Business And Agency Template" />
-	<meta property="og:description" content="Agency : Business And Agency Template" />
-	<meta property="og:image" content="dhakdhakindia.com/product/agency/" />
-	<meta name="format-detection" content="telephone=no">
-	
-	<!-- FAVICONS ICON -->
-	<link rel="icon" href="{{asset('images/favicon.ico')}}" type="image/x-icon" />
-	<link rel="shortcut icon" type="image/x-icon" href="{{asset('images/favicon.png')}}" />
-	
-	<!-- PAGE TITLE HERE -->
-	<title>Programación Web</title>
-	
-	<!-- MOBILE SPECIFIC -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-		
-	<!-- STYLESHEETS -->
-	<link rel="stylesheet" type="text/css" href="{{asset('css/plugins.css')}}">
-	<link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}">
-	<link rel="stylesheet" type="text/css" href="{{asset('css/templete.css')}}">
-	<link class="skin" rel="stylesheet" type="text/css" href="{{asset('css/skin-1.css')}}">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Robots" content="index, follow">
+    <title>Desarrollamos Aplicativos Web a Medida y Apps Móviles</title>
+    <meta name="description" content="Solo Imagínelo y nosotros desarrollamos y programamos para usted cualquier aplicativo web a medida o app móvil para Android iOS" />
+	<meta name="author" content="Agencia Web Bogota">
+	<meta property="og:type" content="service" />
+    <meta property="og:site_name " content="Agencia Web Bogota" />
+    <meta property="og:title" content="Desarrollamos Aplicativos Web a Medida y Apps Móviles" />
+    <meta property="og:url" content="https://agenciawebbogota.com/programacion-web" />
+    <meta property="og:image" content="https://agenciawebbogota.com/images/our-services/pic12.jpg" />
+    <meta property="og:description" content="Solo Imagínelo y nosotros desarrollamos y programamos para usted cualquier aplicativo web a medida o app móvil para Android iOS" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@AgenciaBogota">
+    <meta name="twitter:creator" content="@AgenciaBogota">
+    <meta name="twitter:image" content="https://agenciawebbogota.com/images/our-services/pic12.jpg">
+    <meta name="twitter:image:alt" content="Computer screen showing lines of code">
+    <meta name="twitter:title" content="Desarrollamos Aplicativos Web a Medida y Apps Móviles">
+    <meta name="twitter:description" content="Solo Imagínelo y nosotros desarrollamos y programamos para usted cualquier aplicativo web a medida o app móvil para Android iOS">
+	<link rel="canonical" href="https://agenciawebbogota.com/programacion-web" />
+	<link rel="alternate" hreflang="en-EN" href="https://en.agenciawebbogota.com/web-programming"/>
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
+    <!-- FAVICONS ICON -->
+    <link rel="icon" href="{{asset('images/favicon.ico')}}" type="image/x-icon" />
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('images/favicon.png')}}" />
+    <link rel="apple-touch-icon" href="images/apple-icon-touch.png">
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" type="text/css" href="{{asset('css/plugins.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/templete.css')}}">
+    <link class="skin" rel="stylesheet" type="text/css" href="{{asset('css/skin-1.css')}}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	@include('partials.analytics')
 </head>
 <body id="bg">
 <div class="page-wraper">
@@ -36,7 +43,13 @@
 	
 	<!-- header -->
     @include('partials.header')
-		<!-- header END -->
+	<div class="icono-whatsapp" id="btn-whp"><a href="https://api.whatsapp.com/send?phone=573168785601"><i class="fab fa-whatsapp"></i></a></div>
+		<div class="icono-messenger" id="btn-mes"><a href="https://m.me/agenciawebbogota"><i class="fab fa-facebook-messenger"></i></a></div>
+		<div class="icono-phone" id="btn-pho"><a href="tel:+573168785601"><i class="fas fa-phone-volume"></i></a></div>
+		<div class="tooltip-whatsapp" id="tp-whp"><span>¡Estamos en línea!</span></div>
+		<div class="tooltip-messenger" id="tp-mes"><span>Háblenos por Messenger</span></div>
+		<div class="tooltip-phone" id="tp-pho"><span>Llámenos</span></div>
+	<!-- header END -->
     <!-- Content -->
 	<div class="page-content bg-white">
         <!-- inner page banner -->
@@ -324,6 +337,13 @@ jQuery(document).ready(function() {
 	dz_rev_slider_2();
 });	/*ready*/
 </script>
+    @include('partials.schema')
+    <script>
+        $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+
 
 </body>
 </html>

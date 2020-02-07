@@ -1,29 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
 <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="Robots" content="index, follow">
-    <title>¡LO NUEVO! Sitios Web y Tiendas Online en Alquiler</title>
-    <meta name="description" content="Comience a generar tráfico y ventas con cero inversión. Nosotros nos encargamos de todo, desde el diseño hasta la administración completa." />
+    <title>¡LO NUEVO! Sitios Web en Alquiler Desde Solo $59.000/mes</title>
+    <meta name="description" content="¡No hay nada como esto! Pague solo por lo que realmente necesita, sin contratos, cancele cuando quiera. Con servicio de gestión profesional incluido." />
 	<meta name="author" content="Agencia Web Bogotá">
 	<meta property="og:type" content="service" />
     <meta property="og:site_name " content="Agencia Web Bogotá" />
     <meta property="og:title" content="¡LO NUEVO! Sitios Web y Tiendas Online en Alquiler" />
     <meta property="og:url" content="https://agenciawebbogota.com/sitios-web-y-tiendas-online-en-alquiler" />
     <meta property="og:image" content="https://agenciawebbogota.com/images/our-services/pic12.jpg" />
-    <meta property="og:description" content="Comience a generar tráfico y ventas con cero inversión. Nosotros nos encargamos de todo, desde el diseño hasta la administración completa." />
+    <meta property="og:description" content="¡No hay nada como esto! Pague solo por lo que realmente necesita, sin contratos, cancele cuando quiera. Con servicio de gestión profesional incluido." />
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@AgenciaBogota">
     <meta name="twitter:creator" content="@AgenciaBogota">
     <meta name="twitter:image" content="https://agenciawebbogota.com/images/our-services/pic12.jpg">
     <meta name="twitter:image:alt" content="Dueña de negocio empacando producto vendido por Internet">
     <meta name="twitter:title" content="¡LO NUEVO! Sitios Web y Tiendas Online en Alquiler">
-    <meta name="twitter:description" content="Comience a generar tráfico y ventas con cero inversión. Nosotros nos encargamos de todo, desde el diseño hasta la administración completa.">
+    <meta name="twitter:description" content="¡No hay nada como esto! Pague solo por lo que realmente necesita, sin contratos, cancele cuando quiera. Con servicio de gestión profesional incluido.">
 	<link rel="canonical" href="https://agenciawebbogota.com/sitios-web-y-tiendas-online-en-alquiler" />
-    <meta name="format-detection" content="telephone=no">
+	<link rel="alternate" hreflang="en-EN" href="https://en.agenciawebbogota.com/rental-websites"/>
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- FAVICONS ICON -->
@@ -364,7 +364,12 @@
     <script src="plugins/loading/anime.js"></script><!-- LOADING JS -->
     <script src="plugins/loading/anime-app3.js"></script><!-- LOADING JS -->
     <script src="js/dz.ajax.js"></script><!-- CONTACT JS  -->
-	@include('partials.schema')
+    @include('partials.schema')
+    <script>
+        $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
 </body>
 
 </html>

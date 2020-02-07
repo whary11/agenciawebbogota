@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="Robots" content="index, follow">
-    <title>Diseño de Páginas Web con posicionamiento incluido</title>
+    <title>Páginas Web Profesionales Desde $420.000 con SEO Incluido</title>
     <meta name="description" content="Diseñamos tu sitio web con posicionamiento en Google incluido y con garantía de funcionamiento. Tenemos la mejor oferta costo/beneficio del mercado." />
 	<meta name="author" content="Agencia Web Bogotá">
 	<meta property="og:type" content="website" />
     <meta property="og:site_name " content="Agencia Web Bogotá" />
-    <meta property="og:title" content="Diseño de Páginas Web con posicionamiento incluido" />
+    <meta property="og:title" content="Páginas Web Profesionales Desde $420.000 con SEO Incluido" />
     <meta property="og:url" content="https://agenciawebbogota.com/paginas-web" />
     <meta property="og:image" content="https://agenciawebbogota.com/images/muestra-paginas-web.jpg" />
     <meta property="og:description" content="Diseñamos tu sitio web con posicionamiento en Google incluido y con garantía de funcionamiento. Tenemos la mejor oferta costo/beneficio del mercado" />
@@ -20,10 +20,10 @@
     <meta name="twitter:creator" content="@AgenciaBogota">
     <meta name="twitter:image" content="https://agenciawebbogota.com/images/muestra-paginas-web.jpg">
     <meta name="twitter:image:alt" content="Diseño de Páginas Web con posicionamiento incluido">
-    <meta name="twitter:title" content="Diseño de Páginas Web con posicionamiento incluido">
+    <meta name="twitter:title" content="Páginas Web Profesionales Desde $420.000 con SEO Incluido">
     <meta name="twitter:description" content="Diseñamos tu sitio web con posicionamiento en Google incluido y con garantía de funcionamiento. Tenemos la mejor oferta costo/beneficio del mercado">
 	<link rel="canonical" href="https://agenciawebbogota.com/paginas-web" />
-    <meta name="format-detection" content="telephone=no">
+    <link rel="alternate" hreflang="en-EN" href="https://es.agenciawebbogota.com/websites" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
 
@@ -445,6 +445,11 @@
     <script src="plugins/loading/anime-app3.js"></script><!-- LOADING JS -->
     <script src="js/dz.ajax.js"></script><!-- CONTACT JS  -->
 	@include('partials.schema')
+    <script>
+        $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
 </body>
 
 </html>

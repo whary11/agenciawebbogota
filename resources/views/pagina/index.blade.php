@@ -17,7 +17,6 @@
     <meta name="Rating" content="General">
     <meta name="msvalidate.01" content="607F58A810BE9AAB1051493A749C22E4" />
     <meta name="Distribution" content="Local">
-    <link rel="alternate" hreflang="es" href="https://agenciawebbogota.com/" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name " content="Agencia Web Bogotá" />
     <meta property="og:title" content="Diseño de Páginas Web y Marketing Digital en Bogotá" />
@@ -32,7 +31,7 @@
     <meta name="twitter:title" content="Diseño Web + Neuromarketing">
     <meta name="twitter:description" content="Agencia Web Bogotá profesionales en diseño web, programación, diseño gráfico y marketing digital. Tenemos la mejor oferta costo/beneficio del mercado.">
     <link rel="canonical" href="https://agenciawebbogota.com" />
-    <meta name="format-detection" content="telephone=no">
+    <link rel="alternate" hreflang="en-EN" href="https://es.agenciawebbogota.com/" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- FAVICONS ICON -->
     <link rel="icon" href="{{asset('images/favicon.ico')}}" type="image/x-icon" />
