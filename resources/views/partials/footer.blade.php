@@ -21,11 +21,11 @@
                         <h5 class="m-b30 text-white text-uppercase">Contáctenos</h5>
                         <ul>
                         <li class="text-none">
-                            <i class="fas fa-map-marker-alt"></i>Calle 9 No. 37-30 Local 17<br>Bogotá, Colombia</li>
+                            <i class="fas fa-map-marker-alt"></i><a href="https://g.page/AgenciaDisenoWeb?share" target="_blank">Calle 9 No. 37-30 Local 17<br>Bogotá, Colombia</a></li>
                             <li class="text-none">
-                                <i class="fas fa-mobile-alt"></i><strong>Celular</strong>+57 316 8785601 - +57 313 4934881</li>
+                                <i class="fas fa-mobile-alt"></i><a href="tel:573168785601"><strong>Celular</strong>+57 316 8785601</a></li>
                             <li class="text-none">
-                                <i class="fas fa-mail-bulk"></i><strong>Email</strong>info@agenciawebbogota.com</li>
+                                <i class="fas fa-mail-bulk"></i><a href="mailto:info@agenciawebbogota.com"><strong>Email</strong>info@agenciawebbogota.com</a></li>
                         </ul>
                     </div>
                 </div>
@@ -34,7 +34,7 @@
                         <h5 class="m-b30 text-white text-uppercase">Enviar un pago</h5>
                         <p class="m-b20 text-none">Puede enviar un pago por cualquier servicio contratado con Agencia Web Bogotá, usando los medios de pago disponibles.</p>
                         <div class="m-b20">
-                        <a href="enviar-un-pago" class="site-button outline outline-1">Pagar Ahora <i class="fas fa-dollar-sign m-r5"></i></a>
+                        <a href="{{url('enviar-un-pago')}}" class="site-button outline outline-1">Pagar Ahora <i class="fas fa-dollar-sign m-r5"></i></a>
                         <div class="p-b15"></div>
                             <picture>
                                 <source srcset="{{asset('/images/medios-de-pago.webp')}}"  type="image/webp">

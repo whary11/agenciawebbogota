@@ -40,6 +40,12 @@
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	@include('partials.analytics')
 </head>
+<script>
+  fbq('track', 'ViewContent', {
+    value: 105000,
+    currency: 'COP',
+  });
+</script>
 
 <body id="bg">
     <div class="page-wraper">
@@ -166,7 +172,7 @@
 														<li class="text-center font-13"> Mantenimiento y actualización permanente</li>
 													</ul>
 													<div class="m-t20"> 
-														<a href="{{url('contacto')}}" class="site-button outline outline-2 button-md">Contratar</a> 
+														<a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" class="site-button outline outline-2 button-md">Contratar</a> 
 													</div>
 												</div>
 											</div>
@@ -186,7 +192,7 @@
 														<li class="text-center font-13"> Adición de contenido para blog, noticias o información corporativa </li>
 													</ul>
 													<div class="m-t20 m-b5"> 
-														<a href="{{url('contacto')}}" class="site-button button-md">Contratar</a> 
+														<a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" class="site-button button-md">Contratar</a> 
 													</div>
 												</div>
 											</div>
@@ -206,7 +212,7 @@
 														<li class="text-center font-13"> Monetización con Google Adsense </li>
 													</ul>
 													<div class="m-t20"> 
-														<a href="{{url('contacto')}}" class="site-button outline outline-2 button-md">Contratar</a> 
+														<a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" class="site-button outline outline-2 button-md">Contratar</a> 
 													</div>
 												</div>
 											</div>
@@ -233,7 +239,7 @@
                                                         <li class="text-center font-13 perstable"> Administración de tienda, productos, inventarios y notificación de pedidos</li>
 													</ul>
 													<div class="m-t20"> 
-														<a href="{{url('contacto')}}" class="site-button outline outline-2 button-md">Contratar</a> 
+														<a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" class="site-button outline outline-2 button-md">Contratar</a> 
 													</div>
 												</div>
 											</div>
@@ -257,7 +263,7 @@
 
 													</ul>
 													<div class="m-t20 m-b5"> 
-														<a href="{{url('contacto')}}" class="site-button button-md">Contratar</a> 
+														<a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" class="site-button button-md">Contratar</a> 
 													</div>
 												</div>
 											</div>
@@ -283,7 +289,7 @@
 
 													</ul>
 													<div class="m-t20"> 
-														<a href="{{url('contacto')}}" class="site-button outline outline-2 button-md">Contratar</a> 
+														<a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" class="site-button outline outline-2 button-md">Contratar</a> 
 													</div>
 												</div>
 											</div>

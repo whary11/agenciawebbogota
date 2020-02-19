@@ -171,24 +171,28 @@
             <div class="content-block">
                 <div class="section-full facility">
                     <div class="row">
-                        <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="col-lg-6 col-md-12 col-sm-12">
                             <div class="icon-bx-wraper left bg-azul-claro-agencia text-white p-a70 dlab-box-icon">
                                 <div class="icon-lg">
                                     <div class="icon-cell">
                                         <div>
                                             <span>
-                                                <i class="fas fa-hand-holding-usd"></i>
-                                                <i class="fas fa-hand-holding-usd"></i>
+                                                <i class="fab fa-google"></i>
+                                                <i class="fab fa-google"></i>
                                             </span>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="icon-content">
-                                    <h4 class="dlab-tilte">Precios Competitivos y Facilidades</h4>
+                                    <h4 class="dlab-tilte">Pruebe GSuite Gratis Por 14 Días</h4>
+                                    <p>Obtenga una dirección de correo personalizada y más de 30 Gb de almacenamiento</p>
+                                    <a href="#" class="site-button white outline outline-2">Regístrese Ahora</a>
+                                    <p class="font-13">Obtenga además un 20% de descuento durante su primer año</p>
+
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="col-lg-6 col-md-12 col-sm-12">
                             <div class="icon-bx-wraper left p-a70 dlab-box-icon bg-gray">
                                 <div class="icon-lg">
                                     <div class="icon-cell">
@@ -204,24 +208,7 @@
                                     <h4 class="dlab-tilte">Desarrollos con Garantía de Funcionamiento</h4>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-4 col-md-12 col-sm-12">
-                            <div class="icon-bx-wraper left bg-azul-claro-agencia text-white p-a70 dlab-box-icon">
-                                <div class="icon-lg">
-                                    <div class="icon-cell">
-                                        <div>
-                                            <span>
-                                                <i class="fas fa-headset"></i>
-                                                <i class="fas fa-headset"></i>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="icon-content">
-                                    <h4 class="dlab-tilte">Ayuda & Soporte Técnico<br> 24/7</h4>
-                                </div>
-                            </div>
-                        </div>
+                        </div>                        
                     </div>
                 </div>
                 <!-- Portfolio -->
