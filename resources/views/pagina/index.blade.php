@@ -174,7 +174,7 @@
                         <div class="col-lg-6 col-md-12 col-sm-12">
                             <div class="icon-bx-wraper left bg-azul-claro-agencia text-white p-a70 dlab-box-icon">
                                 <div class="icon-lg">
-                                    <div class="icon-cell">
+                                    <div class="icon-cell no-movil">
                                         <div>
                                             <span>
                                                 <i class="fab fa-google"></i>
@@ -183,19 +183,19 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="icon-content">
+                                <div class="icon-content center-movil">
                                     <h4 class="dlab-tilte">Pruebe GSuite Gratis Por 14 Días</h4>
-                                    <p>Obtenga una dirección de correo personalizada y más de 30 Gb de almacenamiento</p>
+                                    <p>Obtenga direcciones de correo electrónico personalizadas y más de 30Gb de almacenamiento por cuenta.</p>
                                     <a href="#" class="site-button white outline outline-2">Regístrese Ahora</a>
-                                    <p class="font-13">Obtenga además un 20% de descuento durante su primer año</p>
+                                    <p class="font-13 p-t20"><a href="https://api.whatsapp.com/send?phone=573168785601&text=Hola,%20quiero%20obtener%20un%20código%20promocional%20para%20GSuite" target="_blank" >Escríbanos</a> y obtenga además un 20% de descuento durante su primer año</p>
 
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-12 col-sm-12">
-                            <div class="icon-bx-wraper left p-a70 dlab-box-icon bg-gray">
+                        <div class="col-lg-6 col-md-12 col-sm-12 bg-gray">
+                            <div class="icon-bx-wraper left p-a70 dlab-box-icon">
                                 <div class="icon-lg">
-                                    <div class="icon-cell">
+                                    <div class="icon-cell no-movil">
                                         <div>
                                             <span>
                                                 <i class="fas fa-award"></i>
@@ -204,8 +204,11 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="icon-content">
-                                    <h4 class="dlab-tilte">Desarrollos con Garantía de Funcionamiento</h4>
+                                <div class="icon-content center-movil">
+                                <h4 class="dlab-tilte">Pruebe GSuite Gratis Por 14 Días</h4>
+                                    <p>Obtenga una dirección de correo personalizada y más de 30Gb de almacenamiento</p>
+                                    <a href="#" class="site-button pink outline outline-2">Regístrese Ahora</a>
+                                    <p class="font-13 p-t20">Obtenga además un 20% de descuento durante su primer año</p>
                                 </div>
                             </div>
                         </div>                        

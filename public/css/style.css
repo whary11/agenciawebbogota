@@ -6374,14 +6374,14 @@ a,
 /* pink */
 
 .site-button.pink {
-    background-color: #ff3c85;
+    background-color: #e94861;
     color: #fff;
 }
 .site-button.pink:hover,
 .site-button.pink:active,
 .site-button.pink.active,
 .site-button.pink:focus {
-    background-color: #ef2c75;
+    background-color: #e94861;
     color: #fff;
 }
 /* Blue */
