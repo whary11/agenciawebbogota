@@ -67,4 +67,7 @@ class IndexController extends Controller
     public function websalquiler(){
         return view('pagina.blog/websalquiler');
     }
+    public function gsuite(){
+        return view('pagina.gsuite');
+    }
 }
