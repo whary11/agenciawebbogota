@@ -62,10 +62,10 @@
                             </ul>
                         <li><a>Marketing Digital <i class="fas fa-chevron-down"></i></a>
                             <ul class="sub-menu">
-                                <li><a href="{{url('redes-sociales')}}">Redes Sociales </a>
-                                <li>
-                                <li><a href="{{url('posicionamiento-web')}}">Posicionamiento Web </a>
-                                <li>
+                                <li><a href="{{url('redes-sociales')}}">Redes Sociales </a></li>
+                                <li><a href="{{url('posicionamiento-web')}}">Posicionamiento Web </a></li>
+                                <li><a href="{{url('gsuite')}}">Obtener GSuite </a></li>
+
                             </ul>
                         </li>
                         <li><a href="{{url('blog')}}">Blog </a></li>
