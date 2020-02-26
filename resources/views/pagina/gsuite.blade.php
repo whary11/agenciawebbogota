@@ -124,14 +124,6 @@
 					</div>
                 </div>
             </div>
-            <!-- About Us End -->
-		<!-- About Us -->
-		<div class="section-full content-inner bg-white">
-			<div class="container">
-				
-			</div>
-		</div>
-        <!-- About Us End-->
         <div class="section-full content-inner bg-white">
 			<div class="container">            
 				<div class="row m-b50 equal-wraper2">					
