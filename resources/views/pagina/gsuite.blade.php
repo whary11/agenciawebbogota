@@ -23,7 +23,7 @@
     <meta name="twitter:title" content="Obtenga GSuite con un 20% de descuento durante el primer año">
     <meta name="twitter:description" content="Sea más productivo y más rápido con GSuite. Obtenga direcciones de correo profesionales, almacenamiento en la nube, videoconferencias y mucho más.">
 	<link rel="canonical" href="https://agenciawebbogota.com/gsuite" />
-    <link rel="alternate" hreflang="en-EN" href="https://es.agenciawebbogota.com/gsuite" />
+    <link rel="alternate" hreflang="en-EN" href="https://en.agenciawebbogota.com/gsuite" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
 
