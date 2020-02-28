@@ -70,4 +70,7 @@ class IndexController extends Controller
     public function gsuite(){
         return view('pagina.gsuite');
     }
+    public function consultorias(){
+        return view('pagina.consultorias');
+    }
 }

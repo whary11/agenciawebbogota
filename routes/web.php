@@ -36,6 +36,7 @@ Route::get('/blog/alarmante-aumento-en-los-costos-de-alojamiento-de-paginas-web'
 Route::get('/blog/nuevas-funciones-para-mejorar-el-rendimiento-de-su-sitio-web', 'IndexController@nuevoservicios');
 Route::get('/blog/renta-un-sitio-web-o-tienda-online', 'IndexController@websalquiler');
 Route::get('/gsuite', 'IndexController@gsuite');
+Route::get('/consultorias', 'IndexController@consultorias');
 
 
 // Url para el formulario de contacto
