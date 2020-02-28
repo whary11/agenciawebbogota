@@ -69,8 +69,9 @@
                             </ul>
                         </li>
                         <li><a href="{{url('blog')}}">Blog </a></li>
-                        <li><a>Soporte Técnico <i class="fas fa-chevron-down"></i></a>
+                        <li><a>Soporte<i class="fas fa-chevron-down"></i></a>
                             <ul class="sub-menu">
+                                <li><a href="{{url('consultorias')}}" class="dez-page">Consultorías</a></li>
                                 <li><a>Tickets<i class="fa fa-angle-right"></i></a>
                                     <ul class="sub-menu">
                                     <li><a href="{{url('/ticket')}}" class="dez-page">Abrir</a></li>

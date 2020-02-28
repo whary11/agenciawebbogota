@@ -314,6 +314,12 @@
 .webp-alquilerblog{
 	background-image: url("/images/background/bg22.webp")
 }
+.no-webp-consultoria{
+	background-image: url("/images/background/bg23.jpg")
+}
+.webp-consultoria{
+	background-image: url("/images/background/bg23.webp")
+}
 /*==========================
 	FIN Custom css
 ==========================*/

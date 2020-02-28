@@ -6,24 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="Robots" content="index, follow">
-    <title>Páginas Web Profesionales Desde $420.000 con SEO Incluido</title>
-    <meta name="description" content="Diseñamos tu sitio web con posicionamiento en Google incluido y con garantía de funcionamiento. Tenemos la mejor oferta costo/beneficio del mercado." />
+    <title>Consultoría online con profesionales en tecnologías empresariales</title>
+    <meta name="description" content="Asesórese antes de contratar un servicio o iniciar un proyecto con profesionales en marketing digital, redes sociales, posicionamiento seo y diseño web." />
 	<meta name="author" content="Agencia Web Bogotá">
 	<meta property="og:type" content="website" />
     <meta property="og:site_name " content="Agencia Web Bogotá" />
-    <meta property="og:title" content="Páginas Web Profesionales Desde $420.000 con SEO Incluido" />
-    <meta property="og:url" content="https://agenciawebbogota.com/paginas-web" />
-    <meta property="og:image" content="https://agenciawebbogota.com/images/muestra-paginas-web.jpg" />
-    <meta property="og:description" content="Diseñamos tu sitio web con posicionamiento en Google incluido y con garantía de funcionamiento. Tenemos la mejor oferta costo/beneficio del mercado" />
+    <meta property="og:title" content="Consultoría online con profesionales en tecnologías empresariales" />
+    <meta property="og:url" content="https://agenciawebbogota.com/consultorias" />
+    <meta property="og:image" content="https://agenciawebbogota.com/images/consultoria-online.jpg" />
+    <meta property="og:description" content="Asesórese antes de contratar un servicio o iniciar un proyecto con profesionales en marketing digital, redes sociales, posicionamiento seo y diseño web. " />
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@AgenciaBogota">
     <meta name="twitter:creator" content="@AgenciaBogota">
-    <meta name="twitter:image" content="https://agenciawebbogota.com/images/muestra-paginas-web.jpg">
-    <meta name="twitter:image:alt" content="Diseño de Páginas Web con posicionamiento incluido">
-    <meta name="twitter:title" content="Páginas Web Profesionales Desde $420.000 con SEO Incluido">
-    <meta name="twitter:description" content="Diseñamos tu sitio web con posicionamiento en Google incluido y con garantía de funcionamiento. Tenemos la mejor oferta costo/beneficio del mercado">
-	<link rel="canonical" href="https://agenciawebbogota.com/paginas-web" />
-    <link rel="alternate" hreflang="en-EN" href="https://es.agenciawebbogota.com/websites" />
+    <meta name="twitter:image" content="https://agenciawebbogota.com/images/consultoria-online.jpg">
+    <meta name="twitter:image:alt" content="Sala de juntas proyectando una consultoria online">
+    <meta name="twitter:title" content="Consultoría online con profesionales en tecnologías empresariales">
+    <meta name="twitter:description" content="Asesórese antes de contratar un servicio o iniciar un proyecto con profesionales en marketing digital, redes sociales, posicionamiento seo y diseño web.">
+	<link rel="canonical" href="https://agenciawebbogota.com/consultorias" />
+    <link rel="alternate" hreflang="en_EN" href="https://es.agenciawebbogota.com/consultancies" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
 
@@ -53,337 +53,138 @@
 		<div class="tooltip-messenger" id="tp-mes"><span>Háblenos por Messenger</span></div>
 		<div class="tooltip-phone" id="tp-pho"><span>Llámenos</span></div>
 
-
-        <!-- header END -->
         <!-- Content -->
-        <div class="page-content bg-white" id="page">
+        <div class="page-content bg-white">
             <!-- inner page banner -->
-            <div class="dlab-bnr-inr overlay-primary no-webp-pages webp-pages">
+            <div class="dlab-bnr-inr overlay-primary no-webp-consultoria webp-consultoria">
                 <div class="container">
                     <div class="dlab-bnr-inr-entry texto-ini">
-                        <h1 class="text-white">Diseño de Páginas Web</h1>
-                        <h2 class="text-white">Websites efectivos con garantía de funcionamiento</h2>
+                        <h1 class="text-white">Consultorías</h1>
+                        <h2 class="text-white">Sesiones online en vivo con profesionales en tecnología</h2>
                     </div>
                 </div>
             </div>
             <!-- inner page banner END -->
             <div class="content-block">
                 <!-- About Us -->
-                <div class="section-full content-inner exp-services" style="background-image:url({{asset('images/background/bg1.png')}});">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="section-head text-black text-center">
-                                    <h2 class="box-title m-tb0">Sitios Web Alojados en Servidores Privados</h2>
-									<p class="font-weight-600 font-18"><span class="text-blue">En Agencia Web Bogotá superamos los hosting compartidos convencionales</span><br>Alojamos todas las páginas web de nuestros clientes
-								en servidores privados virtuales con cuentas independientes, que ofrecen un +60% de velocidad de carga, un +80% de seguridad y una capacidad de tráfico ilimitada</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Our Services -->
-                <!-- About Us -->
-                <div class="section-full">
-                    <div class="container-fluid">
-                        <div class="row dzseth">
-                            <div class="col-lg-6 col-md-12 p-a0">
-							<picture>
-                                <source srcset="{{asset('images/muestra-paginas-web.webp')}}" type="image/webp" alt="Diseño de páginas web en varias pantallas">
-                                <img src="{{asset('images/muestra-paginas-web.jpg')}}" alt="Diseño de páginas web en varias pantallas" class="img-cover">
-                            </picture>	
-                            </div>
-                            <div class="col-lg-6 col-md-12 bg-gray p-lr0 dis-tbl">
-                                <div class="p-a30 dis-tbl-cell wow fadeInRight" data-wow-delay="0.2s">
-                                    <div class="max-w500 m-auto p-tb30">
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <h3 class="box-title m-b10 text-blue text-italic">"Lo principal es un
-                                                    buen diseño"</h3>
-                                                <h5 class="m-b30">Creamos websites con estructura, usabilidad y
-                                                    funcionalidad optimizadas,<br> <span class="text-blue">mas una
-                                                        apariencia sencilla y moderna</span></h5>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-lg-12 m-b30 chosesus-content">
-                                                <h5 class="text-black">¿Cómo lo logramos?</h5>
-                                                <p>Trabajamos con WordPress usando temas y plugins premium 100%
-                                                    personalizables y configurables según las necesidad de cada cliente,
-                                                    sumado a conceptos de neuroventas que hacen que nuestros websites
-                                                    tengan resultados reales y comprobables.</p>
-                                                <p>También construimos sitios web desde cero sin plantillas
-                                                    completamente escalables. Implementando un código limpio, ordenado y
-                                                    simplificado, compatible con todos los navegadores, sistemas y
-                                                    dispositivos.</p>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- About Us End -->
-                <!-- About Us -->
-                <div class="section-full content-inner bg-white" style="background-image:url({{asset('images/background/bg12.jpg')}});">
-                    <div class="container">
-                        <div class="max-w800 m-auto text-center wow fadeIn" data-wow-delay="0.1s">
-                            <h4>Diseño Web A La Medida De Sus Necesidades</h4>
-                            <h6 class="m-b50">Con la mejor oferta costo/beneficio del mercado</h6>
-                        </div>
-                        <cotizacion-component></cotizacion-component>						
-                    </div>				
-                </div>
-                
-				<div class="section-full p-t30 p-b30 bg-primary-dark text-white shop-action">
+                <div class="section-full content-inner" style="background-image:url(images/background/bg12.jpg);">
+                <div class="container">
+					<div class="row">
+						<div class="col-lg-4 col-md-12 align-self-center wow fadeInLeft" data-wow-delay="0.2s">
+							<h5>Información precisa y veráz</h5>
+							<h2 class="font-weight-700">Solicite consultoría especializada online por solo $29.900/hora</h2>
+						</div>
+						<div class="col-lg-8 col-md-12">
+							<div class="row">
+								<div class="col-lg-4 col-md-4 col-sm-6 wow fadeIn" data-wow-delay="0.2s">
+									<div class="icon-bx-wraper bx-style-1 p-tb30 p-lr20 m-b30 center br-col-b1 bg-white">
+										<div class="icon-content">
+											<h5 class="font-weight-500">Redes Sociales</h5>
+											<p class="m-b0 font-14">Abordamos su caso específico y le indicamos como puede cumplir rápidamente sus objetivos usando las redes sociales</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-6 wow fadeIn" data-wow-delay="0.4s">
+									<div class="icon-bx-wraper bx-style-1 p-tb30 p-lr20 m-b30 center br-col-b1 bg-white">
+										<div class="icon-content">
+											<h5 class="font-weight-500">Posicionamiento</h5>
+											<p class="m-b0 font-14">Hacemos juntamente con usted un diagnóstico completo de su sitio web y descubrimos oportunidades de mejora</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12 wow fadeIn" data-wow-delay="0.6s">
+									<div class="icon-bx-wraper bx-style-1 p-tb30 p-lr20 m-b30 center br-col-b1 bg-white">
+										<div class="icon-content">
+											<h5 class="font-weight-500">Diseño Web</h5>
+											<p class="m-b0 font-14">Analizamos imparcialmente su sitio web indicándole cómo puede aprovechar todo su potencial para lograr sus objetivos</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>                    
+				</div>
+            </div>
+            <div class="section-full p-t30 p-b30 bg-primary-dark text-white shop-action">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="text-center m-auto ">
-                                <h4 class="font-weight-600 font-20">Ahora puede obtener su sitio web o tienda online en alquiler, sin contratos, sin anticipos y sin claúsulas. Desarrollado, administrado y posicionado por profesionales   </h4>
-                                <a href="{{url('servicios')}}" class="site-button radius-sm outline outline-2"><span class="p-lr10">Me Interesa, Quiero Más Detalles</span></a>
+                                <h4 class="font-weight-600 font-20">Comuníquese con el equipo de Agencia Web Bogotá para agendar su cita de acuerdo a la disponibilidad</h4>
+                                <a href="{{url('https://api.whatsapp.com/send?phone=573168785601&text=Hola,%20quiero%20agendar%20una%20consultoria')}}" target="_blank" class="site-button radius-sm outline outline-2"><span class="p-lr10">Quiero Agendar Una Consultoría</span></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-                <!-- Why Chose Us -->
-			<div class="section-full content-inner-1 overlay-primary about-service bg-img-fix" style="background-image:url(images/parallax-layers-9.jpg);">
-				<div class="container">
-					<div class="section-head text-white text-center">
-						<h2 class="box-title m-tb0 max-w800 m-auto">Sitios Web Multiplataforma</h2>
-						<p>No desarrollamos todos los sitios web con la misma técnica, siempre ofrecemos innovación, creatividad y un diseño único para cada cliente</p>
-						<h3>Desarrollamos con:</h3>
+			<div class="section-full content-inner-2" style="background-image:url(images/background/bg12.jpg);">
+                <div class="container">
+					<div class="row m-b40">
+						<div class="col-lg-6 col-md-6 m-b20">
+							<h3 class="m-b10 m-t0">¿Cómo funcionan las consultorías?</h3>
+							<p class="m-b10">Antes de realizar una contratación, iniciar un proyecto o aceptar una propuesta de servicios, usted puede asesorarse por profesionales en diferentes áreas tecnológicas.</p>
+							<p class="m-b10">En Agencia Web Bogotá somos expertos en desarrollo y diseño web, marketing digital, posicionamiento seo y redes sociales. Contáctenos, háblenos sobre sus objetivos y le ayudaremos a optimizar tiempo y dinero.</p>
+                            <p class="m-b10">Pague solo por el tiempo que requiera sin límite de asistentes.</p>
+                            <a href="{{url('https://api.whatsapp.com/send?phone=573168785601&text=Hola,%20quiero%20agendar%20una%20consultoria')}}" target="_blank" class="site-button radius-xl outline m-t40">Agende su Consultoría <i class="fas fa-arrow-right"></i></a>
+						</div>
+						<div class="col-lg-6 col-md-6">
+                            <picture>
+                                <source srcset="{{asset('images/our-services/pic13.webp')}}" type="image/webp">
+                                    <img src="{{asset('images/our-services/pic13.jpg')}}" alt="Sala de conferencias proyectando consultoria en línea">
+                            </picture>
+						</div>
+					</div>
+					<div class="row m-b50">
+						<div class="col-md-6 m-b20">
+							<div class="p-a30 bg-gray">
+                                <h6><i class="fab fa-whatsapp"></i> Agende vía WhatsApp:<br><a class="m-l10 font-weight-300 text-gray-dark" href="{{url('https://api.whatsapp.com/send?phone=573168785601&text=Hola,%20quiero%20agendar%20una%20consultoria')}}" target="_blank"> +57 3168785601</a></h6>
+								<h6><i class="fas fa-at"></i> Agende vía Correo electrónico:<br><a class="m-l10 font-weight-300 text-gray-dark" href="mailto:infoagenciawebbogota.com"> info@agenciawebbogota.com</a></h6>
+								<h6><i class="fas fa-briefcase"></i> Visítenos en nuestras oficinas:<br><a class="m-l10 font-weight-300 text-gray-dark" href="{{url('https://g.page/AgenciaDisenoWeb?share')}}" target="_blank"> Calle 9 No. 37-30 Local 17 Bogotá, Colombia</a></h6>
+							</div>
+						</div>
+						<div class="col-md-6 align-self-center">
+							<h5 class="text-black fw5 m-b10">Las sesiones de consultoría se realizan vía zoom, hangouts o skype. Si se requiere asistencia remota se realizará mediante Teamviewer o Anydesk</h5>
+							<p class="m-b0">Las consultorías no tienen como objetivo ofrecer otros servicios prestados por Agencia Web Bogotá, están enfocadas en las necesidades del cliente, brindando una información precisa e imparcial.</p>
+						</div>
 					</div>
 				</div>
-				<div class="container m-tb30">
-					<div class="client-logo-carousel owl-carousel owl-btn-center-lr owl-btn-3">
-						<div class="item"><div class="br-col-b1 border-1"><img src="images/logos/wordpress-logo.jpg" alt="Logo WordPress"></div></div>
-						<div class="item"><div class="br-col-b1 border-1"><img src="images/logos/htmlcssjs.jpg" alt="Logo HTML y CSS"></div></div>
-						<div class="item"><div class="br-col-b1 border-1"><img src="images/logos/prestashop-logo.jpg" alt="Logo Prestashop"></div></div>
-						<div class="item"><div class="br-col-b1 border-1"><img src="images/logos/woocomerce-logo.jpg" alt="Logo Woocomerce"></div></div>
-						<div class="item"><div class="br-col-b1 border-1"><img src="images/logos/laravel-logo.jpg" alt="Logo laravel"></div></div>
-                        <div class="item"><div class="br-col-b1 border-1"><img src="images/logos/shopify-logo.jpg" alt="Logo Shopify"></div></div>
-                        
-					</div>
-				</div>
 				<div class="container">
-					<div class="section-head text-white text-center">
-						<h2 class="box-title p-b30 max-w800 m-auto font-weight-500 font-18">Todos nuestros sitios incluyen hosting, dominio y cuentas mail* durante el primer año</h2>
-				</div>
-				</div>				
-			</div>
-			<!-- Why Chose Us End -->			
-			<!-- Our Portfolio -->
-			<div class="section-full content-inner-2 portfolio" id="portfolio" style="background-image:url({{asset('images/background/bg14.jpg')}});">
-				<div class="container">
-					<div class="section-head text-center">
-						<h2 class="box-title m-tb0">Ultimas Páginas Diseñadas</h2>
-						<p> Algunos de Nuestros clientes </p>
-					</div>
-					<div class="clearfix">
-						<ul id="masonry" class="dlab-gallery-listing gallery-grid-4 gallery mfp-gallery port-style1">
-						<li class="web design card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
-                                    data-wow-delay="0.2s">
-                                    <div class="dlab-box dlab-gallery-box">
-                                        <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-                                            <a href="javascript:void(0);">
-                                                <picture>
-                                                    <source srcset="{{asset('images/portafolio/jeronimos.webp')}}"
-                                                        type="image/webp">
-                                                    <img src="{{asset('images/portafolio/jeronimos.jpg')}}" alt="Jerónimo's Cake Shop">
-                                                </picture>
-                                            </a>
-                                            <div class="overlay-bx">
-                                                <div class="overlay-icon align-b text-white">
-                                                    <div class="text-white text-left port-box">
-                                                        <a href="https://jeronimos.co" target="_blank">
-                                                            <h5>Jerónimos Cake Shop</h5>
-                                                        </a>
-                                                        <p>Sitio Web Shop</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                            </li>
-							<li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn" data-wow-delay="0.2s">
-								<div class="dlab-box dlab-gallery-box">
-									<div class="dlab-media dlab-img-overlay1 dlab-img-effect dlab-img-effect "> 
-										<picture><source srcset="images/portafolio/diocesis-yopal.webp"  type="image/webp">						
-										<img src="images/portafolio/diocesis-yopal.jpg"  alt="Diseño de sitio web diocesis de yopal"></picture>
-										<div class="overlay-bx">
-											<div class="overlay-icon align-b text-white"> 
-												<div class="text-white text-left port-box">
-													<a href="https://diocesisdeyopal.org/" target="_blank"><h5>Diócesis de Yopal</h5></a>
-													<p>Sitio Web Tipo Magazine</p>
-												</div>
-											</div>
-										</div>
+					<div class="row m-b30">
+						<div class="col-lg-4 col-md-12 align-self-center wow fadeInLeft" data-wow-delay="0.2s">
+							<h5>Nuestro Objetivo</h5>
+							<h3 class="font-weight-700">Ser líderes en consultoría y asesoría en aplicaciones de tecnologías de la información</h3>
+						</div>
+						<div class="col-lg-8 col-md-12">
+							<div class="row">
+								<div class="col-lg-4 col-md-4 col-sm-6 wow fadeIn" data-wow-delay="0.2s">
+									<div class="icon-bx-wraper bx-style-1 p-t10 p-b30 p-lr20 m-b30 center br-col-b1 bg-azul-claro-agencia text-white">
+                                        <p class="p-t20">Publicidad en Facebook, Instagram, YouTube</p>
+                                        <p>Creación y viralización de contenidos</p>
+                                        <p>Perfiles empresariales</p>
 									</div>
 								</div>
-							</li>
-							<li class="web design card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
-                                    data-wow-delay="0.8s">
-                                    <div class="dlab-box dlab-gallery-box">
-                                        <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-                                            <a href="javascript:void(0);">
-                                                <picture>
-                                                    <source srcset="{{asset('images/portafolio/diocesis-valledupar.webp')}}"
-                                                        type="image/webp">
-                                                    <img src="{{asset('images/portafolio/diocesis-valledupar.jpg')}}"
-                                                        alt="Sitio Web Diócesis de Valledupar"></picture>
-                                            </a>
-                                            <div class="overlay-bx">
-                                                <div class="overlay-icon align-b text-white">
-                                                    <div class="text-white text-left port-box">
-                                                        <a href="https://diocesisdevalledupar.org" target="_blank">
-                                                            <h5>Diócesis de Valledupar</h5>
-                                                        </a>
-                                                        <p>Portal Web Tipo Magazine</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+								<div class="col-lg-4 col-md-4 col-sm-6 wow fadeIn" data-wow-delay="0.2s">
+                                    <div class="icon-bx-wraper bx-style-1 p-t10 p-b30 p-lr20 m-b30 center br-col-b1 bg-azul-claro-agencia text-white">
+                                            <p class="p-t20">Nuevas tecnologías</p>
+                                            <p>Blockchain empresarial</p>
+                                            <p>Medios de pago, tiendas virtuales y canales de ventas</p>
+                                     </div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-6 wow fadeIn" data-wow-delay="0.2s">
+                                    <div class="icon-bx-wraper bx-style-1 p-t10 p-b30 p-lr20 m-b30 center br-col-b1 bg-azul-claro-agencia text-white">
+                                            <p class="p-t20">Administración de sitios web</p>
+                                            <p>Estrategias de posicionamiento SEO</p>
+                                            <p>Publicidad en Google</p>
                                     </div>
-                            </li>
-							<li class="web branding card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
-                                    data-wow-delay="0.2s">
-                                    <div class="dlab-box dlab-gallery-box">
-                                        <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-                                            <a href="javascript:void(0);">
-                                                <picture>
-                                                    <source srcset="{{asset('images/portafolio/compratodonline.webp')}}"
-                                                        type="image/webp">
-                                                    <img src="{{asset('images/portafolio/compratodonline.jpg')}}"
-                                                        alt="Portal Web IPS Comfasalud"></picture>
-                                            </a>
-                                            <div class="overlay-bx">
-                                                <div class="overlay-icon align-b text-white">
-                                                    <div class="text-white text-left port-box">
-                                                        <a href="https://comfasalud.com" target="_blank">
-                                                            <h5>Compra Todo Online</h5>
-                                                        </a>
-                                                        <p>Tienda Online Woocommerce</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-								<li class="advertising branding photography card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
-                                    data-wow-delay="0.4s">
-                                    <div class="dlab-box dlab-gallery-box">
-                                        <div class="dlab-media dlab-img-overlay1 dlab-img-effect dlab-img-effect ">
-                                            <a href="javascript:void(0);">
-                                                <picture>
-                                                    <source srcset="{{asset('images/portafolio/issla-risk.webp')}}"
-                                                        type="image/webp">
-                                                    <img src="{{asset('images/portafolio/issla-risk.jpg')}}"
-                                                        alt="Issla Risk"></picture>
-                                            </a>
-                                            <div class="overlay-bx">
-                                                <div class="overlay-icon align-b text-white">
-                                                    <div class="text-white text-left port-box">
-                                                        <a href="https://isslarisk.com" target="_blank">
-                                                            <h5>Issla Risk Global Service</h5>
-                                                        </a>
-                                                        <p>Sitio Web Corporativo</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                            </li>
-							<li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn" data-wow-delay="0.2s">
-									<div class="dlab-box dlab-gallery-box">
-										<div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-										<picture><source srcset="images/portafolio/imagen-cpc.webp"  type="image/webp">				
-										<img src="images/portafolio/imagen-cpc.jpg"  alt="Ejemplo de diseño web en varias pantallas"></picture>
-											<div class="overlay-bx">
-												<div class="overlay-icon align-b text-white"> 
-													<div class="text-white text-left port-box">
-														<a href="https://consultoriaprofesionalc.com/" target="_blank"><h5>CPC&CO SAS</h5></a>
-														<p>Sitio Web Corporativo</p>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-							</li>
-							<li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn" data-wow-delay="0.2s">
-									<div class="dlab-box dlab-gallery-box">
-										<div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-										<picture><source srcset="images/portafolio/antero-german.webp"  type="image/webp">									
-										<img src="images/portafolio/antero-german.jpg"  alt="Sitio Web Antero Germán Ramirez"></picture>
-											<div class="overlay-bx">
-												<div class="overlay-icon align-b text-white"> 
-													<div class="text-white text-left port-box">
-														<a href="https://usimmigrationagr.com/" target="_blank"><h5>US Immigration</h5></a>
-														<p>Dr. Antero Germán Ramirez</p>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-							</li>
-							<li class="web branding card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn" data-wow-delay="0.2s">
-									<div class="dlab-box dlab-gallery-box">
-										<div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-										<picture><source srcset="images/portafolio/imagen-wsfast.webp"  type="image/webp">									
-										<img src="images/portafolio/imagen-wsfast.jpg"  alt="Ejemplo de landing page en varias pantallas"></picture>
-											<div class="overlay-bx">
-												<div class="overlay-icon align-b text-white"> 
-													<div class="text-white text-left port-box">
-														<a href="https://wsfast.com/" target="_blank"><h5>WSFAST</h5></a>
-														<p>Página Web Promocional</p>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-							</li>
-							<li class="branding design photography card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
-                                    data-wow-delay="0.6s">
-                                    <div class="dlab-box dlab-gallery-box">
-                                        <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-                                            <a href="javascript:void(0);">
-                                                <picture>
-                                                    <source srcset="{{asset('images/portafolio/bikersymoto.webp')}}"
-                                                        type="image/webp">
-                                                    <img src="{{asset('images/portafolio/bikersymoto.jpg')}}" alt="bikersymoto">
-                                                </picture>
-                                            </a>
-                                            <div class="overlay-bx">
-                                                <div class="overlay-icon align-b text-white">
-                                                    <div class="text-white text-left port-box">
-                                                        <a href="https://bikersymoto.com" target="_blank">
-                                                            <h5>Bikers y Motos Accesorios</h5>
-                                                        </a>
-                                                        <p>Tienda Online, Branding y Marketing</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                            </li>							
-						</ul>
-						<p class="p-tb50 p-b30 text-center">*Las cuentas mail no disponen de espacio en servidor para el alojamiento de mensajes, el servicio incluye solamente espacio para alojar el sitio web. Puede contratar con nosotros
-							espacio adicional para sus correos electrónicos en el servicio de email hosting. 
-						</p>
+								</div>
+							</div>
+						</div>
 					</div>
-				</div>
-			</div>
-                <!-- Our Portfolio END -->
-
-
-
-
-                <!-- Clients Words END -->
-                <!-- Get in touch -->
+				</div>				
+            </div>
+            
+             <!-- Get in touch -->
                 <div class="section-full overlay-primary-dark bg-img-fix bg-azul-oscuro-agencia">
                     <div class="container">
                         <div class="row">
@@ -405,10 +206,7 @@
                                                 class="fab fa-facebook-messenger"></i> ¡Háblenos por Messenger!</a>
                                         <p class="p-t10 font-16 text-center">Horario de Atención: Lunes a Sábado 8:00 AM
                                             a 6:00 PM</p>
-                                    </div>
-                                    <div class="row">
-
-                                    </div>
+                                    </div>                                    
                                 </form>
                             </div>
                         </div>
