@@ -197,7 +197,19 @@
 	background-image: linear-gradient(#00c6ff, #0077ff);
 }
 
-/*WEBP Background Images*/
+/*WEBP Images*/
+.webp-testimonial-bg{
+	background-image: url("/images/Home-business-Slider-image-3.webp")
+}
+.no-webp-testimonial-bg{
+	background-image: url("/images/Home-business-Slider-image-3.jpg")
+}
+.webp-bg14{
+	background-image: url("/images/background/bg14.webp")
+}
+.no-webp-bg14{
+	background-image: url("/images/background/bg14.jpg")
+}
 .no-webp-ecommerce{
 	background-image: url("/images/background/bg4.jpg")
  }
@@ -319,6 +331,30 @@
 }
 .webp-consultoria{
 	background-image: url("/images/background/bg23.webp")
+}
+.webp-pic1{
+	background-image: url("/images/our-services/pic1.webp")
+}
+.no-webp-pic1{
+	background-image: url("/images/our-services/pic1.jpg")
+}
+.webp-pic2{
+	background-image: url("/images/our-services/pic2.webp")
+}
+.no-webp-pic2{
+	background-image: url("/images/our-services/pic2.jpg")
+}
+.webp-pic3{
+	background-image: url("/images/our-services/pic3.webp")
+}
+.no-webp-pic3{
+	background-image: url("/images/our-services/pic3.jpg")
+}
+.webp-pic4{
+	background-image: url("/images/our-services/pic4.webp")
+}
+.no-webp-pic4{
+	background-image: url("/images/our-services/pic4.jpg")
 }
 /*==========================
 	FIN Custom css

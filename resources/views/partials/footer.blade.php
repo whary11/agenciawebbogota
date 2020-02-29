@@ -4,32 +4,32 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-6 footer-col-4">
                     <div class="widget widget_services border-0 m-t-15">                       
-                        <a href="https://agenciawebbogota.com" class="dez-page">
+                        <a href="{{url('/')}}" class="dez-page">
                            <img src=" {{asset('/images/logo-agencia-web-bogota.svg')}}" alt="Logo Agencia Web Bogotá" width="300">
                         </a>
                         <p class="text-grey p-t10 text-center">Agencia de Desarrollo Web<br>y Marketing Digital</p>
                         <div class="p-b20"></div>
                         <ul class="list-inline m-a0 text-center">
-					    	<li><a href="https://www.facebook.com/agenciawebbogota" title="Facebook" target="_blank" class="site-button facebook circle "><i class="fab fa-facebook-f"></i></a></li>
-							<li><a href="https://www.instagram.com/agenciawebbogota" title="Instagram" target="_blank" class="site-button instagram circle "><i class="fab fa-instagram"></i></a></li>
-							<li><a href="https://twitter.com/AgenciaBogota" title="Twitter" target="_blank" class="site-button twitter circle "><i class="fab fa-twitter"></i></a></li>
+					    	<li><a href="{{url('https://www.facebook.com/agenciawebbogota')}}" title="Facebook" target="_blank" class="site-button facebook circle "><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="{{url('https://www.instagram.com/agenciawebbogota')}}" title="Instagram" target="_blank" class="site-button instagram circle "><i class="fab fa-instagram"></i></a></li>
+							<li><a href="{{url('https://twitter.com/AgenciaBogota')}}" title="Twitter" target="_blank" class="site-button twitter circle "><i class="fab fa-twitter"></i></a></li>
 						</ul>           
                     </div>
                 </div>					
                 <div class="col-lg-4 col-md-6 col-sm-6 footer-col-4">
-                    <div class="widget widget_getintuch">
+                    <div class="widget widget_getintuch center-movil">
                         <h5 class="m-b30 text-white text-uppercase">Contáctenos</h5>
                         <ul>
                         <li class="text-none">
-                            <i class="fas fa-map-marker-alt"></i><a href="https://g.page/AgenciaDisenoWeb?share" target="_blank">Calle 9 No. 37-30 Local 17<br>Bogotá, Colombia</a></li>
+                            <i class="fas fa-map-marker-alt"></i><a href="{{url('https://g.page/AgenciaDisenoWeb?share')}}" target="_blank">Calle 9 No. 37-30 Local 17<br>Bogotá, Colombia</a></li>
                             <li class="text-none">
-                                <i class="fas fa-mobile-alt"></i><a href="tel:573168785601"><strong>Celular</strong>+57 316 8785601</a></li>
+                                <i class="fas fa-mobile-alt"></i><a href="tel:+573168785601"><strong>Celular</strong>+57 316 8785601</a></li>
                             <li class="text-none">
                                 <i class="fas fa-mail-bulk"></i><a href="mailto:info@agenciawebbogota.com"><strong>Email</strong>info@agenciawebbogota.com</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 footer-col-4 ">
+                <div class="col-lg-4 col-md-6 col-sm-6 footer-col-4 center-movil">
                     <div class="widget">
                         <h5 class="m-b30 text-white text-uppercase">Enviar un pago</h5>
                         <p class="m-b20 text-none">Puede enviar un pago por cualquier servicio contratado con Agencia Web Bogotá, usando los medios de pago disponibles.</p>
@@ -57,7 +57,7 @@
                     <div class="widget-link"> 
                         <ul>								
                             <li class="font-12">
-                                <a href="{{url('politicas-de-privacidad')}}">Políticas de Privacidad y Protección de Datos</a>
+                                <a href="{{url('politicas-de-privacidad')}}">Políticas de Privacidad</a>
                             </li> 
                         </ul>
                     </div>

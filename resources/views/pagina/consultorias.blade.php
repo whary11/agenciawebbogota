@@ -23,7 +23,6 @@
     <meta name="twitter:title" content="Consultoría online con profesionales en tecnologías empresariales">
     <meta name="twitter:description" content="Asesórese antes de contratar un servicio o iniciar un proyecto con profesionales en marketing digital, redes sociales, posicionamiento seo y diseño web.">
 	<link rel="canonical" href="https://agenciawebbogota.com/consultorias" />
-    <link rel="alternate" hreflang="en_EN" href="https://es.agenciawebbogota.com/consultancies" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
 
@@ -70,7 +69,7 @@
                 <div class="section-full content-inner" style="background-image:url(images/background/bg12.jpg);">
                 <div class="container">
 					<div class="row">
-						<div class="col-lg-4 col-md-12 align-self-center wow fadeInLeft" data-wow-delay="0.2s">
+						<div class="col-lg-4 col-md-12 align-self-center wow fadeInLeft center-movil" data-wow-delay="0.2s">
 							<h5>Información precisa y veráz</h5>
 							<h2 class="font-weight-700">Solicite consultoría especializada online por solo $29.900/hora</h2>
 						</div>
@@ -121,7 +120,7 @@
 			<div class="section-full content-inner-2" style="background-image:url(images/background/bg12.jpg);">
                 <div class="container">
 					<div class="row m-b40">
-						<div class="col-lg-6 col-md-6 m-b20">
+						<div class="col-lg-6 col-md-6 m-b20 center-movil">
 							<h3 class="m-b10 m-t0">¿Cómo funcionan las consultorías?</h3>
 							<p class="m-b10">Antes de realizar una contratación, iniciar un proyecto o aceptar una propuesta de servicios, usted puede asesorarse por profesionales en diferentes áreas tecnológicas.</p>
 							<p class="m-b10">En Agencia Web Bogotá somos expertos en desarrollo y diseño web, marketing digital, posicionamiento seo y redes sociales. Contáctenos, háblenos sobre sus objetivos y le ayudaremos a optimizar tiempo y dinero.</p>
@@ -136,21 +135,21 @@
 						</div>
 					</div>
 					<div class="row m-b50">
-						<div class="col-md-6 m-b20">
+						<div class="col-md-6 m-b20 center-movil">
 							<div class="p-a30 bg-gray">
                                 <h6><i class="fab fa-whatsapp"></i> Agende vía WhatsApp:<br><a class="m-l10 font-weight-300 text-gray-dark" href="{{url('https://api.whatsapp.com/send?phone=573168785601&text=Hola,%20quiero%20agendar%20una%20consultoria')}}" target="_blank"> +57 3168785601</a></h6>
 								<h6><i class="fas fa-at"></i> Agende vía Correo electrónico:<br><a class="m-l10 font-weight-300 text-gray-dark" href="mailto:infoagenciawebbogota.com"> info@agenciawebbogota.com</a></h6>
 								<h6><i class="fas fa-briefcase"></i> Visítenos en nuestras oficinas:<br><a class="m-l10 font-weight-300 text-gray-dark" href="{{url('https://g.page/AgenciaDisenoWeb?share')}}" target="_blank"> Calle 9 No. 37-30 Local 17 Bogotá, Colombia</a></h6>
 							</div>
 						</div>
-						<div class="col-md-6 align-self-center">
+						<div class="col-md-6 align-self-center center-movil">
 							<h5 class="text-black fw5 m-b10">Las sesiones de consultoría se realizan vía zoom, hangouts o skype. Si se requiere asistencia remota se realizará mediante Teamviewer o Anydesk</h5>
 							<p class="m-b0">Las consultorías no tienen como objetivo ofrecer otros servicios prestados por Agencia Web Bogotá, están enfocadas en las necesidades del cliente, brindando una información precisa e imparcial.</p>
 						</div>
 					</div>
 				</div>
 				<div class="container">
-					<div class="row m-b30">
+					<div class="row m-b30 center-movil">
 						<div class="col-lg-4 col-md-12 align-self-center wow fadeInLeft" data-wow-delay="0.2s">
 							<h5>Nuestro Objetivo</h5>
 							<h3 class="font-weight-700">Ser líderes en consultoría y asesoría en aplicaciones de tecnologías de la información</h3>
@@ -189,7 +188,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-5 col-md-5 content-inner chosesus-content text-white">
-                                <h2 class="box-title m-b15 wow fadeInLeft" data-wow-delay="0.2s">Contacte Ahora con
+                                <h2 class="box-title m-b15 wow fadeInLeft center-movil" data-wow-delay="0.2s">Contacte Ahora con
                                     Agencia Web Bogotá<span class="bg-primary"></span></h2>
                             </div>
                             <div class="col-lg-7 col-md-7 m-b30">
