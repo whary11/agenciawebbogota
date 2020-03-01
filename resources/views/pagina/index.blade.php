@@ -183,10 +183,8 @@
                                 </div>
                                 <div class="icon-content center-movil">
                                     <h4 class="dlab-tilte">Pruebe GSuite Gratis Por 14 Días</h4>
-                                    <p>Obtenga direcciones de correo electrónico personalizadas y más de 30Gb de almacenamiento por cuenta.</p>
+                                    <p>Obtenga direcciones de correo electrónico personalizadas y más de 30Gb de almacenamiento.</p>
                                     <a href="{{url('gsuite')}}" class="site-button white outline outline-2">Regístrese Ahora</a>
-                                    <p class="font-13 p-t20"><a href="{{url('https://api.whatsapp.com/send?phone=573168785601&text=Hola,%20quiero%20obtener%20un%20código%20promocional%20para%20GSuite')}}" target="_blank" >Escríbanos</a> y obtenga además un 20% de descuento durante su primer año</p>
-
                                 </div>
                             </div>
                         </div>
