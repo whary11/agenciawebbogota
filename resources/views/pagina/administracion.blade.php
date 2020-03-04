@@ -45,8 +45,8 @@
     <div class="page-wraper">
         <!-- header -->
         @include('partials.header')
-		<div class="icono-whatsapp" id="btn-whp"><a href="https://api.whatsapp.com/send?phone=573168785601"><i class="fab fa-whatsapp"></i></a></div>
-		<div class="icono-messenger" id="btn-mes"><a href="https://m.me/agenciawebbogota"><i class="fab fa-facebook-messenger"></i></a></div>
+		<div class="icono-whatsapp" id="btn-whp"><a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}"><i class="fab fa-whatsapp"></i></a></div>
+		<div class="icono-messenger" id="btn-mes"><a href="{{url('https://m.me/agenciawebbogota')}}"><i class="fab fa-facebook-messenger"></i></a></div>
 		<div class="icono-phone" id="btn-pho"><a href="tel:+573168785601"><i class="fas fa-phone-volume"></i></a></div>
 		<div class="tooltip-whatsapp" id="tp-whp"><span>¡Estamos en línea!</span></div>
 		<div class="tooltip-messenger" id="tp-mes"><span>Háblenos por Messenger</span></div>
@@ -127,7 +127,7 @@
 							<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
 								<div class="icon-content">
 									<h4 class="dlab-tilte text-uppercase">Brindamos<br>Soporte Técnico</h4>
-									<p>Nos encargamos que todo su entorno web funcione correctamente. Con nosotros cuenta con soporte técnico via ticket 24/7</p>
+									<p>Nos encargamos que todo su entorno web funcione correctamente. Con nosotros cuenta con soporte técnico permanente 24/7</p>
 								</div>
 							</div>
 						</div>
@@ -149,20 +149,21 @@
 								<div class="max-w500 m-auto p-tb30">
 									<div class="row">
 										<div class="col-lg-12 text-white">
-											<h3 class="box-title m-b10">How We Work<span class="bg-primary"></span></h3>
-											<h5 class="m-b30">Since our foundation in 2005 our goal has been to use digital technology to create experiences.</h5>
+											<h3 class="box-title m-b10">¿Qué incluye el servicio de Administración de Sitios Web?</h3>
 										</div>
 									</div>
 									<div class="row">
-										<div class="col-lg-12 m-b30 chosesus-content">
+										<div class="col-lg-12 chosesus-content">
 											<ul class="list-checked primary text-white">
-												<li><span>Contrary to popular belief, Lorem Ipsum is not simply</span></li>
-												<li><span>Random text. It has roots in a piece of classical Latin literature</span></li>
-												<li><span>Latin professor at Hampden-Sydney College in Virginia</span></li>
+												<li><span>Redacción, inclusión y optimización SEO de nuevo contenido</span></li>
+												<li><span>Edición y publicación de imágenes artículos, portafolio, servicios, etc.</span></li>
+												<li><span>Posicionamiento del sitio en buscadores (Google, Bing, Yahoo)</span></li>
+												<li><span>Actualización de plataformas, lenguajes y complementos</span></li>
+												<li><span>Mantenimiento del sitio y backups periódicos</span></li>
+												<li><span>Renovación anual de hosting y dominio</span></li>
+												<li><span>Creación y configuración de cuentas de correo electrónico</span></li>
+												<li><span>Notificación de pedidos, clientes, envíos, contactos o cotizaciones vía email	</span></li>
 											</ul>
-											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
-											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
-											<a href="#" class="site-button radius-xl outline white">Read More <i class="fa fa-long-arrow-right"></i></a>
 										</div>
 									</div>
 
@@ -177,9 +178,8 @@
 			<div class="section-full content-inner">
                 <div class="container">
 					<div class="section-head text-black text-center">
-						<h4 class="text-gray-dark m-b10">Services</h4>
-						<h2 class="box-title m-tb0">PHP Development Services<span class="bg-primary"></span></h2>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+						<h2 class="box-title m-tb0">Nuestros Planes</h2>
+						<p>Empaquete su servicio de administración con gestión de Redes Sociales para aumentar el alcance y optimizar su presupuesto</p>
 					</div>
 				</div>
 				<div class="container">
@@ -187,36 +187,36 @@
 						<div class="col-lg-4 col-md-6 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.2s">
 							<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
 								<div class="icon-content">
-									<h4 class="dlab-tilte text-uppercase"><a href="#">PHP Web <br/> Portals</a></h4>
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.</p>
-									<a href="#" class="site-button radius-xl outline outline-2">Read Move</a>
+									<h4 class="dlab-tilte">Sitio Web<br>Corporativo</h4>
+									<p class="text-blue"><span class="font-26 font-weight-700">$89.000</span> + IVA / Mes</p>
+									<a href="{{url('https://api.whatsapp.com/send?phone=573168785601&text=Hola,%20necesito%20administracion%20para%20mi%20sitio%20web%20corporativo')}}" target="_blank" class="site-button radius-m outline outline-2">Contratar</a>
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-6 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.4s">
 							<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
 								<div class="icon-content">
-									<h4 class="dlab-tilte text-uppercase"><a href="#">PHP Mobile <br/> Web Services</a></h4>
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.</p>
-									<a href="#" class="site-button radius-xl outline outline-2">Read Move</a>
+									<h4 class="dlab-tilte">Tienda<br>Online</h4>
+									<p class="text-blue"><span class="font-26 font-weight-700">$129.000</span> + IVA / Mes</p>
+									<a href="{{url('https://api.whatsapp.com/send?phone=573168785601&text=Hola,%20necesito%20administracion%20para%20mi%20tienda%20online')}}" target="_blank" class="site-button radius-m outline outline-2">Contratar</a>
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-6 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.6s">
 							<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
 								<div class="icon-content">
-									<h4 class="dlab-tilte text-uppercase"><a href="#">PHP Backend <br/> Solutions</a></h4>
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.</p>
-									<a href="#" class="site-button radius-xl outline outline-2">Read Move</a>
+									<h4 class="dlab-tilte text-uppercase">Sitio Web<br>Blog Magazine</h4>
+									<p class="text-blue"><span class="font-26 font-weight-700">$139.000</span> + IVA / Mes</p>
+									<a href="{{url('https://api.whatsapp.com/send?phone=573168785601&text=Hola,%20necesito%20administracion%20para%20mi%20blog')}}" target="_blank" class="site-button radius-m outline outline-2">Contratar</a>
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-6 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.8s">
 							<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
 								<div class="icon-content">
-									<h4 class="dlab-tilte text-uppercase"><a href="#">Social Networking <br/> Development</a></h4>
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.</p>
-									<a href="#" class="site-button radius-xl outline outline-2">Read Move</a>
+								<h4 class="dlab-tilte text-uppercase">Sitio Web<br>Blog Magazine</h4>
+									<p class="text-blue"><span class="font-26 font-weight-700">$139.000</span> + IVA / Mes</p>
+									<a href="{{url('https://api.whatsapp.com/send?phone=573168785601&text=Hola,%20necesito%20administracion%20para%20mi%20blog')}}" target="_blank" class="site-button radius-m outline outline-2">Contratar</a>
 								</div>
 							</div>
 						</div>
