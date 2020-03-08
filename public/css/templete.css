@@ -210,6 +210,12 @@
 .no-webp-bg14{
 	background-image: url("/images/background/bg14.jpg")
 }
+.webp-bg15{
+	background-image: url("/images/background/bg15.webp")
+}
+.no-webp-bg15{
+	background-image: url("/images/background/bg15.jpg")
+}
 .no-webp-ecommerce{
 	background-image: url("/images/background/bg4.jpg")
  }
@@ -355,6 +361,18 @@
 }
 .no-webp-pic4{
 	background-image: url("/images/our-services/pic4.jpg")
+}
+.webp-admin{
+	background-image: url("/images/background/bg10.webp")
+}
+.no-webp-admin{
+	background-image: url("/images/background/bg10.jpg")
+}
+.webp-map1{
+	background-image: url("/images/map1.webp")
+}
+.no-webp-map1{
+	background-image: url("/images/map1.png")
 }
 /*==========================
 	FIN Custom css

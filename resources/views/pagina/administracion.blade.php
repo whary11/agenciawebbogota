@@ -1,28 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="Robots" content="index, follow">
-    <title>Administración de Sitios Web</title>
-    <meta name="description" content="Diseñamos tu sitio web con posicionamiento en Google incluido y con garantía de funcionamiento. Tenemos la mejor oferta costo/beneficio del mercado." />
+    <title>Administramos su sitio web o tienda online desde $69.000 Mes</title>
+    <meta name="description" content="Deje su sitio web en manos expertas y disfrute de los resultados. Administramos, gestionamos y posicionamos su sitio web o tienda online. Conozca más...." />
 	<meta name="author" content="Agencia Web Bogotá">
 	<meta property="og:type" content="website" />
     <meta property="og:site_name " content="Agencia Web Bogotá" />
-    <meta property="og:title" content="Diseño de Páginas Web con posicionamiento incluido" />
-    <meta property="og:url" content="https://agenciawebbogota.com/paginas-web" />
-    <meta property="og:image" content="https://agenciawebbogota.com/images/muestra-paginas-web.jpg" />
-    <meta property="og:description" content="Diseñamos tu sitio web con posicionamiento en Google incluido y con garantía de funcionamiento. Tenemos la mejor oferta costo/beneficio del mercado" />
+    <meta property="og:title" content="Administramos su sitio web o tienda online desde $69.000 Mes" />
+    <meta property="og:url" content="https://agenciawebbogota.com/administracion-de-sitios-web" />
+    <meta property="og:image" content="https://agenciawebbogota.com/images/pic7.jpg" />
+    <meta property="og:description" content="Deje su sitio web en manos expertas y disfrute de los resultados. Administramos, gestionamos y posicionamos su sitio web o tienda online. Conozca más...." />
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@AgenciaBogota">
     <meta name="twitter:creator" content="@AgenciaBogota">
-    <meta name="twitter:image" content="https://agenciawebbogota.com/images/muestra-paginas-web.jpg">
-    <meta name="twitter:image:alt" content="Diseño de Páginas Web con posicionamiento incluido">
-    <meta name="twitter:title" content="Diseño de Páginas Web con posicionamiento incluido">
-    <meta name="twitter:description" content="Diseñamos tu sitio web con posicionamiento en Google incluido y con garantía de funcionamiento. Tenemos la mejor oferta costo/beneficio del mercado">
-	<link rel="canonical" href="https://agenciawebbogota.com/paginas-web" />
-    <meta name="format-detection" content="telephone=no">
+    <meta name="twitter:image" content="https://agenciawebbogota.com/images/pic7.jpg">
+    <meta name="twitter:image:alt" content="Administracion de sitios web">
+    <meta name="twitter:title" content="Administramos su sitio web o tienda online desde $69.000 Mes">
+    <meta name="twitter:description" content="Deje su sitio web en manos expertas y disfrute de los resultados. Administramos, gestionamos y posicionamos su sitio web o tienda online. Conozca más....">
+	<link rel="canonical" href="https://agenciawebbogota.com/administracion-de-sitios-web" />
+    <link rel="alternate" hreflang="en_EN" href="https://en.agenciawebbogota.com/websites-administration" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
 
@@ -57,7 +57,7 @@
     <!-- Content -->
     <div class="page-content bg-white">
         <!-- inner page banner -->
-		<div class="dlab-bnr-inr overlay-primary no-webp-pages webp-pages">
+		<div class="dlab-bnr-inr overlay-primary webp-admin no-webp-admin">
                 <div class="container">
                     <div class="dlab-bnr-inr-entry texto-ini">
                         <h1 class="text-white">Soluciones en Administración de Sitios Web</h1>
@@ -69,7 +69,7 @@
             
 		<div class="content-block">
             <!-- About Us -->
-			<div class="section-full content-inner exp-services">
+			<div class="section-full content-inner exp-services webp-bg14 no-webp-bg14">
                 <div class="container">
 					<div class="row">
 						<div class="col-lg-12">
@@ -142,14 +142,17 @@
                 <div class="container-fluid">
                     <div class="row dzseth">
 						<div class="col-lg-6 col-md-12 p-a0"> 
-							<img src="images/about/pic3.jpg" alt="" class="img-cover"/> 
+							<picture>
+                                <source srcset="{{asset('images/our-services/pic14.webp')}}" type="image/webp" alt="Administración de sitios web">
+                                <img src="{{asset('images/our-services/pic14.jpg')}}" alt="Administración de sitios web" class="img-cover">
+                            </picture> 
 						</div>
 						<div class="col-lg-6 col-md-12 bg-black-light p-lr0 dis-tbl">
 							<div class="p-a30 dis-tbl-cell wow fadeInRight" data-wow-delay="0.2s">
 								<div class="max-w500 m-auto p-tb30">
 									<div class="row">
 										<div class="col-lg-12 text-white">
-											<h3 class="box-title m-b10">¿Qué incluye el servicio de Administración de Sitios Web?</h3>
+											<h3 class="box-title m-b10 center-movil">¿Qué incluye el servicio de Administración de Sitios Web?</h3>
 										</div>
 									</div>
 									<div class="row">
@@ -175,7 +178,7 @@
             </div>
             <!-- About Us End -->
 			<!-- About Us -->
-			<div class="section-full content-inner">
+			<div class="section-full content-inner webp-bg14 no-webp-bg14">
                 <div class="container">
 					<div class="section-head text-black text-center">
 						<h2 class="box-title m-tb0">Nuestros Planes</h2>
@@ -196,17 +199,17 @@
 						<div class="col-lg-4 col-md-6 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.4s">
 							<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
 								<div class="icon-content">
-									<h4 class="dlab-tilte">Tienda Online<br>Hasta 50 Artículos</h4>
-									<p class="text-blue"><span class="font-26 font-weight-700">$129.000</span> + IVA / Mes</p>
-									<a href="{{url('https://api.whatsapp.com/send?phone=573168785601&text=Hola,%20necesito%20administracion%20para%20mi%20tienda%20online')}}" target="_blank" class="site-button radius-m outline outline-2">Contratar</a>
+									<h4 class="dlab-tilte">Sitio Corporativo<br>+ Redes Sociales</h4>
+									<p class="text-blue"><span class="font-26 font-weight-700">$159.000</span> + IVA / Mes</p>
+									<a href="{{url('https://api.whatsapp.com/send?phone=573168785601&text=Hola,%20necesito%20administracion%20para%20mi%20sitio%20web%20corporativo')}}" target="_blank" class="site-button radius-m outline outline-2">Contratar</a>
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-6 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.6s">
 							<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
 								<div class="icon-content">
-								<h4 class="dlab-tilte">Tienda Online<br>+51 Artículos</h4>
-									<p class="text-blue"><span class="font-26 font-weight-700">$169.000</span> + IVA / Mes</p>
+									<h4 class="dlab-tilte">Tienda Online<br>Hasta 50 Productos</h4>
+									<p class="text-blue"><span class="font-26 font-weight-700">$69.000</span> + IVA / Mes</p>
 									<a href="{{url('https://api.whatsapp.com/send?phone=573168785601&text=Hola,%20necesito%20administracion%20para%20mi%20tienda%20online')}}" target="_blank" class="site-button radius-m outline outline-2">Contratar</a>
 								</div>
 							</div>
@@ -214,27 +217,27 @@
 						<div class="col-lg-4 col-md-6 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.8s">
 							<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
 								<div class="icon-content">
-								<h4 class="dlab-tilte">Sitio Web<br>Blog Magazine</h4>
+								<h4 class="dlab-tilte">Tienda Online<br>+51 Productos</h4>
 									<p class="text-blue"><span class="font-26 font-weight-700">$139.000</span> + IVA / Mes</p>
-									<a href="{{url('https://api.whatsapp.com/send?phone=573168785601&text=Hola,%20necesito%20administracion%20para%20mi%20blog')}}" target="_blank" class="site-button radius-m outline outline-2">Contratar</a>
+									<a href="{{url('https://api.whatsapp.com/send?phone=573168785601&text=Hola,%20necesito%20administracion%20para%20mi%20tienda%20online')}}" target="_blank" class="site-button radius-m outline outline-2">Contratar</a>
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-6 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="1.0s">
 							<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
 								<div class="icon-content">
-									<h4 class="dlab-tilte">Sitio Corporativo<br>+ Redes Sociales</h4>
-									<p class="text-blue"><span class="font-26 font-weight-700">$219.000</span> + IVA / Mes</p>
-									<a href="{{url('https://api.whatsapp.com/send?phone=573168785601&text=Hola,%20necesito%20administracion%20y%20redes%20sociales%20para%20mi%20empresa')}}" target="_blank" class="site-button radius-m outline outline-2">Contratar</a>
+								<h4 class="dlab-tilte">Tienda Online<br>+ Redes Sociales</h4>
+									<p class="text-blue"><span class="font-26 font-weight-700">$289.000</span> + IVA / Mes</p>
+									<a href="{{url('https://api.whatsapp.com/send?phone=573168785601&text=Hola,%20necesito%20administracion%20para%20mi%20tienda%20online')}}" target="_blank" class="site-button radius-m outline outline-2">Contratar</a>
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-6 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="1.2s">
 							<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
 								<div class="icon-content">
-								<h4 class="dlab-tilte">Blog<br>+ Redes Sociales</h4>
-									<p class="text-blue"><span class="font-26 font-weight-700">$269.000</span> + IVA / Mes</p>
-									<a href="{{url('https://api.whatsapp.com/send?phone=573168785601&text=Hola,%20necesito%20administracion%20y%20redes%20sociales%20para%20mi%20blog')}}" target="_blank" class="site-button radius-m outline outline-2">Contratar</a>
+								<h4 class="dlab-tilte">Blog<br>Magazine</h4>
+									<p class="text-blue"><span class="font-26 font-weight-700">$179.000</span> + IVA / Mes</p>
+									<a href="{{url('https://api.whatsapp.com/send?phone=573168785601&text=Hola,%20necesito%20administracion%20para%20mi%20blog')}}" target="_blank" class="site-button radius-m outline outline-2">Contratar</a>
 								</div>
 							</div>
 						</div>
@@ -242,23 +245,22 @@
 					</div>
 				</div>
             </div>
-			<!-- Our Services -->
-
-			<div class="section-full p-t30 p-b30 bg-primary-dark text-white shop-action p-b70">
+            <!-- Our Services -->
+			<div class="section-full p-t30 p-b60 bg-primary-dark text-white shop-action">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="text-center m-auto ">
-                                <h4 class="font-weight-600 font-20">¿Nuestros planes no se ajustan a sus necesidades? Escríbanos contandonos sus requerimientos</h4>
-                                <a href="{{url('contacto')}}" class="site-button radius-sm outline outline-2"><span class="p-lr10">Contactar</span></a>
-                            </div>
+                                <h4 class="font-weight-600 font-20">¿Nuestros planes no se ajustan a su necesidad? Tenemos aún mucho más para usted   </h4>
+                                <a href="{{url('contacto')}}" class="site-button radius-sm outline outline-2"><span class="p-lr10">Contáctenos</span></a>
                         </div>
                     </div>
                 </div>
             </div>
-
-                <!-- Get in touch -->
-                <div class="section-full overlay-primary-dark bg-img-fix bg-azul-oscuro-agencia">
+			</div>
+			
+			<!-- Get in touch -->
+			<div class="section-full overlay-primary-dark bg-img-fix bg-azul-oscuro-agencia">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-5 col-md-5 content-inner chosesus-content text-white">
@@ -288,10 +290,8 @@
                         </div>
                     </div>
                 </div>
-                <!-- Get in touch -->
-		</div>
-		
-
+			<!-- Get in touch -->
+        </div>
 		<!-- contact area END -->
     </div>
     <!-- Content END-->

@@ -1,5 +1,5 @@
 <footer class="site-footer">
-    <div class="footer-top bg-black-light" style="background-image:url(images/map1.png)">
+    <div class="footer-top bg-black-light webp-map1 no-webp-map1">
         <div class="container wow fadeIn" data-wow-delay="0.5s">
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-6 footer-col-4">
