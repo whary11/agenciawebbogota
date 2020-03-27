@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,8 +8,10 @@
     <title>Blog Agencia Web Bogotá - Noticias, Tendencias, Oportunidades</title>
     <meta name="description" content="Espacio para compartir noticias, contenido, tendencias en diseño web y desarrollo de aplicaciones. Oportunidades en marketing digital y posicionamiento seo" />
     <meta name="author" content="Agencia Web Bogotá">
-    <meta name="format-detection" content="telephone=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <link rel="canonical" href="https://agenciawebbogota.com/blog/" />
+    <link rel="alternate" hreflang="en_EN" href="https://en.agenciawebbogota.com/blog/" />
+
 
     <!-- FAVICONS ICON -->
     <link rel="icon" href="{{asset('images/favicon.ico')}}" type="image/x-icon" />
@@ -47,6 +49,37 @@
                     <!-- blog grid -->
                     <div class="dlab-blog-grid-3 row" id="masonry" >
                     <div class="post card-container col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                            <div class="blog-post blog-grid blog-rounded blog-effect1">
+                                <div class="dlab-post-media dlab-img-effect "> <a href="{{url('blog/diez-consejos-para-trabajar-en-equipo-a-distancia-con-GSuite')}}">
+                                <picture>
+                                    <source srcset="{{asset('images/blog/trabajo-en-casa.webp')}}" type="image/webp">
+                                    <img src="{{asset('images/blog/trabajo-en-casa.jpg')}}" alt="Mujer de negocios trabajando desde casa">
+                                </picture> </a> </div>
+                                <div class="dlab-info p-a20 border-1">
+                                    <div class="dlab-post-title ">
+                                        <h4 class="post-title"><a href="{{url('blog/diez-consejos-para-trabajar-en-equipo-a-distancia-con-GSuite')}}">10 consejos para trabajar en equipo a distancia con GSuite</a></h4>
+                                    </div>                                    
+                                    <div class="dlab-post-text">
+                                       <p>¿Quiere sacar más partido de las aplicaciones de Google en su negocio, organización o centro educativo con trabajo colaborativo a distancia?</p>
+                                    </div>
+                                   <div class="dlab-post-readmore blog-share"> 
+										<a href="{{url('blog/diez-consejos-para-trabajar-en-equipo-a-distancia-con-GSuite')}}" title="READ MORE" rel="bookmark" class="site-button outline outline-1">IR AL ARTÍCULO
+                                        <i class="fas fa-arrow-right"></i>
+										</a>
+										<div class="share-btn">
+											<ul class="clearfix">
+                                            <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//agenciawebbogota.com/blog/nuevas-funciones-para-mejorar-el-rendimiento-de-su-sitio-web" title="Facebook" target="_blank" class="site-button sharp"><i class="fab fa-facebook-f"></i></a></li>
+												<li><a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//agenciawebbogota.com/blog/nuevas-funciones-para-mejorar-el-rendimiento-de-su-sitio-web&title=nuevas%20funciones%20para%20mejorar%20el%20rendimiento%20de%20su%20sitio%20web&summary=&source=" title="Linkedin" target="_blank" class="site-button sharp"><i class="fab fa-linkedin-in"></i></a></li>
+												<li><a href="https://twitter.com/intent/tweet?text=http%3A//agenciawebbogota.com/blog/nuevas-funciones-para-mejorar-el-rendimiento-de-su-sitio-web" title="Twitter" target="_blank" class="site-button sharp"><i class="fab fa-twitter"></i></a></li>
+												<li class="share-button"><a class="site-button sharp"><i class="fa fa-share-alt"></i></a></li>
+											</ul>
+										</div>
+									</div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post card-container col-lg-4 col-md-6 col-sm-12 col-xs-12">
                             <div class="blog-post blog-grid blog-rounded blog-effect1">
                                 <div class="dlab-post-media dlab-img-effect "> <a href="{{url('blog/renta-un-sitio-web-o-tienda-online')}}">
                                 <picture>

@@ -64,6 +64,9 @@ class IndexController extends Controller
     public function nuevoservicios(){
         return view('pagina.blog/nuevoservicios');
     }
+    public function consejosGsuite(){
+        return view('pagina.blog/consejosGSuite');
+    }
     public function websalquiler(){
         return view('pagina.blog/websalquiler');
     }

@@ -338,6 +338,12 @@
 .webp-consultoria{
 	background-image: url("/images/background/bg23.webp")
 }
+.no-webp-trabajoencasa{
+	background-image: url("/images/background/bg24.jpg")
+}
+.webp-trabajoencasa{
+	background-image: url("/images/background/bg24.webp")
+}
 .webp-pic1{
 	background-image: url("/images/our-services/pic1.webp")
 }
@@ -1716,6 +1722,6 @@ svg.radial-progress:nth-of-type(6n+1) circle { stroke: #6cc000; }
 	.btn-messenger{ margin-top:20px; }
 	.perstable{ padding-bottom:0px; }
 	.no-movil { display:none }
-	.center-movil { text-align: center; }
+	.center-movil { text-align: center; line-height: 1.2em; }
 }
 

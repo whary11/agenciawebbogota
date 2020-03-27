@@ -35,6 +35,7 @@ Route::get('/blog', 'IndexController@blog');
 Route::get('/blog/alarmante-aumento-en-los-costos-de-alojamiento-de-paginas-web', 'IndexController@aumento');
 Route::get('/blog/nuevas-funciones-para-mejorar-el-rendimiento-de-su-sitio-web', 'IndexController@nuevoservicios');
 Route::get('/blog/renta-un-sitio-web-o-tienda-online', 'IndexController@websalquiler');
+Route::get('/blog/diez-consejos-para-trabajar-en-equipo-a-distancia-con-GSuite', 'IndexController@consejosGSuite');
 Route::get('/gsuite', 'IndexController@gsuite');
 Route::get('/consultorias', 'IndexController@consultorias');
 
