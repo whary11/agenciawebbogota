@@ -23,6 +23,7 @@ Route::get('/tiendas-online', 'IndexController@tiendaOnline');
 Route::get('/programacion-web', 'IndexController@programacionWeb');
 Route::get('/redes-sociales', 'IndexController@redesSociales');
 Route::get('/posicionamiento-web', 'IndexController@posicionamientoWeb');
+Route::get('/diseno-y-fotografia', 'IndexController@disenoyfotografia');
 Route::get('/blog', 'IndexController@blog');
 Route::get('/contacto', 'IndexController@contacto');
 Route::get('/servicios', 'IndexController@servicios');

@@ -31,6 +31,9 @@ class IndexController extends Controller
     public function posicionamientoWeb(){
         return view('pagina.posicionamiento-web');
     }
+    public function disenoyfotografia(){
+        return view('pagina.disenoyfotografia');
+    }
     public function servicios(){
         return view('pagina.servicios');
     }
