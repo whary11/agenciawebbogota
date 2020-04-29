@@ -68,7 +68,7 @@
                                         campañas de marketing digital y capacitaciones
                                     </p>
                                     <div class="text-center max-w800 m-auto p-t40">
-                                        <a href="https://secure.payco.co/checkoutopen/12369" class="site-button bg-azul-oscuro-agencia outline outline-2"><span class="p-lr10">Enviar un Pago</span></a>
+                                        <a href="https://secure.payco.co/checkoutopen/21307" class="site-button bg-azul-oscuro-agencia outline outline-2"><span class="p-lr10">Enviar un Pago</span></a>
                                         <div class="p-t20"></div>
                                         <picture>
                                         <source srcset="{{asset('images/pago_seguro.webp')}}" type="image/webp">

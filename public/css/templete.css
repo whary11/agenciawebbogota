@@ -1714,8 +1714,7 @@ svg.radial-progress:nth-of-type(6n+1) circle { stroke: #6cc000; }
 	.slide-item-img img{ height:800px; }
 	.texto-ini h1{ font-size: 20px; text-align: center !important; line-height: 1.2em; font-weight: 600;}
 	.texto-ini h2{ font-size: 18px; text-align: center; line-height: 1.2em; padding-top:10px; }
-	.title-princ{ margin-top: -20px; }
-	.icono-whatsapp{ top:75%; left:4%; font-size:30px; border:1px;}
+	.icono-whatsapp{ top:95%; left:4%; font-size:30px; border:1px;}
 	.icono-messenger{ top:65%; left:4%; font-size:30px; border:1px;}
 	.icono-phone{ top:75%; left:4%; font-size:30px; border:1px;}
 	.btn1{ margin-top:20px; }

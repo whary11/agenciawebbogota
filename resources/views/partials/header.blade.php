@@ -54,8 +54,8 @@
                         <li><a>Desarrollo Web<i class="fas fa-chevron-down"></i></a>
                             <ul class="sub-menu">
                                 <li><a href="{{url('paginas-web')}}">Páginas Web </a><li>
+                                <li><a href="{{url('tiendas-online')}}">Tiendas En Línea </a></li>
                                 <li><a href="{{url('landing-page')}}">Landing Pages </a></li>
-                                <li><a href="{{url('tiendas-online')}}">Tiendas Online </a></li>
                                 <li><a href="{{url('programacion-web')}}">Programación Web</a></li>
                                 <li><a href="{{url('sitios-web-y-tiendas-online-en-alquiler')}}">Sitios Web en Alquiler</a></li>
                                 <li><a href="{{url('administracion-de-sitios-web')}}">Administración Web</a></li>
@@ -65,14 +65,13 @@
                             <ul class="sub-menu">
                                 <li><a href="{{url('redes-sociales')}}">Redes Sociales </a></li>
                                 <li><a href="{{url('posicionamiento-web')}}">Posicionamiento Web </a></li>
-                                <li><a href="{{url('gsuite')}}">Obtener GSuite </a></li>
+                                <li><a href="{{url('gsuite')}}">Cuentas GSuite </a></li>
 
                             </ul>
                         </li>
                         <li><a href="{{url('blog')}}">Blog </a></li>
                         <li><a>Soporte<i class="fas fa-chevron-down"></i></a>
                             <ul class="sub-menu">
-                                <li><a href="{{url('consultorias')}}" class="dez-page">Consultorías</a></li>
                                 <li><a>Tickets<i class="fa fa-angle-right"></i></a>
                                     <ul class="sub-menu">
                                     <li><a href="{{url('/ticket')}}" class="dez-page">Abrir</a></li>
@@ -83,9 +82,6 @@
 
                             </ul>
                         </li>
-                        <li><a href="{{url('https://en.agenciawebbogota.com')}}" data-toggle="tooltip" data-placement="bottom" title="Versión Inglés">
-                        <img src="{{asset('images/usa-flag.jpg')}}" alt="EEUU Bandera"></a></li>
-
                         </li>
                         </li>
                     </ul>
