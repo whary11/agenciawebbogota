@@ -66,7 +66,7 @@
 	text-align: center;
 	width: 50px;
 	height:50px;
-	top:50%;
+	top:80%;
 	left:2%;
 	z-index: 999;
 	-webkit-transition: -webkit-transform 1s ease-out;
@@ -81,7 +81,7 @@
 .icono-whatsapp a{
 	color:#fff;
 }
-.icono-messenger{
+/* .icono-messenger{
 	background-image: linear-gradient(#00c6ff, #0077ff);
 	border: solid 2px #fff;
 	font-size: 30px;
@@ -132,14 +132,14 @@
     -webkit-transform: rotate(360deg);
  	-moz-transform: rotate(360deg);
  	transform: rotate(360deg);
-}
+} */
 /*Fin Iconos de Contacto Fijos*/
 /*Tooltips Contacto*/
 .tooltip-whatsapp{
 	cursor: pointer;
 	position: fixed;
 	display: none;
-	top:51%;
+	top:81%;
 	left:5%;
 	z-index: 998;
 	width: 20px;
@@ -152,7 +152,7 @@
 	line-height: 35px;
 	
 }
-.tooltip-messenger{
+/* .tooltip-messenger{
 	cursor: pointer;
 	position: fixed;
 	display: none;
@@ -183,7 +183,7 @@
 	text-align: center;
 	color: #fff;
 	line-height: 35px;
-}
+} */
 
 /*Fin Tooltips contacto*/
 
@@ -1714,8 +1714,8 @@ svg.radial-progress:nth-of-type(6n+1) circle { stroke: #6cc000; }
 	.slide-item-img img{ height:800px; }
 	.texto-ini h1{ font-size: 20px; text-align: center !important; line-height: 1.2em; font-weight: 600;}
 	.texto-ini h2{ font-size: 18px; text-align: center; line-height: 1.2em; padding-top:10px; }
-	.title-princ{ margin-top: -100px; }
-	.icono-whatsapp{ top:55%; left:4%; font-size:30px; border:1px;}
+	.title-princ{ margin-top: -20px; }
+	.icono-whatsapp{ top:75%; left:4%; font-size:30px; border:1px;}
 	.icono-messenger{ top:65%; left:4%; font-size:30px; border:1px;}
 	.icono-phone{ top:75%; left:4%; font-size:30px; border:1px;}
 	.btn1{ margin-top:20px; }

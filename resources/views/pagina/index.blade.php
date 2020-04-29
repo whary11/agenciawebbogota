@@ -53,18 +53,10 @@
 </head>
 
 <body id="bg">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W7763V6"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
     <div class="page-wraper">
         @include('partials.header')
     <div class="icono-whatsapp" id="btn-whp"><a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}"><i class="fab fa-whatsapp"></i></a></div>
-    <div class="icono-messenger" id="btn-mes"><a href="https://m.me/agenciawebbogota"><i class="fab fa-facebook-messenger"></i></a></div>
-    <div class="icono-phone" id="btn-pho"><a href="tel:+573168785601"><i class="fas fa-phone-volume"></i></a></div>
     <div class="tooltip-whatsapp" id="tp-whp"><span>¡Estamos en línea!</span></div>
-    <div class="tooltip-messenger" id="tp-mes"><span>Háblenos por Messenger</span></div>
-    <div class="tooltip-phone" id="tp-pho"><span>Llámenos</span></div>
     
         <!-- Content -->
         <div class="page-content bg-white">
@@ -74,8 +66,26 @@
                     <div class="item slide-item">
                         <div class="slide-item-img">
                             <picture>
+                                <source srcset="{{asset('images/background/bg26.webp')}}" type="image/webp">
+                                <img src="{{asset('images/background/bg26.jpg')}}" alt="Mujer joven vendiendo productos por Internet">
+                            </picture>
+                        </div>
+                        <div class="slide-content overlay-primary">
+                            <div class="slide-content-box container title-princ">
+                                <div class="max-w600 text-white">                                    
+                                    <h2 class="text-white font-weight-600 bs">"O Llevas <span class="text-yellow-light">¡YA MISMO!</span> Tu Negocio a Internet o Desapareces"</h2>
+                                    <h4>Este es el momento de hacer inversión en tu Sitio Web o Tienda en línea</h4>
+                                    <p>La virtualización y el acceso a tus Productos y Servicios desde internet ayudaran de una manera considerable a minimizar el impacto económico de la situación actual sobre tu empresa y negocio.</p>
+                                    <a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" target="_blank" class="site-button m-r10 primary button-lg btn1">¡Si, Quiero Cotizar!</a>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="item slide-item">
+                        <div class="slide-item-img">
+                            <picture>
                                 <source srcset="{{asset('images/background/bg20.webp')}}" type="image/webp">
-                                <img src="{{asset('images/background/bg20.jpg')}}" alt="Mujer joven sonriente y relajada frente a computadora">
+                                <img src="{{asset('images/background/bg20.jpg')}}" alt="Mujer joven vendiendo productos por Internet">
                             </picture>
                         </div>
                         <div class="slide-content overlay-primary">
@@ -106,7 +116,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <!-- Service -->
                 <div class="service-box-slide">
@@ -167,7 +177,7 @@
             </div>
             <!-- Slider Banner -->
             <div class="content-block">
-                <div class="section-full facility">
+                <!-- <div class="section-full facility">
                     <div class="row">
                         <div class="col-lg-6 col-md-12 col-sm-12">
                             <div class="icon-bx-wraper left bg-azul-claro-agencia text-white p-a70 dlab-box-icon">
@@ -208,7 +218,7 @@
                             </div>
                         </div>                        
                     </div>
-                </div>
+                </div> -->
                 <!-- Portfolio -->
                 <div class="section-full bg-white content-inner-1 portfolio">
                     <div class="container-fluid">
@@ -852,8 +862,6 @@
     <script src=" {{asset('plugins/loading/anime.js')}}"></script><!-- LOADING JS -->
     <script src=" {{asset('plugins/loading/anime-app.js')}}"></script><!-- LOADING JS -->
     <script src=" {{asset('js/custom.js')}}"></script><!-- CUSTOM FUCTIONS  -->
-    {{-- <script src='https://www.google.com/recaptcha/api.js'></script> <!-- Google API For Recaptcha  --> --}}
-    {{-- <script src="{{asset('plugins/loading/anime.js')}}"></script><!-- Tilt Jquery -->
     <script src="{{asset('plugins/loading/anime-app3.js')}}"></script><!-- Tilt Jquery --> --}}
     <script src="{{asset('js/dz.ajax.js')}} "></script><!-- CONTACT JS  -->
     @include('partials.schema')
