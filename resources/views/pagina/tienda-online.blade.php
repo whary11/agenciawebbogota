@@ -5,24 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="Robots" content="index, follow">
-    <title>Diseño de Tiendas Online | Sitios automatizados para ventas online</title>
-    <meta name="description" content="Tiendas Online Automatizadas. Sitios web para comercio electrónico con todos los componentes necesarios para un crecimiento rápido de su negocio en línea." />
+    <title>Diseñamos Tu Tienda Virtual Desde solo $560.000 Pago Único</title>
+    <meta name="description" content="O comienzas a vender online ya mismo o desapareces 😯 Es el momento de invertir en tu Tienda Virtual, conoce las muchas opciones que tenemos para ti." />
 	<meta name="author" content="Agencia Web Bogotá">
 	<meta property="og:type" content="service" />
     <meta property="og:site_name " content="Agencia Web Bogotá" />
-    <meta property="og:title" content="Diseño de Tiendas Online | Sitios automatizados para ventas online" />
+    <meta property="og:title" content="Diseñamos Tu Tienda Virtual Desde solo $560.000 Pago Único" />
     <meta property="og:url" content="https://agenciawebbogota.com/tiendas-online" />
     <meta property="og:image" content="https://agenciawebbogota.com/images/background/bg4.jpg" />
-    <meta property="og:description" content="Tiendas Online Automatizadas. Sitios web para comercio electrónico con todos los componentes necesarios para un crecimiento rápido de su negocio en línea." />
+    <meta property="og:description" content="O comienzas a vender online ya mismo o desapareces 😯 Es el momento de invertir en tu Tienda Virtual, conoce las muchas opciones que tenemos para ti." />
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@AgenciaBogota">
     <meta name="twitter:creator" content="@AgenciaBogota">
     <meta name="twitter:image" content="https://agenciawebbogota.com/images/background/bg4.jpg">
-    <meta name="twitter:image:alt" content="Diseño de Tiendas Online | Sitios automatizados para ventas online">
+    <meta name="twitter:image:alt" content="Diseñamos Tu Tienda Virtual Desde solo $560.000 Pago Único">
     <meta name="twitter:title" content="Diseño de Tiendas Online">
-    <meta name="twitter:description" content="Tiendas Online Automatizadas. Sitios web para comercio electrónico con todos los componentes necesarios para un crecimiento rápido de su negocio en línea.">
+    <meta name="twitter:description" content="O comienzas a vender online ya mismo o desapareces 😯 Es el momento de invertir en tu Tienda Virtual, conoce las muchas opciones que tenemos para ti.">
 	<link rel="canonical" href="https://agenciawebbogota.com/tiendas-online" />
-    <link rel="alternate" hreflang="en-EN" href="https://es.agenciawebbogota.com/e-commerce" />
+    <link rel="alternate" hreflang="en_EN" href="https://en.agenciawebbogota.com/e-commerce" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- FAVICONS ICON -->
@@ -56,7 +56,7 @@
             <div class="container">
                 <div class="dlab-bnr-inr-entry texto-ini">
 					<h1 class="text-white">Tiendas Online</h1>
-					<h2 class="text-white">Websites para comercio electrónico</h2>					
+					<h2 class="text-white">Transforme y Potencie Su Negocio Con El Comercio Electrónico</h2>					
                 </div>
             </div>
         </div>
@@ -67,8 +67,8 @@
                 <div class="container">
 					<div class="section-head text-black text-center">
 						<h4 class="text-gray-dark m-b10">E-COMMERCE</h4>
-						<h2 class="box-title m-tb0">Tiendas Online 100% Automatizadas</h2>
-						<p class="font-weight-600">Desarrollamos sitios web para comercio electrónico con todos los componentes necesarios para garantizar un crecimiento rápido de su negocio</p>
+						<h2 class="box-title m-tb0">Sitios Web Para Ventas Online</h2>
+						<p class="font-weight-600"><span class="text-pink">¡Es el momento de afrontar una nueva realidad!</span> El comercio electrónico se ha convertido en el salvavidas de muchos negocios, vender online ya no es una opción sino una necesidad real. Tenemos todo lo que necesita para realizar esta transición con éxito.</p>
 					</div>
 				</div>
 				<div class="container">
@@ -104,8 +104,8 @@
 							<div class="icon-bx-wraper expertise  bx-style-1 p-a30 center">
 								<div class="icon-lg m-b20"><i class="fas fa-file-invoice-dollar text-blue"></i> </div>
 								<div class="icon-content">
-									<h5 class="dlab-tilte text-uppercase">Pasarelas de Pago</h5>
-									<p>Enlazamos su tienda con las mejores y más seguras pasarelas de pago: PayU, ePayco, Mercadopago, entre otras</p>
+									<h5 class="dlab-tilte text-uppercase">Pagos Seguros</h5>
+									<p>Habilite en su tienda pagos en efectivo o con tarjeta de crédito, PSE, Baloto, Efecty, Codensa, PayPal y Bitcions </p>
 								</div>
 							</div>
 						</div>
@@ -156,16 +156,16 @@
 								<div class="icon-lg text-white m-b20"><i class="icon-cell text-white fas fa-funnel-dollar"></i></div>
 								<div class="icon-content">
 									<h5 class="dlab-tilte text-uppercase">Remarketing</h5>
-									<p>Usamos herramientas efectivas para llamar nuevamente la atención de los visitantes que desisten de la compra</p>
+									<p>Enlazamos su tienda con pixel de facebook, tags de Google, Google Analytics, flujos automatizados y más</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-12 m-b30">
 							<div class="icon-bx-wraper bx-style-1 p-a30 center">
-								<div class="icon-lg text-white m-b20"><i class="icon-cell text-white fab fa-whatsapp"></i></div>
+								<div class="icon-lg text-white m-b20"><i class="fas fa-tags"></i></div>
 								<div class="icon-content">
-									<h5 class="dlab-tilte text-uppercase">WhatsApp Marketing</h5>
-									<p>Notifique a sus clientes por medio de WhatsApp de sus ofertas, nuevos lanzamientos y novedades de su tienda</p>
+									<h5 class="dlab-tilte text-uppercase">Dropshipping</h5>
+									<p>Si vender inventario de otras tiendas es lo suyo, tenemos las herramientas precisas para hacerlo</p>
 								</div>
 							</div>
 						</div>
@@ -336,7 +336,204 @@
 								</div>
 							</div>
                 </div>
+				<div class="p-tb20"></div>
+
+				<div class="section-full p-tb30  bg-primary-dark text-white shop-action">
+                <div class="container">
+                    <div class="row">	
+                        <div class="col-lg-12">
+                            <div class="text-center m-auto ">
+                                <h4 class="font-weight-600 font-20">¡Relájese! Agencia Web Bogotá también administra su tienda virtual por usted</h4>
+								<p>Usted solo ocúpese de despachar los pedidos y de mantener su inventario disponible. Nosotros vendemos por usted a través de su tienda virtual y le remitimos el dinero. Todo por un costo mínimo mensual</p>
+                                <a href="{{url('administracion-de-sitios-web')}}" class="site-button radius-sm outline outline-2"><span class="p-lr10">Me Interesa, Quiero Más Detalles</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				</div>
+
+				<div class="section-full">
+                <div class="container-fluid">
+                    <div class="row dzseth">
+						<div class="col-lg-6 col-md-12 col-xs-12 p-a0"> 
+                        <picture>
+                                <source srcset="{{asset('images/our-services/pic12.webp')}}" type="image/webp" alt="Dueña de negocio empacando producto vendido por Internet">
+                                <img src="{{asset('images/our-services/pic12.jpg')}}" alt="Dueña de negocio empacando producto vendido por Internet" class="img-cover">
+                            </picture> 
+						</div>
+						<div class="col-lg-6 col-md-12 col-xs-12 bg-black-light p-lr0 dis-tbl">
+							<div class="p-a30 dis-tbl-cell wow fadeInRight" data-wow-delay="0.2s">
+								<div class="max-w500 m-auto p-tb30">
+									<div class="row">
+										<div class="col-lg-12">
+											<h4 class="text-blue">Listo, me interesa ¿Cúal es el procedimiento para comenzar el diseño?</h4>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-lg-12 text-gray">
+											<p><i>Envíenos un mensaje de <a class="text-green" href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" target="_blank">WhatsApp</a> o <a class="text-red" href="{{url('mailto:info@agenciawebbogota.com')}}">correo electrónico</a> especificando el plan que se ajusta a su necesidad, si no lo tiene claro solicite que le asesoremos.</i></p>
+											<p><i>Para comenzar el desarrollo requerimos su logotipo; imágenes, nombres, precios y descripciones de sus productos, así como las categorías o secciones en las que desee organizar sus productos.</i></p>
+											<p><i>Debe abonar como mínimo el 50% del valor total de tu tienda para iniciar el desarrollo, una vez terminado el proyecto y entregado a satisfacción se facturará el restante.<span class="text-yellow"> Si decide pagar el valor total de su tienda por anticipado, aplicará un descuento del 10%.</span></i></p>
+											<p><i>Recuerde que puede usar diferentes medios de pago como tarjeta débito y crédito, transferencia bancaria, pago en efectivo por efecty, baloto, daviplata o comuníquese para habilitar pago con bitcoins, PayPal o Skrill.</i></p>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+                </div>
+            </div>				
             		
+			<div class="section-full content-inner-2 portfolio" id="portfolio" style="background-image:url({{asset('images/background/bg14.jpg')}});">
+				<div class="container">
+					<div class="section-head text-center">
+						<h2 class="box-title m-tb0">Ultimas Tiendas Diseñadas</h2>
+						<p> Algunos de Nuestros clientes </p>
+					</div>
+					<div class="clearfix">
+						<ul id="masonry" class="dlab-gallery-listing gallery-grid-4 gallery mfp-gallery port-style1">
+						<li class="web design card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
+                                    data-wow-delay="0.2s">
+                                    <div class="dlab-box dlab-gallery-box">
+                                        <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
+                                            <a href="javascript:void(0);">
+                                                <picture>
+                                                    <source srcset="{{asset('images/portafolio/jeronimos.webp')}}"
+                                                        type="image/webp">
+                                                    <img src="{{asset('images/portafolio/jeronimos.jpg')}}" alt="Jerónimo's Cake Shop">
+                                                </picture>
+                                            </a>
+                                            <div class="overlay-bx">
+                                                <div class="overlay-icon align-b text-white">
+                                                    <div class="text-white text-left port-box">
+                                                        <a href="https://jeronimos.co" target="_blank">
+                                                            <h5>Jerónimos Cake Shop</h5>
+                                                        </a>
+                                                        <p>Sitio Web Shop</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </li>
+							<li class="web branding card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
+                                    data-wow-delay="0.2s">
+                                    <div class="dlab-box dlab-gallery-box">
+                                        <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
+                                            <a href="javascript:void(0);">
+                                                <picture>
+                                                    <source srcset="{{asset('images/portafolio/compratodonline.webp')}}"
+                                                        type="image/webp">
+                                                    <img src="{{asset('images/portafolio/compratodonline.jpg')}}"
+                                                        alt="Portal Web IPS Comfasalud"></picture>
+                                            </a>
+                                            <div class="overlay-bx">
+                                                <div class="overlay-icon align-b text-white">
+                                                    <div class="text-white text-left port-box">
+                                                        <a href="https://comfasalud.com" target="_blank">
+                                                            <h5>Compra Todo Online</h5>
+                                                        </a>
+                                                        <p>Tienda Online Woocommerce</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+								<li class="branding design photography card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
+                                    data-wow-delay="0.6s">
+                                    <div class="dlab-box dlab-gallery-box">
+                                        <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
+                                            <a href="javascript:void(0);">
+                                                <picture>
+                                                    <source srcset="{{asset('images/portafolio/bikersymoto.webp')}}"
+                                                        type="image/webp">
+                                                    <img src="{{asset('images/portafolio/bikersymoto.jpg')}}" alt="bikersymoto">
+                                                </picture>
+                                            </a>
+                                            <div class="overlay-bx">
+                                                <div class="overlay-icon align-b text-white">
+                                                    <div class="text-white text-left port-box">
+                                                        <a href="https://bikersymoto.com" target="_blank">
+                                                            <h5>Bikers y Motos Accesorios</h5>
+                                                        </a>
+                                                        <p>Tienda Online, Branding y Marketing</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </li>
+							<li class="web branding card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
+                                    data-wow-delay="0.2s">
+                                    <div class="dlab-box dlab-gallery-box">
+                                        <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
+                                            <a href="javascript:void(0);">
+                                                <picture>
+                                                    <source srcset="{{asset('images/portafolio/asistir-computadores.webp')}}"
+                                                        type="image/webp">
+                                                    <img src="{{asset('images/portafolio/asistir-computadores.jpg')}}"
+                                                        alt="Portal Web IPS Comfasalud"></picture>
+                                            </a>
+                                            <div class="overlay-bx">
+                                                <div class="overlay-icon align-b text-white">
+                                                    <div class="text-white text-left port-box">
+                                                        <a href="https://asistircomputadores.com" target="_blank">
+                                                            <h5>Asistir Computadores</h5>
+                                                        </a>
+                                                        <p>Tienda Online Woocommerce</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+								<li class="advertising branding photography card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
+                                    data-wow-delay="0.4s">
+                                    <div class="dlab-box dlab-gallery-box">
+                                        <div class="dlab-media dlab-img-overlay1 dlab-img-effect dlab-img-effect ">
+                                            <a href="javascript:void(0);">
+                                                <picture>
+                                                    <source srcset="{{asset('images/portafolio/issla-risk.webp')}}"
+                                                        type="image/webp">
+                                                    <img src="{{asset('images/portafolio/issla-risk.jpg')}}"
+                                                        alt="Issla Risk"></picture>
+                                            </a>
+                                            <div class="overlay-bx">
+                                                <div class="overlay-icon align-b text-white">
+                                                    <div class="text-white text-left port-box">
+                                                        <a href="https://isslarisk.com" target="_blank">
+                                                            <h5>Issla Risk Global Service</h5>
+                                                        </a>
+                                                        <p>Sitio Web Corporativo</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </li>
+							<li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn" data-wow-delay="0.2s">
+									<div class="dlab-box dlab-gallery-box">
+										<div class="dlab-media dlab-img-overlay1 dlab-img-effect">
+										<picture><source srcset="images/portafolio/imagen-cpc.webp"  type="image/webp">				
+										<img src="images/portafolio/imagen-cpc.jpg"  alt="Ejemplo de diseño web en varias pantallas"></picture>
+											<div class="overlay-bx">
+												<div class="overlay-icon align-b text-white"> 
+													<div class="text-white text-left port-box">
+														<a href="https://consultoriaprofesionalc.com/" target="_blank"><h5>CPC&CO SAS</h5></a>
+														<p>Sitio Web Corporativo</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+							</li>														
+						</ul>
+					</div>
+				</div>
+			</div>
+
 			<div class="section-full overlay-primary-dark bg-img-fix bg-azul-oscuro-agencia m-t60">
 				<div class="container">
 					<div class="row">
