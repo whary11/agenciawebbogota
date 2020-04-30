@@ -54,6 +54,26 @@
 /*Fin Blog*/
 
 
+/*Página Tiendas Online*/
+.oferta-banner-tienda{
+	background-color: #92d102;
+	color: black;
+	font-weight: 600;
+	text-align: center;
+	padding: 5px;
+}
+.texto-oferta{
+	text-decoration: line-through;
+	font-size:16px;
+	font-weight: 300;
+}
+.texto-oferta-2{
+	color: #141414;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+
 /*Iconos de contacto Fijos*/
 .icono-whatsapp{
 	background-image: linear-gradient(#5ad066, #2db742);

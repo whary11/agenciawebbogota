@@ -45,11 +45,7 @@
         <!-- header -->
         @include('partials.header')
 		<div class="icono-whatsapp" id="btn-whp"><a href="https://api.whatsapp.com/send?phone=573168785601"><i class="fab fa-whatsapp"></i></a></div>
-		<div class="icono-messenger" id="btn-mes"><a href="https://m.me/agenciawebbogota"><i class="fab fa-facebook-messenger"></i></a></div>
-		<div class="icono-phone" id="btn-pho"><a href="tel:+573168785601"><i class="fas fa-phone-volume"></i></a></div>
 		<div class="tooltip-whatsapp" id="tp-whp"><span>¡Estamos en línea!</span></div>
-		<div class="tooltip-messenger" id="tp-mes"><span>Háblenos por Messenger</span></div>
-		<div class="tooltip-phone" id="tp-pho"><span>Llámenos</span></div>
 
 
     <!-- header END -->
@@ -177,35 +173,36 @@
 				</div>				
 			</div>
 			<!-- Why Chose Us End -->
-			<div class="section-full content-inner-1">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12">
-							<div class="section-head text-center">
-								<h2 class="box-title m-tb0">Nuestros Planes</h2>
-								<p class="font-weight-600">Tenemos el sitio web para comercio electrónico hecho a la medida de su negocio</p>
-							</div>
-							<!-- Pricing table-1 Columns 3 with gap -->
-							<div class="section-content box-sort-in button-example">
+			<div class="section-full content-inner" style="background-image:url({{asset('images/pattern/pic1.jpg')}});">
+                <div class="container">
+					<div class="section-head text-black text-center">
+						<h4 class="text-gray-dark m-b10">Nuestros Planes</h4>
+						<h2 class="box-title m-tb0">Planes de Diseño Web a la Medida de sus Necesidades</h2>
+						<p>Todas nuestras tiendas incluyen alojamiento en hosting privado (VPS) de alta velocidad, dominio y certificado de navegación segura SSL</p>
+					</div>
+				</div>
+				<!-- Pricing table-1 Columns 3 with gap -->
+				<div class="section-content box-sort-in button-example">
 								<div class="pricingtable-row">
 									<div class="row max-w1000 m-auto">
 										<div class="col-sm-12 col-md-4 col-lg-4 p-lr0">
 											<div class="pricingtable-wrapper style1">
+											<div class="oferta-banner-tienda">¡Oferta 20% DCTO!</div>
 												<div class="pricingtable-inner">
-													<div class="pricingtable-price"> 
-														<div class="pricingtable-icon"><i class="flaticon-rocket-ship"></i></div>
-														<h4 class="font-weight-300 m-t10 m-b0">Tienda Startup</h4>
-														<span class="pricingtable-bx text-primary">COP $850.000</span>
+													<div class="pricingtable-price">
+														<h4 class="font-weight-600 m-t10 m-b0">Tienda Personal</h4>
+														<span class="pricingtable-bx text-primary"><span class="texto-oferta">$700.000</span><br>$560.000<br><span class="texto-oferta-2 text-primary">Único Pago</span>
 													</div>
 													<ul class="pricingtable-features">
-														<li><i class="fa fa-check text-primary"></i> WordPress</li>
-														<li><i class="fa fa-check text-primary"></i> Hasta 20 productos</li>
-														<li><i class="fa fa-check text-primary"></i> Hosting y dominio</li>
-														<li><i class="fa fa-check text-primary"></i> Sistema de inventario</li>
-														<li><i class="fa fa-check text-primary"></i> Variaciones de producto</li>
+														<li class="text-center font-13"> WordPress + Woocommerce</li>
+														<li class="text-center font-13"> 10 Productos subidos con máximo 3 variaciones por producto</li>
+														<li class="text-center font-13"> Galería de 3 imágenes por producto</li>
+														<li class="text-center font-13"> Zonas y clases de envío personalizadas</li>
+														<li class="text-center font-13"> Carrito de Compras</li>
+														<li class="text-center font-13"> Pagos con ePayco, PayU, Mercadopago</li>
 													</ul>
 													<div class="m-t20"> 
-														<a href="contacto" class="site-button outline outline-2 button-md">Contratar</a> 
+														<a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" class="site-button outline outline-2 button-md">Contratar</a> 
 													</div>
 												</div>
 											</div>
@@ -214,19 +211,74 @@
 											<div class="pricingtable-wrapper style1 active">
 												<div class="pricingtable-inner">
 													<div class="pricingtable-price"> 
-														<div class="pricingtable-icon"><i class="flaticon-shop"></i></div>
-														<h4 class="font-weight-300 m-t10 m-b0">Tienda Shopify</h4>
-														<span class="pricingtable-bx text-primary">COP $1.800.000</span>
+														<h4 class="font-weight-600 m-t10 m-b10">Tienda Básica</h4>
+														<span class="pricingtable-bx text-primary">$850.000<br><span class="texto-oferta-2 text-primary">Único Pago</span>
 													</div>
 													<ul class="pricingtable-features">
-														<li><i class="fa fa-check text-primary"></i> Tema Premium </li>
-														<li><i class="fa fa-check text-primary"></i> Productos Ilimitados</li>
-														<li><i class="fa fa-check text-primary"></i> App Móvil</li>
-														<li><i class="fa fa-check text-primary"></i> 100% Administrable</li>
-														<li><i class="fa fa-check text-primary"></i> Posicionamiento SEO</li>
+														<li class="text-center font-13"> WordPress + Woocommerce</li>
+														<li class="text-center font-13"> 20 Productos subidos con máximo 5 variaciones por producto</li>
+														<li class="text-center font-13"> Galería de 5 imágenes por producto</li>
+														<li class="text-center font-13"> Zonas y clases de envío personalizadas</li>
+														<li class="text-center font-13"> Sistema de inventario</li>
+														<li class="text-center font-13"> Carrito de Compras</li>
+														<li class="text-center font-13"> Pagos con ePayco, PayU, Mercadopago</li>
+														<li class="text-center font-13"> Chat de WhatsApp</li>
 													</ul>
 													<div class="m-t20 m-b5"> 
-														<a href="contacto" class="site-button button-md">Contratar</a> 
+														<a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" class="site-button button-md">Contratar</a> 
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-sm-12 col-md-4 col-lg-4 p-lr0">
+											<div class="pricingtable-wrapper style1">
+											<div class="oferta-banner-tienda">¡Oferta 10% DCTO!</div>
+												<div class="pricingtable-inner">
+													<div class="pricingtable-price"> 
+														<h4 class="font-weight-600 m-t10 m-b10">Tienda Ideal</h4>
+														<span class="pricingtable-bx text-primary"><span class="texto-oferta">$1.450.000</span><br>$1.305.000<br><span class="texto-oferta-2 text-primary">Único Pago</span>
+													</div>
+													<ul class="pricingtable-features">
+														<li class="text-center font-13"> Todas las funciones de Tienda Básica</li>
+														<li class="text-center font-13"> 100 Productos subidos con máximo 10 variaciones por producto</li>
+														<li class="text-center font-13"> Galería de 6 imágenes por producto</li>
+														<li class="text-center font-13"> Rotación de productos destacados, ofertas o más vendidos en Home</li>
+														<li class="text-center font-13"> Posicionamiento SEO de productos</li>
+														<li class="text-center font-13"> Integración con redes sociales y catálogo de tienda facebook</li>
+													</ul>
+													<div class="m-t20"> 
+														<a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" class="site-button outline outline-2 button-md">Contratar</a> 
+													</div>
+												</div>
+											</div>
+                                        </div>                                        
+									</div>
+								</div>
+							</div>
+                </div>
+
+                <div class="section-content box-sort-in button-example" style="background-image:url({{asset('images/background/bg11.jpg')}});">
+								<div class="pricingtable-row">
+									<div class="row max-w1000 m-auto">
+										<div class="col-sm-12 col-md-4 col-lg-4 p-lr0">
+											<div class="pricingtable-wrapper style1 active">
+												<div class="pricingtable-inner">
+													<div class="pricingtable-price"> 
+														<h4 class="font-weight-600 m-t10 m-b10">Tienda Alto Tráfico</h4>
+														<span class="pricingtable-bx text-primary">$2.100.000<br><span class="texto-oferta-2 text-primary">Único Pago</span>
+													</div>
+													<ul class="pricingtable-features">
+														<li class="text-center font-13"> Todas las funciones de Tienda Ideal</li>
+														<li class="text-center font-13"> Productos ilimitados con variaciones ilimitadas</li>
+														<li class="text-center font-13"> Imágenes de productos ilimitadas</li>
+														<li class="text-center font-13"> Integración con Google Shopping</li>
+														<li class="text-center font-13"> Toma y/o edición de fotografías de productos</li>
+														<li class="text-center font-13"> Plugins Premium para SEO</li>
+														<li class="text-center font-13"> Registro de usuarios</li>
+														<li class="text-center font-13"> Velocidad de carga optimizada</li>
+													</ul>
+													<div class="m-t20"> 
+														<a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" class="site-button outline outline-2 button-md">Contratar</a> 
 													</div>
 												</div>
 											</div>
@@ -235,31 +287,56 @@
 											<div class="pricingtable-wrapper style1">
 												<div class="pricingtable-inner">
 													<div class="pricingtable-price"> 
-														<div class="pricingtable-icon"><i class="flaticon-bar-chart"></i></div>
-														<h4 class="font-weight-300 m-t10 m-b0">Tienda Woocommerce</h4>
-														<span class="pricingtable-bx text-primary">COP $2.100.000</span>
+														<h4 class="font-weight-600 m-t10 m-b10">Tienda Shopify</h4>
+														<span class="pricingtable-bx text-primary">$1.800.000<br><span class="texto-oferta-2 text-primary">+ Plan Mensual Shopify</span>
 													</div>
 													<ul class="pricingtable-features">
-														<li><i class="fa fa-check text-primary"></i> Productos ilimitados </li>
-														<li><i class="fa fa-check text-primary"></i> Registro de usuarios</li>
-														<li><i class="fa fa-check text-primary"></i> Consola administrativa</li>
-														<li><i class="fa fa-check text-primary"></i> Envíos e inventarios</li>
-														<li><i class="fa fa-check text-primary"></i> SEO avanzado</li>
+														<li class="text-center font-13"> Productos limitados con variaciones ilimitadas</li>
+														<li class="text-center font-13"> Galería de imágenes ilimitadas</li>
+														<li class="text-center font-13"> Tema Premium Shopify</li>
+														<li class="text-center font-13"> Valoraciones de productos</li>
+														<li class="text-center font-13"> Optimizada para alto tráfico</li>
+														<li class="text-center font-13"> Velocidad de carga optimizada</li>
+														<li class="text-center font-13"> Posicionamiento SEO de Productos</li>
+														<li class="text-center font-13"> Google Shopping y Catálogo de Facebook</li>
+
 													</ul>
 													<div class="m-t20"> 
-														<a href="contacto" class="site-button outline outline-2 button-md">Contratar</a> 
+														<a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" class="site-button outline outline-2 button-md">Contratar</a> 
 													</div>
 												</div>
 											</div>
 										</div>
+										<div class="col-sm-12 col-md-4 col-lg-4 p-lr0">
+											<div class="pricingtable-wrapper style1 active">
+												<div class="pricingtable-inner">
+													<div class="pricingtable-price"> 
+														<h4 class="font-weight-600 m-t10 m-b10">Tienda a Medida</h4>
+														<span class="pricingtable-bx text-primary">A Convenir</span>
+													</div>
+													<ul class="pricingtable-features">
+														<li class="text-center font-13"> ¿Cuantos productos maneja?</li>
+														<li class="text-center font-13"> ¿Desea integración con API?</li>
+														<li class="text-center font-13"> ¿Fotografías de productos?</li>
+														<li class="text-center font-13"> ¿Qué lenguaje o plataforma prefiere?</li>
+														<li class="text-center font-13"> ¿Su tienda en más de un idioma?</li>
+														<li class="text-center font-13"> ¿Más de una divisa?</li>
+														<li class="text-center font-13"> ¿Integración con software de inventarios?</li>
+														<li class="text-center font-13"> ¿Integración con sistemas POS?</li>
+														<li class="text-center font-13"> ¿Capacitaciones o asesorías?</li>
+
+													</ul>
+													<div class="m-t20"> 
+														<a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" class="site-button outline outline-2 button-md">Pregúntenos</a> 
+													</div>
+												</div>
+											</div>
+										</div>                                        
 									</div>
 								</div>
 							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			
+                </div>
+            		
 			<div class="section-full overlay-primary-dark bg-img-fix bg-azul-oscuro-agencia m-t60">
 				<div class="container">
 					<div class="row">

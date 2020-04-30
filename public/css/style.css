@@ -9256,8 +9256,9 @@ ul[class*="list-"]{
 	border:0;
 }
 .pricingtable-wrapper.style1 .pricingtable-bx{
-	font-size: 20px;
+	font-size: 40px;
     font-weight: 700;
+    line-height: 0.7em;
 }
 .pricingtable-wrapper.style1 .pricingtable-features{
 	border:0;
