@@ -15,7 +15,7 @@
                 </div>
                 <div class="dlab-topbar-right">
                     <ul>
-                        <li><a href="{{url('/')}}"><i class="fas fa-dollar-sign m-r5"></i>
+                        <li><a href="{{url('/')}}"><i class="fas fa-life-ring"></i>
                                 Soporte Técnico</a></li>
                                 <li><a href="{{url('servicios')}}"><i class="fas fa-dollar-sign m-r5"></i>
                                 Tarifas Servicios</a></li>        
@@ -69,9 +69,8 @@
                                 <li><a href="{{url('gsuite')}}">Cuentas GSuite </a></li>
 
                             </ul>
-                        </li>
-                        <li><a href="{{url('blog')}}">Blog </a></li>
-                        <li><a>Soporte<i class="fas fa-chevron-down"></i></a>
+                        </li>                        
+                        <li><a>Diseño Gráfico<i class="fas fa-chevron-down"></i></a>
                             <ul class="sub-menu">
                                 <li><a>Tickets<i class="fa fa-angle-right"></i></a>
                                     <ul class="sub-menu">
@@ -83,6 +82,7 @@
 
                             </ul>
                         </li>
+                        <li><a href="{{url('blog')}}">Blog </a></li>
                         </li>
                         </li>
                     </ul>
