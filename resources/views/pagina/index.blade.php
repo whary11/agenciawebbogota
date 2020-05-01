@@ -76,7 +76,7 @@
                                     <h2 class="text-white font-weight-600 bs">"O Llevas <span class="text-yellow-light">¡YA MISMO!</span> Tu Negocio a Internet o Desapareces"</h2>
                                     <h4>Este es el momento de hacer inversión en tu Sitio Web o Tienda en línea</h4>
                                     <p>La virtualización y el acceso a tus Productos y Servicios desde internet ayudaran de una manera considerable a minimizar el impacto económico de la situación actual sobre tu empresa y negocio.</p>
-                                    <a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" target="_blank" class="site-button m-r10 primary button-lg btn1">¡Si, Quiero Cotizar!</a>    
+                                    <a href="{{url('tiendas-online')}}" target="_blank" class="site-button m-r10 primary button-lg btn1">Quiero Elegir Mi Tienda</a>    
                                 </div>
                             </div>
                         </div>
@@ -131,7 +131,7 @@
                                                     <span class="icon-sm"><i class="fab fa-codepen"></i></span>
                                                     Aplicativos Web
                                                 </h5>
-                                                <p>Programación a la<br>medida de su necesidad</p>
+                                                <p>Programación a la<br>medida de tu necesidad</p>
                                             </div>
                                         </div>
                                     </div>
@@ -142,7 +142,7 @@
                                                     <span class="icon-sm"><i class="fas fa-shopping-cart"></i></span>
                                                     Tiendas Online
                                                 </h5>
-                                                <p>100% automatizadas con <br>Woocommercer o Shopify</p>
+                                                <p>100% automatizadas con <br>Woocommerce o Shopify</p>
                                             </div>
                                         </div>
                                     </div>
@@ -164,7 +164,7 @@
                                                     <span class="icon-sm"><i class="fas fa-search"></i></span>
                                                     Posicionamiento
                                                 </h5>
-                                                <p>Su empresa en las primeras posiciones de Google</p>
+                                                <p>Tu negocio en las primeras posiciones de Google</p>
                                             </div>
                                         </div>
                                     </div>
@@ -177,54 +177,11 @@
             </div>
             <!-- Slider Banner -->
             <div class="content-block">
-                <!-- <div class="section-full facility">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-12 col-sm-12">
-                            <div class="icon-bx-wraper left bg-azul-claro-agencia text-white p-a70 dlab-box-icon">
-                                <div class="icon-lg">
-                                    <div class="icon-cell no-movil">
-                                        <div>
-                                            <span>
-                                                <i class="fab fa-google"></i>
-                                                <i class="fab fa-google"></i>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="icon-content center-movil">
-                                    <h4 class="dlab-tilte">Pruebe GSuite Gratis Por 14 Días</h4>
-                                    <p>Obtenga direcciones de correo electrónico personalizadas y más de 30Gb de almacenamiento.</p>
-                                    <a href="{{url('gsuite')}}" class="site-button white outline outline-2">Regístrese Ahora</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-12 col-sm-12 bg-gray">
-                            <div class="icon-bx-wraper left p-a70 dlab-box-icon">
-                                <div class="icon-lg">
-                                    <div class="icon-cell no-movil">
-                                        <div>
-                                            <span>
-                                                <i class="fas fa-briefcase"></i>
-                                                <i class="fas fa-briefcase"></i>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="icon-content center-movil">
-                                <h4 class="dlab-tilte">Solicite Consultoría Online</h4>
-                                    <p>Asesórese antes de contratar un servicio o iniciar un proyecto, conozca sus limitaciones y oportunidades.</p>
-                                    <a href="{{url('consultorias')}}" class="site-button pink outline outline-2">Más Información</a>
-                                </div>
-                            </div>
-                        </div>                        
-                    </div>
-                </div> -->
-                <!-- Portfolio -->
                 <div class="section-full bg-white content-inner-1 portfolio">
                     <div class="container-fluid">
                         <div class="section-head text-black text-center">
                             <h4 class="text-gray-dark m-b10">Tenemos la mejor relación costo/beneficio del mercado</h4>
-                            <h2 class="box-title m-tb0">Confíe el desarrollo de su proyecto a Agencia Web Bogotá</h2>
+                            <h2 class="box-title m-tb0">Confía el desarrollo de tu proyecto a Agencia Web Bogotá</h2>
                             <p class="font-weight-600">Trabajamos con las mejores herramientas web, plataformas seguras y servidores eficientes.
                                 Con dedicación, profesionalismo y cumplimiento</p>
                         </div>
@@ -294,8 +251,8 @@
                 <div class="section-full bg-azul-oscuro-agencia content-inner">
                     <div class="container">
                         <div class="m-auto text-center m-b50 text-white">
-                            <h6 class="font-weight-300 m-t0">¿Que más puede hacer Agencia Web Bogotá por usted?</h6>
-                            <h3>Obténga máxima exposición para sus productos y servicios a través de los beneficios que
+                            <h6 class="font-weight-300 m-t0">¿Que más puede hacer Agencia Web Bogotá por tu negocio?</h6>
+                            <h3>Obtén máxima exposición para tus productos y servicios a través de los beneficios que
                                 ofrece la publicidad online</h3>
                         </div>
                         <div class="row">
@@ -307,12 +264,12 @@
                                         </div>
                                         <div class="icon-content">
                                             <h5 class="dlab-tilte">Publicidad en Redes Sociales</h5>
-                                            <p>Diseñamos sus perfiles y anuncios publicitarios, creamos sus campañas,
-                                                optimizamos su presupuesto y le garantizamos resultados</p>
+                                            <p>Diseñamos tus perfiles y anuncios publicitarios, creamos tus campañas,
+                                                optimizamos tu presupuesto y te garantizamos resultados</p>
                                         </div>
                                     </div>
                                     <div class="icon-box-btn text-center">
-                                        <a href="{{url('redes-sociales')}}" class="site-button btn-block">Conozca más</a>
+                                        <a href="{{url('redes-sociales')}}" class="site-button btn-block">Más Info...</a>
                                     </div>
                                 </div>
                             </div>
@@ -330,7 +287,7 @@
                                         </div>
                                     </div>
                                     <div class="icon-box-btn text-center">
-                                        <a href="{{url('redes-sociales')}}" class="site-button btn-block">Conozca más</a>
+                                        <a href="{{url('redes-sociales')}}" class="site-button btn-block">Más Info...</a>
                                     </div>
                                 </div>
                             </div>
@@ -342,12 +299,12 @@
                                         </div>
                                         <div class="icon-content">
                                             <h5 class="dlab-tilte">Posicionamiento en Google</h5>
-                                            <p>Posicionamos su negocio local por medio de la ficha de empresa.
-                                                Optimizamos el contenido de su sitio web con palabras claves</p>
+                                            <p>Posicionamos tu negocio local por medio de la ficha de empresa.
+                                                Optimizamos el contenido de tu sitio web con palabras claves</p>
                                         </div>
                                     </div>
                                     <div class="icon-box-btn text-center">
-                                        <a href="{{url('posicionamiento-web')}}" class="site-button btn-block">Conozca más</a>
+                                        <a href="{{url('posicionamiento-web')}}" class="site-button btn-block">Más Info...</a>
                                     </div>
                                 </div>
                             </div>
@@ -360,11 +317,11 @@
                                         <div class="icon-content">
                                             <h5 class="dlab-tilte">Alojamiento Web</h5>
                                             <p><span class="text-red">Adios al hosting compartido</span> Lo nuevo es servidores privados virtuales (VPS)
-                                             que ofrecen +60% de velocidad de carga y +80% de seguridad a su sitio web</p>
+                                             que ofrecen +60% de velocidad de carga y +80% de seguridad a tu sitio web</p>
                                         </div>
                                     </div>
                                     <div class="icon-box-btn text-center">
-                                        <a href="{{url('redes-sociales')}}" class="site-button btn-block">Conozca más</a>
+                                        <a href="{{url('redes-sociales')}}" class="site-button btn-block">Más Info...</a>
                                     </div>
                                 </div>
                             </div>
@@ -806,20 +763,20 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-5 col-md-5 content-inner chosesus-content text-white">
-                                <h2 class="box-title m-b15 wow fadeInLeft center-movil" data-wow-delay="0.2s">Contacte Ahora con
+                                <h2 class="box-title m-b15 wow fadeInLeft center-movil" data-wow-delay="0.2s">Contacta Ahora con
                                     Agencia Web Bogotá</h2>
                             </div>
                             <div class="col-lg-7 col-md-7 m-b30">
                                 <form class="inquiry-form wow fadeInUp dzForm" data-wow-delay="0.2s">
                                     <div class="dzFormMsg"></div>
                                     <h3 class="box-title m-t0 m-b10 text-center">Estamos listos para comenzar a trabajar
-                                        en su proyecto </h3>
+                                        en tu proyecto </h3>
                                     <div class="text-center p-t20">
                                         <a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}"
                                             class="site-button btn-whatsapp"><i class="fab fa-whatsapp"></i>
-                                            ¡Pregúntenos por WhatsApp!</a>
+                                            ¡Pregúntanos por WhatsApp!</a>
                                         <a href="{{url('https://m.me/agenciawebbogota')}}" class="site-button btn-messenger"><i
-                                                class="fab fa-facebook-messenger"></i> ¡Háblenos por Messenger!</a>
+                                                class="fab fa-facebook-messenger"></i> ¡Háblanos por Messenger!</a>
                                         <p class="p-t10 font-16 text-center">Horario de Atención: Lunes a Sábado 8:00 AM
                                             a 6:00 PM</p>
                                     </div>
@@ -862,7 +819,7 @@
     <script src=" {{asset('plugins/loading/anime.js')}}"></script><!-- LOADING JS -->
     <script src=" {{asset('plugins/loading/anime-app.js')}}"></script><!-- LOADING JS -->
     <script src=" {{asset('js/custom.js')}}"></script><!-- CUSTOM FUCTIONS  -->
-    <script src="{{asset('plugins/loading/anime-app3.js')}}"></script><!-- Tilt Jquery --> --}}
+    <script src="{{asset('plugins/loading/anime-app3.js')}}"></script><!-- Tilt Jquery -->
     <script src="{{asset('js/dz.ajax.js')}} "></script><!-- CONTACT JS  -->
     @include('partials.schema')
     <script>

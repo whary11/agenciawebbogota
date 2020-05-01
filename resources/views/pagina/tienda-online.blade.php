@@ -56,7 +56,7 @@
             <div class="container">
                 <div class="dlab-bnr-inr-entry texto-ini">
 					<h1 class="text-white">Tiendas Online</h1>
-					<h2 class="text-white">Transforme y Potencie Su Negocio Con El Comercio Electrónico</h2>					
+					<h2><span class="text-white">Obtén Tu Tienda Virtual Con Hosting y Dominio</span> <span class="text-yellow">GRATIS</span></h2>					
                 </div>
             </div>
         </div>
@@ -66,9 +66,9 @@
 			<div class="section-full content-inner">
                 <div class="container">
 					<div class="section-head text-black text-center">
-						<h4 class="text-gray-dark m-b10">E-COMMERCE</h4>
+						<h4 class="text-gray-dark m-b10">No Pierdas Esta Oportunidad</h4>
 						<h2 class="box-title m-tb0">Sitios Web Para Ventas Online</h2>
-						<p class="font-weight-600"><span class="text-pink">¡Es el momento de afrontar una nueva realidad!</span> El comercio electrónico se ha convertido en el salvavidas de muchos negocios, vender online ya no es una opción sino una necesidad real. Tenemos todo lo que necesita para realizar esta transición con éxito.</p>
+						<p class="font-weight-600"><span class="text-pink">¡Es el momento de afrontar una nueva realidad!</span> El comercio electrónico se ha convertido en el salvavidas de muchos negocios, vender online ya no es una opción sino una necesidad real. Tenemos todo lo que necesitas para realizar esta transición con éxito.</p>
 					</div>
 				</div>
 				<div class="container">
@@ -87,7 +87,7 @@
 								<div class="icon-lg m-b20"> <i class="fas fa-boxes text-blue"></i></div>
 								<div class="icon-content">
 									<h5 class="dlab-tilte text-uppercase">Sistemas de Inventario</h5>
-									<p>Lleve el control del stock de su tienda, defina la disponibilidad y reciba notificaciones de existencias</p>
+									<p>Lleva el control del stock de tu tienda, define la disponibilidad y recibe notificaciones de existencias</p>
 								</div>
 							</div>
 						</div>
@@ -96,7 +96,7 @@
 								<div class="icon-lg m-b20"> <i class="fas fa-cart-plus text-blue"></i> </div>
 								<div class="icon-content">
 									<h5 class="dlab-tilte text-uppercase">Carrito de Compras</h5>
-									<p>Agregue la función carrito de compras con múltiples opciones dependiendo del comportamiento del usuario</p>
+									<p>Agrega la función carrito de compras con múltiples opciones dependiendo del comportamiento del usuario</p>
 								</div>
 							</div>
 						</div>
@@ -105,7 +105,7 @@
 								<div class="icon-lg m-b20"><i class="fas fa-file-invoice-dollar text-blue"></i> </div>
 								<div class="icon-content">
 									<h5 class="dlab-tilte text-uppercase">Pagos Seguros</h5>
-									<p>Habilite en su tienda pagos en efectivo o con tarjeta de crédito, PSE, Baloto, Efecty, Codensa, PayPal y Bitcions </p>
+									<p>Habilita en tu tienda pagos en efectivo o con tarjeta de crédito, PSE, Baloto, Efecty, Codensa, PayPal y Bitcions </p>
 								</div>
 							</div>
 						</div>
@@ -114,7 +114,7 @@
 								<div class="icon-lg m-b20"><i class="fab fa-searchengin text-blue"></i></div>
 								<div class="icon-content">
 									<h5 class="dlab-tilte text-uppercase">Con Posicionamiento</h5>
-									<p>Hacemos que los productos de su tienda aparezcan de primeros en los resultados de búsqueda de Google</p>
+									<p>Hacemos que los productos de tu tienda aparezcan en los primeros resultados de búsqueda de Google</p>
 								</div>
 							</div>
 						</div>
@@ -123,7 +123,7 @@
 								<div class="icon-lg m-b20"><i class="fas fa-shipping-fast text-blue"></i></div>
 								<div class="icon-content">
 									<h5 class="dlab-tilte text-uppercase">Sistemas de Envío</h5>
-									<p>Conecte con transportadoras o defina los parámetros de envío según la ubicación de sus compradores</p>
+									<p>Conecta con transportadoras o define los parámetros de envío según la ubicación de tus compradores</p>
 								</div>
 							</div>
 						</div>
@@ -136,8 +136,8 @@
 		<div class="section-full content-inner-1 overlay-primary about-service bg-img-fix no-webp-ecommerce2 webp-ecommerce2">
 				<div class="container">
 					<div class="section-head text-white text-center">
-						<h2 class="box-title m-tb0 max-w800 m-auto">Conectamos su tienda con las mejores herramientas de marketing digital</h2>
-						<p>Saque el mayor provecho de su tienda virtual enlazando con servicios externos que aumenten sus posibilidades de éxito y ventas</p>
+						<h2 class="box-title m-tb0 max-w800 m-auto">Conectamos tu tienda con las mejores herramientas de marketing digital</h2>
+						<p>Sácale todo el jugo a tu tienda virtual enlazando con servicios externos que aumenten tus posibilidades de éxito y ventas</p>
 					</div>
 				</div>
 				<div class="container">
@@ -147,7 +147,7 @@
 								<div class="icon-lg text-white m-b20"><i class="icon-cell text-white fas fa-share-alt"></i></div>
 								<div class="icon-content">
 									<h5 class="dlab-tilte text-uppercase">Redes Sociales</h5>
-									<p>Enlazamos el catálogo de su tienda a las redes sociales con botones comprar, obtener oferta y pedir online</p>
+									<p>Enlazamos el catálogo de tu tienda a las redes sociales con botones comprar, obtener oferta y pedir online</p>
 								</div>
 							</div>
 						</div>
@@ -156,7 +156,7 @@
 								<div class="icon-lg text-white m-b20"><i class="icon-cell text-white fas fa-funnel-dollar"></i></div>
 								<div class="icon-content">
 									<h5 class="dlab-tilte text-uppercase">Remarketing</h5>
-									<p>Enlazamos su tienda con pixel de facebook, tags de Google, Google Analytics, flujos automatizados y más</p>
+									<p>Enlazamos tu tienda con pixel de facebook, tags de Google, Google Analytics, flujos automatizados y más</p>
 								</div>
 							</div>
 						</div>
@@ -165,7 +165,7 @@
 								<div class="icon-lg text-white m-b20"><i class="fas fa-tags"></i></div>
 								<div class="icon-content">
 									<h5 class="dlab-tilte text-uppercase">Dropshipping</h5>
-									<p>Si vender inventario de otras tiendas es lo suyo, tenemos las herramientas precisas para hacerlo</p>
+									<p>Si vender inventario de otras tiendas es lo tuyo, tenemos las herramientas precisas para hacerlo</p>
 								</div>
 							</div>
 						</div>
@@ -177,7 +177,7 @@
                 <div class="container">
 					<div class="section-head text-black text-center">
 						<h4 class="text-gray-dark m-b10">Nuestros Planes</h4>
-						<h2 class="box-title m-tb0">Planes de Diseño Web a la Medida de sus Necesidades</h2>
+						<h2 class="box-title m-tb0">Planes de Diseño Web a la Medida de tus Necesidades</h2>
 						<p>Todas nuestras tiendas incluyen alojamiento en hosting privado (VPS) de alta velocidad, dominio y certificado de navegación segura SSL</p>
 					</div>
 				</div>
@@ -202,7 +202,7 @@
 														<li class="text-center font-13"> Pagos con ePayco, PayU, Mercadopago</li>
 													</ul>
 													<div class="m-t20"> 
-														<a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" class="site-button outline outline-2 button-md">Contratar</a> 
+														<a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" class="site-button outline outline-2 button-md">¡Me Interesa!</a> 
 													</div>
 												</div>
 											</div>
@@ -225,7 +225,7 @@
 														<li class="text-center font-13"> Chat de WhatsApp</li>
 													</ul>
 													<div class="m-t20 m-b5"> 
-														<a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" class="site-button button-md">Contratar</a> 
+														<a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" class="site-button button-md">¡Me Interesa!</a> 
 													</div>
 												</div>
 											</div>
@@ -247,7 +247,7 @@
 														<li class="text-center font-13"> Integración con redes sociales y catálogo de tienda facebook</li>
 													</ul>
 													<div class="m-t20"> 
-														<a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" class="site-button outline outline-2 button-md">Contratar</a> 
+														<a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" class="site-button outline outline-2 button-md">¡Me Interesa!</a> 
 													</div>
 												</div>
 											</div>
@@ -278,7 +278,7 @@
 														<li class="text-center font-13"> Velocidad de carga optimizada</li>
 													</ul>
 													<div class="m-t20"> 
-														<a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" class="site-button outline outline-2 button-md">Contratar</a> 
+														<a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" class="site-button outline outline-2 button-md">¡Me Interesa!</a> 
 													</div>
 												</div>
 											</div>
@@ -302,7 +302,7 @@
 
 													</ul>
 													<div class="m-t20"> 
-														<a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" class="site-button outline outline-2 button-md">Contratar</a> 
+														<a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" class="site-button outline outline-2 button-md">¡Me Interesa!</a> 
 													</div>
 												</div>
 											</div>
@@ -315,11 +315,11 @@
 														<span class="pricingtable-bx text-primary">A Convenir</span>
 													</div>
 													<ul class="pricingtable-features">
-														<li class="text-center font-13"> ¿Cuantos productos maneja?</li>
-														<li class="text-center font-13"> ¿Desea integración con API?</li>
+														<li class="text-center font-13"> ¿Cuantos productos manejas?</li>
+														<li class="text-center font-13"> ¿Deseas integración con API?</li>
 														<li class="text-center font-13"> ¿Fotografías de productos?</li>
-														<li class="text-center font-13"> ¿Qué lenguaje o plataforma prefiere?</li>
-														<li class="text-center font-13"> ¿Su tienda en más de un idioma?</li>
+														<li class="text-center font-13"> ¿Qué lenguaje o plataforma prefieres?</li>
+														<li class="text-center font-13"> ¿Tu tienda en más de un idioma?</li>
 														<li class="text-center font-13"> ¿Más de una divisa?</li>
 														<li class="text-center font-13"> ¿Integración con software de inventarios?</li>
 														<li class="text-center font-13"> ¿Integración con sistemas POS?</li>
@@ -327,7 +327,7 @@
 
 													</ul>
 													<div class="m-t20"> 
-														<a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" class="site-button outline outline-2 button-md">Pregúntenos</a> 
+														<a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" class="site-button outline outline-2 button-md">Pregúntanos</a> 
 													</div>
 												</div>
 											</div>
@@ -343,8 +343,8 @@
                     <div class="row">	
                         <div class="col-lg-12">
                             <div class="text-center m-auto ">
-                                <h4 class="font-weight-600 font-20">¡Relájese! Agencia Web Bogotá también administra su tienda virtual por usted</h4>
-								<p>Usted solo ocúpese de despachar los pedidos y de mantener su inventario disponible. Nosotros vendemos por usted a través de su tienda virtual y le remitimos el dinero. Todo por un costo mínimo mensual</p>
+                                <h4 class="font-weight-600 font-20">¡Relájate! Agencia Web Bogotá también administra tu tienda virtual por tí</h4>
+								<p>Tú solo ocúpate de despachar los pedidos y de mantener tu inventario disponible. Nosotros vendemos por tí a través de tu tienda virtual y te remitimos el dinero. Todo por un costo mínimo mensual</p>
                                 <a href="{{url('administracion-de-sitios-web')}}" class="site-button radius-sm outline outline-2"><span class="p-lr10">Me Interesa, Quiero Más Detalles</span></a>
                             </div>
                         </div>
@@ -371,10 +371,10 @@
 									</div>
 									<div class="row">
 										<div class="col-lg-12 text-gray">
-											<p><i>Envíenos un mensaje de <a class="text-green" href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" target="_blank">WhatsApp</a> o <a class="text-red" href="{{url('mailto:info@agenciawebbogota.com')}}">correo electrónico</a> especificando el plan que se ajusta a su necesidad, si no lo tiene claro solicite que le asesoremos.</i></p>
-											<p><i>Para comenzar el desarrollo requerimos su logotipo; imágenes, nombres, precios y descripciones de sus productos, así como las categorías o secciones en las que desee organizar sus productos.</i></p>
-											<p><i>Debe abonar como mínimo el 50% del valor total de tu tienda para iniciar el desarrollo, una vez terminado el proyecto y entregado a satisfacción se facturará el restante.<span class="text-yellow"> Si decide pagar el valor total de su tienda por anticipado, aplicará un descuento del 10%.</span></i></p>
-											<p><i>Recuerde que puede usar diferentes medios de pago como tarjeta débito y crédito, transferencia bancaria, pago en efectivo por efecty, baloto, daviplata o comuníquese para habilitar pago con bitcoins, PayPal o Skrill.</i></p>
+											<p><i>Envíanos un mensaje de <a class="text-green" href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" target="_blank">WhatsApp</a> o <a class="text-red" href="{{url('mailto:info@agenciawebbogota.com')}}">correo electrónico</a> especificando el plan que se ajusta a tu necesidad, si no lo tienes claro solicita que te asesoremos.</i></p>
+											<p><i>Para comenzar el desarrollo requerimos tu logotipo; imágenes, nombres, precios y descripciones de tus productos, así como las categorías o secciones en las que desees organizar tus productos.</i></p>
+											<p><i>Debes abonar como mínimo el 50% del valor total de tu tienda para iniciar el desarrollo, una vez terminado el proyecto y entregado a satisfacción se facturará el restante.<span class="text-yellow"> Si decides pagar el valor total de tu tienda por anticipado, aplicará un descuento del 10%.</span></i></p>
+											<p><i>Recuerda que puedes usar diferentes medios de pago como tarjeta débito y crédito, transferencia bancaria, pago en efectivo por efecty, baloto, daviplata o comunícate para habilitar pago con bitcoins, PayPal o Skrill.</i></p>
 										</div>
 									</div>
 
@@ -538,15 +538,15 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-5 col-md-5 content-inner chosesus-content text-white">
-							<h2 class="box-title m-b15 wow fadeInLeft" data-wow-delay="0.2s">Contacte Ahora con Agencia Web Bogotá<span class="bg-primary"></span></h2>
+							<h2 class="box-title m-b15 wow fadeInLeft" data-wow-delay="0.2s">Contacta Ahora con Agencia Web Bogotá<span class="bg-primary"></span></h2>
 							</div>
 						<div class="col-lg-7 col-md-7 m-b30">
 							<form class="inquiry-form wow fadeInUp dzForm" data-wow-delay="0.2s" action="script/contact.php">
 								<div class="dzFormMsg"></div>
-								<h3 class="box-title m-t0 m-b10 text-center">Estamos listos para comenzar a trabajar en su proyecto <span class="bg-primary"></span></h3>
+								<h3 class="box-title m-t0 m-b10 text-center">Estamos listos para comenzar a trabajar en tu Tienda <span class="bg-primary"></span></h3>
 								<div class="text-center p-t20">
-									<a href="https://api.whatsapp.com/send?phone=573168785601" class="site-button btn-whatsapp"><i class="fab fa-whatsapp"></i>  ¡Pregúntenos por WhatsApp!</a>
-									<a href="https://m.me/agenciawebbogota" class="site-button btn-messenger"><i class="fab fa-facebook-messenger"></i>  ¡Háblenos por Messenger!</a>
+									<a href="https://api.whatsapp.com/send?phone=573168785601" class="site-button btn-whatsapp"><i class="fab fa-whatsapp"></i>  ¡Pregúntanos por WhatsApp!</a>
+									<a href="https://m.me/agenciawebbogota" class="site-button btn-messenger"><i class="fab fa-facebook-messenger"></i>  ¡Háblanos por Messenger!</a>
 									<p class="p-t10 font-16 text-center">Horario de Atención: Lunes a Sábado 8:00 AM a 6:00 PM</p>
 								</div>
 								<div class="row">

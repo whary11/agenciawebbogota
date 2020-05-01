@@ -8,7 +8,7 @@
             <div class="row d-flex justify-content-between">
                 <div class="dlab-topbar-left">
                     <ul>
-                        <li><i class="fas fa-mobile-alt m-r5"></i> +57 316 8785601</li>
+                        <li><i class="fas fa-mobile-alt m-r5"></i><a href="tel:573168785601"> +57 316 8785601</a></li>
                         <li><a href="mailto:info@agenciawebbogota.com"><i class="fas fa-at m-r5"></i>
                                 info@agenciawebbogota.com</a></li>
                     </ul>
@@ -46,39 +46,39 @@
                 <!-- extra nav -->
                 <div class="extra-nav">
                     <div class="extra-cell">
-                        <a href="{{url('contacto')}}" class="dez-page site-button primary">Contáctenos</a>
+                        <a href="{{url('contacto')}}" class="dez-page site-button primary">Contáctanos</a>
                     </div>
                 </div>
                 <!-- main nav -->
                 <div class="header-nav navbar-collapse collapse justify-content-end" id="navbarNavDropdown"> 
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="{{url('/')}}"><i class="fas fa-home font-20"></i> Inicio</a></li>
-                        <li><a>Desarrollo Web<i class="fas fa-chevron-down"></i></a>
+                        <li><a>Diseño Web<i class="fas fa-chevron-down"></i></a>
                             <ul class="sub-menu">
                                 <li><a href="{{url('paginas-web')}}">Páginas Web </a><li>
                                 <li><a href="{{url('tiendas-online')}}">Tiendas Virtuales </a></li>
                                 <li><a href="{{url('landing-page')}}">Landing Pages </a></li>
-                                <li><a href="{{url('programacion-web')}}">Programación Web</a></li>
                                 <li><a href="{{url('administracion-de-sitios-web')}}">Administración Web</a></li>
+                                <li><a>Soluciones Empresas<i class="fa fa-angle-right"></i></a>
+                                    <ul class="sub-menu">
+                                    <li><a href="{{url('gsuite')}}" class="dez-page">Cuentas GSuite</a></li>
+                                    <li><a href="{{url('/')}}" class="dez-page">Correo Corporativo</a></li>
+                                    </ul>
+                                </li>
                                 <li><a href="{{url('servicios')}}">Servicios Adicionales</a></li>
                             </ul>
-                        <li><a>Marketing Digital <i class="fas fa-chevron-down"></i></a>
+                        <li><a>Publicidad <i class="fas fa-chevron-down"></i></a>
                             <ul class="sub-menu">
                                 <li><a href="{{url('redes-sociales')}}">Redes Sociales </a></li>
                                 <li><a href="{{url('posicionamiento-web')}}">Posicionamiento Web </a></li>
-                                <li><a href="{{url('gsuite')}}">Cuentas GSuite </a></li>
-
                             </ul>
                         </li>                        
-                        <li><a>Diseño Gráfico<i class="fas fa-chevron-down"></i></a>
+                        <li><a>Diseño y Fotografía<i class="fas fa-chevron-down"></i></a>
                             <ul class="sub-menu">
-                                <li><a>Tickets<i class="fa fa-angle-right"></i></a>
-                                    <ul class="sub-menu">
-                                    <li><a href="{{url('/ticket')}}" class="dez-page">Abrir</a></li>
-                                    <li><a href="{{url('/ticket/consultar')}}" class="dez-page">Consultar</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="{{url('https://drive.google.com/open?id=1iGYkmp18DAcF8XTiYtN7BgZjN087UzFZbxaR0bJAMM0')}}" target="_blank">Antes de Comenzar</a></li>
+                                <li><a href="{{url('/')}}">Identidad Corporativa </a></li>
+                                <li><a href="{{url('/')}}">Guía de Marca </a></li>
+                                <li><a href="{{url('/')}}">Fotografía de Productos </a></li>
+                                <li><a href="{{url('/')}}">Diseños Para Redes </a></li>
 
                             </ul>
                         </li>
