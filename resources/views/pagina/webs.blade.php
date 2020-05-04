@@ -50,9 +50,6 @@
 		<div class="icono-messenger" id="btn-mes"><a href="https://m.me/agenciawebbogota"><i class="fab fa-facebook-messenger"></i></a></div>
 		<div class="icono-phone" id="btn-pho"><a href="tel:+573168785601"><i class="fas fa-phone-volume"></i></a></div>
 		<div class="tooltip-whatsapp" id="tp-whp"><span>¡Estamos en línea!</span></div>
-		<div class="tooltip-messenger" id="tp-mes"><span>Háblenos por Messenger</span></div>
-		<div class="tooltip-phone" id="tp-pho"><span>Llámenos</span></div>
-
 
         <!-- header END -->
         <!-- Content -->
@@ -143,7 +140,7 @@
                         <div class="col-lg-12">
                             <div class="text-center m-auto ">
                                 <h4 class="font-weight-600 font-20">Ahora puede obtener su sitio web o tienda online en alquiler, sin contratos, sin anticipos y sin claúsulas. Desarrollado, administrado y posicionado por profesionales   </h4>
-                                <a href="{{url('servicios')}}" class="site-button radius-sm outline outline-2"><span class="p-lr10">Me Interesa, Quiero Más Detalles</span></a>
+                                <a href="{{url('alquiler')}}" class="site-button radius-sm outline outline-2"><span class="p-lr10">Me Interesa, Quiero Más Detalles</span></a>
                             </div>
                         </div>
                     </div>

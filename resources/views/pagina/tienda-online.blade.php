@@ -194,10 +194,11 @@
 														<span class="pricingtable-bx text-primary"><span class="texto-oferta">$700.000</span><br>$560.000<br><span class="texto-oferta-2 text-primary">Único Pago</span>
 													</div>
 													<ul class="pricingtable-features">
-														<li class="text-center font-13"> WordPress + Woocommerce</li>
-														<li class="text-center font-13"> 10 Productos subidos con máximo 3 variaciones por producto</li>
+														<li class="text-center font-13"> Capacidad Para 50 Productos</li>
+														<li class="text-center font-13"> Hasta 10 Productos subidos con máximo 3 variaciones por producto</li>
 														<li class="text-center font-13"> Galería de 3 imágenes por producto</li>
 														<li class="text-center font-13"> Zonas y clases de envío personalizadas</li>
+														<li class="text-center font-13"> Sistema de inventario</li>
 														<li class="text-center font-13"> Carrito de Compras</li>
 														<li class="text-center font-13"> Pagos con ePayco, PayU, Mercadopago</li>
 													</ul>
@@ -215,10 +216,11 @@
 														<span class="pricingtable-bx text-primary">$850.000<br><span class="texto-oferta-2 text-primary">Único Pago</span>
 													</div>
 													<ul class="pricingtable-features">
-														<li class="text-center font-13"> WordPress + Woocommerce</li>
-														<li class="text-center font-13"> 20 Productos subidos con máximo 5 variaciones por producto</li>
+														<li class="text-center font-13"> Capacidad Para 50 Productos</li>
+														<li class="text-center font-13"> Hasta 20 Productos subidos con máximo 5 variaciones por producto</li>
 														<li class="text-center font-13"> Galería de 5 imágenes por producto</li>
 														<li class="text-center font-13"> Zonas y clases de envío personalizadas</li>
+														<li class="text-center font-13"> Rotación de productos destacados, ofertas o más vendidos en Home</li>
 														<li class="text-center font-13"> Sistema de inventario</li>
 														<li class="text-center font-13"> Carrito de Compras</li>
 														<li class="text-center font-13"> Pagos con ePayco, PayU, Mercadopago</li>
@@ -239,9 +241,10 @@
 														<span class="pricingtable-bx text-primary"><span class="texto-oferta">$1.450.000</span><br>$1.305.000<br><span class="texto-oferta-2 text-primary">Único Pago</span>
 													</div>
 													<ul class="pricingtable-features">
-														<li class="text-center font-13"> Todas las funciones de Tienda Básica</li>
-														<li class="text-center font-13"> 100 Productos subidos con máximo 10 variaciones por producto</li>
+														<li class="text-center font-13"> Capacidad Para 500 Productos</li>
+														<li class="text-center font-13"> 50 Productos subidos con máximo 10 variaciones por producto</li>
 														<li class="text-center font-13"> Galería de 6 imágenes por producto</li>
+														<li class="text-center font-13"> Todas las funciones de Tienda Básica</li>
 														<li class="text-center font-13"> Rotación de productos destacados, ofertas o más vendidos en Home</li>
 														<li class="text-center font-13"> Posicionamiento SEO de productos</li>
 														<li class="text-center font-13"> Integración con redes sociales y catálogo de tienda facebook</li>
@@ -265,11 +268,12 @@
 												<div class="pricingtable-inner">
 													<div class="pricingtable-price"> 
 														<h4 class="font-weight-600 m-t10 m-b10">Tienda Alto Tráfico</h4>
-														<span class="pricingtable-bx text-primary">$2.100.000<br><span class="texto-oferta-2 text-primary">Único Pago</span>
+														<span class="pricingtable-bx text-primary">$2.300.000<br><span class="texto-oferta-2 text-primary">Único Pago</span>
 													</div>
 													<ul class="pricingtable-features">
+														<li class="text-center font-13"> Capacidad ilimitada Para Productos</li>
 														<li class="text-center font-13"> Todas las funciones de Tienda Ideal</li>
-														<li class="text-center font-13"> Productos ilimitados con variaciones ilimitadas</li>
+														<li class="text-center font-13"> Hasta 100 Productos subidos con máximo 10 variaciones por producto</li>
 														<li class="text-center font-13"> Imágenes de productos ilimitadas</li>
 														<li class="text-center font-13"> Integración con Google Shopping</li>
 														<li class="text-center font-13"> Toma y/o edición de fotografías de productos</li>
@@ -291,7 +295,8 @@
 														<span class="pricingtable-bx text-primary">$1.800.000<br><span class="texto-oferta-2 text-primary">+ Plan Mensual Shopify</span>
 													</div>
 													<ul class="pricingtable-features">
-														<li class="text-center font-13"> Productos limitados con variaciones ilimitadas</li>
+														<li class="text-center font-13"> Capacidad ilimitada Para Productos</li>
+														<li class="text-center font-13"> Hasta 50 Productos subidos con variaciones</li>
 														<li class="text-center font-13"> Galería de imágenes ilimitadas</li>
 														<li class="text-center font-13"> Tema Premium Shopify</li>
 														<li class="text-center font-13"> Valoraciones de productos</li>
@@ -323,6 +328,7 @@
 														<li class="text-center font-13"> ¿Más de una divisa?</li>
 														<li class="text-center font-13"> ¿Integración con software de inventarios?</li>
 														<li class="text-center font-13"> ¿Integración con sistemas POS?</li>
+														<li class="text-center font-13"> ¿Chatbots para respuestas automáticas?</li>
 														<li class="text-center font-13"> ¿Capacitaciones o asesorías?</li>
 
 													</ul>
