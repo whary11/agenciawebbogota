@@ -141,7 +141,7 @@
                         <div class="col-lg-12">
                             <div class="text-center m-auto ">
                                 <h4 class="font-weight-600 font-20">Ahora puede obtener su sitio web o tienda online en alquiler, sin contratos, sin anticipos y sin claúsulas. Desarrollado, administrado y posicionado por profesionales   </h4>
-                                <a href="{{url('alquiler')}}" class="site-button radius-sm outline outline-2"><span class="p-lr10">Me Interesa, Quiero Más Detalles</span></a>
+                                <a href="{{url('sitios-web-y-tiendas-online-en-alquiler')}}" class="site-button radius-sm outline outline-2"><span class="p-lr10">Me Interesa, Quiero Más Detalles</span></a>
                             </div>
                         </div>
                     </div>

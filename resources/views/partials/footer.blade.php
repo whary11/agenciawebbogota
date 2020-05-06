@@ -18,7 +18,7 @@
                 </div>					
                 <div class="col-lg-4 col-md-6 col-sm-6 footer-col-4">
                     <div class="widget widget_getintuch center-movil">
-                        <h5 class="m-b30 text-white text-uppercase">Contáctenos</h5>
+                        <h5 class="m-b30 text-white text-uppercase">Contáctanos</h5>
                         <ul>
                         <li class="text-none">
                             <i class="fas fa-map-marker-alt"></i><a href="{{url('https://g.page/AgenciaDisenoWeb?share')}}" target="_blank">Calle 9 No. 37-30 Local 17<br>Bogotá, Colombia</a></li>
@@ -32,7 +32,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6 footer-col-4 center-movil">
                     <div class="widget">
                         <h5 class="m-b30 text-white text-uppercase">Enviar un pago</h5>
-                        <p class="m-b20 text-none">Puede enviar un pago por cualquier servicio contratado con Agencia Web Bogotá, usando los medios de pago disponibles.</p>
+                        <p class="m-b20 text-none">Puedes enviar un pago por cualquier servicio contratado con Agencia Web Bogotá, usando los medios de pago disponibles.</p>
                         <div class="m-b20">
                         <a href="{{url('enviar-un-pago')}}" class="site-button outline outline-1">Pagar Ahora <i class="fas fa-dollar-sign m-r5"></i></a>
                         <div class="p-b15"></div>

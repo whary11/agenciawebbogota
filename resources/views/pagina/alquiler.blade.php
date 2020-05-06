@@ -61,8 +61,8 @@
         <div class="dlab-bnr-inr dlab-bnr-inr-sm overlay-primary bg-pt webp-alquiler no-webp-alquiler">
             <div class="container">
             <div class="dlab-bnr-inr-entry texto-ini">
-					<h1 class="text-white">Sitios Web y Tiendas Online en Alquiler</h1>
-					<h2 class="text-white"><span class="text-yellow">Paga solo por lo que realmente necesitas</span>, cancela cuando quieras</h2>					
+					<h1 class="text-white">Renta tu Tienda en Línea o Sitio Web</h1>
+					<h2 class="text-white"><span class="text-yellow">Paga solo por lo que realmente necesitas</span> cancela cuando quieras</h2>					
                 </div>
             </div>
         </div>
@@ -73,14 +73,14 @@
 				<div class="container">
 					<div class="section-head text-black text-center">
 						<h2 class="text-uppercase m-b10">¡Nosotros nos encargamos de todo!</h2>
-						<h4>Desde el desarrollo, la administración, la actualización, el mantenimiento y el posicionamiento de su sitio web; <span class="text-blue">usted solo relájese y disfrute de los resultados</span></h4>
+						<h4>Desde el desarrollo, la administración, la actualización, el mantenimiento y el posicionamiento de tu sitio web; <span class="text-blue">tu solo relájate y disfruta de los resultados</span></h4>
 					</div>
 					<div class="row text-center">
 						<div class="col-lg-4 col-md-4 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.2s">
 							<div class="dlab-box">
 								<div class="dlab-info p-a30 border-1 bg-white">
 									<h5 class="dlab-title m-t0">Con todo desde el inicio</h5>
-									<p class="m-b0">Incluimos un dominio, alojamiento privado y diseño profesional adaptado a sus necesidades</p>
+									<p class="m-b0">Incluimos un dominio, alojamiento privado y diseño profesional adaptado a tus necesidades</p>
 								</div>
 							</div>
 						</div>
@@ -88,15 +88,15 @@
 							<div class="dlab-box">
 								<div class="dlab-info p-a30 border-1 bg-white">
 									<h5 class="dlab-title m-t0">Administrado por Profesionales</h5>
-									<p class="m-b0">Nosotros aprovecharemos todo el potencial de Internet para posicionar su marca y generarle ventas</p>
+									<p class="m-b0">Nosotros aprovecharemos todo el potencial de Internet para posicionar tu marca y generarte ventas</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-12 m-b30 wow fadeInUp" data-wow-delay="0.6s">
 							<div class="dlab-box">
 								<div class="dlab-info p-a30 border-1 bg-white">
-									<h5 class="dlab-title m-t0">Cancele cuando quiera</h5>
-									<p class="m-b0">Si no ve un beneficio real en corto tiempo, puede cancelar el servicio en cualquier momento</p>
+									<h5 class="dlab-title m-t0">Cancela cuando quiera</h5>
+									<p class="m-b0">Si no ves un beneficio real en corto tiempo, puedes cancelar el servicio en cualquier momento</p>
 								</div>
 							</div>
 						</div>
@@ -119,7 +119,7 @@
 								<div class="max-w500 m-auto p-tb30">
 									<div class="row">
 										<div class="col-lg-12">
-											<h4 class="text-pink">¿Sabía que el 80% de los sitios web se mantienen inactivos desperdiciando todo su potencial?</h4>
+											<h4 class="text-pink">¿Sabías que el 80% de los sitios web se mantienen inactivos desperdiciando todo su potencial?</h4>
 											<h5 class="m-b30 text-white">Esto se debe a que los propietarios no cuentan con el tiempo y conocimiento necesarios para hacer un uso eficiente
                                             de las herramientas disponibles.</h5>
 										</div>
@@ -127,9 +127,9 @@
 									<div class="row">
 										<div class="col-lg-12 text-gray">
 											<p><i>Es aquí donde entramos nosotros en acción...</i></p>
-											<p>En Agencia Web Bogotá ofrecemos máxima tranquilidad y confianza a nuestros clientes, al encargarnos absolutamente de todo lo relacionado con su sitio web o tienda online. Desde el diseño inicial, hasta la
-                                            administración, mantenimiento y posicionamiento del sitio.</p>
-                                            <p>Despreocúpese de temas como renovación de hosting y dominio, gestión de pedidos, configuración de correos electrónicos y actualización de contenidos.</p>
+											<p>En Agencia Web Bogotá ofrecemos máxima tranquilidad y confianza a nuestros clientes, al encargarnos absolutamente de todo lo relacionado con sitios web y tiendas online. Desde el diseño inicial, hasta la
+                                            administración, mantenimiento y posicionamiento en Google.</p>
+                                            <p>Despreocúpate de temas como renovación de hosting y dominio, gestión de pedidos, configuración de correos electrónicos y actualización de contenidos.</p>
 										</div>
 									</div>
 
@@ -145,8 +145,8 @@
                 <div class="container">
 					<div class="section-head text-black text-center">
 						<h4 class="text-gray-dark m-b10">Nuestros Planes</h4>
-						<h2 class="box-title m-tb0">Planes de Diseño Web a la Medida de sus Necesidades</h2>
-						<p>No le exigimos ningún pago para iniciar el desarrollo<br>Cancele su primera mensualidad cuando su sitio web esté terminado 100% y online</p>
+						<h2 class="box-title m-tb0">Planes de Diseño Web a la Medida de tus Necesidades</h2>
+						<p>Pagas tu primera mensualidad al momento de adquirir tu plan, un pago mensual en adelante hasta que decidas cancelar</p>
 					</div>
 				</div>
 				<!-- Pricing table-1 Columns 3 with gap -->
@@ -158,16 +158,16 @@
 												<div class="pricingtable-inner">
 													<div class="pricingtable-price"> 
 														<div class="pricingtable-icon"><i class="fas fa-rocket"></i></div>
-														<h4 class="font-weight-300 m-t10 m-b0">Página Web Startup</h4>
-														<span class="pricingtable-bx text-primary">COP $59.000/Mes</span>
+														<h4 class="font-weight-300 m-t10 m-b20">Página Web Básica</h4>
+														<span class="pricingtable-bx text-primary">$59.000 <span class="texto-oferta-2 text-primary">Mes</span>
 													</div>
 													<ul class="pricingtable-features">
 														<li class="text-center font-13"> Sitio web de una sola página principal, ideal para destacar rápidamente productos o servicios</li>
-														<li class="text-center font-13"> Desarrollo en WordPress, optimizada para móviles, galerías de imágenes y formulario de contacto o cotización</li>
+														<li class="text-center font-13"> Optimizada para móviles, galerías de imágenes, formulario de contacto, chat de whatsapp y enlace a redes sociales.</li>
 														<li class="text-center font-13"> Mantenimiento y actualización permanente</li>
 													</ul>
 													<div class="m-t20"> 
-														<a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" class="site-button outline outline-2 button-md">Contratar</a> 
+														<a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" class="site-button outline outline-2 button-md">¡Me Interesa!</a> 
 													</div>
 												</div>
 											</div>
@@ -177,17 +177,16 @@
 												<div class="pricingtable-inner">
 													<div class="pricingtable-price"> 
 														<div class="pricingtable-icon"><i class="fas fa-briefcase"></i></div>
-														<h4 class="font-weight-300 m-t10 m-b0">Sitio Corporativo</h4>
-														<span class="pricingtable-bx text-primary">COP $105.000/Mes</span>
+														<h4 class="font-weight-300 m-t10 m-b20">Sitio Corporativo Básico</h4>
+														<span class="pricingtable-bx text-primary">$105.000 <span class="texto-oferta-2 text-primary">Mes</span>
 													</div>
 													<ul class="pricingtable-features">
-														<li class="text-center font-13"> Sitio web en WordPress con páginas internas y contenido estático</li>
-														<li class="text-center font-13"> Optimización permanente para Google, alta en search console, integración con Google analytics</li>
+														<li class="text-center font-13"> Diseño corporativo profesional, hasta 5 páginas internas para contenido, full optimización móviles, formulario de contacto, posicionamiento seo, chat de whatsapp y enlace a redes sociales.</li>
 														<li class="text-center font-13"> Administración, mantenimiento y actualización permanentes </li>
 														<li class="text-center font-13"> Adición de contenido para blog, noticias o información corporativa </li>
 													</ul>
 													<div class="m-t20 m-b5"> 
-														<a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" class="site-button button-md">Contratar</a> 
+														<a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" class="site-button button-md">¡Me Interesa!</a> 
 													</div>
 												</div>
 											</div>
@@ -197,17 +196,16 @@
 												<div class="pricingtable-inner">
 													<div class="pricingtable-price"> 
 														<div class="pricingtable-icon"><i class="fas fa-edit"></i></div>
-														<h4 class="font-weight-300 m-t10 m-b0">Sitio Blog/Magazine</h4>
-														<span class="pricingtable-bx text-primary">COP $225.000/Mes</span>
+														<h4 class="font-weight-300 m-t10 m-b20">Corporativo Avanzado</h4>
+														<span class="pricingtable-bx text-primary">$225.000 <span class="texto-oferta-2 text-primary">Mes</span>
 													</div>
 													<ul class="pricingtable-features">
-                                                        <li class="text-center font-13"> Artículos, secciones, categorías y noticias ilimitadas </li>
-                                                        <li class="text-center font-13"> Copywriting títulos, contenidos e imágenes con SEO de artículos por palabras o frases clave </li>                                                        
-                                                        <li class="text-center font-13"> Enlace de contenido con redes sociales</li>                                                        
-														<li class="text-center font-13"> Monetización con Google Adsense </li>
+                                                        <li class="text-center font-13"> Diseño profesional corporativo, páginas internas ilimitadas, blog corporativo, posicionamiento avanzado en buscadores, formularios de contacto, botón de pago enlazado
+														a pasarelas de pago, integración con Google Mi Negocio, chat de whatsapp y enlace a redes sociales.</li>
+														<li class="text-center font-13"> Administración, mantenimiento y actualización permanentes </li>
 													</ul>
 													<div class="m-t20"> 
-														<a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" class="site-button outline outline-2 button-md">Contratar</a> 
+														<a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" class="site-button outline outline-2 button-md">¡Me Interesa!</a> 
 													</div>
 												</div>
 											</div>
@@ -225,16 +223,16 @@
 												<div class="pricingtable-inner">
 													<div class="pricingtable-price"> 
 														<div class="pricingtable-icon"><i class="fas fa-store"></i></div>
-														<h4 class="font-weight-300 m-t10 m-b0">Tienda Online Básica</h4>
-														<span class="pricingtable-bx text-primary">COP $125.000/Mes</span>
+														<h4 class="font-weight-300 m-t10 m-b20">Tienda Online Básica</h4>
+														<span class="pricingtable-bx text-primary">$125.000 <span class="texto-oferta-2 text-primary">Mes</span>
 													</div>
 													<ul class="pricingtable-features">
-														<li class="text-center font-13"> Capacidad hasta 20 productos con máximo 5 variaciones por producto</li>
+														<li class="text-center font-13"> Capacidad hasta 50 productos con máximo 3 variaciones por producto</li>
 														<li class="text-center font-13"> Galería de 5 Imágenes por producto</li>
                                                         <li class="text-center font-13 perstable"> Administración de tienda, productos, inventarios y notificación de pedidos</li>
 													</ul>
 													<div class="m-t20"> 
-														<a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" class="site-button outline outline-2 button-md">Contratar</a> 
+														<a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" class="site-button outline outline-2 button-md">¡Me Interesa!</a> 
 													</div>
 												</div>
 											</div>
@@ -244,21 +242,20 @@
 												<div class="pricingtable-inner">
 													<div class="pricingtable-price"> 
 														<div class="pricingtable-icon"><i class="fas fa-shopping-cart"></i></div>
-														<h4 class="font-weight-300 m-t10 m-b0">Tienda Profesional</h4>
-														<span class="pricingtable-bx text-primary">COP $275.000/Mes</span>
+														<h4 class="font-weight-300 m-t10 m-b20">Tienda Profesional</h4>
+														<span class="pricingtable-bx text-primary">$275.000 <span class="texto-oferta-2 text-primary">Mes</span>
 													</div>
 													<ul class="pricingtable-features">
-														<li class="text-center font-13"> Capacidad para 50 productos con máximo 10 variaciones por producto</li>
+														<li class="text-center font-13"> Capacidad para 500 productos con máximo 10 variaciones por producto</li>
 														<li class="text-center font-13"> Galería de 6 Imágenes por producto</li>
 														<li class="text-center font-13"> Posicionamiento SEO de productos por ficha individual </li>
                                                         <li class="text-center font-13"> Administración de tienda, productos, inventarios y notificación de pedidos </li>
                                                         <li class="text-center font-13"> Rotación de productos destacados, ofertas o más vendidos en página principal de la tienda </li>
 														<li class="text-center font-13"> Integración con redes sociales y catálogo de tienda facebook </li>
-														<li class="text-center font-13"> Informe mensual de interacciones, visitas, compras, prospectos y oportunidades de mejora </li>
 
 													</ul>
 													<div class="m-t20 m-b5"> 
-														<a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" class="site-button button-md">Contratar</a> 
+														<a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" class="site-button button-md">¡Me Interesa!</a> 
 													</div>
 												</div>
 											</div>
@@ -268,8 +265,8 @@
 												<div class="pricingtable-inner">
 													<div class="pricingtable-price"> 
 														<div class="pricingtable-icon"><i class="fas fa-cart-plus"></i></div>
-														<h4 class="font-weight-300 m-t10 m-b0">Tienda Avanzada</h4>
-														<span class="pricingtable-bx text-primary">COP $469.000/Mes</span>
+														<h4 class="font-weight-300 m-t10 m-b20">Tienda Avanzada</h4>
+														<span class="pricingtable-bx text-primary">$469.000 <span class="texto-oferta-2 text-primary">Mes</span>
 													</div>
 													<ul class="pricingtable-features">
 														<li class="text-center font-13"> Capacidad ilimitada para productos con variaciones ilimitadas</li>
@@ -279,12 +276,11 @@
                                                         <li class="text-center font-13"> Administración de tienda, productos, inventarios y notificación de pedidos </li>
 														<li class="text-center font-13"> Rotación de productos destacados, ofertas o más vendidos en página principal de la tienda </li>
                                                         <li class="text-center font-13"> Integración con redes sociales y catálogo de tienda facebook </li>
-                                                        <li class="text-center font-13"> Informe mensual de interacciones, visitas, compras, prospectos y oportunidades de mejora </li>
 
 
 													</ul>
 													<div class="m-t20"> 
-														<a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" class="site-button outline outline-2 button-md">Contratar</a> 
+														<a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" class="site-button outline outline-2 button-md">¡Me Interesa!</a> 
 													</div>
 												</div>
 											</div>
@@ -299,7 +295,7 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="text-center m-auto ">
-                                <h4 class="font-weight-400 font-20">Todos nuestros desarrollos incluyen alojamiento en hosting privado (VPS) de alta velocidad, dominio, correos electrónicos corporativos y certificado de navegación segura SSL   </h4>
+                                <h4 class="font-weight-400 font-20">Todos nuestros desarrollos incluyen alojamiento en hosting privado (VPS) de alta velocidad, dominio y certificado de navegación segura SSL</h4>
                             </div>
                         </div>
                     </div>
@@ -311,7 +307,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-5 col-md-5 content-inner chosesus-content text-white">
-                                <h2 class="box-title m-b15 wow fadeInLeft" data-wow-delay="0.2s">Contacte Ahora con
+                                <h2 class="box-title m-b15 wow fadeInLeft" data-wow-delay="0.2s">Contacta Ahora con
                                     Agencia Web Bogotá<span class="bg-primary"></span></h2>
                             </div>
                             <div class="col-lg-7 col-md-7 m-b30">
@@ -319,13 +315,13 @@
                                     action="script/contact.php">
                                     <div class="dzFormMsg"></div>
                                     <h3 class="box-title m-t0 m-b10 text-center">Estamos listos para comenzar a trabajar
-                                        en su proyecto <span class="bg-primary"></span></h3>
+                                        en tu proyecto <span class="bg-primary"></span></h3>
                                     <div class="text-center p-t20">
                                         <a href="https://api.whatsapp.com/send?phone=573168785601"
                                             class="site-button btn-whatsapp"><i class="fab fa-whatsapp"></i>
-                                            ¡Pregúntenos por WhatsApp!</a>
+                                            ¡Pregúntanos por WhatsApp!</a>
                                         <a href="https://m.me/agenciawebbogota" class="site-button btn-messenger"><i
-                                                class="fab fa-facebook-messenger"></i> ¡Háblenos por Messenger!</a>
+                                                class="fab fa-facebook-messenger"></i> ¡Háblanos por Messenger!</a>
                                         <p class="p-t10 font-16 text-center">Horario de Atención: Lunes a Sábado 8:00 AM
                                             a 6:00 PM</p>
                                     </div>
