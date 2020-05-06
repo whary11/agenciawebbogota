@@ -140,13 +140,8 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="text-center m-auto ">
-<<<<<<< HEAD
-                                <h4 class="font-weight-600 font-20">Ahora puedes obtener tu sitio web o tienda online en alquiler, sin contratos y sin claúsulas. Desarrollado, administrado y posicionado por profesionales   </h4>
-                                <a href="{{url('servicios')}}" class="site-button radius-sm outline outline-2"><span class="p-lr10">Me Interesa, Quiero Más Detalles</span></a>
-=======
                                 <h4 class="font-weight-600 font-20">Ahora puede obtener su sitio web o tienda online en alquiler, sin contratos, sin anticipos y sin claúsulas. Desarrollado, administrado y posicionado por profesionales   </h4>
                                 <a href="{{url('alquiler')}}" class="site-button radius-sm outline outline-2"><span class="p-lr10">Me Interesa, Quiero Más Detalles</span></a>
->>>>>>> de7f3e4c9465c46a6353aba85d75a392db654cc8
                             </div>
                         </div>
                     </div>

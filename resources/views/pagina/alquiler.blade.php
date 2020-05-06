@@ -7,23 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="Robots" content="index, follow">
     <title>¡LO NUEVO! Sitios Web en Alquiler Desde Solo $59.000/mes</title>
-    <meta name="description" content="¡No hay nada como esto! Pague solo por lo que realmente necesita, sin contratos, cancele cuando quiera. Con servicio de gestión profesional incluido." />
+    <meta name="description" content="¡No hay nada como esto! Paga solo por lo que realmente necesitas, sin contratos, cancela cuando quieras. Con servicio de gestión profesional incluido." />
 	<meta name="author" content="Agencia Web Bogotá">
 	<meta property="og:type" content="service" />
     <meta property="og:site_name " content="Agencia Web Bogotá" />
     <meta property="og:title" content="¡LO NUEVO! Sitios Web y Tiendas Online en Alquiler" />
     <meta property="og:url" content="https://agenciawebbogota.com/sitios-web-y-tiendas-online-en-alquiler" />
     <meta property="og:image" content="https://agenciawebbogota.com/images/our-services/pic12.jpg" />
-    <meta property="og:description" content="¡No hay nada como esto! Pague solo por lo que realmente necesita, sin contratos, cancele cuando quiera. Con servicio de gestión profesional incluido." />
+    <meta property="og:description" content="¡No hay nada como esto! Paga solo por lo que realmente necesitas, sin contratos, cancela cuando quieras. Con servicio de gestión profesional incluido." />
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@AgenciaBogota">
     <meta name="twitter:creator" content="@AgenciaBogota">
     <meta name="twitter:image" content="https://agenciawebbogota.com/images/our-services/pic12.jpg">
     <meta name="twitter:image:alt" content="Dueña de negocio empacando producto vendido por Internet">
     <meta name="twitter:title" content="¡LO NUEVO! Sitios Web y Tiendas Online en Alquiler">
-    <meta name="twitter:description" content="¡No hay nada como esto! Pague solo por lo que realmente necesita, sin contratos, cancele cuando quiera. Con servicio de gestión profesional incluido.">
+    <meta name="twitter:description" content="¡No hay nada como esto! Paga solo por lo que realmente necesitas, sin contratos, cancela cuando quieras. Con servicio de gestión profesional incluido.">
 	<link rel="canonical" href="https://agenciawebbogota.com/sitios-web-y-tiendas-online-en-alquiler" />
-	<link rel="alternate" hreflang="en-EN" href="https://en.agenciawebbogota.com/rental-websites"/>
+	<link rel="alternate" hreflang="en_EN" href="https://en.agenciawebbogota.com/rental-websites"/>
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- FAVICONS ICON -->
@@ -52,12 +52,7 @@
         <!-- header -->
         @include('partials.header')
         <div class="icono-whatsapp" id="btn-whp"><a href="https://api.whatsapp.com/send?phone=573168785601"><i class="fab fa-whatsapp"></i></a></div>
-		<div class="icono-messenger" id="btn-mes"><a href="https://m.me/agenciawebbogota"><i class="fab fa-facebook-messenger"></i></a></div>
-		<div class="icono-phone" id="btn-pho"><a href="tel:+573168785601"><i class="fas fa-phone-volume"></i></a></div>
 		<div class="tooltip-whatsapp" id="tp-whp"><span>¡Estamos en línea!</span></div>
-		<div class="tooltip-messenger" id="tp-mes"><span>Háblenos por Messenger</span></div>
-		<div class="tooltip-phone" id="tp-pho"><span>Llámenos</span></div>
-
 
         <!-- header END -->
     <!-- Content -->
@@ -67,7 +62,7 @@
             <div class="container">
             <div class="dlab-bnr-inr-entry texto-ini">
 					<h1 class="text-white">Sitios Web y Tiendas Online en Alquiler</h1>
-					<h2 class="text-white">Pague solo por lo que necesite, cancele cuando quiera</h2>					
+					<h2 class="text-white"><span class="text-yellow">Paga solo por lo que realmente necesitas</span>, cancela cuando quieras</h2>					
                 </div>
             </div>
         </div>
