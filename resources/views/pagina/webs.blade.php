@@ -23,7 +23,7 @@
     <meta name="twitter:title" content="Páginas Web Profesionales Desde $420.000 con SEO Incluido">
     <meta name="twitter:description" content="Diseñamos tu sitio web con posicionamiento en Google incluido y con garantía de funcionamiento. Tenemos la mejor oferta costo/beneficio del mercado">
 	<link rel="canonical" href="https://agenciawebbogota.com/paginas-web" />
-    <link rel="alternate" hreflang="en-EN" href="https://es.agenciawebbogota.com/websites" />
+    <link rel="alternate" hreflang="en_EN" href="https://en.agenciawebbogota.com/websites" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
 
@@ -47,13 +47,7 @@
         <!-- header -->
         @include('partials.header')
 		<div class="icono-whatsapp" id="btn-whp"><a href="https://api.whatsapp.com/send?phone=573168785601"><i class="fab fa-whatsapp"></i></a></div>
-		<div class="icono-messenger" id="btn-mes"><a href="https://m.me/agenciawebbogota"><i class="fab fa-facebook-messenger"></i></a></div>
-		<div class="icono-phone" id="btn-pho"><a href="tel:+573168785601"><i class="fas fa-phone-volume"></i></a></div>
 		<div class="tooltip-whatsapp" id="tp-whp"><span>¡Estamos en línea!</span></div>
-		<div class="tooltip-messenger" id="tp-mes"><span>Háblenos por Messenger</span></div>
-		<div class="tooltip-phone" id="tp-pho"><span>Llámenos</span></div>
-
-
         <!-- header END -->
         <!-- Content -->
         <div class="page-content bg-white" id="page">
@@ -62,7 +56,7 @@
                 <div class="container">
                     <div class="dlab-bnr-inr-entry texto-ini">
                         <h1 class="text-white">Diseño de Páginas Web</h1>
-                        <h2 class="text-white">Websites efectivos con garantía de funcionamiento</h2>
+                        <h2 class="text-white">Planes de diseño enfocados en el cumplimiento de tus objetivos comerciales</h2>
                     </div>
                 </div>
             </div>
@@ -130,7 +124,7 @@
                 <div class="section-full content-inner bg-white" style="background-image:url({{asset('images/background/bg12.jpg')}});">
                     <div class="container">
                         <div class="max-w800 m-auto text-center wow fadeIn" data-wow-delay="0.1s">
-                            <h4>Diseño Web A La Medida De Sus Necesidades</h4>
+                            <h4>Diseño Web A La Medida De Tus Necesidades</h4>
                             <h6 class="m-b50">Con la mejor oferta costo/beneficio del mercado</h6>
                         </div>
                         <cotizacion-component></cotizacion-component>						
@@ -142,7 +136,7 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="text-center m-auto ">
-                                <h4 class="font-weight-600 font-20">Ahora puede obtener su sitio web o tienda online en alquiler, sin contratos, sin anticipos y sin claúsulas. Desarrollado, administrado y posicionado por profesionales   </h4>
+                                <h4 class="font-weight-600 font-20">Ahora puedes obtener tu sitio web o tienda online en alquiler, sin contratos y sin claúsulas. Desarrollado, administrado y posicionado por profesionales   </h4>
                                 <a href="{{url('servicios')}}" class="site-button radius-sm outline outline-2"><span class="p-lr10">Me Interesa, Quiero Más Detalles</span></a>
                             </div>
                         </div>
@@ -259,12 +253,12 @@
                                                     <source srcset="{{asset('images/portafolio/compratodonline.webp')}}"
                                                         type="image/webp">
                                                     <img src="{{asset('images/portafolio/compratodonline.jpg')}}"
-                                                        alt="Portal Web IPS Comfasalud"></picture>
+                                                        alt="Tienda en línea Compra Todo Online"></picture>
                                             </a>
                                             <div class="overlay-bx">
                                                 <div class="overlay-icon align-b text-white">
                                                     <div class="text-white text-left port-box">
-                                                        <a href="https://comfasalud.com" target="_blank">
+                                                        <a href="https://compratodonline.com" target="_blank">
                                                             <h5>Compra Todo Online</h5>
                                                         </a>
                                                         <p>Tienda Online Woocommerce</p>
@@ -333,13 +327,13 @@
 							<li class="web branding card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn" data-wow-delay="0.2s">
 									<div class="dlab-box dlab-gallery-box">
 										<div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-										<picture><source srcset="images/portafolio/imagen-wsfast.webp"  type="image/webp">									
-										<img src="images/portafolio/imagen-wsfast.jpg"  alt="Ejemplo de landing page en varias pantallas"></picture>
+										<picture><source srcset="images/portafolio/asistir-computadores.webp"  type="image/webp">									
+										<img src="images/portafolio/asistir-computadores.jpg"  alt="Ejemplo de página corporativa en varias pantallas"></picture>
 											<div class="overlay-bx">
 												<div class="overlay-icon align-b text-white"> 
 													<div class="text-white text-left port-box">
-														<a href="https://wsfast.com/" target="_blank"><h5>WSFAST</h5></a>
-														<p>Página Web Promocional</p>
+														<a href="https://asistircomputadores.com/" target="_blank"><h5>Asistir Computadores</h5></a>
+														<p>Tienda en Línea Corporativa</p>
 													</div>
 												</div>
 											</div>
@@ -371,8 +365,8 @@
                                     </div>
                             </li>							
 						</ul>
-						<p class="p-tb50 p-b30 text-center">*Las cuentas mail no disponen de espacio en servidor para el alojamiento de mensajes, el servicio incluye solamente espacio para alojar el sitio web. Puede contratar con nosotros
-							espacio adicional para sus correos electrónicos en el servicio de email hosting. 
+						<p class="p-tb50 p-b30 text-center">*Las cuentas mail no disponen de espacio en servidor para el alojamiento de mensajes, el servicio incluye solamente espacio para alojar el sitio web. Puedes contratar con nosotros
+							espacio adicional para tus correos electrónicos en el servicio de email hosting. 
 						</p>
 					</div>
 				</div>
@@ -388,7 +382,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-5 col-md-5 content-inner chosesus-content text-white">
-                                <h2 class="box-title m-b15 wow fadeInLeft" data-wow-delay="0.2s">Contacte Ahora con
+                                <h2 class="box-title m-b15 wow fadeInLeft" data-wow-delay="0.2s">Contacta Ahora con
                                     Agencia Web Bogotá<span class="bg-primary"></span></h2>
                             </div>
                             <div class="col-lg-7 col-md-7 m-b30">
@@ -396,13 +390,13 @@
                                     action="script/contact.php">
                                     <div class="dzFormMsg"></div>
                                     <h3 class="box-title m-t0 m-b10 text-center">Estamos listos para comenzar a trabajar
-                                        en su proyecto <span class="bg-primary"></span></h3>
+                                        en tu proyecto <span class="bg-primary"></span></h3>
                                     <div class="text-center p-t20">
                                         <a href="https://api.whatsapp.com/send?phone=573168785601"
                                             class="site-button btn-whatsapp"><i class="fab fa-whatsapp"></i>
-                                            ¡Pregúntenos por WhatsApp!</a>
+                                            ¡Pregúntanos por WhatsApp!</a>
                                         <a href="https://m.me/agenciawebbogota" class="site-button btn-messenger"><i
-                                                class="fab fa-facebook-messenger"></i> ¡Háblenos por Messenger!</a>
+                                                class="fab fa-facebook-messenger"></i> ¡Háblanos por Messenger!</a>
                                         <p class="p-t10 font-16 text-center">Horario de Atención: Lunes a Sábado 8:00 AM
                                             a 6:00 PM</p>
                                     </div>

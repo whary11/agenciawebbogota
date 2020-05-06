@@ -2074,7 +2074,7 @@ __webpack_require__.r(__webpack_exports__);
         textModal: 'Incluye: Diseño a medida en WordPress o HTML + CSS, página de agradecimiento o confirmación, formulario de contacto conectado a correo electrónico o base de datos.' // icono: '<i class="fas fa-thumbs-up"></i>',
 
       }, {
-        titulo: 'Página Web Sencilla',
+        titulo: 'Página Web Básica',
         descripcion: 'Sitio web de una sola página ideal para resaltar rápidamente productos y servicios',
         precio: 'COP $420.000',
         imagen: 'images/pagina-web-sencilla.jpg',
@@ -2082,40 +2082,40 @@ __webpack_require__.r(__webpack_exports__);
         textModal: 'Incluye: Desarrollo en WordPress, una sola página principal para información, productos y servicios, formulario de contacto, hosting y dominio por un año.' // icono: '<i class="fas fa-thumbs-up"></i>',
 
       }, {
-        titulo: 'Página Administrable',
-        descripcion: 'Consola administrativa, contenido dinámico, editor de texto avanzado. Ideal para blogs',
+        titulo: 'Corporativa Básica',
+        descripcion: 'Consola administrativa, blog corporativo, páginas internas, optimización seo',
         precio: 'COP $710.000',
-        imagen: 'images/pagina-web-administrable.jpg',
-        webp: 'images/pagina-web-administrable.webp',
-        textModal: 'Incluye: Tema WordPress con licencia, velocidad de carga optimizada, optimización para móviles, hosting y dominio por un año.' // icono: '<i class="fas fa-thumbs-up"></i>',
-
-      }, {
-        titulo: 'Página Corporativa',
-        descripcion: 'Diseño Incluye consola de administración, hosting y dominio, cuentas mail* y optimización para seo',
-        precio: 'COP $1.250.000',
         imagen: 'images/pagina-web-corporativa.jpg',
         webp: 'images/pagina-web-corporativa.webp',
-        textModal: 'Incluye: Tema WordPress Corporate con licencia, plugins premium para SEO, hosting, dominio y correos corporativos ilimitados por un año.' // icono: '<i class="fas fa-thumbs-up"></i>',
+        textModal: 'Incluye: Tema WordPress con licencia, hasta 5 páginas internas, velocidad de carga optimizada, optimización para móviles, hosting y dominio por un año.' // icono: '<i class="fas fa-thumbs-up"></i>',
 
       }, {
-        titulo: 'Tienda Online Shopify',
-        descripcion: 'Tema Premium Shopify, consola administrativa, App móvil Shopify, pagos online, carrito de compras',
-        precio: 'COP $1.800.000',
+        titulo: 'Corporativa Avanzada',
+        descripcion: 'Consola de administración, posicionamiento seo, botón de pago, hosting y dominio ',
+        precio: 'COP $1.250.000',
+        imagen: 'images/pagina-web-administrable.jpg',
+        webp: 'images/pagina-web-administrable.webp',
+        textModal: 'Incluye: Tema WordPress con licencia, editor de texto avanzado, plugins premium para SEO, hosting y dominio por un año.' // icono: '<i class="fas fa-thumbs-up"></i>',
+
+      }, {
+        titulo: 'Tienda Online Básica',
+        descripcion: 'Woocomerce, capacidad 50 productos, consola administrativa, pagos online, carrito de compras',
+        precio: 'COP $850.000',
         imagen: 'images/tienda-online-basica.jpg',
         webp: 'images/tienda-online-basica.webp',
-        textModal: 'Incluye: Tema Premium Shopify, dominio, artículos ilimitados, variaciones de productos, carrito de compras, integración con mercadopago y Google Shopping.' // icono: '<i class="fas fa-thumbs-up"></i>',
+        textModal: 'Incluye: Tema Premium Wordpress, dominio, hasta 20 artículos subidos, 5 variaciones de productos, carrito de compras, integración con mercadopago, epayco o PayU.' // icono: '<i class="fas fa-thumbs-up"></i>',
 
       }, {
-        titulo: 'Tienda Woocommerce ',
-        descripcion: 'Wordpress + Woocomerce, consola administrativa, pagos online y sistema de envíos e inventarios',
-        precio: 'COP $2.100.000',
+        titulo: 'Tienda Profesional ',
+        descripcion: 'Capacidad para 500 productos, consola administrativa, pagos online y sistema de envíos e inventarios',
+        precio: 'COP $1.305.000',
         imagen: 'images/tienda-online-avanzada.jpg',
         webp: 'images/tienda-online-avanzada.webp',
-        textModal: 'Incluye: WordPress + Woocommerce, productos ilimitados, plugins envíos e inventarios, posicionamiento seo de productos.'
+        textModal: 'Incluye: WordPress + Woocommerce, Hasta 50 productos subidos, 10 variaciones de productos, plugins envíos e inventarios, posicionamiento seo de productos.'
       }, {
-        titulo: 'Tienda a Medida',
-        descripcion: 'Diseño a medida, productos ilimitados, registro de usuarios, pagos online, consola administrativa',
-        precio: 'Cotizar',
+        titulo: 'Tienda Alto Tráfico',
+        descripcion: 'Productos ilimitados, registro de usuarios, pagos online, consola administrativa, posicionamiento seo',
+        precio: '$2.300.000',
         imagen: 'images/tienda-online-prestashop.jpg',
         webp: 'images/tienda-online-prestashop.webp'
       }, {
