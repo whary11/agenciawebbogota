@@ -43,12 +43,7 @@
 		<!-- header -->
 		@include('partials.header')
 		<div class="icono-whatsapp" id="btn-whp"><a href="https://api.whatsapp.com/send?phone=573168785601"><i class="fab fa-whatsapp"></i></a></div>
-		<div class="icono-messenger" id="btn-mes"><a href="https://m.me/agenciawebbogota"><i class="fab fa-facebook-messenger"></i></a></div>
-		<div class="icono-phone" id="btn-pho"><a href="tel:+573168785601"><i class="fas fa-phone-volume"></i></a></div>
 		<div class="tooltip-whatsapp" id="tp-whp"><span>¡Estamos en línea!</span></div>
-		<div class="tooltip-messenger" id="tp-mes"><span>Háblenos por Messenger</span></div>
-		<div class="tooltip-phone" id="tp-pho"><span>Llámenos</span></div>
-
 		<!-- header END -->  
 		<!-- Content -->
     <div class="page-content bg-white">
@@ -99,7 +94,7 @@
 								<div class="icon-lg m-b20"> <a href="#" class="icon-cell"><i class="flaticon-bar-chart"></i></a> </div>
 								<div class="icon-content">
 									<h5 class="dlab-tilte text-uppercase"><a href="posicionamiento-web">Soluciones SEO/SMO</a></h5>
-									<p>Impulsamos su negocio en motores de búsqueda y redes sociales con resultados reales</p>
+									<p>Impulsamos tu negocio en motores de búsqueda y redes sociales con resultados reales</p>
 								</div>
 							</div>
 						</div>
@@ -108,7 +103,7 @@
 								<div class="icon-lg m-b20"> <a href="google-apps" class="icon-cell"><i class="flaticon-team"></i></a> </div>
 								<div class="icon-content">
 									<h5 class="dlab-tilte text-uppercase"><a href="{{url('/')}}">Soluciones en Redes Sociales</a></h5>
-									<p>Creamos y gestionamos sus campañas de redes sociales, asegurando resultados positivos</p>
+									<p>Creamos y gestionamos tus campañas de redes sociales, asegurando resultados positivos</p>
 								</div>
 							</div>
 						</div>
@@ -126,7 +121,7 @@
 								<div class="icon-lg m-b20"> <a href="/" class="icon-cell"><i class="flaticon-diamond"></i></a> </div>
 								<div class="icon-content">
 									<h5 class="dlab-tilte text-uppercase"><a href="{{url('/')}}">Soluciones en Branding</a></h5>
-									<p>Diseñamos su imagen corporativa, logotipo, guía de marca, flyers, banners y perfiles sociales</p>
+									<p>Diseñamos tu imagen corporativa, logotipo, guía de marca, flyers, banners y perfiles sociales</p>
 								</div>
 							</div>
 						</div>
@@ -148,7 +143,7 @@
 							<div class="icon-bx-wraper center p-lr20 p-tb30">								
 								<div class="icon-content">
 									<h5 class="dlab-tilte">Idioma Adicional</h5>
-									<p>Un clon de su sitio web en otro idioma utilizando traductor de Google o traducciones oficiales</p>
+									<p>Un clon de tu sitio web en otro idioma utilizando traductor de Google o traducciones oficiales</p>
 								</div>
 							</div>
 							<div class="icon-box-btn text-center">
@@ -161,7 +156,7 @@
 							<div class="icon-bx-wraper center p-lr20 p-tb30">								
 								<div class="icon-content">
 									<h5 class="dlab-tilte">Nueva Imagen</h5>
-									<p>Rediseño y actualización de su sitio web, optimización móviles y aumento de velocidad de carga</p>
+									<p>Rediseño y actualización de tu sitio web, optimización móviles y aumento de velocidad de carga</p>
 								</div>
 							</div>
 							<div class="icon-box-btn text-center">
@@ -174,7 +169,7 @@
 							<div class="icon-bx-wraper center p-lr20 p-tb30">
 								<div class="icon-content">
 									<h5 class="dlab-tilte">Optimización SEO</h5>
-									<p>Su página web optimizada para motores de búsqueda hasta 3 palabras clave por página interna</p>
+									<p>Tu página web optimizada para motores de búsqueda hasta 3 palabras clave por página interna</p>
 								</div>
 							</div>
 							<div class="icon-box-btn text-center">
@@ -187,7 +182,7 @@
 							<div class="icon-bx-wraper center p-lr20 p-tb30">								
 								<div class="icon-content">
 									<h5 class="dlab-tilte">Integración Maps</h5>
-									<p>Incluya en su sitio web ubicación de usuarios y puntos de venta por medio de la API de Google</p>
+									<p>Incluye en tu sitio web ubicación de usuarios y puntos de venta por medio de la API de Google</p>
 								</div>
 							</div>
 							<div class="icon-box-btn text-center">
@@ -203,7 +198,7 @@
 							<div class="icon-bx-wraper center p-lr20 p-tb30">								
 								<div class="icon-content">
 									<h5 class="dlab-tilte">Pagos Online</h5>
-									<p>Enlace su sitio web con diferentes pasarelas de pago y cobre online productos y servicios</p>
+									<p>Enlace tu sitio web con diferentes pasarelas de pago y cobre online productos y servicios</p>
 								</div>
 							</div>
 							<div class="icon-box-btn text-center">
@@ -216,7 +211,7 @@
 							<div class="icon-bx-wraper center p-lr20 p-tb30">								
 								<div class="icon-content">
 									<h5 class="dlab-tilte">Reservas Online</h5>
-									<p>Permita que sus clientes reserven citas fácilmente de acuerdo a su calendario predefinido</p>
+									<p>Permite que tus clientes reserven citas fácilmente de acuerdo a tu calendario predefinido</p>
 								</div>
 							</div>
 							<div class="icon-box-btn text-center">
@@ -229,7 +224,7 @@
 							<div class="icon-bx-wraper center p-lr20 p-tb30">
 								<div class="icon-content">
 									<h5 class="dlab-tilte">Chat de WhatsApp</h5>
-									<p>Incluya a su sitio web un módulo desplegable que lleve a sus usuarios a escribirle por WhatsApp</p>
+									<p>Incluye en tu sitio web un módulo desplegable que lleve a tus usuarios a escribirte por WhatsApp</p>
 								</div>
 							</div>
 							<div class="icon-box-btn text-center">
@@ -242,7 +237,7 @@
 							<div class="icon-bx-wraper center p-lr20 p-tb30">								
 								<div class="icon-content">
 									<h5 class="dlab-tilte">Registro de Usuarios</h5>
-									<p>Disponga secciones privadas dentro de su sitio para usuarios registrados y enlace con bases de datos </p>
+									<p>Dispón secciones privadas dentro de tu sitio para usuarios registrados y enlace con bases de datos </p>
 								</div>
 							</div>
 							<div class="icon-box-btn text-center">
@@ -267,7 +262,7 @@
 						<div class="icon-bx-wraper bx-style-1 p-a30 center fly-box-ho">
 							<div class="icon-content">
 								<h5 class="dlab-tilte text-uppercase">Productos Ilimitados</h5>
-								<p>Si ha sobrepasado la cantidad de productos en su tienda, aumente su plan a productos ilimitados</p>
+								<p>Si has sobrepasado la cantidad de productos en tu tienda, aumenta tu plan a productos ilimitados</p>
 								<span class="text-pink font-weight-600">COP $1.200.000</span>
 							</div>
 						</div>
@@ -276,7 +271,7 @@
 						<div class="icon-bx-wraper bx-style-1 p-a30 center fly-box-ho">
 							<div class="icon-content">
 								<h5 class="dlab-tilte text-uppercase">Posicionamiento SEO</h5>
-								<p>Posicione en los primeros lugares de búsqueda de Google hasta 20 productos o categorías principales </p>
+								<p>Posiciona en los primeros lugares de búsqueda de Google hasta 20 productos o categorías principales </p>
 								<span class="text-pink font-weight-600">COP $1.600.000</span>
 							</div>
 						</div>
@@ -285,7 +280,7 @@
 						<div class="icon-bx-wraper bx-style-1 p-a30 center fly-box-ho">
 							<div class="icon-content">
 								<h5 class="dlab-tilte text-uppercase">Multi Moneda</h5>
-								<p>Acepte en su tienda pagos con diferentes monedas dependiendo de la localización de sus compradores</p>
+								<p>Acepta en tu tienda pagos con diferentes monedas dependiendo de la localización de tus compradores</p>
 								<span class="text-pink font-weight-600">COP $569.000</span>
 							</div>
 						</div>
@@ -298,7 +293,7 @@
 						<div class="icon-bx-wraper bx-style-1 p-a30 center fly-box-ho">
 							<div class="icon-content">
 								<h5 class="dlab-tilte text-uppercase">Zona de Envío</h5>
-								<p>Defina diferentes costos de envío dependiendo de la ubicación y las dimensiones del producto</p>
+								<p>Define diferentes costos de envío dependiendo de la ubicación y las dimensiones del producto</p>
 								<span class="text-pink font-weight-600">COP $290.000</span>
 							</div>
 						</div>
@@ -307,7 +302,7 @@
 						<div class="icon-bx-wraper bx-style-1 p-a30 center fly-box-ho">
 							<div class="icon-content">
 								<h5 class="dlab-tilte text-uppercase">Lenguaje Adicional</h5>
-								<p>Un clon de su tienda online en otro lenguaje, con selector desplegable en cualquier parte del sitio</p>
+								<p>Un clon de tu tienda online en otro lenguaje, con selector desplegable en cualquier parte del sitio</p>
 								<span class="text-pink font-weight-600">COP $780.000</span>
 							</div>
 						</div>
@@ -316,7 +311,7 @@
 						<div class="icon-bx-wraper bx-style-1 p-a30 center fly-box-ho">
 							<div class="icon-content">
 								<h5 class="dlab-tilte text-uppercase">Edición Imágenes</h5>
-								<p>Editamos profesionalmente las fotografías de sus productos, ajustadas con fondos y tamaños ideales </p>
+								<p>Editamos profesionalmente las fotografías de tus productos, ajustadas con fondos y tamaños ideales </p>
 								<span class="text-pink font-weight-600">COP $5.500/Imagen</span>
 							</div>
 						</div>
@@ -380,7 +375,7 @@
 					<div class="row ">
 						<div class="col-lg-12 text-center section-head">
 							<h2 class="m-b10">¿Requiere servicios de Marketing Digital?</h2>
-							<h5 class="m-b0 font-weight-300 max-w600 m-auto">Conozca nuestras tarifas detallas según el tipo de campañas, alcances, públicos, herramientas y presupuestos</h5>
+							<h5 class="m-b0 font-weight-300 max-w600 m-auto">Conoce nuestras tarifas detallas según el tipo de campañas, alcances, públicos, herramientas y presupuestos</h5>
 						</div>
 					</div>					
 					<div class="row">
@@ -397,20 +392,20 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-5 col-md-5 content-inner chosesus-content text-white">
-                                <h2 class="box-title m-b15 wow fadeInLeft" data-wow-delay="0.2s">Contacte Ahora con
+                                <h2 class="box-title m-b15 wow fadeInLeft" data-wow-delay="0.2s">Contacta Ahora con
                                     Agencia Web Bogotá<span class="bg-primary"></span></h2>
                             </div>
                             <div class="col-lg-7 col-md-7 m-b30">
                                 <form class="inquiry-form wow fadeInUp dzForm" data-wow-delay="0.2s">
                                     <div class="dzFormMsg"></div>
                                     <h3 class="box-title m-t0 m-b10 text-center">Estamos listos para comenzar a trabajar
-                                        en su proyecto <span class="bg-primary"></span></h3>
+                                        en tu proyecto <span class="bg-primary"></span></h3>
                                     <div class="text-center p-t20">
                                         <a href="https://api.whatsapp.com/send?phone=573168785601"
                                             class="site-button btn-whatsapp"><i class="fab fa-whatsapp"></i>
-                                            ¡Pregúntenos por WhatsApp!</a>
+                                            ¡Pregúntanos por WhatsApp!</a>
                                         <a href="https://m.me/agenciawebbogota" class="site-button btn-messenger"><i
-                                                class="fab fa-facebook-messenger"></i> ¡Háblenos por Messenger!</a>
+                                                class="fab fa-facebook-messenger"></i> ¡Háblanos por Messenger!</a>
                                         <p class="p-t10 font-16 text-center">Horario de Atención: Lunes a Sábado 8:00 AM
                                             a 6:00 PM</p>
                                     </div>
