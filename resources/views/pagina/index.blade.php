@@ -344,18 +344,42 @@
                                         <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
                                             <a href="javascript:void(0);">
                                                 <picture>
-                                                    <source srcset="{{asset('images/portafolio/antero-german.webp')}}"
+                                                    <source srcset="{{asset('images/portafolio/rocketstore.webp')}}"
                                                         type="image/webp">
-                                                    <img src="{{asset('images/portafolio/antero-german.jpg')}}" alt="Antero Germán Ramirez">
+                                                    <img src="{{asset('images/portafolio/rocketstore.jpg')}}" alt="Rocket Store">
                                                 </picture>
                                             </a>
                                             <div class="overlay-bx">
                                                 <div class="overlay-icon align-b text-white">
                                                     <div class="text-white text-left port-box">
-                                                        <a href="{{url('https://usimmigrationagr.com')}}" target="_blank">
-                                                            <h5>US Immigration</h5>
+                                                        <a href="{{url('https://rocketstore.club')}}" target="_blank">
+                                                            <h5>Rocket Store Bogotá</h5>
                                                         </a>
-                                                        <p>Web Site Multidioma</p>
+                                                        <p>Tienda en Línea Boutique</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="web design card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
+                                    data-wow-delay="0.2s">
+                                    <div class="dlab-box dlab-gallery-box">
+                                        <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
+                                            <a href="javascript:void(0);">
+                                                <picture>
+                                                    <source srcset="{{asset('images/portafolio/farmapalacio.webp')}}"
+                                                        type="image/webp">
+                                                    <img src="{{asset('images/portafolio/farmapalacio.jpg')}}" alt="Farmapalacio">
+                                                </picture>
+                                            </a>
+                                            <div class="overlay-bx">
+                                                <div class="overlay-icon align-b text-white">
+                                                    <div class="text-white text-left port-box">
+                                                        <a href="{{url('https://farmapalacio.com')}}" target="_blank">
+                                                            <h5>Droguerías Farmapalacio</h5>
+                                                        </a>
+                                                        <p>Tienda en Línea</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -386,24 +410,24 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li class="advertising branding photography card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
-                                    data-wow-delay="0.4s">
+                                <li class="web design card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
+                                    data-wow-delay="0.2s">
                                     <div class="dlab-box dlab-gallery-box">
-                                        <div class="dlab-media dlab-img-overlay1 dlab-img-effect dlab-img-effect ">
+                                        <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
                                             <a href="javascript:void(0);">
                                                 <picture>
-                                                    <source srcset="{{asset('images/portafolio/issla-risk.webp')}}"
+                                                    <source srcset="{{asset('images/portafolio/antero-german.webp')}}"
                                                         type="image/webp">
-                                                    <img src="{{asset('images/portafolio/issla-risk.jpg')}}"
-                                                        alt="Issla Risk"></picture>
+                                                    <img src="{{asset('images/portafolio/antero-german.jpg')}}" alt="Antero Germán Ramirez">
+                                                </picture>
                                             </a>
                                             <div class="overlay-bx">
                                                 <div class="overlay-icon align-b text-white">
                                                     <div class="text-white text-left port-box">
-                                                        <a href="{{url('https://isslarisk.com')}}" target="_blank">
-                                                            <h5>Issla Risk Global Service</h5>
+                                                        <a href="{{url('https://usimmigrationagr.com')}}" target="_blank">
+                                                            <h5>US Immigration</h5>
                                                         </a>
-                                                        <p>Sitio Web Corporativo</p>
+                                                        <p>Web Site Multidioma</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -507,7 +531,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </li>
+                                </li>                               
                                 <li class="web branding card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
                                     data-wow-delay="0.6s">
                                     <div class="dlab-box dlab-gallery-box">
@@ -527,30 +551,6 @@
                                                             <h5>Mandetextos</h5>
                                                         </a>
                                                         <p>Sitio Web Landing Page</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>                                
-                                <li class="web photography card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
-                                    data-wow-delay="0.2s">
-                                    <div class="dlab-box dlab-gallery-box">
-                                        <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-                                            <a href="javascript:void(0);">
-                                                <picture>
-                                                    <source srcset="{{asset('images/portafolio/export-world.webp')}}"
-                                                        type="image/webp">
-                                                    <img src="{{asset('images/portafolio/export-world.jpg')}}"
-                                                        alt="Sitio Web Export World"></picture>
-                                            </a>
-                                            <div class="overlay-bx">
-                                                <div class="overlay-icon align-b text-white">
-                                                    <div class="text-white text-left port-box">
-                                                        <a href="{{url('https://ciexportworld.com')}}" target="_blank">
-                                                            <h5>CI Export World</h5>
-                                                        </a>
-                                                        <p>Sitio Web Corporativo</p>
                                                     </div>
                                                 </div>
                                             </div>
