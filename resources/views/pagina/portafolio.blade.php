@@ -222,8 +222,8 @@
 									<div class="dlab-media dlab-img-overlay1 dlab-img-effect">
 										<a href="javascript:void(0);">
 									<picture>
-                                        <source srcset="{{asset('images/portafolio/antero-german.webp')}}" type="image/webp">
-                                            <img src="{{asset('images/portafolio/antero-german.jpg')}}" alt="Elefante Amarillo">
+                                        <source srcset="{{asset('images/portafolio/elefante-amarillo.webp')}}" type="image/webp">
+                                            <img src="{{asset('images/portafolio/elefante-amarillo.jpg')}}" alt="Elefante Amarillo">
                                     </picture>
 									</a>
 										<div class="overlay-bx ">
