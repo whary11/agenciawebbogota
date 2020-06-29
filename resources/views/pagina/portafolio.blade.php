@@ -77,17 +77,17 @@
 										<input type="radio">
 										<a href="#" class="site-button-secondry radius-sm"><span>Tiendas en Línea</span></a> 
 									</li>
-									<li data-filter="advertising" class="btn">
+									<li data-filter="corporativos" class="btn">
 										<input type="radio">
 										<a href="#" class="site-button-secondry radius-sm"><span>Sitios Corporativos</span></a> 
+									</li>
+									<li data-filter="creativos" class="btn">
+										<input type="radio">
+										<a href="#" class="site-button-secondry radius-sm"><span>Sitios Creativos</span></a> 
 									</li>
 									<li data-filter="branding" class="btn">
 										<input type="radio">
 										<a href="#" class="site-button-secondry radius-sm"><span>Branding</span></a> 
-									</li>
-									<li data-filter="design" class="btn">
-										<input type="radio">
-										<a href="#" class="site-button-secondry radius-sm"><span>Posicionamiento</span></a> 
 									</li>
 									<li data-filter="photography" class="btn">
 										<input type="radio">
@@ -97,7 +97,7 @@
 					</div>
 					<div class="clearfix">
 						<ul id="masonry" class="dlab-gallery-listing gallery-grid-4 gallery mfp-gallery port-style1">
-							<li class="tiendas card-container col-lg-4 col-md-4 col-sm-4 p-a0 wow zoomIn" data-wow-delay="0.2s">
+							<li class="tiendas card-container col-lg-4 col-md-4 col-sm-4 p-a0 wow zoomIn">
 								<div class="dlab-box dlab-gallery-box">
 									<div class="dlab-media dlab-img-overlay1 dlab-img-effect">
 										<a href="javascript:void(0);"> 
@@ -106,113 +106,131 @@
                                                 <img src="{{asset('images/portafolio/rocketstore.jpg')}}" alt="Rocket Store">
                                             </picture>
                                         </a>
-										<div class="overlay-bx ">
+										<div class="overlay-bx">
 											<div class="overlay-icon align-b text-white text-left"> 
 												<div class="text-white text-left port-box">
-													<h4 class="m-a0">Rocket Store Bogotá</h4>
+													<a href="{{url('https://rocketstore.club')}}" target="_blank"><h4 class="m-a0">Rocket Store Bogotá</h4></a>
 													<p>Tienda en Línea Woocommerce</p>
-													<a href="images/portafolio/rocketstore.webp" class="mfp-link portfolio-fullscreen" title="Rocket Store Bogotá"><i class="ti-fullscreen icon-bx-xs"></i></a>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
 							</li>
-							<li class="tiendas card-container col-lg-4 col-md-4 col-sm-4 p-a0 wow zoomIn" data-wow-delay="0.2s">
+							<li class="tiendas card-container col-lg-4 col-md-4 col-sm-4 p-a0 wow zoomIn">
 								<div class="dlab-box dlab-gallery-box">
                                 <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
 										<a href="javascript:void(0);"> 
                                             <picture>
                                               <source srcset="{{asset('images/portafolio/farmapalacio.webp')}}" type="image/webp">
-                                                <img src="{{asset('images/portafolio/farmapalacio.jpg')}}" alt="Rocket Store">
+                                                <img src="{{asset('images/portafolio/farmapalacio.jpg')}}" alt="Droguerías Farmapalacio">
                                             </picture>
                                         </a>
 										<div class="overlay-bx ">
 											<div class="overlay-icon align-b text-white text-left"> 
 												<div class="text-white text-left port-box">
-													<h4 class="m-a0">Droguerías Farmapalacio</h4>
+												<a href="{{url('https://farmapalacio.com')}}" target="_blank"><h4 class="m-a0">Droguerías Farmapalacio</h4></a>
 													<p>Tienda en Línea Woocommerce</p>
-													<a href="images/portafolio/farmapalacio.webp" class="mfp-link portfolio-fullscreen" title="Rocket Store Bogotá"><i class="ti-fullscreen icon-bx-xs"></i></a>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
 							</li>
-							<li class="branding design photography card-container col-lg-4 col-md-4 col-sm-4 p-a0 wow zoomIn" data-wow-delay="0.2s">
+							<li class="tiendas card-container col-lg-4 col-md-4 col-sm-4 p-a0 wow zoomIn">
 								<div class="dlab-box dlab-gallery-box">
 									<div class="dlab-media dlab-img-overlay1 dlab-img-effect"> 
-									<a href="javascript:void(0);"> <img src="images/portafolio/bikersymoto.jpg"  alt=""> </a>
+									<a href="javascript:void(0);"> 
+										<picture>
+                                            <source srcset="{{asset('images/portafolio/bikersymoto.webp')}}" type="image/webp">
+                                                <img src="{{asset('images/portafolio/bikersymoto.jpg')}}" alt="Bikers y Motos">
+                                            </picture>
+		                   			</a>
 										<div class="overlay-bx ">
 											<div class="overlay-icon align-b text-white text-left"> 
 												<div class="text-white text-left port-box">
-													<h4 class="m-a0">Herbal Beauty Salon</h4>
-													<p>Branding and Identity</p>
-													<a href="images/portfolio/image_3.jpg" class="mfp-link portfolio-fullscreen" title="Title Come Here"><i class="ti-fullscreen icon-bx-xs"></i></a>
+												<a href="{{url('https://farmapalacio.com')}}" target="_blank"><h4 class="m-a0">Bikers y Motos</h4></a>
+													<p>Ecommerce Prestashop</p>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
 							</li>
-							<li class="web design card-container col-lg-6 col-md-6 col-sm-6 p-a0 wow zoomIn" data-wow-delay="0.2s">
+							<li class="tiendas card-container col-lg-4 col-md-4 col-sm-4 p-a0 wow zoomIn">
 								<div class="dlab-box dlab-gallery-box">
 									<div class="dlab-media dlab-img-overlay1 dlab-img-effect"> 
-									<a href="javascript:void(0);"> <img src="images/portfolio/image_4.jpg"  alt=""> </a>
+									<a href="javascript:void(0);"> 
+										<picture>
+                                            <source srcset="{{asset('images/portafolio/compratodonline.webp')}}" type="image/webp">
+                                                <img src="{{asset('images/portafolio/compratodonline.jpg')}}" alt="Compra Todo Online">
+                                            </picture>
+									</a>
 										<div class="overlay-bx ">
 											<div class="overlay-icon align-b text-white text-left"> 
 												<div class="text-white text-left port-box">
-													<h4 class="m-a0">Herbal Beauty Salon</h4>
-													<p>Branding and Identity</p>
-													<a href="images/portfolio/image_4.jpg" class="mfp-link portfolio-fullscreen" title="Title Come Here"><i class="ti-fullscreen icon-bx-xs"></i></a>
+												<a href="{{url('https://compratodonline.com')}}" target="_blank"><h4 class="m-a0">Compra Todo Online</h4></a>
+													<p>Tienda en Línea Woocommerce</p>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
 							</li>
-							 <li class="web branding card-container col-lg-6 col-md-6 col-sm-6 p-a0 wow zoomIn" data-wow-delay="0.2s">
+							 <li class="tiendas card-container col-lg-4 col-md-4 col-sm-4 p-a0 wow zoomIn">
 								<div class="dlab-box dlab-gallery-box">
 									<div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-									<a href="javascript:void(0);"> <img src="images/portfolio/image_5.jpg"  alt=""> </a>
+									<a href="javascript:void(0);">									
+									<picture>
+                                            <source srcset="{{asset('images/portafolio/asistir-computadores.webp')}}" type="image/webp">
+                                                <img src="{{asset('images/portafolio/asistir-computadores.jpg')}}" alt="Asistir Computadores">
+                                            </picture>
+									</a>
 										<div class="overlay-bx ">
 											<div class="overlay-icon align-b text-white text-left"> 
 												<div class="text-white text-left port-box">
-													<h4 class="m-a0">Herbal Beauty Salon</h4>
-													<p>Branding and Identity</p>
-													<a href="images/portfolio/image_5.jpg" class="mfp-link portfolio-fullscreen" title="Title Come Here"><i class="ti-fullscreen icon-bx-xs"></i></a>
+												<a href="{{url('https://asistircomputadores.com')}}" target="_blank"><h4 class="m-a0">Asistir Computadores</h4></a>
+													<p>Tienda en Línea Woocommerce</p>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
 							</li>
-							<li class="advertising design photography card-container col-lg-6 col-md-12 col-sm-6 p-a0 wow zoomIn" data-wow-delay="0.4s">
+							<li class="corporativos card-container col-lg-4 col-md-4 col-sm-4 p-a0 wow zoomIn" data-wow-delay="0.4s">
 								<div class="dlab-box dlab-gallery-box">
 									<div class="dlab-media dlab-img-overlay1 dlab-img-effect ">
-									<a href="javascript:void(0);"> <img src="images/portfolio/image_6.jpg"  alt=""> </a>
+									<a href="javascript:void(0);"> 									
+									<picture>
+                                        <source srcset="{{asset('images/portafolio/antero-german.webp')}}" type="image/webp">
+                                            <img src="{{asset('images/portafolio/antero-german.jpg')}}" alt="US Immigration">
+                                    </picture>
+									</a>
 										<div class="overlay-bx ">
 											<div class="overlay-icon align-b text-white text-left"> 
 												<div class="text-white text-left port-box">
-													<h4 class="m-a0">Herbal Beauty Salon</h4>
-													<p>Branding and Identity</p>
-													<a href="images/portfolio/image_6.jpg" class="mfp-link portfolio-fullscreen" title="Title Come Here"><i class="ti-fullscreen icon-bx-xs"></i></a>
+												<a href="{{url('https://usimmigrationagr.com')}}" target="_blank"><h4 class="m-a0">US Immigration</h4></a>
+													<p>Multilingual Website</p>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
 							</li>
-							<li class="web branding card-container col-lg-6 col-md-6 col-sm-6 p-a0 wow zoomIn" data-wow-delay="0.6s">
+							<li class="web branding card-container col-lg-6 col-md-6 col-sm-6 p-a0 wow zoomIn">
 								<div class="dlab-box dlab-gallery-box">
 									<div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-										<a href="javascript:void(0);"> <img src="images/portfolio/image_7.jpg"  alt=""> </a>
+										<a href="javascript:void(0);">
+									<picture>
+                                        <source srcset="{{asset('images/portafolio/elefante-amarillo.webp')}}" type="image/webp">
+                                            <img src="{{asset('images/portafolio/elefante-amarillo.jpg')}}" alt="Elefante Amarillo">
+                                    </picture>
+									</a>
 										<div class="overlay-bx ">
 											<div class="overlay-icon align-b text-white text-left"> 
 												<div class="text-white text-left port-box">
-													<h4 class="m-a0">Herbal Beauty Salon</h4>
-													<p>Branding and Identity</p>
-													<a href="images/portfolio/image_7.jpg" class="mfp-link portfolio-fullscreen" title="Title Come Here"><i class="ti-fullscreen icon-bx-xs"></i></a>
+												<a href="{{url('https://elefante-amarillo.com')}}" target="_blank"><h4 class="m-a0">Elefante Amarillo</h4></a>
+													<p>Creative HTML Website</p>
 												</div>
 											</div>
 										</div>
