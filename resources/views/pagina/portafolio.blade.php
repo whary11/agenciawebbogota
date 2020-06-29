@@ -177,7 +177,7 @@
 									</div>
 								</div>
 							</li>
-							 <li class="tiendas card-container col-lg-4 col-md-4 col-sm-4 p-a0 wow zoomIn">
+							 <li class="tiendas corporativos card-container col-lg-4 col-md-4 col-sm-4 p-a0 wow zoomIn">
 								<div class="dlab-box dlab-gallery-box">
 									<div class="dlab-media dlab-img-overlay1 dlab-img-effect">
 									<a href="javascript:void(0);">									
@@ -197,7 +197,7 @@
 									</div>
 								</div>
 							</li>
-							<li class="corporativos card-container col-lg-4 col-md-4 col-sm-4 p-a0 wow zoomIn" data-wow-delay="0.4s">
+							<li class="corporativos card-container col-lg-4 col-md-4 col-sm-4 p-a0 wow zoomIn">
 								<div class="dlab-box dlab-gallery-box">
 									<div class="dlab-media dlab-img-overlay1 dlab-img-effect ">
 									<a href="javascript:void(0);"> 									
@@ -217,13 +217,13 @@
 									</div>
 								</div>
 							</li>
-							<li class="web branding card-container col-lg-6 col-md-6 col-sm-6 p-a0 wow zoomIn">
+							<li class="creativos card-container col-lg-4 col-md-4 col-sm-4 p-a0 wow zoomIn">
 								<div class="dlab-box dlab-gallery-box">
 									<div class="dlab-media dlab-img-overlay1 dlab-img-effect">
 										<a href="javascript:void(0);">
 									<picture>
-                                        <source srcset="{{asset('images/portafolio/elefante-amarillo.webp')}}" type="image/webp">
-                                            <img src="{{asset('images/portafolio/elefante-amarillo.jpg')}}" alt="Elefante Amarillo">
+                                        <source srcset="{{asset('images/portafolio/antero-german.webp')}}" type="image/webp">
+                                            <img src="{{asset('images/portafolio/antero-german.jpg')}}" alt="Elefante Amarillo">
                                     </picture>
 									</a>
 										<div class="overlay-bx ">
@@ -237,80 +237,240 @@
 									</div>
 								</div>
 							</li>
-							<li class="advertising design photography card-container col-lg-6 col-md-6 col-sm-6 p-a0 wow zoomIn" data-wow-delay="0.8s">
+							<li class="creativos card-container col-lg-4 col-md-4 col-sm-4 p-a0 wow zoomIn">
 								<div class="dlab-box dlab-gallery-box">
 									<div class="dlab-media dlab-img-overlay1 dlab-img-effect dlab-img-effect "> 
-									<a href="javascript:void(0);"> <img src="images/portfolio/image_8.jpg"  alt=""> </a>
+									<a href="javascript:void(0);">									
+									<picture>
+                                        <source srcset="{{asset('images/portafolio/jeronimos.webp')}}" type="image/webp">
+                                            <img src="{{asset('images/portafolio/jeronimos.jpg')}}" alt="Elefante Amarillo">
+                                    </picture>
+									</a>
 										<div class="overlay-bx ">
 											<div class="overlay-icon align-b text-white text-left"> 
 												<div class="text-white text-left port-box">
-													<h4 class="m-a0">Herbal Beauty Salon</h4>
-													<p>Branding and Identity</p>
-													<a href="images/portfolio/image_8.jpg" class="mfp-link portfolio-fullscreen" title="Title Come Here"><i class="ti-fullscreen icon-bx-xs"></i></a>
+												<a href="{{url('https://elefante-amarillo.com')}}" target="_blank"><h4 class="m-a0">Jeronimo's Cake Shop</h4></a>
+													<p>Creative WordPress Site</p>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
 							</li>
-							<li class="web photography card-container col-lg-6 col-md-6 col-sm-6 p-a0 wow zoomIn" data-wow-delay="0.2s">
+							<li class="creativos card-container col-lg-4 col-md-4 col-sm-4 p-a0 wow zoomIn">
 								<div class="dlab-box dlab-gallery-box">
 									<div class="dlab-media dlab-img-overlay1 dlab-img-effect"> 
-									<a href="javascript:void(0);"> <img src="images/portfolio/image_9.jpg"  alt=""> </a>
+									<a href="javascript:void(0);">
+									<picture>
+                                        <source srcset="{{asset('images/portafolio/diocesis-valledupar.webp')}}" type="image/webp">
+                                            <img src="{{asset('images/portafolio/diocesis-valledupar.jpg')}}" alt="Diócesis Valledupar">
+                                    </picture>
+									</a>
 										<div class="overlay-bx ">
 											<div class="overlay-icon align-b text-white text-left"> 
 												<div class="text-white text-left port-box">
-													<h4 class="m-a0">Herbal Beauty Salon</h4>
-													<p>Branding and Identity</p>
-													<a href="images/portfolio/image_9.jpg" class="mfp-link portfolio-fullscreen" title="Title Come Here"><i class="ti-fullscreen icon-bx-xs"></i></a>
+												<a href="{{url('https://diocesisdevalledupar.org')}}" target="_blank"><h4 class="m-a0">Diócesis de Valledupar</h4></a>
+													<p>Magazzine Blog Website</p>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
 							</li>
-							<li class="advertising branding card-container col-lg-6 col-md-6 col-sm-6 p-a0 wow zoomIn" data-wow-delay="0.4s">
+							<li class="corporativos card-container col-lg-4 col-md-4 col-sm-4 p-a0 wow zoomIn">
 								<div class="dlab-box dlab-gallery-box">
 									<div class="dlab-media dlab-img-overlay1 dlab-img-effect"> 
-									<a href="javascript:void(0);"> <img src="images/portfolio/image_10.jpg"  alt=""> </a>
+									<a href="javascript:void(0);">
+									<picture>
+                                        <source srcset="{{asset('images/portafolio/imagen-cpc.webp')}}" type="image/webp">
+                                            <img src="{{asset('images/portafolio/imagen-cpc.jpg')}}" alt="Consultoría Profesional Corporativa">
+                                    </picture>
+									</a>
 										<div class="overlay-bx ">
 											<div class="overlay-icon align-b text-white text-left"> 
 												<div class="text-white text-left port-box">
-													<h4 class="m-a0">Herbal Beauty Salon</h4>
-													<p>Branding and Identity</p>
-													<a href="images/portfolio/image_10.jpg" class="mfp-link portfolio-fullscreen" title="Title Come Here"><i class="ti-fullscreen icon-bx-xs"></i></a>
+												<a href="{{url('https://consultoriaprofesionalc.com')}}" target="_blank"><h4 class="m-a0">CPC&CO SAS</h4></a>
+													<p>Consulting Website</p>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
 							</li>
-							 <li class="web design card-container col-lg-6 col-md-6 col-sm-6 p-a0 wow zoomIn" data-wow-delay="0.6s">
+							 <li class="corporativos card-container col-lg-4 col-md-4 col-sm-4 p-a0 wow zoomIn">
 								<div class="dlab-box dlab-gallery-box">
 									<div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-									<a href="javascript:void(0);"> <img src="images/portfolio/image_11.jpg"  alt=""> </a>
+									<a href="javascript:void(0);">
+									<picture>
+                                        <source srcset="{{asset('images/portafolio/pediatria-integrativa.webp')}}" type="image/webp">
+                                            <img src="{{asset('images/portafolio/pediatria-integrativa.jpg')}}" alt="Pediatría Integrativa">
+                                    </picture>
+									</a>
 										<div class="overlay-bx ">
 											<div class="overlay-icon align-b text-white text-left"> 
 												<div class="text-white text-left port-box">
-													<h4 class="m-a0">Herbal Beauty Salon</h4>
-													<p>Branding and Identity</p>
-													<a href="images/portfolio/image_11.jpg" class="mfp-link portfolio-fullscreen" title="Title Come Here"><i class="ti-fullscreen icon-bx-xs"></i></a>
+												<a href="{{url('https://pediatriaintegrativaco.com')}}" target="_blank"><h4 class="m-a0">Pediatría Integrativa</h4></a>
+													<p>Medical Website</p>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
 							</li>
-							<li class="advertising branding photography card-container col-lg-6 col-md-6 col-sm-6 p-a0 wow zoomIn" data-wow-delay="0.8s">
+							<li class="corporativos card-container col-lg-4 col-md-4 col-sm-4 p-a0 wow zoomIn">
 								<div class="dlab-box dlab-gallery-box">
 									<div class="dlab-media dlab-img-overlay1 dlab-img-effect ">
-									<a href="javascript:void(0);"> <img src="images/portfolio/image_12.jpg"  alt=""> </a>
+									<a href="javascript:void(0);">
+									<picture>
+                                        <source srcset="{{asset('images/portafolio/imagen-grupohelm.webp')}}" type="image/webp">
+                                            <img src="{{asset('images/portafolio/imagen-grupohelm.jpg')}}" alt="Grupo Helm Contadores">
+                                    </picture>
+									</a>
 										<div class="overlay-bx ">
 											<div class="overlay-icon align-b text-white text-left"> 
 												<div class="text-white text-left port-box">
-													<h4 class="m-a0">Herbal Beauty Salon</h4>
-													<p>Branding and Identity</p>
-													<a href="images/portfolio/image_12.jpg" class="mfp-link portfolio-fullscreen" title="Title Come Here"><i class="ti-fullscreen icon-bx-xs"></i></a>
+												<a href="{{url('http://grupohelmcontadores.com/')}}" target="_blank"><h4 class="m-a0">Grupo Helm</h4></a>
+													<p>Financial Website</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="corporativos card-container col-lg-4 col-md-4 col-sm-4 p-a0 wow zoomIn">
+								<div class="dlab-box dlab-gallery-box">
+									<div class="dlab-media dlab-img-overlay1 dlab-img-effect ">
+									<a href="javascript:void(0);">
+									<picture>
+                                        <source srcset="{{asset('images/portafolio/imagen-ezry-1.webp')}}" type="image/webp">
+                                            <img src="{{asset('images/portafolio/imagen-ezry-1.jpg')}}" alt="Ezry Mantenimientos">
+                                    </picture>
+									</a>
+										<div class="overlay-bx ">
+											<div class="overlay-icon align-b text-white text-left"> 
+												<div class="text-white text-left port-box">
+												<a href="{{url('http://ezrymantenimientos.com/')}}" target="_blank"><h4 class="m-a0">Ezry Mantenimientos</h4></a>
+													<p>Corporate Website</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="corporativos card-container col-lg-4 col-md-4 col-sm-4 p-a0 wow zoomIn">
+								<div class="dlab-box dlab-gallery-box">
+									<div class="dlab-media dlab-img-overlay1 dlab-img-effect ">
+									<a href="javascript:void(0);">
+									<picture>
+                                        <source srcset="{{asset('images/portafolio/fcem.webp')}}" type="image/webp">
+                                            <img src="{{asset('images/portafolio/fcem.jpg')}}" alt="Fundación Cuerpo en Movimiento">
+                                    </picture>
+									</a>
+										<div class="overlay-bx ">
+											<div class="overlay-icon align-b text-white text-left"> 
+												<div class="text-white text-left port-box">
+												<a href="{{url('http://cuerpoenmovimiento.org')}}" target="_blank"><h4 class="m-a0">Cuerpo en Movimiento</h4></a>
+													<p>ONG Website</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="corporativos card-container col-lg-4 col-md-4 col-sm-4 p-a0 wow zoomIn">
+								<div class="dlab-box dlab-gallery-box">
+									<div class="dlab-media dlab-img-overlay1 dlab-img-effect ">
+									<a href="javascript:void(0);">
+									<picture>
+                                        <source srcset="{{asset('images/portafolio/export-world.webp')}}" type="image/webp">
+                                            <img src="{{asset('images/portafolio/export-world.jpg')}}" alt="CI Export World">
+                                    </picture>
+									</a>
+										<div class="overlay-bx ">
+											<div class="overlay-icon align-b text-white text-left"> 
+												<div class="text-white text-left port-box">
+												<a href="{{url('http://ciexportworld.com')}}" target="_blank"><h4 class="m-a0">CI Export World</h4></a>
+													<p>Corporate Website</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="corporativos card-container col-lg-4 col-md-4 col-sm-4 p-a0 wow zoomIn">
+								<div class="dlab-box dlab-gallery-box">
+									<div class="dlab-media dlab-img-overlay1 dlab-img-effect ">
+									<a href="javascript:void(0);">
+									<picture>
+                                        <source srcset="{{asset('images/portafolio/imagen-glaw.webp')}}" type="image/webp">
+                                            <img src="{{asset('images/portafolio/imagen-glaw.jpg')}}" alt="Glaw Abogados">
+                                    </picture>
+									</a>
+										<div class="overlay-bx ">
+											<div class="overlay-icon align-b text-white text-left"> 
+												<div class="text-white text-left port-box">
+												<a href="{{url('http://glawabogados.com')}}" target="_blank"><h4 class="m-a0">Glaw Abogados</h4></a>
+													<p>Lawyer Website</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="corporativos creativos card-container col-lg-4 col-md-4 col-sm-4 p-a0 wow zoomIn">
+								<div class="dlab-box dlab-gallery-box">
+									<div class="dlab-media dlab-img-overlay1 dlab-img-effect ">
+									<a href="javascript:void(0);">
+									<picture>
+                                        <source srcset="{{asset('images/portafolio/mandetextos.webp')}}" type="image/webp">
+                                            <img src="{{asset('images/portafolio/mandetextos.jpg')}}" alt="Mandetextos">
+                                    </picture>
+									</a>
+										<div class="overlay-bx ">
+											<div class="overlay-icon align-b text-white text-left"> 
+												<div class="text-white text-left port-box">
+												<a href="{{url('http://mandetextos.com')}}" target="_blank"><h4 class="m-a0">Mandetextos</h4></a>
+													<p>OnePage Website</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="corporativos card-container col-lg-4 col-md-4 col-sm-4 p-a0 wow zoomIn">
+								<div class="dlab-box dlab-gallery-box">
+									<div class="dlab-media dlab-img-overlay1 dlab-img-effect ">
+									<a href="javascript:void(0);">
+									<picture>
+                                        <source srcset="{{asset('images/portafolio/imagen-viaggi-2.webp')}}" type="image/webp">
+                                            <img src="{{asset('images/portafolio/imagen-viaggi-2.jpg')}}" alt="Viaggi Group">
+                                    </picture>
+									</a>
+										<div class="overlay-bx ">
+											<div class="overlay-icon align-b text-white text-left"> 
+												<div class="text-white text-left port-box">
+												<a href="{{url('http://viaggigroup.co')}}" target="_blank"><h4 class="m-a0">Viaggi Group</h4></a>
+													<p>Travel Website</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="corporativos card-container col-lg-4 col-md-4 col-sm-4 p-a0 wow zoomIn">
+								<div class="dlab-box dlab-gallery-box">
+									<div class="dlab-media dlab-img-overlay1 dlab-img-effect ">
+									<a href="javascript:void(0);">
+									<picture>
+                                        <source srcset="{{asset('images/portafolio/comfasalud.webp')}}" type="image/webp">
+                                            <img src="{{asset('images/portafolio/comfasalud.jpg')}}" alt="IPS Comfasalud">
+                                    </picture>
+									</a>
+										<div class="overlay-bx ">
+											<div class="overlay-icon align-b text-white text-left"> 
+												<div class="text-white text-left port-box">
+												<a href="{{url('http://comfasalud.com')}}" target="_blank"><h4 class="m-a0">IPS Comfasalud</h4></a>
+													<p>Medical Website</p>
 												</div>
 											</div>
 										</div>
