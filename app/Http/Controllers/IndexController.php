@@ -79,4 +79,7 @@ class IndexController extends Controller
     public function consultorias(){
         return view('pagina.consultorias');
     }
+    public function portafolio(){
+        return view('pagina.portafolio');
+    }
 }

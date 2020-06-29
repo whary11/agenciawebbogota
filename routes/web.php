@@ -26,6 +26,7 @@ Route::get('/posicionamiento-web', 'IndexController@posicionamientoWeb');
 Route::get('/diseno-y-fotografia', 'IndexController@disenoyfotografia');
 Route::get('/blog', 'IndexController@blog');
 Route::get('/contacto', 'IndexController@contacto');
+Route::get('/portafolio', 'IndexController@portafolio');
 Route::get('/servicios', 'IndexController@servicios');
 Route::get('/administracion-de-sitios-web', 'IndexController@administracion');
 Route::get('/enviar-un-pago', 'IndexController@pagos');
