@@ -5,24 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="Robots" content="index, follow">
-    <title>Administramos su sitio web o tienda online desde $69.000 Mes</title>
-    <meta name="description" content="Deje su sitio web en manos expertas y disfrute de los resultados. Administramos, gestionamos y posicionamos su sitio web o tienda online. Conozca más...." />
+    <title>Portafolio Agencia Web Bogotá - Trabajos Realizados</title>
+    <meta name="description" content="Diseño de páginas web, sitios corporativos, tiendas en línea, sitios creativos, desarrollos a medida, cms, sitios administrables, sistemas pos, pasarelas de pago" />
 	<meta name="author" content="Agencia Web Bogotá">
 	<meta property="og:type" content="website" />
     <meta property="og:site_name " content="Agencia Web Bogotá" />
-    <meta property="og:title" content="Administramos su sitio web o tienda online desde $69.000 Mes" />
-    <meta property="og:url" content="https://agenciawebbogota.com/administracion-de-sitios-web" />
-    <meta property="og:image" content="https://agenciawebbogota.com/images/pic7.jpg" />
-    <meta property="og:description" content="Deje su sitio web en manos expertas y disfrute de los resultados. Administramos, gestionamos y posicionamos su sitio web o tienda online. Conozca más...." />
+    <meta property="og:title" content="Portafolio Agencia Web Bogotá - Trabajos Realizados" />
+    <meta property="og:url" content="https://agenciawebbogota.com/portafolio" />
+    <meta property="og:image" content="https://agenciawebbogota.com/images/portafolio/asistir-computadores.jpg" />
+    <meta property="og:description" content="Diseño de páginas web, sitios corporativos, tiendas en línea, sitios creativos, desarrollos a medida, cms, sitios administrables, sistemas pos, pasarelas de pago" />
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@AgenciaBogota">
     <meta name="twitter:creator" content="@AgenciaBogota">
-    <meta name="twitter:image" content="https://agenciawebbogota.com/images/pic7.jpg">
-    <meta name="twitter:image:alt" content="Administracion de sitios web">
-    <meta name="twitter:title" content="Administramos su sitio web o tienda online desde $69.000 Mes">
-    <meta name="twitter:description" content="Deje su sitio web en manos expertas y disfrute de los resultados. Administramos, gestionamos y posicionamos su sitio web o tienda online. Conozca más....">
-	<link rel="canonical" href="https://agenciawebbogota.com/administracion-de-sitios-web" />
-    <link rel="alternate" hreflang="en_EN" href="https://en.agenciawebbogota.com/websites-administration" />
+    <meta name="twitter:image" content="https://agenciawebbogota.com/portafolio/asistir-computadores.jpg">
+    <meta name="twitter:image:alt" content="Portafolio Agencia Web Bogotá">
+    <meta name="twitter:title" content="Portafolio Agencia Web Bogotá - Trabajos Realizados">
+    <meta name="twitter:description" content="Diseño de páginas web, sitios corporativos, tiendas en línea, sitios creativos, desarrollos a medida, cms, sitios administrables, sistemas pos, pasarelas de pago">
+	<link rel="canonical" href="https://agenciawebbogota.com/portafolio" />
+    <link rel="alternate" hreflang="en_EN" href="https://en.agenciawebbogota.com/portfolio" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
 
@@ -89,7 +89,7 @@
 										<input type="radio">
 										<a href="#" class="site-button-secondry radius-sm"><span>Branding</span></a> 
 									</li>
-									<li data-filter="photography" class="btn">
+									<li data-filter="fotografia" class="btn">
 										<input type="radio">
 										<a href="#" class="site-button-secondry radius-sm"><span>Fotografía</span></a> 
 									</li>
@@ -477,6 +477,26 @@
 									</div>
 								</div>
 							</li>
+							<li class="corporativos card-container col-lg-4 col-md-4 col-sm-4 p-a0 wow zoomIn">
+								<div class="dlab-box dlab-gallery-box">
+									<div class="dlab-media dlab-img-overlay1 dlab-img-effect ">
+									<a href="javascript:void(0);">
+									<picture>
+                                        <source srcset="{{asset('images/portafolio/duarteyjulio.webp')}}" type="image/webp">
+                                            <img src="{{asset('images/portafolio/duarteyjulio.jpg')}}" alt="Duarte y Julio Consultores">
+                                    </picture>
+									</a>
+										<div class="overlay-bx ">
+											<div class="overlay-icon align-b text-white text-left"> 
+												<div class="text-white text-left port-box">
+												<a href="{{url('http://duarteyjulio.com')}}" target="_blank"><h4 class="m-a0">Duarte & Julio</h4></a>
+													<p>Consulting Website</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -514,5 +534,10 @@
 <script src="plugins/loading/anime-app3.js"></script><!-- LOADING JS -->
 <script src="js/dz.ajax.js"></script><!-- CONTACT JS  -->
 @include('partials.schema')
+<script>
+        $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
 </body>
 </html>
