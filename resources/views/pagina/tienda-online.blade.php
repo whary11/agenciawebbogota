@@ -132,52 +132,11 @@
 				</div>
             </div>
             <!-- Our Services -->
-			<!-- Why Chose Us -->
-		<div class="section-full content-inner-1 overlay-primary about-service bg-img-fix no-webp-ecommerce2 webp-ecommerce2">
-				<div class="container">
-					<div class="section-head text-white text-center">
-						<h2 class="box-title m-tb0 max-w800 m-auto">Conectamos tu tienda con las mejores herramientas de marketing digital</h2>
-						<p>Sácale todo el jugo a tu tienda virtual enlazando con servicios externos que aumenten tus posibilidades de éxito y ventas</p>
-					</div>
-				</div>
-				<div class="container">
-					<div class="row text-white">
-						<div class="col-lg-4 col-md-4 col-sm-6 m-b30">
-							<div class="icon-bx-wraper bx-style-1 p-a30 center">
-								<div class="icon-lg text-white m-b20"><i class="icon-cell text-white fas fa-share-alt"></i></div>
-								<div class="icon-content">
-									<h5 class="dlab-tilte text-uppercase">Redes Sociales</h5>
-									<p>Enlazamos el catálogo de tu tienda a las redes sociales con botones comprar, obtener oferta y pedir online</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 m-b30">
-							<div class="icon-bx-wraper bx-style-1 p-a30 center">
-								<div class="icon-lg text-white m-b20"><i class="icon-cell text-white fas fa-funnel-dollar"></i></div>
-								<div class="icon-content">
-									<h5 class="dlab-tilte text-uppercase">Remarketing</h5>
-									<p>Enlazamos tu tienda con pixel de facebook, tags de Google, Google Analytics, flujos automatizados y más</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-12 m-b30">
-							<div class="icon-bx-wraper bx-style-1 p-a30 center">
-								<div class="icon-lg text-white m-b20"><i class="fas fa-tags"></i></div>
-								<div class="icon-content">
-									<h5 class="dlab-tilte text-uppercase">Dropshipping</h5>
-									<p>Si vender inventario de otras tiendas es lo tuyo, tenemos las herramientas precisas para hacerlo</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>				
-			</div>
-			<!-- Why Chose Us End -->
 			<div class="section-full content-inner" style="background-image:url({{asset('images/pattern/pic1.jpg')}});">
                 <div class="container">
 					<div class="section-head text-black text-center">
 						<h4 class="text-gray-dark m-b10">Nuestros Planes</h4>
-						<h2 class="box-title m-tb0">Planes de Diseño Web a la Medida de tus Necesidades</h2>
+						<h2 class="box-title m-tb0">Tiendas en Línea a la Medida de tu Negocio</h2>
 						<p>Todas nuestras tiendas incluyen alojamiento en hosting privado (VPS) de alta velocidad, dominio y certificado de navegación segura SSL</p>
 					</div>
 				</div>
@@ -195,7 +154,7 @@
 													</div>
 													<ul class="pricingtable-features">
 														<li class="text-center font-13"> Capacidad Para 50 Productos</li>
-														<li class="text-center font-13"> Hasta 10 Productos subidos con máximo 3 variaciones por producto</li>
+														<li class="text-center font-13"> Hasta 30 Productos subidos con máximo 3 variaciones por producto</li>
 														<li class="text-center font-13"> Galería de 3 imágenes por producto</li>
 														<li class="text-center font-13"> Zonas y clases de envío personalizadas</li>
 														<li class="text-center font-13"> Sistema de inventario</li>
@@ -216,8 +175,8 @@
 														<span class="pricingtable-bx text-primary">$850.000<br><span class="texto-oferta-2 text-primary">Único Pago</span>
 													</div>
 													<ul class="pricingtable-features">
-														<li class="text-center font-13"> Capacidad Para 50 Productos</li>
-														<li class="text-center font-13"> Hasta 20 Productos subidos con máximo 5 variaciones por producto</li>
+														<li class="text-center font-13"> Capacidad Para 100 Productos</li>
+														<li class="text-center font-13"> Hasta 50 Productos subidos con máximo 5 variaciones por producto</li>
 														<li class="text-center font-13"> Galería de 5 imágenes por producto</li>
 														<li class="text-center font-13"> Zonas y clases de envío personalizadas</li>
 														<li class="text-center font-13"> Rotación de productos destacados, ofertas o más vendidos en Home</li>
@@ -242,10 +201,10 @@
 													</div>
 													<ul class="pricingtable-features">
 														<li class="text-center font-13"> Capacidad Para 500 Productos</li>
-														<li class="text-center font-13"> 50 Productos subidos con máximo 10 variaciones por producto</li>
+														<li class="text-center font-13"> 100 Productos subidos con máximo 10 variaciones por producto</li>
 														<li class="text-center font-13"> Galería de 6 imágenes por producto</li>
 														<li class="text-center font-13"> Todas las funciones de Tienda Básica</li>
-														<li class="text-center font-13"> Rotación de productos destacados, ofertas o más vendidos en Home</li>
+														<li class="text-center font-13"> Módulo avanzado de búsquedas internas</li>
 														<li class="text-center font-13"> Posicionamiento SEO de productos</li>
 														<li class="text-center font-13"> Integración con redes sociales y catálogo de tienda facebook</li>
 													</ul>
@@ -273,10 +232,10 @@
 													<ul class="pricingtable-features">
 														<li class="text-center font-13"> Capacidad ilimitada Para Productos</li>
 														<li class="text-center font-13"> Todas las funciones de Tienda Ideal</li>
-														<li class="text-center font-13"> Hasta 100 Productos subidos con máximo 10 variaciones por producto</li>
+														<li class="text-center font-13"> Hasta 500 Productos subidos con máximo 10 variaciones por producto</li>
 														<li class="text-center font-13"> Imágenes de productos ilimitadas</li>
 														<li class="text-center font-13"> Integración con Google Shopping</li>
-														<li class="text-center font-13"> Toma y/o edición de fotografías de productos</li>
+														<li class="text-center font-13"> Asesoría en toma y/o edición de fotografías de productos</li>
 														<li class="text-center font-13"> Plugins Premium para SEO</li>
 														<li class="text-center font-13"> Registro de usuarios</li>
 														<li class="text-center font-13"> Velocidad de carga optimizada</li>
@@ -296,7 +255,7 @@
 													</div>
 													<ul class="pricingtable-features">
 														<li class="text-center font-13"> Capacidad ilimitada Para Productos</li>
-														<li class="text-center font-13"> Hasta 50 Productos subidos con variaciones</li>
+														<li class="text-center font-13"> Hasta 200 Productos subidos con variaciones</li>
 														<li class="text-center font-13"> Galería de imágenes ilimitadas</li>
 														<li class="text-center font-13"> Tema Premium Shopify</li>
 														<li class="text-center font-13"> Valoraciones de productos</li>
@@ -343,6 +302,48 @@
 							</div>
                 </div>
 				<div class="p-tb20"></div>
+			<!-- Why Chose Us -->
+			<div class="section-full content-inner-1 overlay-primary about-service bg-img-fix no-webp-ecommerce2 webp-ecommerce2">
+				<div class="container">
+					<div class="section-head text-white text-center">
+						<h2 class="box-title m-tb0 max-w800 m-auto">Aumenta el alcance y funcionalidad de tu Tienda en Línea</h2>
+						<p>Sácale todo el jugo a tu tienda virtual con herramientas que aumenten tus posibilidades de éxito y ventas</p>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row text-white">
+						<div class="col-lg-4 col-md-4 col-sm-6 m-b30">
+							<div class="icon-bx-wraper bx-style-1 p-a30 center">
+								<div class="icon-lg text-white m-b20"><i class="icon-cell text-white fas fa-bezier-curve"></i></div>
+								<div class="icon-content">
+									<h5 class="dlab-tilte text-uppercase">Sistema POS</h5>
+									<p>Si tienes un punto de venta físico puedes integrar tu caja registradora con tu tienda en línea</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-6 m-b30">
+							<div class="icon-bx-wraper bx-style-1 p-a30 center">
+								<div class="icon-lg text-white m-b20"><i class="icon-cell text-white fab fa-facebook-square"></i></div>
+								<div class="icon-content">
+									<h5 class="dlab-tilte text-uppercase">Catálogo Facebook</h5>
+									<p>Enlazamos los productos publicados en tu tienda en línea con tus catálogos de facebook</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-12 m-b30">
+							<div class="icon-bx-wraper bx-style-1 p-a30 center">
+								<div class="icon-lg text-white m-b20"><i class="fas fa-tags"></i></div>
+								<div class="icon-content">
+									<h5 class="dlab-tilte text-uppercase">Google Shopping</h5>
+									<p>Conectamos tu tienda con tu cuenta de Google Merchant Center, si no tienes una te la abrimos</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>				
+			</div>
+			<!-- Why Chose Us End -->			
+				
 
 				<div class="section-full p-tb30  bg-primary-dark text-white shop-action">
                 <div class="container">
@@ -389,7 +390,7 @@
 						</div>
 					</div>
                 </div>
-            </div>				
+            </div>
             		
 			<div class="section-full content-inner-2 portfolio" id="portfolio" style="background-image:url({{asset('images/background/bg14.jpg')}});">
 				<div class="container">
@@ -399,32 +400,30 @@
 					</div>
 					<div class="clearfix">
 						<ul id="masonry" class="dlab-gallery-listing gallery-grid-4 gallery mfp-gallery port-style1">
-						<li class="web design card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
-                                    data-wow-delay="0.2s">
+						<li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn">
                                     <div class="dlab-box dlab-gallery-box">
                                         <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
                                             <a href="javascript:void(0);">
                                                 <picture>
-                                                    <source srcset="{{asset('images/portafolio/jeronimos.webp')}}"
+                                                    <source srcset="{{asset('images/portafolio/rocketstore.webp')}}"
                                                         type="image/webp">
-                                                    <img src="{{asset('images/portafolio/jeronimos.jpg')}}" alt="Jerónimo's Cake Shop">
+                                                    <img src="{{asset('images/portafolio/rocketstore.jpg')}}" alt="Rocket Store Bogotá">
                                                 </picture>
                                             </a>
                                             <div class="overlay-bx">
                                                 <div class="overlay-icon align-b text-white">
                                                     <div class="text-white text-left port-box">
-                                                        <a href="https://jeronimos.co" target="_blank">
-                                                            <h5>Jerónimos Cake Shop</h5>
+                                                        <a href="https://rocketstore.club" target="_blank">
+                                                            <h5>Rocket Store Bogotá</h5>
                                                         </a>
-                                                        <p>Sitio Web Shop</p>
+                                                        <p>Tienda Online Woocommerce</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                             </li>
-							<li class="web branding card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
-                                    data-wow-delay="0.2s">
+							<li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn">
                                     <div class="dlab-box dlab-gallery-box">
                                         <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
                                             <a href="javascript:void(0);">
@@ -432,12 +431,12 @@
                                                     <source srcset="{{asset('images/portafolio/compratodonline.webp')}}"
                                                         type="image/webp">
                                                     <img src="{{asset('images/portafolio/compratodonline.jpg')}}"
-                                                        alt="Portal Web IPS Comfasalud"></picture>
+                                                        alt="Compra Todo Online"></picture>
                                             </a>
                                             <div class="overlay-bx">
                                                 <div class="overlay-icon align-b text-white">
                                                     <div class="text-white text-left port-box">
-                                                        <a href="https://comfasalud.com" target="_blank">
+                                                        <a href="https://compratodonline.com" target="_blank">
                                                             <h5>Compra Todo Online</h5>
                                                         </a>
                                                         <p>Tienda Online Woocommerce</p>
@@ -447,8 +446,7 @@
                                         </div>
                                     </div>
                                 </li>
-								<li class="branding design photography card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
-                                    data-wow-delay="0.6s">
+								<li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn">
                                     <div class="dlab-box dlab-gallery-box">
                                         <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
                                             <a href="javascript:void(0);">
@@ -464,15 +462,14 @@
                                                         <a href="https://bikersymoto.com" target="_blank">
                                                             <h5>Bikers y Motos Accesorios</h5>
                                                         </a>
-                                                        <p>Tienda Online, Branding y Marketing</p>
+                                                        <p>Tienda Online Prestashop</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                             </li>
-							<li class="web branding card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
-                                    data-wow-delay="0.2s">
+							<li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn">
                                     <div class="dlab-box dlab-gallery-box">
                                         <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
                                             <a href="javascript:void(0);">
@@ -480,7 +477,7 @@
                                                     <source srcset="{{asset('images/portafolio/asistir-computadores.webp')}}"
                                                         type="image/webp">
                                                     <img src="{{asset('images/portafolio/asistir-computadores.jpg')}}"
-                                                        alt="Portal Web IPS Comfasalud"></picture>
+                                                        alt="Asistir Computadores"></picture>
                                             </a>
                                             <div class="overlay-bx">
                                                 <div class="overlay-icon align-b text-white">
@@ -495,40 +492,39 @@
                                         </div>
                                     </div>
                                 </li>
-								<li class="advertising branding photography card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
-                                    data-wow-delay="0.4s">
+								<li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn">
                                     <div class="dlab-box dlab-gallery-box">
                                         <div class="dlab-media dlab-img-overlay1 dlab-img-effect dlab-img-effect ">
                                             <a href="javascript:void(0);">
                                                 <picture>
-                                                    <source srcset="{{asset('images/portafolio/issla-risk.webp')}}"
+                                                    <source srcset="{{asset('images/portafolio/farmapalacio.webp')}}"
                                                         type="image/webp">
-                                                    <img src="{{asset('images/portafolio/issla-risk.jpg')}}"
-                                                        alt="Issla Risk"></picture>
+                                                    <img src="{{asset('images/portafolio/farmapalacio.jpg')}}"
+                                                        alt="Droguerías Farmapalacio"></picture>
                                             </a>
                                             <div class="overlay-bx">
                                                 <div class="overlay-icon align-b text-white">
                                                     <div class="text-white text-left port-box">
-                                                        <a href="https://isslarisk.com" target="_blank">
-                                                            <h5>Issla Risk Global Service</h5>
+                                                        <a href="https://farmapalacio.com" target="_blank">
+                                                            <h5>Droguerías Farmapalacio</h5>
                                                         </a>
-                                                        <p>Sitio Web Corporativo</p>
+                                                        <p>Tienda Online Woocommerce</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                             </li>
-							<li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn" data-wow-delay="0.2s">
+							<li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn">
 									<div class="dlab-box dlab-gallery-box">
 										<div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-										<picture><source srcset="images/portafolio/imagen-cpc.webp"  type="image/webp">				
-										<img src="images/portafolio/imagen-cpc.jpg"  alt="Ejemplo de diseño web en varias pantallas"></picture>
+										<picture><source srcset="images/portafolio/jeronimos.webp"  type="image/webp">				
+										<img src="images/portafolio/jeronimos.jpg"  alt="Jeronimos Cake Shop"></picture>
 											<div class="overlay-bx">
 												<div class="overlay-icon align-b text-white"> 
 													<div class="text-white text-left port-box">
-														<a href="https://consultoriaprofesionalc.com/" target="_blank"><h5>CPC&CO SAS</h5></a>
-														<p>Sitio Web Corporativo</p>
+														<a href="https://jeronimos.co" target="_blank"><h5>Jeronimo's Cake Shop</h5></a>
+														<p>HTML Shop Website</p>
 													</div>
 												</div>
 											</div>
@@ -537,6 +533,17 @@
 							</li>														
 						</ul>
 					</div>
+					<div class="section-full p-t60 p-b60 shop-action">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="text-center m-auto ">
+                                            <a href="{{url('portafolio')}}" class="site-button radius-sm bg-pink"><span class="p-lr10">Ver Más Trabajos Realizados</span></a>
+                                        </div>
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>    
 				</div>
 			</div>
 
