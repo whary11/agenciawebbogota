@@ -135,9 +135,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
-                            <div class="text-center m-auto ">
-                                <h4 class="font-weight-600 font-20">Ahora puede obtener su sitio web o tienda online en alquiler, sin contratos, sin anticipos y sin claúsulas. Desarrollado, administrado y posicionado por profesionales   </h4>
-                                <a href="{{url('sitios-web-y-tiendas-online-en-alquiler')}}" class="site-button radius-sm outline outline-2"><span class="p-lr10">Me Interesa, Quiero Más Detalles</span></a>
+                            <div class="text-center m-auto">
+                                <h4 class="font-weight-400 font-20">Debes abonar como mínimo el 50% del valor total de tu sitio web para iniciar el desarrollo, una vez terminado el proyecto y entregado a satisfacción se facturará el restante. Si decides pagar el valor total de tu sitio por anticipado, <span class="text-yellow">aplicarás a un descuento del 10%.</span></h4>
                             </div>
                         </div>
                     </div>
@@ -180,7 +179,7 @@
 					</div>
 					<div class="clearfix">
 						<ul id="masonry" class="dlab-gallery-listing gallery-grid-4 gallery mfp-gallery port-style1">
-						<li class="web design card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
+						<li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
                                     data-wow-delay="0.2s">
                                     <div class="dlab-box dlab-gallery-box">
                                         <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
@@ -207,20 +206,20 @@
 							<li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn" data-wow-delay="0.2s">
 								<div class="dlab-box dlab-gallery-box">
 									<div class="dlab-media dlab-img-overlay1 dlab-img-effect dlab-img-effect "> 
-										<picture><source srcset="images/portafolio/diocesis-yopal.webp"  type="image/webp">						
-										<img src="images/portafolio/diocesis-yopal.jpg"  alt="Diseño de sitio web diocesis de yopal"></picture>
+										<picture><source srcset="images/portafolio/rocketstore.webp"  type="image/webp">						
+										<img src="images/portafolio/rocketstore.jpg"  alt="Tienda Rocket Store"></picture>
 										<div class="overlay-bx">
 											<div class="overlay-icon align-b text-white"> 
 												<div class="text-white text-left port-box">
-													<a href="https://diocesisdeyopal.org/" target="_blank"><h5>Diócesis de Yopal</h5></a>
-													<p>Sitio Web Tipo Magazine</p>
+													<a href="https://rocketstore.club" target="_blank"><h5>Rocket Store</h5></a>
+													<p>Tienda en Línea</p>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
 							</li>
-							<li class="web design card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
+							<li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
                                     data-wow-delay="0.8s">
                                     <div class="dlab-box dlab-gallery-box">
                                         <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
@@ -244,7 +243,7 @@
                                         </div>
                                     </div>
                             </li>
-							<li class="web branding card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
+							<li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
                                     data-wow-delay="0.2s">
                                     <div class="dlab-box dlab-gallery-box">
                                         <div class="dlab-media dlab-img-overlay1 dlab-img-effect">
@@ -268,24 +267,24 @@
                                         </div>
                                     </div>
                                 </li>
-								<li class="advertising branding photography card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
+								<li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn"
                                     data-wow-delay="0.4s">
                                     <div class="dlab-box dlab-gallery-box">
                                         <div class="dlab-media dlab-img-overlay1 dlab-img-effect dlab-img-effect ">
                                             <a href="javascript:void(0);">
                                                 <picture>
-                                                    <source srcset="{{asset('images/portafolio/issla-risk.webp')}}"
+                                                    <source srcset="{{asset('images/portafolio/elefante-amarillo.webp')}}"
                                                         type="image/webp">
-                                                    <img src="{{asset('images/portafolio/issla-risk.jpg')}}"
-                                                        alt="Issla Risk"></picture>
+                                                    <img src="{{asset('images/portafolio/elefante-amarillo.jpg')}}"
+                                                        alt="Elefante Amarillo"></picture>
                                             </a>
                                             <div class="overlay-bx">
                                                 <div class="overlay-icon align-b text-white">
                                                     <div class="text-white text-left port-box">
-                                                        <a href="https://isslarisk.com" target="_blank">
-                                                            <h5>Issla Risk Global Service</h5>
+                                                        <a href="https://elefante-amarillo.com" target="_blank">
+                                                            <h5>Elefante Amarillo</h5>
                                                         </a>
-                                                        <p>Sitio Web Corporativo</p>
+                                                        <p>Sitio Creativo HTML</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -324,7 +323,7 @@
 										</div>
 									</div>
 							</li>
-							<li class="web branding card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn" data-wow-delay="0.2s">
+							<li class="card-container col-lg-4 col-md-6 col-sm-6 p-a0 wow zoomIn" data-wow-delay="0.2s">
 									<div class="dlab-box dlab-gallery-box">
 										<div class="dlab-media dlab-img-overlay1 dlab-img-effect">
 										<picture><source srcset="images/portafolio/asistir-computadores.webp"  type="image/webp">									
@@ -365,8 +364,20 @@
                                     </div>
                             </li>							
 						</ul>
+                        <div class="section-full p-t60 p-b60 shop-action">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="text-center m-auto ">
+                                            <a href="{{url('portafolio')}}" class="site-button radius-sm bg-pink"><span class="p-lr10">Ver Más Trabajos Realizados</span></a>
+                                        </div>
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
 						<p class="p-tb50 p-b30 text-center">*Las cuentas mail no disponen de espacio en servidor para el alojamiento de mensajes, el servicio incluye solamente espacio para alojar el sitio web. Puedes contratar con nosotros
-							espacio adicional para tus correos electrónicos en el servicio de email hosting. 
+							 espacio adicional para tus correos electrónicos en el servicio de email hosting. 
 						</p>
 					</div>
 				</div>
