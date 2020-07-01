@@ -98,7 +98,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="item slide-item">
                         <div class="slide-item-img">
                             <picture>
@@ -116,7 +116,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
                 <!-- Service -->
                 <div class="service-box-slide">
@@ -189,11 +189,11 @@
                             <ul class="filters" data-toggle="buttons">
                                 <li data-filter="" class="btn active">
                                     <a href="{{url('paginas-web')}}" class="site-button-secondry radius-sm"
-                                        onclick="window.location = 'paginas-web'"><span>Diseño Web</span></a>
+                                        onclick="window.location = 'paginas-web'"><span>Páginas Web</span></a>
                                 </li>
                                 <li data-filter="web" class="btn">
-                                    <a href="{{url('programacion-web')}}" class="site-button-secondry radius-sm"
-                                        onclick="window.location = 'programacion-web'"><span>Programación</span></a>
+                                    <a href="{{url('tiendas-online')}}" class="site-button-secondry radius-sm"
+                                        onclick="window.location = 'tiendas-online'"><span>Tiendas en Línea</span></a>
                                 </li>
                                 <li data-filter="advertising" class="btn active">
                                     <a href="{{url('redes-sociales')}}" class="site-button-secondry radius-sm"
@@ -204,8 +204,8 @@
                                         onclick="window.location = '/'"><span>Branding</span></a>
                                 </li>
                                 <li data-filter="design" class="btn active">
-                                    <a href="{{url('tiendas-online')}}" class="site-button-secondry radius-sm"
-                                        onclick="window.location = 'tiendas-online'"><span>Tiendas Online</span></a>
+                                    <a href="{{url('landing-page')}}" class="site-button-secondry radius-sm"
+                                        onclick="window.location = 'landing-page'"><span>Landing Pages</span></a>
                                 </li>
                                 <li data-filter="photography" class="btn">
                                     <a href="{{url('posicionamiento-web')}}" class="site-button-secondry radius-sm"
@@ -232,7 +232,7 @@
                                         Websites hechos a medida con Funciones Específicas<br>
                                         Alojamiento en VPS Ultra rápido y seguro</p>
                                     </ul>
-                                    <a href="{{url('contacto')}}" class="site-button bg-azul-oscuro-agencia outline outline-2">Quiero Cotizar Mi Sitio Web
+                                    <a href="{{url('https://api.whatsapp.com/send?phone=573168785601')}}" target="_blank" class="site-button bg-azul-oscuro-agencia outline outline-2">Quiero Cotizar Mi Sitio Web
                                     <i class="ti-arrow-right m-l10"></i></a>
                                 </div>
                             </div>
@@ -557,10 +557,21 @@
                                         </div>
                                     </div>
                                 </li>
-
                             </ul>
                         </div>
                     </div>
+                <div class="section-full p-t60 p-b60 shop-action">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="text-center m-auto ">
+                                    <a href="{{url('portafolio')}}" class="site-button radius-sm bg-pink"><span class="p-lr10">Ver Más Trabajos Realizados</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+
                 </div>
                 <!-- Our Portfolio END -->
                 <!-- Clients Words -->
@@ -596,13 +607,12 @@
                                 <div class="item p-a5">
                                     <div class="testimonial-1">
                                         <div class="testimonial-text">
-                                            <p class="font-weight-400 text-italic text-white">"Empezamos desde cero en nuestro negocio y gracias a los chicos de Agencia Web Bogotá
-                                                ya estamos posicionados en el sector y generando un gran volumen de ventas. Excelente trabajo..."
+                                            <p class="font-weight-400 text-italic text-white">"Muy buen servicio, profesionales que desarrollan de una manera muy profesional, solucionan de acuerdo a las necesidades que uno tenga como organización."
                                             </p>
                                         </div>
                                         <div class="testimonial-detail"> <strong
-                                                class="testimonial-name text-white">Edier Acelas</strong> <span
-                                                class="testimonial-position">BIKERS Y MOTOS ACCESORIOS</span> </div>
+                                                class="testimonial-name text-white">Héctor Palacio</strong> <span
+                                                class="testimonial-position">DROGUERÍAS FARMAPALACIO</span> </div>
                                     </div>
                                 </div>
                                 

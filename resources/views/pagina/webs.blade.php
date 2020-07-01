@@ -48,10 +48,6 @@
         @include('partials.header')
 		<div class="icono-whatsapp" id="btn-whp"><a href="https://api.whatsapp.com/send?phone=573168785601"><i class="fab fa-whatsapp"></i></a></div>
 		<div class="tooltip-whatsapp" id="tp-whp"><span>¡Estamos en línea!</span></div>
-<<<<<<< HEAD
-=======
-
->>>>>>> de7f3e4c9465c46a6353aba85d75a392db654cc8
         <!-- header END -->
         <!-- Content -->
         <div class="page-content bg-white" id="page">
