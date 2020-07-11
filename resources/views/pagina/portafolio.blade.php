@@ -217,6 +217,26 @@
 									</div>
 								</div>
 							</li>
+							<li class="fotografia card-container col-lg-4 col-md-4 col-sm-4 p-a0 wow zoomIn">
+								<div class="dlab-box dlab-gallery-box">
+									<div class="dlab-media dlab-img-overlay1 dlab-img-effect ">
+									<a href="javascript:void(0);"> 									
+									<picture>
+                                        <source srcset="{{asset('images/portafolio/liberatta.webp')}}" type="image/webp">
+                                            <img src="{{asset('images/portafolio/liberatta.jpg')}}" alt="Liberatta: un canto de libertad a través de la música">
+                                    </picture>
+									</a>
+										<div class="overlay-bx ">
+											<div class="overlay-icon align-b text-white text-left"> 
+												<div class="text-white text-left port-box">
+												<a href="{{url('https://https://rugidosdisidentes.co/liberatta-un-canto-de-libertad-a-traves-de-la-musica/')}}" target="_blank" rel="nofollow"><h4 class="m-a0">Liberatta</h4></a>
+													<p>Un Canto a la libertad</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
 							<li class="creativos card-container col-lg-4 col-md-4 col-sm-4 p-a0 wow zoomIn">
 								<div class="dlab-box dlab-gallery-box">
 									<div class="dlab-media dlab-img-overlay1 dlab-img-effect">
@@ -277,6 +297,26 @@
 									</div>
 								</div>
 							</li>
+							<li class="fotografia card-container col-lg-4 col-md-4 col-sm-4 p-a0 wow zoomIn">
+								<div class="dlab-box dlab-gallery-box">
+									<div class="dlab-media dlab-img-overlay1 dlab-img-effect"> 
+									<a href="javascript:void(0);">
+									<picture>
+                                        <source srcset="{{asset('images/portafolio/lideres.webp')}}" type="image/webp">
+                                            <img src="{{asset('images/portafolio/lideres.jpg')}}" alt="Lideres sociales">
+                                    </picture>
+									</a>
+										<div class="overlay-bx ">
+											<div class="overlay-icon align-b text-white text-left"> 
+												<div class="text-white text-left port-box">
+												<a href="{{url('https://rugidosdisidentes.co/el-arte-se-alza-en-defensa-de-la-vida-de-los-lideres-sociales/')}}" target="_blank" rel="nofollow"><h4 class="m-a0">Defensa de la Vida</h4></a>
+													<p>Líderes Sociales</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
 							<li class="corporativos card-container col-lg-4 col-md-4 col-sm-4 p-a0 wow zoomIn">
 								<div class="dlab-box dlab-gallery-box">
 									<div class="dlab-media dlab-img-overlay1 dlab-img-effect"> 
@@ -329,7 +369,7 @@
 										<div class="overlay-bx ">
 											<div class="overlay-icon align-b text-white text-left"> 
 												<div class="text-white text-left port-box">
-												<a href="{{url('http://grupohelmcontadores.com/')}}" target="_blank"><h4 class="m-a0">Grupo Helm</h4></a>
+												<a href="{{url('https://grupohelmcontadores.com/')}}" target="_blank"><h4 class="m-a0">Grupo Helm</h4></a>
 													<p>Financial Website</p>
 												</div>
 											</div>
@@ -349,7 +389,7 @@
 										<div class="overlay-bx ">
 											<div class="overlay-icon align-b text-white text-left"> 
 												<div class="text-white text-left port-box">
-												<a href="{{url('http://ezrymantenimientos.com/')}}" target="_blank"><h4 class="m-a0">Ezry Mantenimientos</h4></a>
+												<a href="{{url('https://ezrymantenimientos.com/')}}" target="_blank"><h4 class="m-a0">Ezry Mantenimientos</h4></a>
 													<p>Corporate Website</p>
 												</div>
 											</div>
@@ -369,7 +409,7 @@
 										<div class="overlay-bx ">
 											<div class="overlay-icon align-b text-white text-left"> 
 												<div class="text-white text-left port-box">
-												<a href="{{url('http://cuerpoenmovimiento.org')}}" target="_blank"><h4 class="m-a0">Cuerpo en Movimiento</h4></a>
+												<a href="{{url('https://cuerpoenmovimiento.org')}}" target="_blank"><h4 class="m-a0">Cuerpo en Movimiento</h4></a>
 													<p>ONG Website</p>
 												</div>
 											</div>
@@ -389,7 +429,7 @@
 										<div class="overlay-bx ">
 											<div class="overlay-icon align-b text-white text-left"> 
 												<div class="text-white text-left port-box">
-												<a href="{{url('http://ciexportworld.com')}}" target="_blank"><h4 class="m-a0">CI Export World</h4></a>
+												<a href="{{url('https://ciexportworld.com')}}" target="_blank"><h4 class="m-a0">CI Export World</h4></a>
 													<p>Corporate Website</p>
 												</div>
 											</div>
@@ -409,7 +449,7 @@
 										<div class="overlay-bx ">
 											<div class="overlay-icon align-b text-white text-left"> 
 												<div class="text-white text-left port-box">
-												<a href="{{url('http://glawabogados.com')}}" target="_blank"><h4 class="m-a0">Glaw Abogados</h4></a>
+												<a href="{{url('https://glawabogados.com')}}" target="_blank"><h4 class="m-a0">Glaw Abogados</h4></a>
 													<p>Lawyer Website</p>
 												</div>
 											</div>
@@ -449,7 +489,7 @@
 										<div class="overlay-bx ">
 											<div class="overlay-icon align-b text-white text-left"> 
 												<div class="text-white text-left port-box">
-												<a href="{{url('http://viaggigroup.co')}}" target="_blank"><h4 class="m-a0">Viaggi Group</h4></a>
+												<a href="{{url('https://viaggigroup.co')}}" target="_blank"><h4 class="m-a0">Viaggi Group</h4></a>
 													<p>Travel Website</p>
 												</div>
 											</div>
@@ -490,6 +530,46 @@
 											<div class="overlay-icon align-b text-white text-left"> 
 												<div class="text-white text-left port-box">
 												<a href="{{url('http://duarteyjulio.com')}}" target="_blank"><h4 class="m-a0">Duarte & Julio</h4></a>
+													<p>Consulting Website</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="corporativos card-container col-lg-4 col-md-4 col-sm-4 p-a0 wow zoomIn">
+								<div class="dlab-box dlab-gallery-box">
+									<div class="dlab-media dlab-img-overlay1 dlab-img-effect ">
+									<a href="javascript:void(0);">
+									<picture>
+                                        <source srcset="{{asset('images/portafolio/g2bio.webp')}}" type="image/webp">
+                                            <img src="{{asset('images/portafolio/g2bio.jpg')}}" alt="G2Bio">
+                                    </picture>
+									</a>
+										<div class="overlay-bx ">
+											<div class="overlay-icon align-b text-white text-left"> 
+												<div class="text-white text-left port-box">
+												<a href="{{url('https://g2bio.com')}}" target="_blank"><h4 class="m-a0">G2Bio</h4></a>
+													<p>Corporate Website</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="corporativos card-container col-lg-4 col-md-4 col-sm-4 p-a0 wow zoomIn">
+								<div class="dlab-box dlab-gallery-box">
+									<div class="dlab-media dlab-img-overlay1 dlab-img-effect ">
+									<a href="javascript:void(0);">
+									<picture>
+                                        <source srcset="{{asset('images/portafolio/visaspc.webp')}}" type="image/webp">
+                                            <img src="{{asset('images/portafolio/visaspc.jpg')}}" alt="Visas e Inmigración">
+                                    </picture>
+									</a>
+										<div class="overlay-bx ">
+											<div class="overlay-icon align-b text-white text-left"> 
+												<div class="text-white text-left port-box">
+												<a href="{{url('https://visaseinmigracionpc.com')}}" target="_blank"><h4 class="m-a0">Visas e Inmigración</h4></a>
 													<p>Consulting Website</p>
 												</div>
 											</div>
